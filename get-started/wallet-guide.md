@@ -35,44 +35,17 @@ Smartphone/Mobile wallets allow you to access your crypto almost anywhere. Walle
 
 This comparison table gives an overview of the most popular mobile wallets used with ChangSwap.
 
-|                                                          | Token Pocket | MetaMask | Coinbase Wallet | Trust Wallet                  | SafePal |
-| -------------------------------------------------------- | ------------ | -------- | --------------- | ----------------------------- | ------- |
-| Bitkub Chain support                                     | ✅            | ⚠️       | ✅               | ✅                             | ✅       |
-| Built-in DApp browser                                    | ✅            | ➖        | ✅               | <p>✅ Android</p><p>⚠️ iOS</p> | ✅       |
-| Hardware wallet compatible                               | ➖            | ✅        | ✅               | ➖                             | 🔶      |
-| Open source (auditability)                               | ✅            | ✅        | ✅               | ✅                             | ➖       |
-| <p>Interact with BkcScan</p><p>(for advanced users!)</p> | ➖            | ✅        | ➖               | ➖                             | ➖       |
-
-⚠️ Requires some setup\
-🔶 Only supports SafePal hardware wallet
+|                                                          | Token Pocket | MetaMask | Trust Wallet                  |
+| -------------------------------------------------------- | ------------ | -------- | ----------------------------- |
+| Bitkub Chain support                                     | ✅            | ✅        | ✅                             |
+| Built-in DApp browser                                    | ✅            | ➖        | <p>✅ Android</p><p>⚠️ iOS</p> |
+| Hardware wallet compatible                               | ➖            | ✅        | ➖                             |
+| Open source (auditability)                               | ✅            | ✅        | ✅                             |
+| <p>Interact with BkcScan</p><p>(for advanced users!)</p> | ➖            | ✅        | ➖                             |
 
 You can find more in-depth information about each wallet below, as well as download links and installation guides.
 
 {% tabs %}
-{% tab title="Trust Wallet" %}
-![](<../.gitbook/assets/image (36).png>)
-
-Trust Wallet is a popular wallet for smart devices. It supports DApps, NFT collectibles (with Opensea.io support), and in-wallet staking.
-
-**Pros:**
-
-* Open source for auditability
-* Backed by the Binance cryptocurrency exchange
-* Easily switch between several crypto networks
-* Includes networks by default
-* Includes in-wallet staking options
-* Has additional features such as NFT collection, KUB staking, and DApp access within the wallet
-
-**Cons:**
-
-* Language tied to phone settings
-* Limited DApps
-* Transaction notifications can be delayed
-
-[**Download Trust Wallet**](https://trustwallet.com) (Automatically detects device)\
-[**Trust Wallet Setup Guide**](https://www.binance.com/en/blog/421499824684901157/How-to-Set-Up-and-Use-Trust-Wallet-for-Binance-Smart-Chain)
-{% endtab %}
-
 {% tab title="MetaMask" %}
 ![](<../.gitbook/assets/image (33) (3) (4) (5) (1) (1).png>)
 
@@ -95,31 +68,7 @@ MetaMask is a very popular browser-based wallet plugin that supports ERC20 (Ethe
 * Additional steps needed to use with Bitkub Chain and ChangSwap
 * Extra information and settings may confuse beginners
 
-[**Download MetaMask**](https://metamask.io/download.html) (Automatically detects device)\
-[**MetaMask Setup Guide**](https://academy.binance.com/en/articles/connecting-metamask-to-binance-smart-chain)
-{% endtab %}
-
-{% tab title="Coinbase Wallet" %}
-![](<../.gitbook/assets/coinbase\_wallet\_wordmark\_blue (2) (1) (4).png>)
-
-Millions of users choose Coinbase Wallet to earn yield with DeFi, swap more than 5,500 assets, and hold their NFT collections. Coinbase wallet supports KEP2 & KEP20 (Binance Chain and Bitkub Chain networks).
-
-**Highlights:**
-
-* Most downloaded mobile dapp wallet in the United States with 12M+ active Wallet users.
-* No additional steps needed to use with Bitkub Chain and ChangSwap.
-* Premier audience: Up to 89M+ Coinbase retail app users to onboard to Coinbase Wallet as they start to explore web3.
-* Easy to transfer assets from Coinbase retail app.
-* Fiat On-ramp: Users can now directly purchase crypto with fiat in all 86 countries where Coinbase operates, without leaving Wallet.
-* Industry leading security with secure cloud backup.
-
-[**Download Coinbase Wallet**](https://coinbase-wallet.onelink.me/q5Sx/fdb9b250) **(Automatically detects device)**
-
-[**Coinbase Wallet Setup Guide**](https://www.coinbase.com/wallet/getting-started-mobile)
-
-\_\_
-
-_Coinbase Wallet is a self-custody wallet providing software services subject to Coinbase Wallet_ [_Terms of Service_](https://wallet.coinbase.com/terms-of-service) _and_ [_Privacy Policy_](https://wallet.coinbase.com/privacy-policy)_. Coinbase Wallet is_ [_distinct_](https://help.coinbase.com/en/wallet/getting-started/what-s-the-difference-between-coinbase-com-and-wallet) _from Coinbase.com, and private keys for Coinbase Wallet are stored directly by the user and not by Coinbase. Fees may apply. You do not need a Coinbase.com account to use Coinbase Wallet._
+[**Download MetaMask**](https://metamask.io/download.html) (Automatically detects device)
 {% endtab %}
 
 {% tab title="Token Pocket" %}
@@ -196,33 +145,6 @@ The genuine ChangSwap site and staff will never ask you to input your seed phras
 
 Now you have your private key ready to import your wallet into the desktop version of Token Pocket.
 {% endtab %}
-
-{% tab title="SafePal" %}
-![](<../.gitbook/assets/image (37).png>)
-
-SafePal is available as both a software and hardware wallet. The wallet is easy to install and create, and comes ready to support KEP2 (Binance Chain) and KEP20 (Bitkub Chain) right away.
-
-**Pros:**
-
-* Easily switch between several crypto networks
-* Offers 25% fee discount paying with KUB (requires login)
-* Has the option for Google Authenticator built in
-* Supports a large number of languages
-* Setup process is very simple
-* Is available as both a software and hardware wallet (work together)
-* Supports NFTs on both the BKC and ETH networks
-
-**Cons:**
-
-* Isn't fully open source
-* Has some features that are not yet ready for use (such as DeFi)
-* Does not give user notifications
-* Does not enforce strong security during initial setup and wallet creation
-* Has fewer online resources than more established wallets
-
-​[**Download SafePal**](https://safepal.io/download) (Automatically detects device)\
-[**SafePal Setup Guide**](https://blog.safepal.io/binance-smart-chain-x-safepal/)
-{% endtab %}
 {% endtabs %}
 
 ## **Desktop/Web Browser wallets**
@@ -233,13 +155,13 @@ Desktop wallets are available on your home computer or laptop computer. Wallets 
 
 This comparison table gives an overview of the most popular desktop wallets used with ChangSwap.
 
-|                                                          | MetaMask | Binance Wallet | Coinbase Wallet | Token Pocket |
-| -------------------------------------------------------- | -------- | -------------- | --------------- | ------------ |
-| Bitkub Chain support                                     | ⚠️       | ✅              | ✅               | ⚠️           |
-| Built-in DApp browser                                    | ➖        | ➖              | ➖               | ✅            |
-| Hardware wallet compatible                               | ✅        | ✅              | ✅               | ➖            |
-| Open source (auditability)                               | ✅        | ✅              | ✅               | ✅            |
-| <p>Interact with BkcScan</p><p>(for advanced users!)</p> | ✅        | ➖              | ➖               | ➖            |
+|                                                          | MetaMask | Token Pocket |
+| -------------------------------------------------------- | -------- | ------------ |
+| Bitkub Chain support                                     | ✅        | ⚠️           |
+| Built-in DApp browser                                    | ➖        | ✅            |
+| Hardware wallet compatible                               | ✅        | ➖            |
+| Open source (auditability)                               | ✅        | ✅            |
+| <p>Interact with BkcScan</p><p>(for advanced users!)</p> | ✅        | ➖            |
 
 ⚠️ Requires additional setup
 
@@ -267,61 +189,7 @@ MetaMask is a very popular browser-based wallet plugin that supports ERC20 (Ethe
 * Additional steps needed to use with Bitkub Chain and ChangSwap
 * Extra information and settings may confuse beginners
 
-[**Download MetaMask**](https://metamask.io/download.html) (Automatically detects browser)\
-[**MetaMask Setup Guide**](https://academy.binance.com/en/articles/connecting-metamask-to-binance-smart-chain)
-{% endtab %}
-
-{% tab title="Binance Wallet" %}
-![](<../.gitbook/assets/image (39).png>)
-
-Binance Wallet is a browser-plugin wallet that natively supports the Binance Chain (KEP2) Bitkub Chain (KEP20) networks. Binance Wallet was developed by the Binance cryptocurrency exchange.
-
-​**Pros:**
-
-* Open source for auditability
-* Backed by the Binance cryptocurrency exchange
-* Can be directly linked to a Binance or Gmail account
-* A streamlined user experience
-* Supports Bitkub Chain by default, making using ChangSwap easy
-* Supports a large number of languages
-* Hardware wallet compatible
-
-**Cons:**
-
-* Lacks some custom settings of other wallets
-* Lack of additional tools makes some actions available in other wallets impossible
-* Has fewer online resources than more established wallets
-
-[**Download Binance Wallet**](https://www.binance.org/en) (Automatically detects browser)\
-[**Binance Wallet Setup Guide**](https://docs.binance.org/smart-chain/wallet/binance.html)
-{% endtab %}
-
-{% tab title="Coinbase Wallet" %}
-![](<../.gitbook/assets/coinbase\_wallet\_wordmark\_blue (1) (4).png>)
-
-Millions of users choose Coinbase Wallet to earn yield with DeFi, swap more than 5,500 assets, and hold their NFT collections. Coinbase wallet supports ERC20 (Ethereum network) and KEP2 & KEP20 (Binance Chain and Bitkub Chain networks).
-
-**Highlights:**
-
-* 12M+ active Wallet users.
-* No additional steps needed to use with Bitkub Chain and ChangSwap.
-* Premier audience: Up to 89M+ Coinbase retail app users to onboard to Coinbase Wallet as they start to explore web3.
-* Easy to transfer assets from Coinbase retail app.
-* Fiat On-ramp: Users can now directly purchase crypto with fiat in all 86 countries where Coinbase operates, without leaving Wallet.
-* Industry leading security with secure cloud backup
-* Is also available on mobile devices
-
-**Note:**
-
-* Currently on Chrome Only
-
-[**Download Coinbase Wallet**](https://chrome.google.com/webstore/detail/coinbase-wallet-extension/hnfanknocfeofbddgcijnmhnfnkdnaad?hl=en\&authuser=0)[ ](https://chrome.google.com/webstore/detail/coinbase-wallet-extension/hnfanknocfeofbddgcijnmhnfnkdnaad?hl=en\&authuser=0)Chrome Only)
-
-[**Coinbase Wallet Setup Guide**](https://www.coinbase.com/wallet/getting-started-extension)
-
-\_\_
-
-_Coinbase Wallet is a self-custody wallet providing software services subject to Coinbase Wallet_ [_Terms of Service_](https://wallet.coinbase.com/terms-of-service) _and_ [_Privacy Policy_](https://wallet.coinbase.com/privacy-policy)_. Coinbase Wallet is_ [_distinct_](https://help.coinbase.com/en/wallet/getting-started/what-s-the-difference-between-coinbase-com-and-wallet) _from Coinbase.com, and private keys for Coinbase Wallet are stored directly by the user and not by Coinbase. Fees may apply. You do not need a Coinbase.com account to use Coinbase Wallet._
+[**Download MetaMask**](https://metamask.io/download.html) (Automatically detects browser)
 {% endtab %}
 
 {% tab title="Token Pocket" %}
