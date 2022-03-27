@@ -3,7 +3,6 @@
 * [ChangSwap Intro](README.md)
 * [Get Started](get-started/README.md)
   * [Create a Wallet](get-started/wallet-guide.md)
-  * [Using ChangSwap without Centralized Exchanges](get-started/using-changswap-without-centralized-exchanges.md)
   * [Connect Your Wallet to ChangSwap](get-started/connection-guide.md)
 * [Click Here for Help](help/README.md)
   * [Troubleshooting Errors](help/troubleshooting.md)
