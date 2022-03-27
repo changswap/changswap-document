@@ -12,7 +12,7 @@
 
 ### [Apply for an IFO (Token Sale)](business-partnerships.md#ifos-token-sales)
 
-### [Apply for the NFT Market](nft-market-applications.md)
+### [Apply for the NFT Market](broken-reference)
 
 ####
 
@@ -21,4 +21,3 @@
 ### [Customer Support](customer-support.md#there-is-no-customer-support-for-changswap)
 
 ### [Social Communities](telegram.md)
-

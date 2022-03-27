@@ -14,10 +14,10 @@ Earn CHANG from Farms and Brewery Pools, win it in the lottery, or [buy it on th
 
 * Stake it in [Brewery Pools](../../products/brewery-pool/) to earn free tokens
 * Use it in [Yield Farms](https://docs.changswap.com/products/yield-farming) to earn more CHANG
-* Buy Lottery tickets in the [ChangSwap Lottery](../../products/lottery/)
-* Participate in [IFO Token Sales](../../products/ifo-initial-farm-offering/)
-* Create your [Chang Profile](../../products/nft-profile-system/) and mint NFTs
-* [Vote on proposals](../../products/voting/) relating to the ChangSwap ecosystem
+* Buy Lottery tickets in the [ChangSwap Lottery](broken-reference)
+* Participate in [IFO Token Sales](broken-reference)
+* Create your [Chang Profile](broken-reference) and mint NFTs
+* [Vote on proposals](broken-reference) relating to the ChangSwap ecosystem
 
 But that's not all -- there's much more on the horizon for CHANG!
 

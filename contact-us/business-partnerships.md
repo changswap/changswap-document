@@ -51,7 +51,7 @@ We aim to respond to applications within a week, but due to a large number of re
 
 ## NFT Market <a href="#exchange" id="exchange"></a>
 
-[Apply to list](nft-market-applications.md#apply-for-nft-market-listing)
+[Apply to list](broken-reference)
 
 ## Listing on the Exchange <a href="#exchange" id="exchange"></a>
 
