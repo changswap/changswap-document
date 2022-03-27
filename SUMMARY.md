@@ -8,7 +8,6 @@
   * [Troubleshooting Errors](help/troubleshooting.md)
   * [General FAQ](help/faq.md)
   * [Fixing Stuck Pending Transactions on MetaMask](help/unsticking-a-transaction-stuck-as-pending-with-metamask.md)
-  * [Binance Academy Guide](help/binance-academy-guide.md)
 * [Contact Us](contact-us/README.md)
   * [Business Partnerships](contact-us/business-partnerships.md)
   * [NFT Market Applications](contact-us/nft-market-applications.md)
