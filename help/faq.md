@@ -8,12 +8,6 @@ This FAQ page answers some of the more commonly asked questions from the ChangSw
 
 See for yourself:
 
-* Check out these ChangSwap security audits:
-  * [Certik’s security audit of ChangSwap](https://www.certik.org/projects/changswap) and [Certik's Shield insurance](https://shield.certik.foundation)
-  * [Slowmist's security audit of ChangSwap](https://github.com/slowmist/Knowledge-Base/blob/master/open-report/Smart%20Contract%20Security%20Audit%20Report%20%20-%20ChangSwap.pdf)
-  * [Slowmist's Auto-CHANG Pool security audit](https://github.com/slowmist/Knowledge-Base/blob/master/open-report/Smart%20Contract%20Security%20Audit%20Report%20-%20ChangVault.pdf)
-  * [Peckshield's Lottery V2 Audit](https://github.com/peckshield/publications/blob/master/audit\_reports/PeckShield-Audit-Report-ChangswapLottery-v1.0.pdf)
-  * [Slowmist's Lottery V2 Audit](https://github.com/slowmist/Knowledge-Base/blob/master/open-report/Smart%20Contract%20Security%20Audit%20Report%20-%20ChangSwap%20Lottery.pdf)
 * Transparent:
   * We’re built on open-source software: our site and all our Smart Contracts are publicly visible for maximum transparency.
   * Our contracts are verified on BkcScan so you know that what you see is what you get: [1](https://bkcscan.com/address/0x10ED43C718714eb63d5aA57B78B54704E256024E) [2](https://bkcscan.com/address/0x73feaa1ee314f8c655e354234017be2193c9e24e#code) [3](https://bkcscan.com/address/0xbcfccbde45ce874adcb698cc183debcf17952812) [4](https://bkcscan.com/address/0x1b96b92314c44b159149f7e0303511fb2fc4774f#code) [5](https://bkcscan.com/address/0x92E8CeB7eAeD69fB6E4d9dA43F605D2610214E68)
@@ -121,9 +115,9 @@ Check the [Become a Chef](https://docs.changswap.com/hiring/become-a-chef) area 
 
 We advertise new positions we're looking to fill on our [official social media channels](https://docs.changswap.com/contact-us/telegram), so be sure to follow us to get the latest hiring information.
 
-## What is SYRUP?
+## What is BREWERY?
 
-SYRUP was a part of the staking process earlier in ChangSwap's life. SYRUP was discontinued when a security issue was discovered and is no longer a part of ChangSwap.
+BREWERY was a part of the staking process earlier in ChangSwap's life. BREWERY was discontinued when a security issue was discovered and is no longer a part of ChangSwap.
 
 ## I can't find an answer for my question. Where do I find an answer?
 
