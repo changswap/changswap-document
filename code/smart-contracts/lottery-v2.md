@@ -2,22 +2,22 @@
 
 ## Contract info
 
-**Contract name:** PancakeSwapLottery  
+**Contract name:** ChangSwapLottery  
 **Contract address:** 0x5aF6D33DE2ccEC94efb1bDF8f92Bd58085432d2c  
 **Random number generator address:** 0x8c6375Aab6e5B26a30bF241EBBf29AD6e6c503c2  
 \(_Random number generator contract must be deployed first_\)
 
-View [PancakeSwapLottery.sol on BscScan](https://bscscan.com/address/0x5aF6D33DE2ccEC94efb1bDF8f92Bd58085432d2c#code).
+View [ChangSwapLottery.sol on BkcScan](https://bkcscan.com/address/0x5aF6D33DE2ccEC94efb1bDF8f92Bd58085432d2c#code).
 
-View the [PancakeSwap: Lottery contract on BscScan](https://bscscan.com/address/0x5aF6D33DE2ccEC94efb1bDF8f92Bd58085432d2c).
+View the [ChangSwap: Lottery contract on BkcScan](https://bkcscan.com/address/0x5aF6D33DE2ccEC94efb1bDF8f92Bd58085432d2c).
 
 ## Audits
 
-The PancakeSwap Lottery V2 has been audited twice so far. View the results below:
+The ChangSwap Lottery V2 has been audited twice so far. View the results below:
 
-[Peckshield's Lottery V2 Audit](https://github.com/peckshield/publications/blob/master/audit_reports/PeckShield-Audit-Report-PancakeswapLottery-v1.0.pdf)
+[Peckshield's Lottery V2 Audit](https://github.com/peckshield/publications/blob/master/audit_reports/PeckShield-Audit-Report-ChangswapLottery-v1.0.pdf)
 
-[Slowmist's Lottery V2 Audit](https://github.com/slowmist/Knowledge-Base/blob/master/open-report/Smart%20Contract%20Security%20Audit%20Report%20-%20PancakeSwap%20Lottery.pdf)
+[Slowmist's Lottery V2 Audit](https://github.com/slowmist/Knowledge-Base/blob/master/open-report/Smart%20Contract%20Security%20Audit%20Report%20-%20ChangSwap%20Lottery.pdf)
 
 ## Lottery Status states
 
@@ -44,15 +44,15 @@ Returns information on specified Lottery round as tuple \(see Lottery structure 
 ```text
         uint256 startTime;
         uint256 endTime;
-        uint256 priceTicketInCake;
+        uint256 priceTicketInChang;
         uint256 discountDivisor;
         uint256[6] rewardsBreakdown; // 0: 1 matching number // 5: 6 matching numbers
         uint256 treasuryFee; // 500: 5% // 200: 2% // 50: 0.5%
-        uint256[6] cakePerBracket;
+        uint256[6] changPerBracket;
         uint256[6] countWinnersPerBracket;
         uint256 firstTicketId;
         uint256 firstTicketIdNextLottery;
-        uint256 amountCollectedInCake;
+        uint256 amountCollectedInChang;
         uint32 finalNumber;
 ```
 
@@ -60,16 +60,16 @@ Returns information on specified Lottery round as tuple \(see Lottery structure 
 | :--- | :--- | :--- |
 | `startTime` | uint256 | Starting block for Lottery round. |
 | `endTime` | uint256 | Ending block for Lottery round \(approximately 12 hours after a round begins\). |
-| `priceTicketInCake` | uint256 | The price of a ticket in CAKE \(approximately $5 USD\). |
+| `priceTicketInChang` | uint256 | The price of a ticket in CHANG \(approximately $5 USD\). |
 | `discountDivisor` | uint256 | The divisor used to calculate bulk ticket discount. |
 | `rewardsBreakdown` | uint256\[6\] | The division of rewards across brackets \(total must add up to 10,000\). |
 | `treasuryFee` | uint256 | Amount taken from funds raised per round that's moved to treasury address \(maximum 3000\). |
-| `cakePerBracket` | uint256\[6\] | The amount of CAKE to distribute to winners of each bracket. |
+| `changPerBracket` | uint256\[6\] | The amount of CHANG to distribute to winners of each bracket. |
 | `countWinnersPerBracket` | uint256\[6\] | Moves through brackets, starting from the highest, accounting for winners when value &gt; 0. |
 | `firstTicketId` | uint256 | Id of the first ticket, set with the opening of the Lottery round, that determines the range of eligible tickets for the current round. |
 | `firstTicketIdNextLottery` | uint256 | Id of the first ticket, set at the closing of current round, that determines the range of eligible tickets for the current round. |
-| `amountCollectedInCake` | uint256 | The amount of CAKE collected through ticket sales for the Lottery round. |
-| `finalNumber` | uint32 | The final number determined by `randomResult` obtained from the number generator contract \([RandomNumberGenerator.sol](https://bscscan.com/address/0x8c6375Aab6e5B26a30bF241EBBf29AD6e6c503c2)\) using Chainlink VRF. |
+| `amountCollectedInChang` | uint256 | The amount of CHANG collected through ticket sales for the Lottery round. |
+| `finalNumber` | uint32 | The final number determined by `randomResult` obtained from the number generator contract \([RandomNumberGenerator.sol](https://bkcscan.com/address/0x8c6375Aab6e5B26a30bF241EBBf29AD6e6c503c2)\) using Chainlink VRF. |
 
 ### viewNumbersAndStatusesForTicketIds
 
@@ -91,7 +91,7 @@ function viewRewardsForTicketId(
     uint32 _bracket;
 ```
 
-Calculates rewards for a ticket after draw given the `lotteryId`, `ticketId`, and `bracket`. Filling and querying will provide a link to detailed price information on [BscScan](https://bscscan.com/address/0x5aF6D33DE2ccEC94efb1bDF8f92Bd58085432d2c#readContract).
+Calculates rewards for a ticket after draw given the `lotteryId`, `ticketId`, and `bracket`. Filling and querying will provide a link to detailed price information on [BkcScan](https://bkcscan.com/address/0x5aF6D33DE2ccEC94efb1bDF8f92Bd58085432d2c#readContract).
 
 | Name | Type | Description |
 | :--- | :--- | :--- |
@@ -161,12 +161,12 @@ discountDivisor:
 
 $$totalPriceForBulkTickets = priceSingleTicket \cdot numberTickets \cdot \frac{(discountDivisor + 1 - numberTickets)}{discountDivisor}$$
 
-Filling and querying will provide a link to detailed price information on BscScan.
+Filling and querying will provide a link to detailed price information on BkcScan.
 
 | Name | Type | Description |
 | :--- | :--- | :--- |
 | `discountDivisor` | uint256 | The divisor for the discount. |
-| `priceTickets` | uint256 | The price of a ticket in CAKE. |
+| `priceTickets` | uint256 | The price of a ticket in CHANG. |
 | `numberTickets` | uint256 | The number of tickets to buy. |
 
 ## Write functions \(users\)
@@ -252,14 +252,14 @@ Inject funds into a Lottery. Lottery must be `Open`.
 | Name | Type | Description |
 | :--- | :--- | :--- |
 | `lotteryId` | uint256 | The id of the Lottery. |
-| `amount` | uint256 | Amount, in CAKE token, to inject. |
+| `amount` | uint256 | Amount, in CHANG token, to inject. |
 
 ### startLottery
 
 ```text
     function startLottery(
         uint256 _endTime,
-        uint256 _priceTicketInCake,
+        uint256 _priceTicketInChang,
         uint256 _discountDivisor,
         uint256[6] calldata _rewardsBreakdown,
         uint256 _treasuryFee
@@ -271,7 +271,7 @@ Starts the Lottery, setting it to `Open` state. Status must be `Claimable`.
 | Name | Type | Description |
 | :--- | :--- | :--- |
 | `endTime` | uint256 | End time of the Lottery. |
-| `priceTicketInCake` | uint256 | Price of a ticket in CAKE. |
+| `priceTicketInChang` | uint256 | Price of a ticket in CHANG. |
 | `discountDivisor` | uint256 | The divisor to calculate the discount magnitude for bulks. |
 | `rewardsBreakdown` | uint256\[6\] | Breakdown of rewards per bracket \(must sum to 10,000\). |
 | `trasuryFee` | uint256 | Treasury fee \(10,000 = 100%, 100 = 1%\). |
@@ -282,25 +282,25 @@ Starts the Lottery, setting it to `Open` state. Status must be `Claimable`.
 function recoverWrongTokens(address _tokenAddress, uint256 _tokenAmount) external onlyOwner;
 ```
 
-Allows admin to recover incorrect tokens sent to address mistakenly. Cannot be CAKE tokens.
+Allows admin to recover incorrect tokens sent to address mistakenly. Cannot be CHANG tokens.
 
 | Name | Type | Description |
 | :--- | :--- | :--- |
 | `tokenAddress` | address | The address of the token to withdraw. |
 | `tokenAmount` | uint256 | The number of tokens to withdraw. |
 
-### setMinAndMaxTicketPriceInCake
+### setMinAndMaxTicketPriceInChang
 
 ```text
 function recoverWrongTokens(address _tokenAddress, uint256 _tokenAmount) external onlyOwner;
 ```
 
-Allows admin to set upper and lower limit of ticket price in CAKE value. Minimum price must be lower than maximum price.
+Allows admin to set upper and lower limit of ticket price in CHANG value. Minimum price must be lower than maximum price.
 
 | Name | Type | Description |
 | :--- | :--- | :--- |
-| `minPriceTicketInCake` | uint256 | The minimum price in CAKE. |
-| `maxPriceTicketInCake` | uint256 | The maximum price in CAKE. |
+| `minPriceTicketInChang` | uint256 | The minimum price in CHANG. |
+| `maxPriceTicketInChang` | uint256 | The maximum price in CHANG. |
 
 ### setMaxNumberTicketsPerBuy
 
@@ -389,7 +389,7 @@ LotteryOpen(
         uint256 indexed lotteryId,
         uint256 startTime,
         uint256 endTime,
-        uint256 priceTicketInCake,
+        uint256 priceTicketInChang,
         uint256 firstTicketId
     );
 ```

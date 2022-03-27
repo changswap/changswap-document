@@ -26,4 +26,4 @@
 
 ### How to apply
 
-Email hiring@pancakeswap.com with your resume!
+Email hiring@changswap.com with your resume!

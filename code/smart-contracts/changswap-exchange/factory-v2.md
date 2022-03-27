@@ -1,18 +1,18 @@
 # Factory v2
 
 {% hint style="warning" %}
-PancakeSwap is based on Uniswap v2. Read the [Uniswap v2 documentation](https://uniswap.org/docs/v2/).  
+ChangSwap is based on Uniswap v2. Read the [Uniswap v2 documentation](https://uniswap.org/docs/v2/).  
 For more in-depth information on the core contract logic, read the [Uniswap v2 Core whitepaper](https://uniswap.org/whitepaper.pdf).
 {% endhint %}
 
 ## Contract info
 
-**Contract name:** PancakeFactory  
+**Contract name:** ChangFactory  
 **Contract address:** 0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73
 
-View [PancakeFactory.sol on GitHub](https://github.com/pancakeswap/pancake-swap-core/blob/master/contracts/PancakeFactory.sol).
+View [ChangFactory.sol on GitHub](https://github.com/changswap/chang-swap-core/blob/master/contracts/ChangFactory.sol).
 
-View the [PancakeSwap: Factory v2 contract on BscScan](https://bscscan.com/address/0xca143ce32fe78f1f7019d7d551a6402fc5350c73).
+View the [ChangSwap: Factory v2 contract on BkcScan](https://bkcscan.com/address/0xca143ce32fe78f1f7019d7d551a6402fc5350c73).
 
 ## Read functions
 
@@ -89,14 +89,14 @@ The final `uint` log value will be `1` for the first pair created, `2` for the s
 ## Interface
 
 ```text
-import '@uniswap/v2-core/contracts/interfaces/IPancakeFactory.sol';
+import '@uniswap/v2-core/contracts/interfaces/IChangFactory.sol';
 ```
 
 ```text
 pragma solidity =0.5.16;
 
 
-interface IPancakeFactory {
+interface IChangFactory {
     event PairCreated(address indexed token0, address indexed token1, address pair, uint);
 
     function feeTo() external view returns (address);

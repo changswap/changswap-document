@@ -1,34 +1,34 @@
-# How to Use Farms with BscScan
+# How to Use Farms with BkcScan
 
 ![](<../../.gitbook/assets/docs-masthead-21- (2).png>)
 
-Since it requires several steps, using Farms with PancakeSwap can seem intimidating at first. This guide will walk you through using the Farms contract directly through BscScan.
+Since it requires several steps, using Farms with ChangSwap can seem intimidating at first. This guide will walk you through using the Farms contract directly through BkcScan.
 
 {% hint style="warning" %}
-Please understand that using BscScan to interact with contracts is not recommended for beginners. If you're not feeling confident, we suggest using the [How to Use Farms guide](https://docs.pancakeswap.finance/products/yield-farming/how-to-use-farms) instead.
+Please understand that using BkcScan to interact with contracts is not recommended for beginners. If you're not feeling confident, we suggest using the [How to Use Farms guide](https://docs.changswap.com/products/yield-farming/how-to-use-farms) instead.
 {% endhint %}
 
 ## Finding Farm process identifier
 
 To interact correctly with the farming smart contract, you’ll need the matching process identifier (PID) for your LP pair. For now, the easiest way to locate this is to check GitHub.
 
-1\. Open the [PancakeSwap website’s Farms code on GitHub](https://github.com/pancakeswap/pancake-frontend/blob/master/src/config/constants/farms.ts).
+1\. Open the [ChangSwap website’s Farms code on GitHub](https://github.com/changswap/chang-frontend/blob/master/src/config/constants/farms.ts).
 
-2\. **Control**/**command** + **F** and search for your pair by ticker (not project name). For example, 'CAKE-BUSD'.
+2\. **Control**/**command** + **F** and search for your pair by ticker (not project name). For example, 'CHANG-BUSD'.
 
 ![](<../../.gitbook/assets/image (112).png>)
 
 3\. Write down or copy the PID number—in this case 389—somewhere you can access it easily. You'll need this later.
 
-## Depositing LP Tokens through BscScan
+## Depositing LP Tokens through BkcScan
 
-There are a few things involved in depositing LP Tokens using BscScan. We've broken it down into steps to make it easier to follow along.
+There are a few things involved in depositing LP Tokens using BkcScan. We've broken it down into steps to make it easier to follow along.
 
 ### Getting the Main Staking Contract address
 
 The address for the main staking contract is: **0x73feaa1eE314F8c655E354234017bE2193C9E24E**
 
-But assuming you'd like to confirm that, visit the [PancakeSwap: Main Staking Contract BscScan page](https://bscscan.com/address/0x73feaa1ee314f8c655e354234017be2193c9e24e#writeContract). You'll see the address in the top-left. Click the **pages icon** to copy this to clipboard. You'll need it soon.
+But assuming you'd like to confirm that, visit the [ChangSwap: Main Staking Contract BkcScan page](https://bkcscan.com/address/0x73feaa1ee314f8c655e354234017be2193c9e24e#writeContract). You'll see the address in the top-left. Click the **pages icon** to copy this to clipboard. You'll need it soon.
 
 ![](<../../.gitbook/assets/image (116).png>)
 
@@ -38,9 +38,9 @@ You'll need to approve the smart contract for the LP Token you wish to commit to
 
 ### From the source code
 
-1\. First, open [farms.ts on GitHub](https://github.com/pancakeswap/pancake-frontend/blob/master/src/config/constants/farms.ts).
+1\. First, open [farms.ts on GitHub](https://github.com/changswap/chang-frontend/blob/master/src/config/constants/farms.ts).
 
-2\. **Control**/**command** + **F** and search for your pair by ticker (not project name). For example, 'CAKE-BNB'
+2\. **Control**/**command** + **F** and search for your pair by ticker (not project name). For example, 'CHANG-KUB'
 
 ![](<../../.gitbook/assets/image (132).png>)
 
@@ -50,7 +50,7 @@ You'll need to approve the smart contract for the LP Token you wish to commit to
 
 ### From the UI
 
-1\. First, visit the [PancakeSwap Farms page](https://pancakeswap.finance/farms) and search for your chosen pair using the "SEARCH" field in the top right. We're using CAKE-BUSD for this example.
+1\. First, visit the [ChangSwap Farms page](https://changswap.com/farms) and search for your chosen pair using the "SEARCH" field in the top right. We're using CHANG-BUSD for this example.
 
 ![](<../../.gitbook/assets/image (113).png>)
 
@@ -58,13 +58,13 @@ You'll need to approve the smart contract for the LP Token you wish to commit to
 
 ![](<../../.gitbook/assets/image (114).png>)
 
-3\. Click **View Contract** to open the smart contract on BscScan.
+3\. Click **View Contract** to open the smart contract on BkcScan.
 
 ![](<../../.gitbook/assets/image (115).png>)
 
 ### Giving permission to the LP Token contract
 
-Now that you have your LP Token's contract open on BscScan, you're going to approve the spending of your LP Tokens into the Farm.
+Now that you have your LP Token's contract open on BkcScan, you're going to approve the spending of your LP Tokens into the Farm.
 
 1\. On the LP Token's contract page, go to **Contract**, and then **Write Contract**.
 
@@ -80,7 +80,7 @@ Confirm the connection.
 
 ![](<../../.gitbook/assets/image (118).png>)
 
-5\. You’re also going to need to approve the amount of LP Tokens the contract can spend. In the value field, you’ll need to enter the amount in Wei. You can use the [BscScan Unit Converter](https://www.bscscan.com/unitconverter) to easily change your amount into Wei. Here we'll use 5 CAKE-BUSD LP Tokens.
+5\. You’re also going to need to approve the amount of LP Tokens the contract can spend. In the value field, you’ll need to enter the amount in Wei. You can use the [BkcScan Unit Converter](https://www.bkcscan.com/unitconverter) to easily change your amount into Wei. Here we'll use 5 CHANG-BUSD LP Tokens.
 
 ![](<../../.gitbook/assets/image (158).png>)
 
@@ -94,7 +94,7 @@ You can also use `-1` as the value to give unlimited spend approval. This does n
 
 With the Main Staking Contract now approved to spend your LP Tokens, it's time to make a deposit.
 
-1\. Back on the [PancakeSwap: Main Staking Contract BscScan page](https://bscscan.com/address/0x73feaa1ee314f8c655e354234017be2193c9e24e#writeContract), go to **Contract**, and then **Write Contract**.
+1\. Back on the [ChangSwap: Main Staking Contract BkcScan page](https://bkcscan.com/address/0x73feaa1ee314f8c655e354234017be2193c9e24e#writeContract), go to **Contract**, and then **Write Contract**.
 
 ![](<../../.gitbook/assets/image (117).png>)
 
@@ -122,7 +122,7 @@ If you didn't copy down your PID earlier, you can learn how to get it in the **F
 
 Withdrawing your LP Tokens from a Pool is very similar to making a deposit. The difference is which function you'll interact with.
 
-1\. Back on the [PancakeSwap: Main Staking Contract BscScan page](https://bscscan.com/address/0x73feaa1ee314f8c655e354234017be2193c9e24e#writeContract), go to **Contract**, and then **Write Contract**.
+1\. Back on the [ChangSwap: Main Staking Contract BkcScan page](https://bkcscan.com/address/0x73feaa1ee314f8c655e354234017be2193c9e24e#writeContract), go to **Contract**, and then **Write Contract**.
 
 ![](<../../.gitbook/assets/image (117).png>)
 
@@ -153,12 +153,12 @@ If you didn't copy down your PID earlier, you can learn how to get it in the **F
 ‌Using the emergency withdraw function allows you to draw all your funds out of a pool when no other way is working.
 
 {% hint style="danger" %}
-**Using the emergency withdraw function will forfeit your CAKE rewards!**
+**Using the emergency withdraw function will forfeit your CHANG rewards!**
 
-The PancakeSwap team strongly suggests avoiding this function unless advised to do so officially by the PancakeSwap team, or if you are very comfortable interacting with smart contracts and understand the underlying code.
+The ChangSwap team strongly suggests avoiding this function unless advised to do so officially by the ChangSwap team, or if you are very comfortable interacting with smart contracts and understand the underlying code.
 {% endhint %}
 
-‌1. On the [PancakeSwap: Main Staking Contract BscScan page](https://bscscan.com/address/0x73feaa1ee314f8c655e354234017be2193c9e24e#writeContract), go to **Contract**, and then **Write Contract**.
+‌1. On the [ChangSwap: Main Staking Contract BkcScan page](https://bkcscan.com/address/0x73feaa1ee314f8c655e354234017be2193c9e24e#writeContract), go to **Contract**, and then **Write Contract**.
 
 ![](<../../.gitbook/assets/image (117).png>)
 

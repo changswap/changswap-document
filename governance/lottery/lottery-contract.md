@@ -43,14 +43,14 @@ Address controlled by gnosis multisignature contract with a threshold of 3/6
     function injectFunds(uint256 _lotteryId, uint256 _amount) external override onlyOwnerOrInjector {
         require(_lotteries[_lotteryId].status == Status.Open, "Lottery not open");
 
-        cakeToken.safeTransferFrom(address(msg.sender), address(this), _amount);
-        _lotteries[_lotteryId].amountCollectedInCake += _amount;
+        changToken.safeTransferFrom(address(msg.sender), address(this), _amount);
+        _lotteries[_lotteryId].amountCollectedInChang += _amount;
 
         emit LotteryInjection(_lotteryId, _amount);
     }
 ```
 
-The **Injector** or **Owner** can call this function to inject a specific _lotteryId_ with a specified amount of _CAKE_.
+The **Injector** or **Owner** can call this function to inject a specific _lotteryId_ with a specified amount of _CHANG_.
 
 
 
@@ -59,7 +59,7 @@ The **Injector** or **Owner** can call this function to inject a specific _lotte
 ```typescript
     function startLottery(
         uint256 _endTime,
-        uint256 _priceTicketInCake,
+        uint256 _priceTicketInChang,
         uint256 _discountDivisor,
         uint256[6] calldata _rewardsBreakdown,
         uint256 _treasuryFee
@@ -75,7 +75,7 @@ The **Injector** or **Owner** can call this function to inject a specific _lotte
         );
 
         require(
-            (_priceTicketInCake >= minPriceTicketInCake) && (_priceTicketInCake <= maxPriceTicketInCake),
+            (_priceTicketInChang >= minPriceTicketInChang) && (_priceTicketInChang <= maxPriceTicketInChang),
             "Outside of limits"
         );
 
@@ -98,15 +98,15 @@ The **Injector** or **Owner** can call this function to inject a specific _lotte
             status: Status.Open,
             startTime: block.timestamp,
             endTime: _endTime,
-            priceTicketInCake: _priceTicketInCake,
+            priceTicketInChang: _priceTicketInChang,
             discountDivisor: _discountDivisor,
             rewardsBreakdown: _rewardsBreakdown,
             treasuryFee: _treasuryFee,
-            cakePerBracket: [uint256(0), uint256(0), uint256(0), uint256(0), uint256(0), uint256(0)],
+            changPerBracket: [uint256(0), uint256(0), uint256(0), uint256(0), uint256(0), uint256(0)],
             countWinnersPerBracket: [uint256(0), uint256(0), uint256(0), uint256(0), uint256(0), uint256(0)],
             firstTicketId: currentTicketId,
             firstTicketIdNextLottery: currentTicketId,
-            amountCollectedInCake: pendingInjectionNextLottery,
+            amountCollectedInChang: pendingInjectionNextLottery,
             finalNumber: 0
         });
 
@@ -114,7 +114,7 @@ The **Injector** or **Owner** can call this function to inject a specific _lotte
             currentLotteryId,
             block.timestamp,
             _endTime,
-            _priceTicketInCake,
+            _priceTicketInChang,
             currentTicketId,
             pendingInjectionNextLottery
         );
@@ -168,13 +168,13 @@ function drawFinalNumberAndMakeLotteryClaimable(uint256 _lotteryId, bool _autoIn
 
         // Calculate the amount to share post-treasury fee
         uint256 amountToShareToWinners = (
-            ((_lotteries[_lotteryId].amountCollectedInCake) * (10000 - _lotteries[_lotteryId].treasuryFee))
+            ((_lotteries[_lotteryId].amountCollectedInChang) * (10000 - _lotteries[_lotteryId].treasuryFee))
         ) / 10000;
 
         // Initializes the amount to withdraw to treasury
         uint256 amountToWithdrawToTreasury;
 
-        // Calculate prizes in CAKE for each bracket by starting from the highest one
+        // Calculate prizes in CHANG for each bracket by starting from the highest one
         for (uint32 i = 0; i < 6; i++) {
             uint32 j = 5 - i;
             uint32 transformedWinningNumber = _bracketCalculator[j] + (finalNumber % (uint32(10)**(j + 1)));
@@ -190,7 +190,7 @@ function drawFinalNumberAndMakeLotteryClaimable(uint256 _lotteryId, bool _autoIn
             ) {
                 // B. If rewards at this bracket are > 0, calculate, else, report the numberAddresses from previous bracket
                 if (_lotteries[_lotteryId].rewardsBreakdown[j] != 0) {
-                    _lotteries[_lotteryId].cakePerBracket[j] =
+                    _lotteries[_lotteryId].changPerBracket[j] =
                         ((_lotteries[_lotteryId].rewardsBreakdown[j] * amountToShareToWinners) /
                             (_numberTicketsPerLotteryId[_lotteryId][transformedWinningNumber] -
                                 numberAddressesInPreviousBracket)) /
@@ -199,9 +199,9 @@ function drawFinalNumberAndMakeLotteryClaimable(uint256 _lotteryId, bool _autoIn
                     // Update numberAddressesInPreviousBracket
                     numberAddressesInPreviousBracket = _numberTicketsPerLotteryId[_lotteryId][transformedWinningNumber];
                 }
-                // A. No CAKE to distribute, they are added to the amount to withdraw to treasury address
+                // A. No CHANG to distribute, they are added to the amount to withdraw to treasury address
             } else {
-                _lotteries[_lotteryId].cakePerBracket[j] = 0;
+                _lotteries[_lotteryId].changPerBracket[j] = 0;
 
                 amountToWithdrawToTreasury +=
                     (_lotteries[_lotteryId].rewardsBreakdown[j] * amountToShareToWinners) /
@@ -218,10 +218,10 @@ function drawFinalNumberAndMakeLotteryClaimable(uint256 _lotteryId, bool _autoIn
             amountToWithdrawToTreasury = 0;
         }
 
-        amountToWithdrawToTreasury += (_lotteries[_lotteryId].amountCollectedInCake - amountToShareToWinners);
+        amountToWithdrawToTreasury += (_lotteries[_lotteryId].amountCollectedInChang - amountToShareToWinners);
 
-        // Transfer CAKE to treasury address
-        cakeToken.safeTransfer(treasuryAddress, amountToWithdrawToTreasury);
+        // Transfer CHANG to treasury address
+        changToken.safeTransfer(treasuryAddress, amountToWithdrawToTreasury);
 
         emit LotteryNumberDrawn(currentLotteryId, finalNumber, numberAddressesInPreviousBracket);
     }
@@ -235,7 +235,7 @@ For **Operator** to draw the final number using ChainLink VRF function.
 
 ```typescript
    function recoverWrongTokens(address _tokenAddress, uint256 _tokenAmount) external onlyOwner {
-        require(_tokenAddress != address(cakeToken), "Cannot be CAKE token");
+        require(_tokenAddress != address(changToken), "Cannot be CHANG token");
 
         IERC20(_tokenAddress).safeTransfer(address(msg.sender), _tokenAmount);
 
@@ -244,21 +244,21 @@ For **Operator** to draw the final number using ChainLink VRF function.
 
 ```
 
-In the case of tokens other than CAKE mistakenly being sent to the lottery contract, this function is used to recover them and is only callable by the **Owner**
+In the case of tokens other than CHANG mistakenly being sent to the lottery contract, this function is used to recover them and is only callable by the **Owner**
 
 ****
 
-### `setMinAndMaxTicketPriceInCake` - Owner
+### `setMinAndMaxTicketPriceInChang` - Owner
 
 ```typescript
-    function setMinAndMaxTicketPriceInCake(uint256 _minPriceTicketInCake, uint256 _maxPriceTicketInCake)
+    function setMinAndMaxTicketPriceInChang(uint256 _minPriceTicketInChang, uint256 _maxPriceTicketInChang)
         external
         onlyOwner
     {
-        require(_minPriceTicketInCake <= _maxPriceTicketInCake, "minPrice must be < maxPrice");
+        require(_minPriceTicketInChang <= _maxPriceTicketInChang, "minPrice must be < maxPrice");
 
-        minPriceTicketInCake = _minPriceTicketInCake;
-        maxPriceTicketInCake = _maxPriceTicketInCake;
+        minPriceTicketInChang = _minPriceTicketInChang;
+        maxPriceTicketInChang = _maxPriceTicketInChang;
     }
 
 ```
@@ -276,7 +276,7 @@ function setMaxNumberTicketsPerBuy(uint256 _maxNumberTicketsPerBuy) external onl
     }
 ```
 
-The **Owner** can modify the maximum number of tickets per transaction. This may be modified in the case of BSC block size increasing or decreasing.
+The **Owner** can modify the maximum number of tickets per transaction. This may be modified in the case of BKC block size increasing or decreasing.
 
 
 

@@ -8,7 +8,7 @@ Use the sidebar to quickly find the answers to your questions!
 
 When you collect winnings, they might not appear in your wallet’s transaction logs as usual.\
 This is because they use a different type of transaction: Internal transactions.\
-Enter your wallet address on BscScan, then check the “Internal Txns” tab to confirm that they’ve arrived.\
+Enter your wallet address on BkcScan, then check the “Internal Txns” tab to confirm that they’ve arrived.\
 ![](https://lh5.googleusercontent.com/9NoIvK-oztyEaizCfgrj-poPIP\_uWeFDYsa0\_nxN3sKUiIwFdACy\_BemrtRLJn-ZkyW3LprfRn4s9lL24BOGb-I-t1vHoh5wkuTx7bObHQl5sS7xPmuZEOTVPUXr7LPNAfPfqr12)
 
 ### Why aren't the results of my round showing?
@@ -18,7 +18,7 @@ This buffer is to accommodate for the fact that we may not be able to reliably f
 
 ### I can’t collect my winnings!
 
-Make sure you have enough BNB in your wallet to pay for gas fees. You’ll need a little BNB to trigger the smart contract.
+Make sure you have enough KUB in your wallet to pay for gas fees. You’ll need a little KUB to trigger the smart contract.
 
 ### **I can't claim winnings from a prediction round on site.**
 
@@ -28,7 +28,7 @@ You might be able to claim your winnings directly from the contract. Follow the 
 {% tab title="Check rounds you played" %}
 How to check the history of rounds you played
 
-1. Go to BscScan page of Prediction contract.
+1. Go to BkcScan page of Prediction contract.
 2. Scroll down to “8. getUserRounds”.
 3. Type in your wallet address under “user(address)”.
 4. Set “cursor(uint256)" to 0 and “size(uint256)" to 1000.
@@ -39,7 +39,7 @@ How to check the history of rounds you played
 {% tab title="Check if you can claim" %}
 First, check whether you should actually be able to claim from the round you played.
 
-1. [Go to the **** BscScan page of Prediction contract](https://bscscan.com/address/0x18b2a687610328590bc8f2e5fedde3b582a49cda#readContract), and go to the Write tab
+1. [Go to the **** BkcScan page of Prediction contract](https://bkcscan.com/address/0x18b2a687610328590bc8f2e5fedde3b582a49cda#readContract), and go to the Write tab
 2. Scroll down to “4. claimable”.
 3. Type in the round id you want to check under "epoch(uint256)”.
 4. Type in your wallet address under “user(address)”.
@@ -52,7 +52,7 @@ First, check whether you should actually be able to claim from the round you pla
 {% tab title="Claim from a round" %}
 How to claim
 
-1. [Go to the **** BscScan page of Prediction contract](https://bscscan.com/address/0x18b2a687610328590bc8f2e5fedde3b582a49cda#writeContract), and go to the Write tab
+1. [Go to the **** BkcScan page of Prediction contract](https://bkcscan.com/address/0x18b2a687610328590bc8f2e5fedde3b582a49cda#writeContract), and go to the Write tab
 2. Tap “🔴 Connect to Web3”
 3. Use MetaMask or WalletConnect to connect.
 4. Scroll down to “3. claim”

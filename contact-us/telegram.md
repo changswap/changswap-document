@@ -2,50 +2,50 @@
 
 ![](<../.gitbook/assets/docs masthead (22).png>)
 
-Here you'll find a list of PancakeSwap's official Social media channels and communities. If English is not your first language, we have a number of non-English communities that would love to have you join them!
+Here you'll find a list of ChangSwap's official Social media channels and communities. If English is not your first language, we have a number of non-English communities that would love to have you join them!
 
 ## 🐦 Twitter
 
-[https://twitter.com/pancakeswap](https://twitter.com/pancakeswap)
+[https://twitter.com/changswap](https://twitter.com/changswap)
 
 ## 📰 Blog (Medium)
 
-{% embed url="https://medium.com/pancakeswap" %}
+{% embed url="https://medium.com/changswap" %}
 
 ## 👽 Reddit
 
-{% embed url="https://reddit.com/r/pancakeswap" %}
+{% embed url="https://reddit.com/r/changswap" %}
 
 ## 🤳 Instagram
 
-{% embed url="https://www.instagram.com/pancakeswap_official/" %}
+{% embed url="https://www.instagram.com/changswap_official/" %}
 
 ## 🤖Discord
 
 Newly launched on 24th Nov! The below is the only link for our discord server!
 
-[https://discord.gg/pancakeswap](https://discord.gg/pancakeswap)
+[https://discord.gg/changswap](https://discord.gg/changswap)
 
 ## 💬 Telegram
 
 **Official Telegram Groups:**
 
-* 📣 Announcement Channel ([http://t.me/PancakeSwapAnn](http://t.me/PancakeSwapAnn))
-* 🥞 English ([http://t.me/pancakeswap](http://t.me/pancakeswap))
-* 🇯🇵 Japanese ([https://t.me/PancakeSwapJP](https://t.me/PancakeSwapJP))
-* 🇨🇳 Chinese ([http://t.me/PancakeSwap\_CN](http://t.me/PancakeSwap\_CN))
-* 🇮🇩 Indonesian ([http://t.me/PancakeSwapIndonesia](http://t.me/PancakeSwapIndonesia))
-* 🇻🇳 Việt Nam ([https://t.me/PancakeSwapVN](https://t.me/PancakeSwapVN))
-* 🇪🇸 🇦🇷 🇻🇪 Español ([https://t.me/PancakeSwapES](https://t.me/PancakeSwapES))
-* 🇷🇺 Russian ([http://t.me/pancakeswap\_ru](http://t.me/pancakeswap\_ru))
-* 🇧🇷 🇵🇹 Portuguese/Brazilian ([https://t.me/PancakeSwapPortuguese](https://t.me/PancakeSwapPortuguese))
-* 🇫🇷 French ([https://t.me/pancakeswapfr](https://t.me/pancakeswapfr))
-* 🇮🇹 Italiano ([https://t.me/pancakeswap\_ita](https://t.me/pancakeswap\_ita))
-* 🇹🇷 Türkiye ([https://t.me/pancakeswapturkiye](https://t.me/pancakeswapturkiye))
-* 🇩🇪 🇦🇹 🇨🇭 Deutsch ([https://t.me/PancakeSwap\_DE](https://t.me/PancakeSwap\_DE))
-* 🇵🇭 Filipino ([https://t.me/Pancakeswap\_Ph](https://t.me/Pancakeswap\_Ph))
-* 🇬🇪 Georgia ([https://t.me/PancakeSwapGeorgia](https://t.me/PancakeSwapGeorgia))
-* 😤 Ban Appeal ([https://t.me/pancakebanappeal](https://t.me/pancakebanappeal))
+* 📣 Announcement Channel ([http://t.me/ChangSwapAnn](http://t.me/ChangSwapAnn))
+* 🥞 English ([http://t.me/changswap](http://t.me/changswap))
+* 🇯🇵 Japanese ([https://t.me/ChangSwapJP](https://t.me/ChangSwapJP))
+* 🇨🇳 Chinese ([http://t.me/ChangSwap\_CN](http://t.me/ChangSwap\_CN))
+* 🇮🇩 Indonesian ([http://t.me/ChangSwapIndonesia](http://t.me/ChangSwapIndonesia))
+* 🇻🇳 Việt Nam ([https://t.me/ChangSwapVN](https://t.me/ChangSwapVN))
+* 🇪🇸 🇦🇷 🇻🇪 Español ([https://t.me/ChangSwapES](https://t.me/ChangSwapES))
+* 🇷🇺 Russian ([http://t.me/changswap\_ru](http://t.me/changswap\_ru))
+* 🇧🇷 🇵🇹 Portuguese/Brazilian ([https://t.me/ChangSwapPortuguese](https://t.me/ChangSwapPortuguese))
+* 🇫🇷 French ([https://t.me/changswapfr](https://t.me/changswapfr))
+* 🇮🇹 Italiano ([https://t.me/changswap\_ita](https://t.me/changswap\_ita))
+* 🇹🇷 Türkiye ([https://t.me/changswapturkiye](https://t.me/changswapturkiye))
+* 🇩🇪 🇦🇹 🇨🇭 Deutsch ([https://t.me/ChangSwap\_DE](https://t.me/ChangSwap\_DE))
+* 🇵🇭 Filipino ([https://t.me/Changswap\_Ph](https://t.me/Changswap\_Ph))
+* 🇬🇪 Georgia ([https://t.me/ChangSwapGeorgia](https://t.me/ChangSwapGeorgia))
+* 😤 Ban Appeal ([https://t.me/changbanappeal](https://t.me/changbanappeal))
 
 {% hint style="danger" %}
 Admins will NEVER send you a direct message. If anybody approaches you directly on e.g. Telegram pretending to represent customer support, please block them and report spam.

@@ -2,10 +2,10 @@
 
 **Specifics:**
 
-* Lottery Ticket Fee for 1 ticket: 1 CAKE 
+* Lottery Ticket Fee for 1 ticket: 1 CHANG 
 * Single User Lottery Entry Limit: No limit
-* Paying for one ticket \(1 CAKE\) will give users a random 4 digit combination with each digit being between 1-10, for e.g. “1-9-3-2”
-* In the UI, users can choose to enter a multiple of 10 CAKE, which will buy them multiple tickets. 
+* Paying for one ticket \(1 CHANG\) will give users a random 4 digit combination with each digit being between 1-10, for e.g. “1-9-3-2”
+* In the UI, users can choose to enter a multiple of 10 CHANG, which will buy them multiple tickets. 
 
 \*\*\*\*
 
@@ -47,7 +47,7 @@ Each full lottery session is completed every 2 hours. An example of a lottery se
 
 * You have 1 hour to buy tickets. 
 * The lottery jackpot will accumulate at the top of the page with each ticket bought.
-* Users will receive a ticket \(comprised of 4 digits\) for each 1 CAKE paid.
+* Users will receive a ticket \(comprised of 4 digits\) for each 1 CHANG paid.
 
 **Phase 2 - Lottery Draw! \(1:30 AM\)**
 
@@ -71,7 +71,7 @@ The lottery aims to be completely random. Even though the ticket numbers given o
 
 
 * The 1st lottery number will be determined based on the %10 remainder of a hash encoded by the blockhash and the number of participating users at the entry deadline.
-* The 2nd lottery number will be determined based on the %10 remainder of a hash encoded by the blockhash and the total pooled cake balance at the entry deadline.
+* The 2nd lottery number will be determined based on the %10 remainder of a hash encoded by the blockhash and the total pooled chang balance at the entry deadline.
 * The 3rd lottery number will be determined based on the %10 remainder of a hash encoded by the blockhash and the timestamp of the last lottery participant at the entry deadline.
 * The 4th lottery number will be determined based on the %10 remainder of a hash encoded by the blockhash and the block difficulty at the entry deadline.
 

@@ -9,7 +9,7 @@
 
 ### Requirements:
 
-* Thorough understanding of how PancakeSwap (Exchange, Farming, Info, Voting) works.
+* Thorough understanding of how ChangSwap (Exchange, Farming, Info, Voting) works.
 * Experience in writing automated tests for dApp frontends.
 * Ability to create testing setup from zero.
 * Be able to work autonomously.
@@ -26,4 +26,4 @@
 
 ### How to apply:
 
-Email hiring@pancakeswap.com with your resume!
+Email hiring@changswap.com with your resume!

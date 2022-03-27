@@ -1,39 +1,39 @@
-# 🍯 Syrup Pools
+# 🍯 Brewery Pools
 
 ![Ahh, delicious](<../../.gitbook/assets/masthead (1).png>)
 
-### **What are Syrup Pools?**
+### **What are Brewery Pools?**
 
-Syrup Pools are the simplest way to earn free tokens on PancakeSwap.\
-Stake CAKE, earn free tokens. It’s really that easy.
+Brewery Pools are the simplest way to earn free tokens on ChangSwap.\
+Stake CHANG, earn free tokens. It’s really that easy.
 
-Some special pools let you stake other tokens besides CAKE, too!
+Some special pools let you stake other tokens besides CHANG, too!
 
-### **How can I use Syrup Pools?**
+### **How can I use Brewery Pools?**
 
-{% content-ref url="syrup-pool-guide.md" %}
-[syrup-pool-guide.md](syrup-pool-guide.md)
+{% content-ref url="brewery-pool-guide.md" %}
+[brewery-pool-guide.md](brewery-pool-guide.md)
 {% endcontent-ref %}
 
 {% content-ref url="auto-compounding.md" %}
 [auto-compounding.md](auto-compounding.md)
 {% endcontent-ref %}
 
-### Syrup Pool FAQs & Troubleshooting
+### Brewery Pool FAQs & Troubleshooting
 
-{% content-ref url="syrup-pool-faq.md" %}
-[syrup-pool-faq.md](syrup-pool-faq.md)
+{% content-ref url="brewery-pool-faq.md" %}
+[brewery-pool-faq.md](brewery-pool-faq.md)
 {% endcontent-ref %}
 
-### **How can I run a Syrup Pool for my project?**
+### **How can I run a Brewery Pool for my project?**
 
-Reach out via [the application form](https://docs.pancakeswap.finance/contact-us/business-partnerships).
+Reach out via [the application form](https://docs.changswap.com/contact-us/business-partnerships).
 
-### Syrup Pool Smart Contracts <a href="#docs-internal-guid-c4c16237-7fff-3c33-3a56-18ccd8853f86" id="docs-internal-guid-c4c16237-7fff-3c33-3a56-18ccd8853f86"></a>
+### Brewery Pool Smart Contracts <a href="#docs-internal-guid-c4c16237-7fff-3c33-3a56-18ccd8853f86" id="docs-internal-guid-c4c16237-7fff-3c33-3a56-18ccd8853f86"></a>
 
-[All Manual Syrup Pools](../../code/smart-contracts/main-staking-masterchef-contract.md)
+[All Manual Brewery Pools](../../code/smart-contracts/main-staking-masterchef-contract.md)
 
-[Auto CAKE Syrup Pool](../../code/smart-contracts/cakevault.md)
+[Auto CHANG Brewery Pool](../../code/smart-contracts/changvault.md)
 
 ### &#x20;<a href="#docs-internal-guid-c4c16237-7fff-3c33-3a56-18ccd8853f86" id="docs-internal-guid-c4c16237-7fff-3c33-3a56-18ccd8853f86"></a>
 

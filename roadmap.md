@@ -31,7 +31,7 @@ Some items didn't make it into the "Coming Up" section due to security or confid
 
 ### Coming Up in Q1
 
-* IFO 3.1: Private Sales & New IFO Syrup Pool
+* IFO 3.1: Private Sales & New IFO Brewery Pool
 * MasterChef v2: Ready for Future Products and New Tokenomics
 * Perpetuals Trading
 * Limit Order
@@ -60,11 +60,11 @@ Some items didn't make it into the "Coming Up" section due to security or confid
 
 #### Earn
 
-* CAKE Staking
+* CHANG Staking
 * Core Pools, Farms
-* Community Pools: Host BSC community project Pools, support with 0.1-0.2x CAKE farms
-* Auto-compounding CAKE-CAKE Syrup Pool
-* Syrup Pool Boosts
+* Community Pools: Host BKC community project Pools, support with 0.1-0.2x CHANG farms
+* Auto-compounding CHANG-CHANG Brewery Pool
+* Brewery Pool Boosts
 * APR/APY Calculator v2
 * Harvest all function
 
@@ -78,12 +78,12 @@ Some items didn't make it into the "Coming Up" section due to security or confid
 * NFT Market Phase 1 & 2(buy & sell whitelisted NFT collections)
 * Customizable User Profile
 * NFT drops
-* Pancake Squad generative NFT collection
+* Chang Squad generative NFT collection
 
-#### Site Upgrades / CAKE / Other Products
+#### Site Upgrades / CHANG / Other Products
 
 * Mobile-first navigation & site overhaul
 * Analytics: Info site
 * Voting v2
-* IFO CAKE Pool & IFO 3.0
+* IFO CHANG Pool & IFO 3.0
 

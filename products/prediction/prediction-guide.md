@@ -2,17 +2,17 @@
 
 ![](../../.gitbook/assets/docs-masthead-4-.png)
 
-Playing PancakeSwap’s Prediction lets you test your foresight to earn rewards. Use your market knowledge or gut feeling to predict if the BNBUSDT price will go up or down in the near future. Get it right and you’ll collect a share of the round’s prize pool!
+Playing ChangSwap’s Prediction lets you test your foresight to earn rewards. Use your market knowledge or gut feeling to predict if the KUBUSDT price will go up or down in the near future. Get it right and you’ll collect a share of the round’s prize pool!
 
 {% hint style="warning" %}
-PancakeSwap’s Prediction is a new product that we still consider to be in beta. We may make changes in the future to improve Prediction. As always, the PancakeSwap team will inform users of any changes that will impact how the product works.
+ChangSwap’s Prediction is a new product that we still consider to be in beta. We may make changes in the future to improve Prediction. As always, the ChangSwap team will inform users of any changes that will impact how the product works.
 {% endhint %}
 
 ## Accepting terms of the beta
 
 Before you can use Prediction, you’ll need to review and accept the terms.
 
-Visit the [PancakeSwap Prediction page](https://pancakeswap.finance/prediction). You will see a “Welcome!” window explaining that the Prediction product is still in beta.
+Visit the [ChangSwap Prediction page](https://changswap.com/prediction). You will see a “Welcome!” window explaining that the Prediction product is still in beta.
 
 ![](https://lh4.googleusercontent.com/GA0nTC9\_fGjLP2Bt0u7f1VV9Dj4BCHAmqlLSwwQPWTQzDOcKu1ZBqjVzYQOIalerZUac\_oBk2FYggw1-JpuTIQ4XPga7ZfUVPXOOikEySeYi4O-xr1O4XQFOVw8zilyRCfGkuXeO)
 
@@ -44,7 +44,7 @@ Each will have a different reward multiplier. The multiplier will change over ti
 
 We'll choose **Enter UP** for this example.
 
-2\. A new window will open. In the window, you'll see "Commit" to commit BNB for your prediction. Type the amount of BNB you would like to commit to your prediction for this round in the field. You can also use the bunny slider or click the percent buttons if you prefer.
+2\. A new window will open. In the window, you'll see "Commit" to commit KUB for your prediction. Type the amount of KUB you would like to commit to your prediction for this round in the field. You can also use the bunny slider or click the percent buttons if you prefer.
 
 ![](<../../.gitbook/assets/image (44).png>)
 
@@ -106,15 +106,15 @@ If you want to see the results for rounds you've entered that are older than a f
 
 ![](<../../.gitbook/assets/image (50).png>)
 
-2\. A new window will appear showing the amount of BNB you can collect with a **Confirm** button. Click the button and confirm the action in your wallet.
+2\. A new window will appear showing the amount of KUB you can collect with a **Confirm** button. Click the button and confirm the action in your wallet.
 
 ![](<../../.gitbook/assets/image (52).png>)
 
-Your BNB winnings will now be in your wallet.
+Your KUB winnings will now be in your wallet.
 
 ### Collecting winnings from older rounds
 
-Sometimes you may be away from PancakeSwap's Prediction page for a while, or may have forgotten to collect winnings from older rounds. You can still collect winnings owed to you from older rounds at any time.
+Sometimes you may be away from ChangSwap's Prediction page for a while, or may have forgotten to collect winnings from older rounds. You can still collect winnings owed to you from older rounds at any time.
 
 1\. Find more information on past rounds you've entered by clicking on the **reversing clock icon** next to the round timer.
 
@@ -124,11 +124,11 @@ Sometimes you may be away from PancakeSwap's Prediction page for a while, or may
 
 ![](<../../.gitbook/assets/image (61).png>)
 
-3\. A new window will appear showing the amount of BNB you can collect with a **Confirm** button. Click the button and confirm the action in your wallet.
+3\. A new window will appear showing the amount of KUB you can collect with a **Confirm** button. Click the button and confirm the action in your wallet.
 
 ![](<../../.gitbook/assets/image (52).png>)
 
-Your BNB winnings will now be in your wallet.
+Your KUB winnings will now be in your wallet.
 
 ## Viewing historic profit and loss data
 
@@ -146,7 +146,7 @@ The tab will open with stats for your historic performance in Prediction, includ
 
 ![](<../../.gitbook/assets/image (64).png>)
 
-3\. You can click the **View Reclaimed & Won** button at the bottom of the PNL tab to view those transactions on the BscScan explorer.
+3\. You can click the **View Reclaimed & Won** button at the bottom of the PNL tab to view those transactions on the BkcScan explorer.
 
 ![](<../../.gitbook/assets/image (63).png>)
 

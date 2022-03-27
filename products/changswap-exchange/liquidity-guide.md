@@ -2,20 +2,20 @@
 
 ![](../../.gitbook/assets/docs-masthead-2-.png)
 
-"Liquidity" is central to how PancakeSwap's Exchange works. You can add liquidity for any token pair by staking both through the Liquidity page.
+"Liquidity" is central to how ChangSwap's Exchange works. You can add liquidity for any token pair by staking both through the Liquidity page.
 
-In return for adding liquidity, you'll receive trading fees for that pair, and receive LP Tokens you can [stake in Farms](https://docs.pancakeswap.finance/products/yield-farming/farms) to earn CAKE rewards!
+In return for adding liquidity, you'll receive trading fees for that pair, and receive LP Tokens you can [stake in Farms](https://docs.changswap.com/products/yield-farming/farms) to earn CHANG rewards!
 
 ### **Adding liquidity**
 
 To provide liquidity, you’ll need to commit an amount of any token pair you like. Your lowest value (in USD) of the two tokens will be the limit to the liquidity you can provide.
 
-You can easily trade for any tokens you need. Visit our [How to Trade on PancakeSwap](https://docs.pancakeswap.finance/get-started/trade-guide) guide if you need to.
+You can easily trade for any tokens you need. Visit our [How to Trade on ChangSwap](https://docs.changswap.com/get-started/trade-guide) guide if you need to.
 
-In this example, we will add liquidity using BNB and CAKE.\
+In this example, we will add liquidity using KUB and CHANG.\
 ****
 
-1\. Visit the [Liquidity page](https://exchange.pancakeswap.finance/#/pool).
+1\. Visit the [Liquidity page](https://exchange.changswap.com/#/pool).
 
 ![](../../.gitbook/assets/Add\_Remove\_LP\_01.png)
 
@@ -23,11 +23,11 @@ In this example, we will add liquidity using BNB and CAKE.\
 
 ![](../../.gitbook/assets/Add\_Remove\_LP\_02.png)
 
-3\. For the top Input, click 'Select a currency'. Then choose one of the token in the liquidity pair you want to add liquidity to. Here, we are gong to use BNB as an example.
+3\. For the top Input, click 'Select a currency'. Then choose one of the token in the liquidity pair you want to add liquidity to. Here, we are gong to use KUB as an example.
 
 ![](../../.gitbook/assets/Add\_Remove\_LP\_03.png)
 
-4\. For the bottom input, click ‘Select a currency’. And choose the other token in the liquidity pair you want to add liquidity to. Here, we are gong to use CAKE as an example.
+4\. For the bottom input, click ‘Select a currency’. And choose the other token in the liquidity pair you want to add liquidity to. Here, we are gong to use CHANG as an example.
 
 ![](../../.gitbook/assets/Add\_Remove\_LP\_04.png)
 
@@ -39,7 +39,7 @@ In this example, we will add liquidity using BNB and CAKE.\
 
 ![](../../.gitbook/assets/Add\_Remove\_LP\_06.png)
 
-6\. Click the **Enable CAKE** button. If you are adding liquidity against tokens other than BNB, you might need to click enable twice for each token in your pair. Your wallet will ask you to confirm the action.
+6\. Click the **Enable CHANG** button. If you are adding liquidity against tokens other than KUB, you might need to click enable twice for each token in your pair. Your wallet will ask you to confirm the action.
 
 ![](../../.gitbook/assets/Add\_Remove\_LP\_07.png)
 
@@ -59,7 +59,7 @@ You can repeat the above steps to add more liquidity, or add liquidity to differ
 
 To remove liquidity.
 
-1\. Visit the [Liquidity page](https://exchange.pancakeswap.finance/#/pool)**.**
+1\. Visit the [Liquidity page](https://exchange.changswap.com/#/pool)**.**
 
 2\. Click on the pair you want to remove liquidity from under “Your Liquidity".
 

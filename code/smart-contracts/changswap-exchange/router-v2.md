@@ -1,18 +1,18 @@
 # Router v2
 
 {% hint style="warning" %}
-PancakeSwap is based on Uniswap v2. Read the [Uniswap v2 documentation](https://docs.uniswap.org/protocol/V2/introduction).\
+ChangSwap is based on Uniswap v2. Read the [Uniswap v2 documentation](https://docs.uniswap.org/protocol/V2/introduction).\
 For more in-depth information on the core contract logic, read the [Uniswap v2 Core whitepaper](https://github.com/Uniswap/docs/blob/main/static/whitepaper.pdf).
 {% endhint %}
 
 ## Contract info
 
-**Contract name:** PancakeRouter\
+**Contract name:** ChangRouter\
 **Contract address:** 0x10ED43C718714eb63d5aA57B78B54704E256024E
 
-View [PancakeRouter.sol on GitHub](https://github.com/pancakeswap/pancake-swap-periphery/blob/master/contracts/PancakeRouter.sol).
+View [ChangRouter.sol on GitHub](https://github.com/changswap/chang-swap-periphery/blob/master/contracts/ChangRouter.sol).
 
-View the [PancakeSwap: Router v2 contract on BscScan](https://bscscan.com/address/0x10ed43c718714eb63d5aa57b78b54704e256024e).
+View the [ChangSwap: Router v2 contract on BkcScan](https://bkcscan.com/address/0x10ed43c718714eb63d5aa57b78b54704e256024e).
 
 ## Read functions
 
@@ -20,13 +20,13 @@ View the [PancakeSwap: Router v2 contract on BscScan](https://bscscan.com/addres
 
 `function WETH() external pure returns (address);`
 
-Returns the canonical address for [Binance: WBNB token](https://bscscan.com/address/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c) (WETH being a vestige from Ethereum network origins).
+Returns the canonical address for [Binance: WKUB token](https://bkcscan.com/address/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c) (WETH being a vestige from Ethereum network origins).
 
 ### factory
 
 `function factory() external pure returns (address);`
 
-Returns the canonical address for [PancakeFactory](https://bscscan.com/address/0xca143ce32fe78f1f7019d7d551a6402fc5350c73).
+Returns the canonical address for [ChangFactory](https://bkcscan.com/address/0xca143ce32fe78f1f7019d7d551a6402fc5350c73).
 
 {% hint style="warning" %}
 For explanations of the following, view the [Uniswap v2 Internal Functions documentation](https://uniswap.org/docs/v2/smart-contracts/library/#internal-functions).
@@ -95,15 +95,15 @@ function addLiquidityETH(
 ) external payable returns (uint amountToken, uint amountETH, uint liquidity);
 ```
 
-Adds liquidity to a BEP20⇄WBNB pool.
+Adds liquidity to a BEP20⇄WKUB pool.
 
 | Name               | Type      |                                                                |
 | ------------------ | --------- | -------------------------------------------------------------- |
-| addLiquidityETH    | `uint`    | The payable amount in BNB.                                     |
+| addLiquidityETH    | `uint`    | The payable amount in KUB.                                     |
 | token              | `address` | The contract address of the token to add liquidity.            |
 | amountTokenDesired | `uint`    | The amount of the token you'd like to provide as liquidity.    |
 | amountTokenMin     | `uint`    | The minimum amount of the token to provide (slippage impact).  |
-| amountETHMin       | `uint`    | The minimum amount of BNB to provide (slippage impact).        |
+| amountETHMin       | `uint`    | The minimum amount of KUB to provide (slippage impact).        |
 | to                 | `address` | Address of LP Token recipient.                                 |
 | deadline           | `uint`    | Unix timestamp deadline by which the transaction must confirm. |
 
@@ -146,14 +146,14 @@ function removeLiquidityETH(
 ) external returns (uint amountToken, uint amountETH);
 ```
 
-Removes liquidity from a BEP20⇄WBNB pool.
+Removes liquidity from a BEP20⇄WKUB pool.
 
 | Name           | Type      |                                                                |
 | -------------- | --------- | -------------------------------------------------------------- |
 | token          | `address` | The contract address of the token to remove liquidity.         |
 | liquidity      | `uint`    | The amount of LP Tokens to remove.                             |
 | amountTokenMin | `uint`    | The minimum amount of the token to remove (slippage impact).   |
-| amountETHMin   | `uint`    | The minimum amount of BNB to remove (slippage impact).         |
+| amountETHMin   | `uint`    | The minimum amount of KUB to remove (slippage impact).         |
 | to             | `address` | Address of LP Token recipient.                                 |
 | deadline       | `uint`    | Unix timestamp deadline by which the transaction must confirm. |
 
@@ -170,14 +170,14 @@ function removeLiquidityETHSupportingFeeOnTransferTokens(
 ) external returns (uint amountETH);
 ```
 
-Removes liquidity from a BEP20⇄WBNB for tokens that take a fee on transfer.
+Removes liquidity from a BEP20⇄WKUB for tokens that take a fee on transfer.
 
 | Name           | Type      |                                                                |
 | -------------- | --------- | -------------------------------------------------------------- |
 | token          | `address` | The contract address of the token to remove liquidity.         |
 | liquidity      | `uint`    | The amount of LP Tokens to remove.                             |
 | amountTokenMin | `uint`    | The minimum amount of the token to remove (slippage impact).   |
-| amountETHMin   | `uint`    | The minimum amount of BNB to remove (slippage impact).         |
+| amountETHMin   | `uint`    | The minimum amount of KUB to remove (slippage impact).         |
 | to             | `address` | Address of LP Token recipient.                                 |
 | deadline       | `uint`    | Unix timestamp deadline by which the transaction must confirm. |
 
@@ -195,14 +195,14 @@ function removeLiquidityETHWithPermit(
 ) external returns (uint amountToken, uint amountETH);
 ```
 
-Removes liquidity from a BEP20⇄WBNB and receives BNB, without pre-approval, via permit.
+Removes liquidity from a BEP20⇄WKUB and receives KUB, without pre-approval, via permit.
 
 | Name           | Type      |                                                                                     |
 | -------------- | --------- | ----------------------------------------------------------------------------------- |
 | token          | `address` | The contract address of the token to remove liquidity.                              |
 | liquidity      | `uint`    | The amount of LP Tokens to remove.                                                  |
 | amountTokenMin | `uint`    | The minimum amount of the token to remove (slippage impact).                        |
-| amountETHMin   | `uint`    | The minimum amount of BNB to remove (slippage impact).                              |
+| amountETHMin   | `uint`    | The minimum amount of KUB to remove (slippage impact).                              |
 | to             | `address` | Address of LP Token recipient.                                                      |
 | deadline       | `uint`    | Unix timestamp deadline by which the transaction must confirm.                      |
 | approveMax     | `bool`    | Whether or not the approval amount in the signature is for liquidity or `uint(-1)`. |
@@ -224,14 +224,14 @@ function removeLiquidityETHWithPermitSupportingFeeOnTransferTokens(
 ) external returns (uint amountETH);
 ```
 
-Removes liquidity from a BEP20⇄WBNB and receives BNB via permit for tokens that take a fee on transfer.
+Removes liquidity from a BEP20⇄WKUB and receives KUB via permit for tokens that take a fee on transfer.
 
 | Name           | Type      |                                                                                     |
 | -------------- | --------- | ----------------------------------------------------------------------------------- |
 | token          | `address` | The contract address of the token to remove liquidity.                              |
 | liquidity      | `uint`    | The amount of LP Tokens to remove.                                                  |
 | amountTokenMin | `uint`    | The minimum amount of the token to remove (slippage impact).                        |
-| amountETHMin   | `uint`    | The minimum amount of BNB to remove (slippage impact).                              |
+| amountETHMin   | `uint`    | The minimum amount of KUB to remove (slippage impact).                              |
 | to             | `address` | Address of LP Token recipient.                                                      |
 | deadline       | `uint`    | Unix timestamp deadline by which the transaction must confirm.                      |
 | approveMax     | `bool`    | Whether or not the approval amount in the signature is for liquidity or `uint(-1)`. |
@@ -262,7 +262,7 @@ Removes liquidity from a BEP20⇄BEP20, without pre-approval, via permit.
 | tokenB         | `address` | The contract address of the other token from your liquidity pair.                   |
 | liquidity      | `uint`    | The amount of LP Tokens to remove.                                                  |
 | amountTokenMin | `uint`    | The minimum amount of the token to remove (slippage impact).                        |
-| amountETHMin   | `uint`    | The minimum amount of BNB to remove (slippage impact).                              |
+| amountETHMin   | `uint`    | The minimum amount of KUB to remove (slippage impact).                              |
 | to             | `address` | Address of LP Token recipient.                                                      |
 | deadline       | `uint`    | Unix timestamp deadline by which the transaction must confirm.                      |
 | approveMax     | `bool`    | Whether or not the approval amount in the signature is for liquidity or `uint(-1)`. |
@@ -279,11 +279,11 @@ function swapETHForExactTokens(uint amountOut, address[] calldata path, address 
   returns (uint[] memory amounts);
 ```
 
-Receive an exact amount of output tokens for as little BNB as possible.
+Receive an exact amount of output tokens for as little KUB as possible.
 
 | Name                  | Type      |                                                                                                                                      |
 | --------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| swapETHForExactTokens | `uint`    | Payable BNB amount.                                                                                                                  |
+| swapETHForExactTokens | `uint`    | Payable KUB amount.                                                                                                                  |
 | amountOut             | `uint`    | The amount tokens to receive.                                                                                                        |
 | path (address\[])     | `address` | An array of token addresses. `path.length` must be >= 2. Pools for each consecutive pair of addresses must exist and have liquidity. |
 | to                    | `address` | Address of recipient.                                                                                                                |
@@ -298,11 +298,11 @@ function swapExactETHForTokens(uint amountOutMin, address[] calldata path, addre
   returns (uint[] memory amounts);
 ```
 
-Receive as many output tokens as possible for an exact amount of BNB.
+Receive as many output tokens as possible for an exact amount of KUB.
 
 | Name                  | Type      |                                                                                                                                      |
 | --------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| swapExactETHForTokens | `uint`    | Payable BNB amount.                                                                                                                  |
+| swapExactETHForTokens | `uint`    | Payable KUB amount.                                                                                                                  |
 | amountOutMin          | `uint`    | The minimum amount tokens to receive.                                                                                                |
 | path (address\[])     | `address` | An array of token addresses. `path.length` must be >= 2. Pools for each consecutive pair of addresses must exist and have liquidity. |
 | to                    | `address` | Address of recipient.                                                                                                                |
@@ -319,11 +319,11 @@ function swapExactETHForTokensSupportingFeeOnTransferTokens(
 ) external payable;
 ```
 
-Receive as many output tokens as possible for an exact amount of BNB. Supports tokens that take a fee on transfer.
+Receive as many output tokens as possible for an exact amount of KUB. Supports tokens that take a fee on transfer.
 
 | Name                                               | Type      |                                                                                                                                      |
 | -------------------------------------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| swapExactETHForTokensSupportingFeeOnTransferTokens | `uint`    | Payable BNB amount.                                                                                                                  |
+| swapExactETHForTokensSupportingFeeOnTransferTokens | `uint`    | Payable KUB amount.                                                                                                                  |
 | amountOutMin                                       | `uint`    | The minimum amount tokens to receive.                                                                                                |
 | path (address\[])                                  | `address` | An array of token addresses. `path.length` must be >= 2. Pools for each consecutive pair of addresses must exist and have liquidity. |
 | to                                                 | `address` | Address of recipient.                                                                                                                |
@@ -337,7 +337,7 @@ function swapExactTokensForETH(uint amountIn, uint amountOutMin, address[] calld
   returns (uint[] memory amounts);
 ```
 
-Receive as much BNB as possible for an exact amount of input tokens.
+Receive as much KUB as possible for an exact amount of input tokens.
 
 | Name              | Type      |                                                                                                                                      |
 | ----------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------ |
@@ -359,7 +359,7 @@ function swapExactTokensForETHSupportingFeeOnTransferTokens(
 ) external;
 ```
 
-Receive as much BNB as possible for an exact amount of tokens. Supports tokens that take a fee on transfer.
+Receive as much KUB as possible for an exact amount of tokens. Supports tokens that take a fee on transfer.
 
 | Name              | Type      |                                                                                                                                      |
 | ----------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------ |
@@ -456,13 +456,13 @@ Receive an exact amount of output tokens for as few input tokens as possible.
 ## Interface
 
 ```
-import '@uniswap/v2-core/contracts/interfaces/IPancakeRouter.sol';
+import '@uniswap/v2-core/contracts/interfaces/IChangRouter.sol';
 ```
 
 ```
 pragma solidity >=0.6.2;
 
-interface IPancakeRouter01 {
+interface IChangRouter01 {
     function factory() external pure returns (address);
     function WETH() external pure returns (address);
 
@@ -556,11 +556,11 @@ interface IPancakeRouter01 {
     function getAmountsIn(uint amountOut, address[] calldata path) external view returns (uint[] memory amounts);
 }
 
-// File: contracts\interfaces\IPancakeRouter02.sol
+// File: contracts\interfaces\IChangRouter02.sol
 
 pragma solidity >=0.6.2;
 
-interface IPancakeRouter02 is IPancakeRouter01 {
+interface IChangRouter02 is IChangRouter01 {
     function removeLiquidityETHSupportingFeeOnTransferTokens(
         address token,
         uint liquidity,

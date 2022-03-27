@@ -9,16 +9,16 @@
 
 ### Your Responsibilities&#x20;
 
-* Attend interviews and AMAs to promote PancakeSwap.
-* Develop and lead our external communications strategies to help build PancakeSwap’s reputation for technology leadership and market integrity.&#x20;
+* Attend interviews and AMAs to promote ChangSwap.
+* Develop and lead our external communications strategies to help build ChangSwap’s reputation for technology leadership and market integrity.&#x20;
 * Strengthen existing relationships and cultivate new relationships with print, online, broadcast reporters, producers, bloggers and influencers globally.
 * Own the relationship with the PR agency, working collaboratively to secure relevant earned media and leverage it in innovative ways.
 * Manage media relationships and press events, organize press briefings, media sessions and events, and create press materials including media pitches, FAQs and fact sheets in coordination with the team.
 * Help develop the social media strategy, from tapping internal experts and helping them amplify their voice to building purposeful communities across relevant platforms.
 * Measure and report impact of campaigns reflecting on key performance indicators.
-* Serve as a senior member of PancakeSwap’s marketing team, helping to set the overall marketing and growth strategy via messaging and communications initiatives.
+* Serve as a senior member of ChangSwap’s marketing team, helping to set the overall marketing and growth strategy via messaging and communications initiatives.
 * Reactively respond to media inquiries, educate reporters, correct misperceptions about our industry/field/products and work with the team on issues and crisis communications.
-* Work to position PancakeSwap as a thought leader among top tier media outlets.
+* Work to position ChangSwap as a thought leader among top tier media outlets.
 
 ### Skills & Qualifications
 
@@ -41,4 +41,4 @@
 
 ### How to apply:
 
-Shoot an email to hiring@pancakeswap.com with your resume! 🐰
+Shoot an email to hiring@changswap.com with your resume! 🐰

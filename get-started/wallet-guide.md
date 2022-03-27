@@ -2,7 +2,7 @@
 
 ![](../.gitbook/assets/docs-masthead-9-.png)
 
-To get started on PancakeSwap, the first thing you'll need is to set up a wallet that supports BNB Smart Chain (BSC). Wallets are available both on desktop computers and on smartphone devices. You'll need to choose the wallet that fits your needs best.
+To get started on ChangSwap, the first thing you'll need is to set up a wallet that supports Bitkub Chain (BKC). Wallets are available both on desktop computers and on smartphone devices. You'll need to choose the wallet that fits your needs best.
 
 {% hint style="danger" %}
 **When you're setting up a wallet, be sure to:**
@@ -33,15 +33,15 @@ Smartphone/Mobile wallets allow you to access your crypto almost anywhere. Walle
 
 ### Which mobile wallet should I choose?
 
-This comparison table gives an overview of the most popular mobile wallets used with PancakeSwap.
+This comparison table gives an overview of the most popular mobile wallets used with ChangSwap.
 
 |                                                          | Token Pocket | MetaMask | Coinbase Wallet | Trust Wallet                  | SafePal |
 | -------------------------------------------------------- | ------------ | -------- | --------------- | ----------------------------- | ------- |
-| BNB Smart Chain support                                  | ✅            | ⚠️       | ✅               | ✅                             | ✅       |
+| Bitkub Chain support                                  | ✅            | ⚠️       | ✅               | ✅                             | ✅       |
 | Built-in DApp browser                                    | ✅            | ➖        | ✅               | <p>✅ Android</p><p>⚠️ iOS</p> | ✅       |
 | Hardware wallet compatible                               | ➖            | ✅        | ✅               | ➖                             | 🔶      |
 | Open source (auditability)                               | ✅            | ✅        | ✅               | ✅                             | ➖       |
-| <p>Interact with BscScan</p><p>(for advanced users!)</p> | ➖            | ✅        | ➖               | ➖                             | ➖       |
+| <p>Interact with BkcScan</p><p>(for advanced users!)</p> | ➖            | ✅        | ➖               | ➖                             | ➖       |
 
 ⚠️ Requires some setup\
 🔶 Only supports SafePal hardware wallet
@@ -61,7 +61,7 @@ Trust Wallet is a popular wallet for smart devices. It supports DApps, NFT colle
 * Easily switch between several crypto networks
 * Includes networks by default
 * Includes in-wallet staking options
-* Has additional features such as NFT collection, BNB staking, and DApp access within the wallet
+* Has additional features such as NFT collection, KUB staking, and DApp access within the wallet
 
 **Cons:**
 
@@ -76,12 +76,12 @@ Trust Wallet is a popular wallet for smart devices. It supports DApps, NFT colle
 {% tab title="MetaMask" %}
 ![](<../.gitbook/assets/image (33) (3) (4) (5) (1) (2) (1).png>)
 
-MetaMask is a very popular browser-based wallet plugin that supports ERC20 (Ethereum network) and BEP2 & BEP20 (Binance Chain and BNB Smart Chain networks).
+MetaMask is a very popular browser-based wallet plugin that supports ERC20 (Ethereum network) and BEP2 & BEP20 (Binance Chain and Bitkub Chain networks).
 
 ​**Pros:**
 
 * Open source for auditability
-* WEB3 capable on BscScan
+* WEB3 capable on BkcScan
 * A strong history of security and reliability
 * A large amount of how-to guides and resources online
 * Many tools and custom settings
@@ -92,7 +92,7 @@ MetaMask is a very popular browser-based wallet plugin that supports ERC20 (Ethe
 **Cons:**
 
 * Longer setup time than other options
-* Additional steps needed to use with BNB Smart Chain and PancakeSwap
+* Additional steps needed to use with Bitkub Chain and ChangSwap
 * Extra information and settings may confuse beginners
 
 [**Download MetaMask**](https://metamask.io/download.html) (Automatically detects device)\
@@ -102,12 +102,12 @@ MetaMask is a very popular browser-based wallet plugin that supports ERC20 (Ethe
 {% tab title="Coinbase Wallet" %}
 ![](<../.gitbook/assets/coinbase\_wallet\_wordmark\_blue (1).png>)
 
-Millions of users choose Coinbase Wallet to earn yield with DeFi, swap more than 5,500 assets, and hold their NFT collections. Coinbase wallet supports BEP2 & BEP20 (Binance Chain and BNB Smart Chain networks).
+Millions of users choose Coinbase Wallet to earn yield with DeFi, swap more than 5,500 assets, and hold their NFT collections. Coinbase wallet supports BEP2 & BEP20 (Binance Chain and Bitkub Chain networks).
 
 **Highlights:**
 
 * Most downloaded mobile dapp wallet in the United States with 12M+ active Wallet users.
-* No additional steps needed to use with BNB Smart Chain and PancakeSwap.
+* No additional steps needed to use with Bitkub Chain and ChangSwap.
 * Premier audience: Up to 89M+ Coinbase retail app users to onboard to Coinbase Wallet as they start to explore web3.
 * Easy to transfer assets from Coinbase retail app.
 * Fiat On-ramp: Users can now directly purchase crypto with fiat in all 86 countries where Coinbase operates, without leaving Wallet.
@@ -158,7 +158,7 @@ If you do have an existing wallet to import, use the top option instead.
 
 ![](https://lh3.googleusercontent.com/FdtGOB7N7ZKROD0EIKy5roklxcqtYwq26lZ4RX\_8RxUdt-caGPAr03HNTdOtTqpD82hkBcX9umQI1VcL6n0jXky4uVy\_dFDr8pReadLE80AHXkvm4mbvZZN2vxnzeaUmHXATx3GC)
 
-1. On the next page, find **BNB Smart Chain** in the list and tap it.
+1. On the next page, find **Bitkub Chain** in the list and tap it.
 
 ![](https://lh5.googleusercontent.com/TGpsjTq\_B1rLK-A8Cqzq9sC0IACpDZFCbpwN5\_GD4r8sCRmaqAdbswC-OmWAM7YiKATEaHTHviODFueMA6sCDSGlvNslYjGWQIrX5X8oR\_5pGPuMJ6X7\_Gz-rEoJwzmS9exEybbs)
 
@@ -170,7 +170,7 @@ If you do have an existing wallet to import, use the top option instead.
 
 And that’s it, all done!
 
-To connect to BNB Smart Chain and use PancakeSwap, you can follow the TokenPocket section of our Connect Your Wallet to PancakeSwap guide [https://docs.pancakeswap.finance/get-started/connection-guide](https://docs.pancakeswap.finance/get-started/connection-guide).
+To connect to Bitkub Chain and use ChangSwap, you can follow the TokenPocket section of our Connect Your Wallet to ChangSwap guide [https://docs.changswap.com/get-started/connection-guide](https://docs.changswap.com/get-started/connection-guide).
 
 #### Getting private key from mobile to import to desktop
 
@@ -184,7 +184,7 @@ Please be extremely careful with how you handle your private keys. Giving your p
 
 ![](https://lh3.googleusercontent.com/\_DE3EO8bsI5wKZlkTeJv3zZ77LR8SVQYOwB4EXbY\_GhKzz4PSZpo3MdlvrU8sLoLyPcRQjdjOA24VPjAa\_UZdt-JaiRgPMk67uBs7JIi5gp9gV1\_wDB7fW7FQoFogTMZ\_EQJYxcQ)
 
-1. On the next page, tap the **BNB Smart Chain** entry. Be careful not to tap the address part, or you’ll only copy that to clipboard instead.
+1. On the next page, tap the **Bitkub Chain** entry. Be careful not to tap the address part, or you’ll only copy that to clipboard instead.
 
 ![](https://lh4.googleusercontent.com/jLhXL03uhZHBKbHaPvy3ZrD1EmYCR8ECqwMxQIzTKnUtxMNntaDA8Dx4oVlXSadoFhhJqZACsYWVPfvITBEpWfkCfwntcQY3Fw5EYgGH-tmva8PZbvYbBRCy\_c5V7E1yQHvXiU0F)
 
@@ -193,7 +193,7 @@ Please be extremely careful with how you handle your private keys. Giving your p
 {% hint style="danger" %}
 \*\*NEVER, in any situation, should you ever give someone your private key or recovery phrase ("seed phrase"). This will give someone complete access to your crypto!
 
-The genuine PancakeSwap site and staff will never ask you to input your seed phrase.\*\*
+The genuine ChangSwap site and staff will never ask you to input your seed phrase.\*\*
 {% endhint %}
 
 Now you have your private key ready to import your wallet into the desktop version of Token Pocket.
@@ -202,17 +202,17 @@ Now you have your private key ready to import your wallet into the desktop versi
 {% tab title="SafePal" %}
 ![](<../.gitbook/assets/image (26) (1).png>)
 
-SafePal is available as both a software and hardware wallet. The wallet is easy to install and create, and comes ready to support BEP2 (Binance Chain) and BEP20 (BNB Smart Chain) right away.
+SafePal is available as both a software and hardware wallet. The wallet is easy to install and create, and comes ready to support BEP2 (Binance Chain) and BEP20 (Bitkub Chain) right away.
 
 **Pros:**
 
 * Easily switch between several crypto networks
-* Offers 25% fee discount paying with BNB (requires login)
+* Offers 25% fee discount paying with KUB (requires login)
 * Has the option for Google Authenticator built in
 * Supports a large number of languages
 * Setup process is very simple
 * Is available as both a software and hardware wallet (work together)
-* Supports NFTs on both the BSC and ETH networks
+* Supports NFTs on both the BKC and ETH networks
 
 **Cons:**
 
@@ -233,15 +233,15 @@ Desktop wallets are available on your home computer or laptop computer. Wallets 
 
 ### Which desktop wallet should I choose?
 
-This comparison table gives an overview of the most popular desktop wallets used with PancakeSwap.
+This comparison table gives an overview of the most popular desktop wallets used with ChangSwap.
 
 |                                                          | MetaMask | Binance Wallet | Coinbase Wallet | Token Pocket |
 | -------------------------------------------------------- | -------- | -------------- | --------------- | ------------ |
-| BNB Smart Chain support                                  | ⚠️       | ✅              | ✅               | ⚠️           |
+| Bitkub Chain support                                  | ⚠️       | ✅              | ✅               | ⚠️           |
 | Built-in DApp browser                                    | ➖        | ➖              | ➖               | ✅            |
 | Hardware wallet compatible                               | ✅        | ✅              | ✅               | ➖            |
 | Open source (auditability)                               | ✅        | ✅              | ✅               | ✅            |
-| <p>Interact with BscScan</p><p>(for advanced users!)</p> | ✅        | ➖              | ➖               | ➖            |
+| <p>Interact with BkcScan</p><p>(for advanced users!)</p> | ✅        | ➖              | ➖               | ➖            |
 
 ⚠️ Requires additional setup
 
@@ -251,12 +251,12 @@ You can find more in-depth information about each wallet below, as well as downl
 {% tab title="MetaMask" %}
 ![](<../.gitbook/assets/image (33) (3) (4) (5) (1) (2) (1) (4).png>)
 
-MetaMask is a very popular browser-based wallet plugin that supports ERC20 (Ethereum network) by default, and BEP2 & BEP20 (Binance Chain and BNB Smart Chain networks) with a little work.
+MetaMask is a very popular browser-based wallet plugin that supports ERC20 (Ethereum network) by default, and BEP2 & BEP20 (Binance Chain and Bitkub Chain networks) with a little work.
 
 ​**Pros:**
 
 * Open source for auditability
-* WEB3 capable on BscScan
+* WEB3 capable on BkcScan
 * A strong history of security and reliability
 * A large amount of how-to guides and resources online
 * Many tools and custom settings
@@ -266,7 +266,7 @@ MetaMask is a very popular browser-based wallet plugin that supports ERC20 (Ethe
 **Cons:**
 
 * Longer setup time than other options
-* Additional steps needed to use with BNB Smart Chain and PancakeSwap
+* Additional steps needed to use with Bitkub Chain and ChangSwap
 * Extra information and settings may confuse beginners
 
 [**Download MetaMask**](https://metamask.io/download.html) (Automatically detects browser)\
@@ -276,7 +276,7 @@ MetaMask is a very popular browser-based wallet plugin that supports ERC20 (Ethe
 {% tab title="Binance Wallet" %}
 ![](<../.gitbook/assets/image (39).png>)
 
-Binance Wallet is a browser-plugin wallet that natively supports the Binance Chain (BEP2) BNB Smart Chain (BEP20) networks. Binance Wallet was developed by the Binance cryptocurrency exchange.
+Binance Wallet is a browser-plugin wallet that natively supports the Binance Chain (BEP2) Bitkub Chain (BEP20) networks. Binance Wallet was developed by the Binance cryptocurrency exchange.
 
 ​**Pros:**
 
@@ -284,7 +284,7 @@ Binance Wallet is a browser-plugin wallet that natively supports the Binance Cha
 * Backed by the Binance cryptocurrency exchange
 * Can be directly linked to a Binance or Gmail account
 * A streamlined user experience
-* Supports BNB Smart Chain by default, making using PancakeSwap easy
+* Supports Bitkub Chain by default, making using ChangSwap easy
 * Supports a large number of languages
 * Hardware wallet compatible
 
@@ -301,12 +301,12 @@ Binance Wallet is a browser-plugin wallet that natively supports the Binance Cha
 {% tab title="Coinbase Wallet" %}
 ![](<../.gitbook/assets/coinbase\_wallet\_wordmark\_blue (2) (1).png>)
 
-Millions of users choose Coinbase Wallet to earn yield with DeFi, swap more than 5,500 assets, and hold their NFT collections. Coinbase wallet supports ERC20 (Ethereum network) and BEP2 & BEP20 (Binance Chain and BNB Smart Chain networks).
+Millions of users choose Coinbase Wallet to earn yield with DeFi, swap more than 5,500 assets, and hold their NFT collections. Coinbase wallet supports ERC20 (Ethereum network) and BEP2 & BEP20 (Binance Chain and Bitkub Chain networks).
 
 **Highlights:**
 
 * 12M+ active Wallet users.
-* No additional steps needed to use with BNB Smart Chain and PancakeSwap.
+* No additional steps needed to use with Bitkub Chain and ChangSwap.
 * Premier audience: Up to 89M+ Coinbase retail app users to onboard to Coinbase Wallet as they start to explore web3.
 * Easy to transfer assets from Coinbase retail app.
 * Fiat On-ramp: Users can now directly purchase crypto with fiat in all 86 countries where Coinbase operates, without leaving Wallet.
@@ -396,12 +396,12 @@ Please be extremely careful with how you handle your private keys. Giving your p
 
 ![](https://lh5.googleusercontent.com/g\_iZzJZAPhsBQUBgQqTvLO1HfuGnCGZDkRD3DFu4g4GPat901700Qk3aBx8Fx5AzY2PH7JYajGM4-4fXm6icPWB-8R5wQQst-W3NWJ6n0Rh\_bbPKXnXrO4h\_JEgu7wtey11EuCN-)
 
-And that’s it, all done! You can follow our [Connect Your Wallet to PancakeSwap guide](https://docs.pancakeswap.finance/get-started/connection-guide) to connect to BNB Smart Chain and PancakeSwap.
+And that’s it, all done! You can follow our [Connect Your Wallet to ChangSwap guide](https://docs.changswap.com/get-started/connection-guide) to connect to Bitkub Chain and ChangSwap.
 {% endtab %}
 {% endtabs %}
 
 {% hint style="danger" %}
 NEVER, in any situation, should you ever give someone your private key or recovery phrase ("seed phrase"). This will give someone complete access to your crypto!
 
-The genuine PancakeSwap site and staff will never ask you to input your seed phrase.
+The genuine ChangSwap site and staff will never ask you to input your seed phrase.
 {% endhint %}

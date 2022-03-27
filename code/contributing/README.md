@@ -1,12 +1,12 @@
 ---
-description: Thank you for expressing your interest in contributing to PancakeSwap!
+description: Thank you for expressing your interest in contributing to ChangSwap!
 ---
 
 # Contributing
 
 ![](<../../.gitbook/assets/docs-masthead-18- (1).png>)
 
-PancakeSwap is an open-source project. If you want to contribute to the project, this section is here to guide you through your first steps with the PancakeSwap team 🥞
+ChangSwap is an open-source project. If you want to contribute to the project, this section is here to guide you through your first steps with the ChangSwap team 🥞
 
 Before starting any development, we highly encourage you to submit an issue on Github in order to discuss the problem, and the solution with the team.
 
@@ -15,7 +15,7 @@ Before starting any development, we highly encourage you to submit an issue on G
 1.  Fork the repository and an [add upstream remote](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork). E.g.
 
     ```bash
-    $ git remote add upstream git@github.com:pancakeswap/pancake-frontend.git
+    $ git remote add upstream git@github.com:changswap/chang-frontend.git
     ```
 2.  Make sure you have the latest version of the default branch ( `develop` or `master` )
 
@@ -38,14 +38,14 @@ We try to maintain as much consistency as we can between each of our repository.
 ### Use the UIKit
 
 {% hint style="warning" %}
-Check the [UI Kit](https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit) before you start doing anything. A lot of components are already created, and we don't want that you waste your time reinventing the wheel 😉
+Check the [UI Kit](https://github.com/changswap/chang-toolkit/tree/master/packages/chang-uikit) before you start doing anything. A lot of components are already created, and we don't want that you waste your time reinventing the wheel 😉
 {% endhint %}
 
 If a variant of a component needs to be created, use the corresponding component in the UI Kit as a base. For example:
 
 ```javascript
 import styled from 'styled-components'
-import { Button } from '@pancakeswap-libs/uikit'
+import { Button } from '@changswap-libs/uikit'
 
 const NewButtonVariant = styled(Button)`
   // custom styles here
@@ -96,4 +96,4 @@ Your code is ready to be submitted for review, congratulations🥳
 Create a [draft PR](https://github.blog/2019-02-14-introducing-draft-pull-requests/) as soon as possible so we can view your ongoing progress.
 {% endhint %}
 
-**Thanks for helping us making PancakeSwap even more awesome** ❤
+**Thanks for helping us making ChangSwap even more awesome** ❤
