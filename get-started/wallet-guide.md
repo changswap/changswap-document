@@ -1,6 +1,6 @@
 # Create a Wallet
 
-![](../.gitbook/assets/docs-masthead-9-.png)
+![](<../.gitbook/assets/docs masthead (9).png>)
 
 To get started on ChangSwap, the first thing you'll need is to set up a wallet that supports Bitkub Chain (BKC). Wallets are available both on desktop computers and on smartphone devices. You'll need to choose the wallet that fits your needs best.
 
@@ -37,7 +37,7 @@ This comparison table gives an overview of the most popular mobile wallets used 
 
 |                                                          | Token Pocket | MetaMask | Coinbase Wallet | Trust Wallet                  | SafePal |
 | -------------------------------------------------------- | ------------ | -------- | --------------- | ----------------------------- | ------- |
-| Bitkub Chain support                                  | ✅            | ⚠️       | ✅               | ✅                             | ✅       |
+| Bitkub Chain support                                     | ✅            | ⚠️       | ✅               | ✅                             | ✅       |
 | Built-in DApp browser                                    | ✅            | ➖        | ✅               | <p>✅ Android</p><p>⚠️ iOS</p> | ✅       |
 | Hardware wallet compatible                               | ➖            | ✅        | ✅               | ➖                             | 🔶      |
 | Open source (auditability)                               | ✅            | ✅        | ✅               | ✅                             | ➖       |
@@ -74,7 +74,7 @@ Trust Wallet is a popular wallet for smart devices. It supports DApps, NFT colle
 {% endtab %}
 
 {% tab title="MetaMask" %}
-![](<../.gitbook/assets/image (33) (3) (4) (5) (1) (2) (1).png>)
+![](<../.gitbook/assets/image (33) (3) (4) (5) (1) (1).png>)
 
 MetaMask is a very popular browser-based wallet plugin that supports ERC20 (Ethereum network) and KEP2 & KEP20 (Binance Chain and Bitkub Chain networks).
 
@@ -100,7 +100,7 @@ MetaMask is a very popular browser-based wallet plugin that supports ERC20 (Ethe
 {% endtab %}
 
 {% tab title="Coinbase Wallet" %}
-![](<../.gitbook/assets/coinbase\_wallet\_wordmark\_blue (1).png>)
+![](<../.gitbook/assets/coinbase\_wallet\_wordmark\_blue (2) (1) (4).png>)
 
 Millions of users choose Coinbase Wallet to earn yield with DeFi, swap more than 5,500 assets, and hold their NFT collections. Coinbase wallet supports KEP2 & KEP20 (Binance Chain and Bitkub Chain networks).
 
@@ -113,19 +113,17 @@ Millions of users choose Coinbase Wallet to earn yield with DeFi, swap more than
 * Fiat On-ramp: Users can now directly purchase crypto with fiat in all 86 countries where Coinbase operates, without leaving Wallet.
 * Industry leading security with secure cloud backup.
 
-
-
 [**Download Coinbase Wallet**](https://coinbase-wallet.onelink.me/q5Sx/fdb9b250) **(Automatically detects device)**
 
 [**Coinbase Wallet Setup Guide**](https://www.coinbase.com/wallet/getting-started-mobile)
 
-__
+\_\_
 
 _Coinbase Wallet is a self-custody wallet providing software services subject to Coinbase Wallet_ [_Terms of Service_](https://wallet.coinbase.com/terms-of-service) _and_ [_Privacy Policy_](https://wallet.coinbase.com/privacy-policy)_. Coinbase Wallet is_ [_distinct_](https://help.coinbase.com/en/wallet/getting-started/what-s-the-difference-between-coinbase-com-and-wallet) _from Coinbase.com, and private keys for Coinbase Wallet are stored directly by the user and not by Coinbase. Fees may apply. You do not need a Coinbase.com account to use Coinbase Wallet._
 {% endtab %}
 
 {% tab title="Token Pocket" %}
-![](<../.gitbook/assets/image (125) (3) (4) (1) (2) (1) (3).png>)
+![](<../.gitbook/assets/image (125) (3) (4) (1) (1) (3).png>)
 
 Token Pocket is a cryptocurrency management app that natively supports many cryptocurrency networks. It also has a desktop application available.
 
@@ -145,7 +143,7 @@ Token Pocket is a cryptocurrency management app that natively supports many cryp
 
 [**Download Token Pocket App**](https://www.tokenpocket.pro/en/download/app) (Automatically detects device)
 
-#### **Token Pocket Mobile Setup Guide**
+**Token Pocket Mobile Setup Guide**
 
 1. Visit the Token Pocket website and tap **Mobile**.
 
@@ -172,7 +170,7 @@ And that’s it, all done!
 
 To connect to Bitkub Chain and use ChangSwap, you can follow the TokenPocket section of our Connect Your Wallet to ChangSwap guide [https://docs.changswap.com/get-started/connection-guide](https://docs.changswap.com/get-started/connection-guide).
 
-#### Getting private key from mobile to import to desktop
+**Getting private key from mobile to import to desktop**
 
 Token Pocket lets you use both a desktop and mobile wallet. This section will cover how to get your private key from your mobile wallet to import into your desktop wallet.
 
@@ -200,7 +198,7 @@ Now you have your private key ready to import your wallet into the desktop versi
 {% endtab %}
 
 {% tab title="SafePal" %}
-![](<../.gitbook/assets/image (26) (1).png>)
+![](<../.gitbook/assets/image (37).png>)
 
 SafePal is available as both a software and hardware wallet. The wallet is easy to install and create, and comes ready to support KEP2 (Binance Chain) and KEP20 (Bitkub Chain) right away.
 
@@ -237,7 +235,7 @@ This comparison table gives an overview of the most popular desktop wallets used
 
 |                                                          | MetaMask | Binance Wallet | Coinbase Wallet | Token Pocket |
 | -------------------------------------------------------- | -------- | -------------- | --------------- | ------------ |
-| Bitkub Chain support                                  | ⚠️       | ✅              | ✅               | ⚠️           |
+| Bitkub Chain support                                     | ⚠️       | ✅              | ✅               | ⚠️           |
 | Built-in DApp browser                                    | ➖        | ➖              | ➖               | ✅            |
 | Hardware wallet compatible                               | ✅        | ✅              | ✅               | ➖            |
 | Open source (auditability)                               | ✅        | ✅              | ✅               | ✅            |
@@ -249,7 +247,7 @@ You can find more in-depth information about each wallet below, as well as downl
 
 {% tabs %}
 {% tab title="MetaMask" %}
-![](<../.gitbook/assets/image (33) (3) (4) (5) (1) (2) (1) (4).png>)
+![](<../.gitbook/assets/image (33) (3) (4) (5) (1) (1) (2).png>)
 
 MetaMask is a very popular browser-based wallet plugin that supports ERC20 (Ethereum network) by default, and KEP2 & KEP20 (Binance Chain and Bitkub Chain networks) with a little work.
 
@@ -299,7 +297,7 @@ Binance Wallet is a browser-plugin wallet that natively supports the Binance Cha
 {% endtab %}
 
 {% tab title="Coinbase Wallet" %}
-![](<../.gitbook/assets/coinbase\_wallet\_wordmark\_blue (2) (1).png>)
+![](<../.gitbook/assets/coinbase\_wallet\_wordmark\_blue (1) (4).png>)
 
 Millions of users choose Coinbase Wallet to earn yield with DeFi, swap more than 5,500 assets, and hold their NFT collections. Coinbase wallet supports ERC20 (Ethereum network) and KEP2 & KEP20 (Binance Chain and Bitkub Chain networks).
 
@@ -317,19 +315,17 @@ Millions of users choose Coinbase Wallet to earn yield with DeFi, swap more than
 
 * Currently on Chrome Only
 
-
-
 [**Download Coinbase Wallet**](https://chrome.google.com/webstore/detail/coinbase-wallet-extension/hnfanknocfeofbddgcijnmhnfnkdnaad?hl=en\&authuser=0)[ ](https://chrome.google.com/webstore/detail/coinbase-wallet-extension/hnfanknocfeofbddgcijnmhnfnkdnaad?hl=en\&authuser=0)Chrome Only)
 
 [**Coinbase Wallet Setup Guide**](https://www.coinbase.com/wallet/getting-started-extension)
 
-__
+\_\_
 
 _Coinbase Wallet is a self-custody wallet providing software services subject to Coinbase Wallet_ [_Terms of Service_](https://wallet.coinbase.com/terms-of-service) _and_ [_Privacy Policy_](https://wallet.coinbase.com/privacy-policy)_. Coinbase Wallet is_ [_distinct_](https://help.coinbase.com/en/wallet/getting-started/what-s-the-difference-between-coinbase-com-and-wallet) _from Coinbase.com, and private keys for Coinbase Wallet are stored directly by the user and not by Coinbase. Fees may apply. You do not need a Coinbase.com account to use Coinbase Wallet._
 {% endtab %}
 
 {% tab title="Token Pocket" %}
-![](<../.gitbook/assets/image (125) (3) (4) (1) (2) (1) (2).png>)
+![](<../.gitbook/assets/image (125) (3) (4) (1) (1) (1).png>)
 
 Token Pocket is a standalone application available for both Mac OS and Win64 devices. Token Pocket allows you to manage your cryptocurrency in software independent of your browser.
 
@@ -351,7 +347,7 @@ Token Pocket is a standalone application available for both Mac OS and Win64 dev
 
 [**Download Token Pocket Desktop Wallet**](https://www.tokenpocket.pro/en/download/pc) (MacOS or Win64)
 
-#### **Token Pocket Desktop Setup Guide**
+**Token Pocket Desktop Setup Guide**
 
 The desktop version of Token Pocket will ask you to import a private key. Please make sure you’re familiar with and understand the importance of a private key before you proceed.
 

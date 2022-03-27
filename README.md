@@ -14,7 +14,7 @@
 
 ### The people's choice
 
-ChangSwap is the leading decentralized exchange on Bitkub Chain, with the highest trading volumes in the market (sources: [1](https://www.coingecko.com/en/exchanges/decentralized) [2](https://coinmarketcap.com/rankings/exchanges/dex/)).
+ChangSwap is the leading decentralized exchange on Bitkub Chain, with the highest trading volumes in the market.
 
 ### Low fees
 

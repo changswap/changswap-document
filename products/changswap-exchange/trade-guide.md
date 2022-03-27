@@ -1,6 +1,6 @@
 # How to Trade
 
-![](../../.gitbook/assets/docs-masthead-5-.png)
+![](<../../.gitbook/assets/docs masthead (5).png>)
 
 Trading on ChangSwap is very easy compared to most exchanges. You aren't going to be overwhelmed by charts or jargon, and calculations are all handled for you.
 
