@@ -9,43 +9,6 @@ Check out the steps below for how to connect each of our recommended wallets to 
 ## Smartphone/Mobile
 
 {% tabs %}
-{% tab title="Trust Wallet" %}
-![](<../.gitbook/assets/image (36).png>)
-
-To connect Trust Wallet follow the steps below. Note that Android and iOS devices do not use the same steps!
-
-#### Android
-
-1. Open Trust Wallet and tap the **DApps** button on the bottom of the screen.
-
-![](<../.gitbook/assets/image (68).png>)
-
-1. Scroll down to "Popular" and tap on "ChangSwap". You can also find it in "Exchanges".
-
-![](<../.gitbook/assets/image (66).png>)
-
-1. A new page will open with the ChangSwap logo and some information. Tap the **Connect** button.
-
-![](<../.gitbook/assets/image (67).png>)
-
-1. ChangSwap will open up. If you see a **Connect** button in the top-right tap that and tap **Trust Wallet** from the list.
-
-{% hint style="warning" %}
-If you find you are unable to connect at step 4, go back to the DApps menu and find "ChangSwap" again. Using "Chang Swap" from the "History" section may result in the same problem.
-{% endhint %}
-
-#### iOS
-
-To connect to ChangSwap through iOS, Trust Wallet have prepared a detailed guide on using WallteConnect.
-
-Read the [Trust Wallet guide to connecting to ChangSwap via WalletConnect](https://community.trustwallet.com/t/using-walletconnect-to-access-changswap/212307).
-
-#### **Resources**
-
-[**Download Trust Wallet**](https://trustwallet.com) (Automatically detects device)\
-[**Trust Wallet Setup Guide**](https://www.binance.com/en/blog/421499824684901157/how-to-set-up-and-use-trust-wallet-for-binance-smart-chain)
-{% endtab %}
-
 {% tab title="MetaMask" %}
 ![](<../.gitbook/assets/image (33) (3) (4) (5) (1) (1).png>)
 
@@ -92,31 +55,6 @@ To connect MetaMask to ChangSwap follow the steps below.
 [**MetaMask Setup Guide**](https://academy.binance.com/en/articles/connecting-metamask-to-binance-smart-chain\))
 {% endtab %}
 
-{% tab title="Coinbase Wallet" %}
-![](<../.gitbook/assets/coinbase\_wallet\_wordmark\_blue (1) (1).png>)
-
-1. Open Coinbase Wallet and tap on the **settings icon** in the bottom-right.\
-   ![](../.gitbook/assets/CB-M-p1.png)\
-   ![](../.gitbook/assets/CB-M-p1\_5.png)
-2. In the Settings menu, tap on **Default Network**.\
-   ![](../.gitbook/assets/CB-M-p2.png)\*\*\*\*
-3. Choose **Binance Smart Chain** from the list of network options.\
-   ![](<../.gitbook/assets/CB-M-p3 (1).png>)
-4. Once you've selected the Binance Smart Chain network, click the **Browser Icon** at the bottom-middle of your app.\
-   ![](../.gitbook/assets/CB-M-p4.png)\
-   ![](../.gitbook/assets/CB-M-p5.png)
-5. Type "ChangSwap.finance" into the search field and start the search.\
-   ![](../.gitbook/assets/CB-M-p6.png)
-6. Click **Connect** **Wallet** to connect to Coinbase Wallet.\
-   ![](../.gitbook/assets/CB-M-p7.png)
-
-#### **Resources**
-
-[**Download Coinbase Wallet**](https://coinbase-wallet.onelink.me/q5Sx/fdb9b250) **(Automatically detects device)**
-
-[**Coinbase Wallet Setup Guide**](https://www.coinbase.com/wallet/getting-started-mobile)
-{% endtab %}
-
 {% tab title="Token Pocket" %}
 ![](<../.gitbook/assets/image (125) (3) (4) (1) (1) (3).png>)
 
@@ -139,30 +77,6 @@ Token Pocket is a cryptocurrency management app that natively supports many cryp
 **Resources**\
 [**Download Token Pocket App**](https://www.tokenpocket.pro/en/download/app) (Automatically detects device)\
 **Token Pocket Mobile Setup Guide**
-{% endtab %}
-
-{% tab title="SafePal" %}
-![](<../.gitbook/assets/image (37).png>)
-
-SafePal is available as both a software and hardware wallet. The wallet is easy to install and create, and comes ready to support KEP2 (Binance Chain) and KEP20 (Bitkub Chain) right away.
-
-#### **Android and iOS**
-
-1. Tap the **4 squares** icon button on the bottom of the main screen.
-
-![](<../.gitbook/assets/image (82).png>)
-
-1. You'll see a DApp browser page open. Under "DeFi", find and tap the **ChangSwap** button. If you can't see ChangSwap under DeFi, you can also find it under "BKC".
-
-![](<../.gitbook/assets/image (83).png>)
-
-1. A window will open saying that you will be opening a third party DApp. Tap **Confirm** and you'll be taken to ChangSwap's website connected to your wallet.
-
-![](<../.gitbook/assets/image (81).png>)
-
-**Resources**\
-​[**Download SafePal**](https://safepal.io/download) (Automatically detects device)\
-[**SafePal Setup Guide**](https://blog.safepal.io/binance-smart-chain-x-safepal/)
 {% endtab %}
 {% endtabs %}
 
@@ -204,49 +118,6 @@ SafePal is available as both a software and hardware wallet. The wallet is easy 
 
 [**Download MetaMask**](https://metamask.io/download.html) (Automatically detects browser)\
 [**MetaMask Setup Guide**](https://academy.binance.com/en/articles/connecting-metamask-to-binance-smart-chain)
-{% endtab %}
-
-{% tab title="Binance Wallet" %}
-![](<../.gitbook/assets/image (39).png>)
-
-#### Chrome and Firefox
-
-1. Open Binance Chain Wallet and click on the network selector at the top. The default network will be Binance Chain. Choose **Bitkub Chain** from the list.
-
-![](<../.gitbook/assets/image (88).png>)
-
-1. Visit the ChangSwap website. In the top-right, click **Connect**.
-
-![](<../.gitbook/assets/image (164) (3) (3) (1) (1) (2).png>)
-
-1. A window will appear asking you to choose a wallet to connect to. Click **Binance Chain Wallet** (it's farther down the list).
-
-![](<../.gitbook/assets/image (89).png>)
-
-#### Resources
-
-[**Download Binance Wallet**](https://www.binance.org/en) (Automatically detects browser)\
-**Binance Wallet Setup Guide**
-{% endtab %}
-
-{% tab title="Coinbase Wallet" %}
-![](<../.gitbook/assets/coinbase\_wallet\_wordmark\_blue (1) (2).png>)
-
-1. Open Coinbase Wallet and click on the **Settings** icon at the top-right. By default it will show "Ethereum Mainnet" as the Default Network.\
-   ![](../.gitbook/assets/cb-desktop-1.png)
-2. Click on **Default Network** and choose **Binance Smart Chain**\
-   ![](../.gitbook/assets/cb-desktop-2.png)
-3. Binance Smart Chain will now be your Default Network.
-4. Visit the[ ](https://changswap.com)[changswap.com](https://changswap.com), In the top right corner you'll see the **Connect** button. Click it.\
-   ![](../.gitbook/assets/cb-desktop-3.png)
-5. A window will appear asking you to choose a wallet to connect to. Click **Coinbase Wallet** (it's the top option on the list).\
-   ![](../.gitbook/assets/cb-desktop-4.png)
-
-#### **Resources**
-
-[**Download Coinbase Wallet**](https://chrome.google.com/webstore/detail/coinbase-wallet-extension/hnfanknocfeofbddgcijnmhnfnkdnaad?hl=en\&authuser=0)[ ](https://chrome.google.com/webstore/detail/coinbase-wallet-extension/hnfanknocfeofbddgcijnmhnfnkdnaad?hl=en\&authuser=0)(Chrome Only)
-
-[**Coinbase Wallet Setup Guide**](https://www.coinbase.com/wallet/getting-started-extension)
 {% endtab %}
 
 {% tab title="Token Pocket" %}
