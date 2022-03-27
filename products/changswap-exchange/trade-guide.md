@@ -6,7 +6,7 @@ Trading on ChangSwap is very easy compared to most exchanges. You aren't going t
 
 ### Getting set up to trade
 
-Before you can trade, you will need a Bitkub Chain-compatible wallet. You can learn how to get one [here](https://docs.changswap.com/get-started/wallet-guide). You will also need to have some BEP20 tokens to trade with. You can learn how to get some [here](https://docs.changswap.com/get-started/bep20-guide).
+Before you can trade, you will need a Bitkub Chain-compatible wallet. You can learn how to get one [here](https://docs.changswap.com/get-started/wallet-guide). You will also need to have some KEP20 tokens to trade with. You can learn how to get some [here](https://docs.changswap.com/get-started/kep20-guide).
 
 ### Trading on the ChangSwap exchange
 

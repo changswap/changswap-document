@@ -213,9 +213,9 @@ If you're trading tokens with Restorative Rebase like tau assets tDoge or tBTC, 
 
 ## **Issues with Brewery Pools**
 
-### BEP20: burn amount exceeds balance
+### KEP20: burn amount exceeds balance
 
-> Fail with error 'BEP20: burn amount exceeds balance'
+> Fail with error 'KEP20: burn amount exceeds balance'
 
 You don't have enough SYRUP in your wallet to unstake from the CHANG-CHANG pool.
 
@@ -268,9 +268,9 @@ Your wallet estimates that the gas limit is too low, so the function call runs o
 {% endtab %}
 {% endtabs %}
 
-### BEP20: transfer amount exceeds allowance
+### KEP20: transfer amount exceeds allowance
 
-> Fail with error 'BEP20: transfer amount exceeds allowance'
+> Fail with error 'KEP20: transfer amount exceeds allowance'
 
 {% tabs %}
 {% tab title="Solution" %}
@@ -284,9 +284,9 @@ This happens when you set a limit on your spend allowance when you first approve
 {% endtab %}
 {% endtabs %}
 
-### BEP20: transfer amount exceeds balance
+### KEP20: transfer amount exceeds balance
 
-> Fail with error 'BEP20: transfer amount exceeds balance'
+> Fail with error 'KEP20: transfer amount exceeds balance'
 
 You're probably trying to unstake from a Brewery Pool with low rewards in it. Solution below.
 
@@ -362,7 +362,7 @@ Happens when trying to remove liquidity on some tokens via Metamask. Root cause 
 
 > Internal JSON-RPC error. { "code": -32000, "message": "insufficient funds for transfer" } - Please try again.
 
-You don't have enough KUB to pay for the transaction fees. You need more BEP-20 network KUB in your wallet.
+You don't have enough KUB to pay for the transaction fees. You need more KEP-20 network KUB in your wallet.
 
 ### Error: \[ethjs-query]
 

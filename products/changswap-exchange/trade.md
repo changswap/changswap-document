@@ -2,7 +2,7 @@
 
 ![](../../.gitbook/assets/docs-masthead-18-.png)
 
-****[**Token swaps**](https://exchange.changswap.com/#/swap) on ChangSwap are a simple way to trade one BEP-20 token for another via automated liquidity pools.
+****[**Token swaps**](https://exchange.changswap.com/#/swap) on ChangSwap are a simple way to trade one KEP-20 token for another via automated liquidity pools.
 
 ![](../../.gitbook/assets/screenshot-2021-04-19-at-6.11.54-pm.png)
 

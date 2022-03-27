@@ -87,7 +87,7 @@ Learn how to find smart contracts on our [Finding Contracts page](https://docs.c
 
 ## Why does it say I have no KUB balance?
 
-If you've already [transferred KUB into your Bitkub Chain-enabled wallet](https://docs.changswap.com/get-started/bep20-guide) but still have this error, you're most likely not [connected to Bitkub Chain](https://docs.changswap.com/get-started/connection-guide) within your wallet. Check your wallet's selected network and make sure you have Bitkub Chain (BKC) selected.
+If you've already [transferred KUB into your Bitkub Chain-enabled wallet](https://docs.changswap.com/get-started/kep20-guide) but still have this error, you're most likely not [connected to Bitkub Chain](https://docs.changswap.com/get-started/connection-guide) within your wallet. Check your wallet's selected network and make sure you have Bitkub Chain (BKC) selected.
 
 ## How do I vote?
 

@@ -57,7 +57,7 @@ We aim to respond to applications within a week, but due to a large number of re
 
 ### How can I list my token on the exchange?
 
-Anybody can "list" any BEP-20 network token on ChangSwap. You don't need to contact us or ask permission. You just need to [add liquidity to a liquidity pool](../products/changswap-exchange/changswap-pools.md) - that's it. Traders can then trade your token by entering your token's contract address.
+Anybody can "list" any KEP-20 network token on ChangSwap. You don't need to contact us or ask permission. You just need to [add liquidity to a liquidity pool](../products/changswap-exchange/changswap-pools.md) - that's it. Traders can then trade your token by entering your token's contract address.
 
 ### How can I add my token to the default list?
 
@@ -71,7 +71,7 @@ Please add your icon to Trust Wallet’s assets repo, which ChangSwap references
 
 ### Someone made a fake copy of my token! Can you block it?
 
-Due to ChangSwap’s nature as an AMM-based DEX, we’re not able to prevent the trading of any BEP-20 token. We recommend ensuring that your token contract is clearly visible and verifiable on your site, and educating your users about how to safely trade your token.
+Due to ChangSwap’s nature as an AMM-based DEX, we’re not able to prevent the trading of any KEP-20 token. We recommend ensuring that your token contract is clearly visible and verifiable on your site, and educating your users about how to safely trade your token.
 
 ### People get an error when trading my token. What can I do?
 

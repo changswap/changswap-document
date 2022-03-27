@@ -2,7 +2,7 @@
 
 ![](<../.gitbook/assets/docs-masthead-11- (1).png>)
 
-You've made a wallet and gotten your BEP20 tokens, now you just need to connect your wallet with ChangSwap and you're good to go!
+You've made a wallet and gotten your KEP20 tokens, now you just need to connect your wallet with ChangSwap and you're good to go!
 
 Check out the steps below for how to connect each of our recommended wallets to ChangSwap.
 
@@ -144,7 +144,7 @@ Token Pocket is a cryptocurrency management app that natively supports many cryp
 {% tab title="SafePal" %}
 ![](<../.gitbook/assets/image (26) (1).png>)
 
-SafePal is available as both a software and hardware wallet. The wallet is easy to install and create, and comes ready to support BEP2 (Binance Chain) and BEP20 (Bitkub Chain) right away.
+SafePal is available as both a software and hardware wallet. The wallet is easy to install and create, and comes ready to support KEP2 (Binance Chain) and KEP20 (Bitkub Chain) right away.
 
 ### **Android and iOS**
 

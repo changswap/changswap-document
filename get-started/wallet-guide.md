@@ -76,7 +76,7 @@ Trust Wallet is a popular wallet for smart devices. It supports DApps, NFT colle
 {% tab title="MetaMask" %}
 ![](<../.gitbook/assets/image (33) (3) (4) (5) (1) (2) (1).png>)
 
-MetaMask is a very popular browser-based wallet plugin that supports ERC20 (Ethereum network) and BEP2 & BEP20 (Binance Chain and Bitkub Chain networks).
+MetaMask is a very popular browser-based wallet plugin that supports ERC20 (Ethereum network) and KEP2 & KEP20 (Binance Chain and Bitkub Chain networks).
 
 ​**Pros:**
 
@@ -102,7 +102,7 @@ MetaMask is a very popular browser-based wallet plugin that supports ERC20 (Ethe
 {% tab title="Coinbase Wallet" %}
 ![](<../.gitbook/assets/coinbase\_wallet\_wordmark\_blue (1).png>)
 
-Millions of users choose Coinbase Wallet to earn yield with DeFi, swap more than 5,500 assets, and hold their NFT collections. Coinbase wallet supports BEP2 & BEP20 (Binance Chain and Bitkub Chain networks).
+Millions of users choose Coinbase Wallet to earn yield with DeFi, swap more than 5,500 assets, and hold their NFT collections. Coinbase wallet supports KEP2 & KEP20 (Binance Chain and Bitkub Chain networks).
 
 **Highlights:**
 
@@ -202,7 +202,7 @@ Now you have your private key ready to import your wallet into the desktop versi
 {% tab title="SafePal" %}
 ![](<../.gitbook/assets/image (26) (1).png>)
 
-SafePal is available as both a software and hardware wallet. The wallet is easy to install and create, and comes ready to support BEP2 (Binance Chain) and BEP20 (Bitkub Chain) right away.
+SafePal is available as both a software and hardware wallet. The wallet is easy to install and create, and comes ready to support KEP2 (Binance Chain) and KEP20 (Bitkub Chain) right away.
 
 **Pros:**
 
@@ -251,7 +251,7 @@ You can find more in-depth information about each wallet below, as well as downl
 {% tab title="MetaMask" %}
 ![](<../.gitbook/assets/image (33) (3) (4) (5) (1) (2) (1) (4).png>)
 
-MetaMask is a very popular browser-based wallet plugin that supports ERC20 (Ethereum network) by default, and BEP2 & BEP20 (Binance Chain and Bitkub Chain networks) with a little work.
+MetaMask is a very popular browser-based wallet plugin that supports ERC20 (Ethereum network) by default, and KEP2 & KEP20 (Binance Chain and Bitkub Chain networks) with a little work.
 
 ​**Pros:**
 
@@ -276,7 +276,7 @@ MetaMask is a very popular browser-based wallet plugin that supports ERC20 (Ethe
 {% tab title="Binance Wallet" %}
 ![](<../.gitbook/assets/image (39).png>)
 
-Binance Wallet is a browser-plugin wallet that natively supports the Binance Chain (BEP2) Bitkub Chain (BEP20) networks. Binance Wallet was developed by the Binance cryptocurrency exchange.
+Binance Wallet is a browser-plugin wallet that natively supports the Binance Chain (KEP2) Bitkub Chain (KEP20) networks. Binance Wallet was developed by the Binance cryptocurrency exchange.
 
 ​**Pros:**
 
@@ -301,7 +301,7 @@ Binance Wallet is a browser-plugin wallet that natively supports the Binance Cha
 {% tab title="Coinbase Wallet" %}
 ![](<../.gitbook/assets/coinbase\_wallet\_wordmark\_blue (2) (1).png>)
 
-Millions of users choose Coinbase Wallet to earn yield with DeFi, swap more than 5,500 assets, and hold their NFT collections. Coinbase wallet supports ERC20 (Ethereum network) and BEP2 & BEP20 (Binance Chain and Bitkub Chain networks).
+Millions of users choose Coinbase Wallet to earn yield with DeFi, swap more than 5,500 assets, and hold their NFT collections. Coinbase wallet supports ERC20 (Ethereum network) and KEP2 & KEP20 (Binance Chain and Bitkub Chain networks).
 
 **Highlights:**
 
