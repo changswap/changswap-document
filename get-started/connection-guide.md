@@ -59,23 +59,6 @@
     ![](<../.gitbook/assets/MBP3-2021.08.16-092305PM-Chromium\_MetaMask Notification.png>)
 {% endtab %}
 
-{% tab title="币安钱包" %}
-![](https://gblobkcdn.gitbook.com/assets%2F-MHREX7DHcljbY5IkjgJ%2F-Maajz3RNBhCbi\_iel09%2F-MaarA5-6dcy2iDE5Iwx%2Fimage.png?alt=media\&token=15746c07-8908-49db-85ff-b17dcf3ad39c)
-
-1. 请按照提示正确创建钱包并妥善备份好您的助记词。或使用现有助记词导入恢复钱包。
-2.  在顶部的网络选项中，选择「Bitkub链」
-
-    ![](../.gitbook/assets/MBP3-2021.08.16-093043PM-Chromium\_.png)
-3.  访问 [ChangSwap 主页](https://changswap.finance) ，点击右上角的「连接钱包 / Connect Wallet」，选择「更多 / More」，并选择 "Binance Chain"。
-
-    ![](../.gitbook/assets/MBP3-2021.08.16-093605PM-Chromium\_%E6%94%B6%E8%97%8F%E5%93%81%20%20ChangSwap%20-%20$22.285.png)
-4. 钱包将弹出界面要求确认，请点击「连接」。
-
-### 下载
-
-[**下载币安钱包**](https://www.binance.org/en) \*\*\*\* （请在弹出的页面内自行选择下载）
-{% endtab %}
-
 {% tab title="Token Pocket" %}
 ![](https://gblobkcdn.gitbook.com/assets%2F-MHREX7DHcljbY5IkjgJ%2Fsync%2Fb9951be50d03d9ac5a49667dfa033fb55635011f.png?alt=media)
 
