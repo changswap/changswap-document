@@ -2,8 +2,6 @@
 
 ![](https://gblobscdn.gitbook.com/assets%2F-MHREX7DHcljbY5IkjgJ%2F-MbGTDNZ6xd3\_Q-qSEP5%2F-MbJqNikjouS9bDl1rUt%2Fdocs%20masthead%20\(9\).png?alt=media\&token=a86affdf-4276-4963-8f05-661aec80064a)
 
-
-
 开始使用 ChangSwap 前，您首先需要创建一个支持Bitkub链（BSC）的钱包。钱包在电脑和手机上都可以使用。请选择最适合您的钱包应用。
 
 **在设置钱包时，请务必注意**：
@@ -37,47 +35,20 @@ This comparison table gives an overview of the most popular mobile wallets used 
 
 以下表格列出时下热门的钱包应用以及他们的概况：
 
-| ​                                     | Trust Wallet             | MetaMask | Token Pocket | SafePal |
-| ------------------------------------- | ------------------------ | -------- | ------------ | ------- |
-| Bitkub链支持                               | ✅                        | ⚠️       | ✅            | ✅       |
-| 内置 DApp 浏览器                           | <p>✅ 安卓</p><p>⚠️ iOS</p> | ➖        | ✅            | ✅       |
-| 兼容硬件钱包                                | ➖                        | ✅        | ➖            | 🔶      |
-| 开源（可审计性）                              | ✅                        | ✅        | ✅            | ➖       |
-| <p>可在 BscScan 上使用</p><p>(适用于高级用户)</p> | ➖                        | ✅        | ➖            | ➖       |
+| ​                                     | MetaMask | Token Pocket |
+| ------------------------------------- | -------- | ------------ |
+| Bitkub链支持                             | ⚠️       | ✅            |
+| 内置 DApp 浏览器                           | ➖        | ✅            |
+| 兼容硬件钱包                                | ✅        | ➖            |
+| 开源（可审计性）                              | ✅        | ✅            |
+| <p>可在 BscScan 上使用</p><p>(适用于高级用户)</p> | ✅        | ➖            |
 
-⚠️ 需要额外设置 \
-🔶 仅支持 SafePal 硬件钱包
+⚠️ 需要额外设置
 
-
-
+\
 您可以在下方找到关于每个钱包的详细信息、下载链接和安装指南：
 
 {% tabs %}
-{% tab title="Trust Wallet" %}
-![](<../.gitbook/assets/image (36).png>)
-
-Trust Wallet 在移动设备上颇受欢迎的钱包应用。它支持 DApps，NFT 收藏品（支持 Opensea.io），以及钱包内直接质押，
-
-**优点：**
-
-* 开源代码可审计
-* 得到币安加密货币交易所的支持
-* 在几个加密货币网络之间轻松切换
-* 默认包含Bitkub链网络 &#x20;
-* 含有钱包内质押选项
-* 拥有额外的功能，如：NFT 收藏品浏览、KUB 质押和钱包内的 DApp 访问。
-
-**缺点：**
-
-* 语言与手机设置语言绑定，无法更改
-* 有限的 DApps 支持
-* 交易通知可能会延迟
-
-[**下载 Trust Wallet**](https://trustwallet.com) **（自动检测您的设备）**
-
-****[**Trust Wallet 设置指南**](https://www.binance.com/cn/blog/421499824684901157/How-to-Set-Up-and-Use-Trust-Wallet-for-Binance-Smart-Chain)****
-{% endtab %}
-
 {% tab title="MetaMask" %}
 ![](<../.gitbook/assets/image (33) (3) (4) (5).png>)
 
@@ -86,11 +57,11 @@ MetaMask 是一个基于浏览器的热门钱包插件，支持 ERC20（以太�
 ​**优点：**
 
 * 开源代码可审计
-* 适用于 BscScan 上的 web3 操作 &#x20;
+* 适用于 BscScan 上的 web3 操作
 * 优秀的安全性和可靠性记录
-* 网上有大量的资料与操作指南&#x20;
-* 非常多小工具及自定义设置 &#x20;
-* 提供使用 Transak 购买 ETH&#x20;
+* 网上有大量的资料与操作指南
+* 非常多小工具及自定义设置
+* 提供使用 Transak 购买 ETH
 * 丰富的语言支持
 * 同时提供电脑浏览器插件
 
@@ -102,10 +73,7 @@ MetaMask 是一个基于浏览器的热门钱包插件，支持 ERC20（以太�
 
 [**下载 MetaMask**](https://metamask.io/download.html) **（自动检测您的设备）**
 
-****[**MetaMask 设置教程**](https://academy.binance.com/cn/articles/connecting-metamask-to-binance-smart-chain)****
-
-****\
-****
+***
 {% endtab %}
 
 {% tab title="Token Pocket" %}
@@ -127,9 +95,9 @@ Token Pocket 是一个原生支持多个网络（加密货币链）的虚拟货�
 * 部分英文翻译有问题
 * 与其他更成熟的钱包相比，在线资源较少
 
-****[**下载 Token Pocket**](https://www.tokenpocket.pro) **（自动检测您的设备）**
+\*\*\*\*[**下载 Token Pocket**](https://www.tokenpocket.pro) **（自动检测您的设备）**
 
-### **Token Pocket 手机端设置指南**
+#### **Token Pocket 手机端设置指南**
 
 1.  访问 Token Pocket 网站并点击 **手机下载** 开始下载
 
@@ -152,7 +120,7 @@ Token Pocket 是一个原生支持多个网络（加密货币链）的虚拟货�
 想要通过 TokenPocket 连接Bitkub链并使用 ChangSwap，您可参考「如何连接钱包」教程中的 TokenPocket 部分：\
 [https://docs.changswap.finance/get-started/connection-guide](https://docs.changswap.finance/get-started/connection-guide).
 
-### 导出私钥并在另一台手机或电脑上使用
+#### 导出私钥并在另一台手机或电脑上使用
 
 Token Pocket 允许您使用电脑端或其他设备同时管理一个钱包，这部分教程讲引导您如何导出私钥，并在其他设备上同时使用。
 
@@ -174,35 +142,5 @@ Token Pocket 允许您使用电脑端或其他设备同时管理一个钱包，�
 管理员**绝对不会**主动跟您私聊。如果有人假扮成客服直接与您联系，请立即点击封禁并将其举报为垃圾信息。
 {% endhint %}
 {% endtab %}
-
-{% tab title="SafePal" %}
-![](<../.gitbook/assets/image (37).png>)
-
-SafePal 有软件和硬件钱包两种形式。该钱包 App 安装便捷，设置步骤简单，并原生支持币安链 (KEP2) 和Bitkub链 (KEP20)。
-
-**优点：**
-
-* 在几个加密货币网络之间轻松切换
-* 使用 KUB 支付时有机会获得 25% 手续费折扣（需要登录）
-* 内置谷歌认证器
-* 丰富的语言支持
-* 设置步骤简单快捷
-* 同时提用软件和硬件钱包（协同使用）
-* 支持Bitkub链和以太坊上的 NFT 收藏品展示及管理
-
-**缺点：**
-
-* 代码非完全开源&#x20;
-* 某些功能尚未完善（如 DeFi）
-* 不支持通知消息提醒
-* 初始设置及钱包创建时，并不强制用户使用强安全凭证
-* 与其他更成熟的钱包相比，在线资源较少
-
-​[**下载 SafePal**](https://safepal.io/download) **（自动检测您的设备）**\
-[**SafePal 设置教程（英文）**](https://blog.safepal.io/binance-smart-chain-x-safepal/)****\
-****[**SafePal 设置教程（中文）**](https://docs.safepal.io/safepal-app/how-to-create-a-safepal-software-wallet/ru-he-chuang-jian-safepal-ruan-jian-qian-bao)****
-{% endtab %}
 {% endtabs %}
-
-## ****
 

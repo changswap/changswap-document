@@ -9,43 +9,13 @@
 ## 手机钱包 <a href="#smartphone-mobile" id="smartphone-mobile"></a>
 
 {% tabs %}
-{% tab title="Trust Wallet" %}
-![](https://gblobscdn.gitbook.com/assets%2F-MHREX7DHcljbY5IkjgJ%2F-Maajz3RNBhCbi\_iel09%2F-MaaqWJXQio1awWtJiub%2Fimage.png?alt=media\&token=63e7a2d9-8a05-49ac-b3dd-063f87f3a8b6)
-
-请按照下方教程连接钱包，注意，苹果与安卓的连接方式不同！
-
-## 安卓 Android
-
-1.  打开 Trust Wallet 并点击底部 **DApps** 按钮。
-
-    ![](../.gitbook/assets/MBP3-2021.08.16-121140PM-CleanShot\_CleanShot.png)
-2.  在 "Popular" 区域，找到 "ChangSwap"，同时，您也可以在 "Exchanges" 区域内找到。
-
-    ![](../.gitbook/assets/MBP3-2021.08.16-121222PM-CleanShot\_CleanShot.png)
-3.  一个含有 ChangSwap 信息的页面会弹出，请点击 "Connect" 按钮。
-
-    ![](../.gitbook/assets/MBP3-2021.08.16-121340PM-CleanShot\_CleanShot.png)
-4. ChangSwap 页面会打开，若您看到右上角有「连接钱包 / Connect Wallet」按钮，请点击并选择 "Trust Wallet"
-
-{% hint style="warning" %}
-如您无法成功连接，请回到 DApps 菜单，确认右上角的网络图标为Bitkub链 (BSC)，并再次点击 ChangSwap 重试。
-{% endhint %}
-
-## 苹果 iOS
-
-请参照以下教程使用 WalletConnect 连接 Trust Wallet：
-
-[使用教程（英语）](https://community.trustwallet.com/t/using-walletconnect-to-access-changswap/212307)
-{% endtab %}
-
 {% tab title="MetaMask" %}
 ![](https://gblobscdn.gitbook.com/assets%2F-MHREX7DHcljbY5IkjgJ%2F-MaWbwvtRDRxirgNEPwC%2F-MaXDK47yFhEeM1ypg2f%2Fimage.png?alt=media\&token=0fd62a2b-6dec-4bac-ba84-ed3eaca63d08)
 
-请先跟随以下视频 + 文字教程添加Bitkub链 (BSC) 至 MetaMask：
+请先跟随以下视频 + 文字教程添加Bitkub链 (BKC) 至 MetaMask：
 
-🎥 [如何添加Bitkub链 (BSC)](https://t.me/ChangSwap\_CN/143416)\
-若您有任何疑问，欢迎加入上面消息所在的 ChangSwap 官方中文电报群组，寻求帮助！\
-
+🎥 [如何添加Bitkub链 (BKC)](https://t.me/ChangSwap\_CN/143416)\
+若您有任何疑问，欢迎加入上面消息所在的 ChangSwap 官方中文电报群组，寻求帮助！\\
 
 1.  成功添加网络后，您即可回到主界面，选择「浏览器」
 
@@ -69,21 +39,6 @@
 
     ![](../.gitbook/assets/MBP3-2021.08.16-124631PM-CleanShot\_CleanShot.png)
 4. 页面载入后，点击右上角的「连接钱包 / Connect Wallet」按钮，并点击 "MetaMask" 即可连接。
-{% endtab %}
-
-{% tab title="SafePal" %}
-![](https://gblobscdn.gitbook.com/assets%2F-MHREX7DHcljbY5IkjgJ%2F-Maajz3RNBhCbi\_iel09%2F-MaaqhTbKsOcMi5lbmNT%2Fimage.png?alt=media\&token=94b6b052-c950-4568-8fd6-ae3da395e1ab)
-
-1.  点击屏幕下方的**四个方块**，打开 DApp 浏览器。
-
-    ![](../.gitbook/assets/MBP3-2021.08.16-125215PM-CleanShot\_CleanShot.png)
-2.  在 "DeFi" 下找到 ChangSwap，点击打开。
-
-    ![](<../.gitbook/assets/image (155).png>)
-3.  一个警告窗口将弹出，点击「确认」继续。
-
-    ![](../.gitbook/assets/MBP3-2021.08.16-125400PM-CleanShot\_CleanShot.png)
-4. 点击右上角的「连接钱包 / Connect Wallet」按钮，选择 "MetaMask" 即可。
 {% endtab %}
 {% endtabs %}
 
@@ -113,12 +68,12 @@
     ![](../.gitbook/assets/MBP3-2021.08.16-093043PM-Chromium\_.png)
 3.  访问 [ChangSwap 主页](https://changswap.finance) ，点击右上角的「连接钱包 / Connect Wallet」，选择「更多 / More」，并选择 "Binance Chain"。
 
-    ![](<../.gitbook/assets/MBP3-2021.08.16-093605PM-Chromium\_收藏品  ChangSwap - $22.285.png>)
+    ![](../.gitbook/assets/MBP3-2021.08.16-093605PM-Chromium\_%E6%94%B6%E8%97%8F%E5%93%81%20%20ChangSwap%20-%20$22.285.png)
 4. 钱包将弹出界面要求确认，请点击「连接」。
 
-## 下载
+### 下载
 
-[**下载币安钱包**](https://www.binance.org/en) **** （请在弹出的页面内自行选择下载）
+[**下载币安钱包**](https://www.binance.org/en) \*\*\*\* （请在弹出的页面内自行选择下载）
 {% endtab %}
 
 {% tab title="Token Pocket" %}
