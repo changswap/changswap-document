@@ -1,6 +1,6 @@
 # ChangSwap Intro
 
-![](<.gitbook/assets/masthead-twitter-3- (1) (1).png>)
+![](<.gitbook/assets/截屏2022-03-28 下午2.19.20.png>)
 
 {% hint style="success" %}
 **ChangSwap helps you make the most out of your crypto in three ways:**
