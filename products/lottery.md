@@ -2,13 +2,13 @@
 
 ![](https://gblobscdn.gitbook.com/assets%2F-MHREX7DHcljbY5IkjgJ%2F-MdUg8ahFKk9Q8jMaBBP%2F-MdUxt8CCVOUITl4uAqK%2Fdocs%20masthead%20\(3\).png?alt=media\&token=386d0ebc-8033-4dd0-8445-2436be2f6a60)
 
-PancakeSwap 彩票给予您赢取巨额 CAKE 奖金的机会！它非常简单、非常公平。只要有足够的 CAKE 购彩，您可以随时参与。
+ChangSwap 彩票给予您赢取巨额 CHANG 奖金的机会！它非常简单、非常公平。只要有足够的 CHANG 购彩，您可以随时参与。
 
 ​[查看智能合约](https://bscscan.com/address/0x5aF6D33DE2ccEC94efb1bDF8f92Bd58085432d2c)
 
 ## **特性：**
 
-* 彩票价格： 1 张票 - 大约 $5 美金的 CAKE。
+* 彩票价格： 1 张票 - 大约 $5 美金的 CHANG。
 * 单个用户购彩限制：没有限制。但因为区块链特性，单次操作最多只能购买 100 张。
 * Paying for one ticket will give users a random 6-digit combination with each digit being between 0-9, for e.g. “1-9-3-2-0-4”. Match numbers from the left to win prizes—the more numbers that match, the bigger the prize pool you'll share in.
 * 购买一张彩票，用户即可得到一个随机的 6 位数组合。每个数字都在 0-9 范围内，例如 「1-9-3-2-0-4」。从左边开始匹配数字来赢取奖金。匹配的数字越多，您所分享得的奖池就越大。
@@ -57,8 +57,8 @@ PancakeSwap 彩票给予您赢取巨额 CAKE 奖金的机会！它非常简单�
 
 ‌每轮开奖结束后，所有中奖彩票会被确定并开始分发奖金。每张彩票的中奖金额，将取决于同一等级奖池中，其他彩票的中奖情况。
 
-‌例如，如果您持有本轮唯一一张按顺序匹配三个号码的彩票，而您所在的奖池大小是 2000 CAKE。您将获得整个奖池，也就是 2000 CAKE。
+‌例如，如果您持有本轮唯一一张按顺序匹配三个号码的彩票，而您所在的奖池大小是 2000 CHANG。您将获得整个奖池，也就是 2000 CHANG。
 
-但是，如果除了您以外，有另外三个人同样按顺序，匹配了三个号码。2000 CAKE 将在四张中奖彩票之间平分，这意味着您将获得 500 个 CAKE。
+但是，如果除了您以外，有另外三个人同样按顺序，匹配了三个号码。2000 CHANG 将在四张中奖彩票之间平分，这意味着您将获得 500 个 CHANG。
 
 查看 **彩票常见问题以及奖池彩金分配** 了解详情。

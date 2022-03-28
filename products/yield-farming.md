@@ -2,14 +2,14 @@
 
 ![](https://gblobscdn.gitbook.com/assets%2F-MHREX7DHcljbY5IkjgJ%2F-McQraJG25bEh9ufOHLT%2F-McS-Rk4u3IqogZhr2N2%2Fdocs%20masthead%20%281%29.png?alt=media&token=0124644e-2c34-492d-bd66-2710c4dd8869)
 
-流动性挖矿让用户们通过质押 LP 代币（流动性凭证）来支持 PancakeSwap 并赚取 CAKE 代币。
+流动性挖矿让用户们通过质押 LP 代币（流动性凭证）来支持 ChangSwap 并赚取 CHANG 代币。
 
-查看 [如何使用农场指南](https://docs.pancakeswap.finance/products/yield-farming/how-to-use-farms) 立刻开始流动性挖矿。
+查看 [如何使用农场指南](https://docs.changswap.finance/products/yield-farming/how-to-use-farms) 立刻开始流动性挖矿。
 
-请同时查阅 [如何找到农场智能合约](https://docs.pancakeswap.finance/products/yield-farming)
+请同时查阅 [如何找到农场智能合约](https://docs.changswap.finance/products/yield-farming)
 
 {% hint style="warning" %}
-流动性挖矿与糖浆池相比，会给予更高的奖励，但同时它们拥有**无常损失**带来的风险。它并没有听起来那么可怕，但在开始挖矿前，适当的去了解它是值得的。
+流动性挖矿与酿酒池相比，会给予更高的奖励，但同时它们拥有**无常损失**带来的风险。它并没有听起来那么可怕，但在开始挖矿前，适当的去了解它是值得的。
 
 查看这一篇来自币安的， [关于无常损失的文章](https://academy.binance.com/en/articles/impermanent-loss-explained) 来了解更多。
 {% endhint %}
@@ -20,11 +20,11 @@
 
 在此之前，提供流动性，从交易手续费中获得的奖励，并没有计算在农场年化利率上。
 
-以下是一个使用 [pancakeswap.info](https://pancakeswap.info) 计算年化利率的例子。
+以下是一个使用 [changswap.info](https://changswap.info) 计算年化利率的例子。
 
 ![](https://lh4.googleusercontent.com/rJswz2qvCNTcODcClHxqlLpanSLsfbGtVw75MMPicBN1iKTKCuEYlPuoFAqskoy24DB9JBmATWb8dk3WmY1_BFDZoS94sWTBZhZrcnG711rC8ltDXPR3gdl8D50eWq_cfiBriKcl)
 
-上图中展示的是 WBNB/BUSD 交易对，其中我们看到以下信息：
+上图中展示的是 WKUB/BUSD 交易对，其中我们看到以下信息：
 
 **流动性：**$387.42M  
 **交易量 24H:** $96.97M  

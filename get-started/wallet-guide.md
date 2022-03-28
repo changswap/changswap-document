@@ -4,7 +4,7 @@
 
 
 
-开始使用 PancakeSwap 前，您首先需要创建一个支持币安智能链（BSC）的钱包。钱包在电脑和手机上都可以使用。请选择最适合您的钱包应用。
+开始使用 ChangSwap 前，您首先需要创建一个支持Bitkub链（BSC）的钱包。钱包在电脑和手机上都可以使用。请选择最适合您的钱包应用。
 
 **在设置钱包时，请务必注意**：
 
@@ -16,7 +16,7 @@
 
 ## 我应该使用手机端钱包还是电脑端钱包？
 
-您在手机与电脑上均可通过钱包软件使用 PancakeSwap，它们有各自的优势与缺点。请考虑自己的具体需求，按以下表格决定使用哪种类型的钱包应用：
+您在手机与电脑上均可通过钱包软件使用 ChangSwap，它们有各自的优势与缺点。请考虑自己的具体需求，按以下表格决定使用哪种类型的钱包应用：
 
 |                | 手机端 | 电脑端 |
 | -------------- | --- | --- |
@@ -33,13 +33,13 @@
 
 ### 我应该选择哪个手机钱包？ <a href="#which-mobile-wallet-should-i-choose" id="which-mobile-wallet-should-i-choose"></a>
 
-This comparison table gives an overview of the most popular mobile wallets used with PancakeSwap.
+This comparison table gives an overview of the most popular mobile wallets used with ChangSwap.
 
 以下表格列出时下热门的钱包应用以及他们的概况：
 
 | ​                                     | Trust Wallet             | MetaMask | Token Pocket | SafePal |
 | ------------------------------------- | ------------------------ | -------- | ------------ | ------- |
-| 币安智能链支持                               | ✅                        | ⚠️       | ✅            | ✅       |
+| Bitkub链支持                               | ✅                        | ⚠️       | ✅            | ✅       |
 | 内置 DApp 浏览器                           | <p>✅ 安卓</p><p>⚠️ iOS</p> | ➖        | ✅            | ✅       |
 | 兼容硬件钱包                                | ➖                        | ✅        | ➖            | 🔶      |
 | 开源（可审计性）                              | ✅                        | ✅        | ✅            | ➖       |
@@ -63,9 +63,9 @@ Trust Wallet 在移动设备上颇受欢迎的钱包应用。它支持 DApps，N
 * 开源代码可审计
 * 得到币安加密货币交易所的支持
 * 在几个加密货币网络之间轻松切换
-* 默认包含币安智能链网络 &#x20;
+* 默认包含Bitkub链网络 &#x20;
 * 含有钱包内质押选项
-* 拥有额外的功能，如：NFT 收藏品浏览、BNB 质押和钱包内的 DApp 访问。
+* 拥有额外的功能，如：NFT 收藏品浏览、KUB 质押和钱包内的 DApp 访问。
 
 **缺点：**
 
@@ -81,7 +81,7 @@ Trust Wallet 在移动设备上颇受欢迎的钱包应用。它支持 DApps，N
 {% tab title="MetaMask" %}
 ![](<../.gitbook/assets/image (33) (3) (4) (5).png>)
 
-MetaMask 是一个基于浏览器的热门钱包插件，支持 ERC20（以太坊网络）、BEP2 和 BEP20（币安链与币安智能链）。
+MetaMask 是一个基于浏览器的热门钱包插件，支持 ERC20（以太坊网络）、KEP2 和 KEP20（币安链与Bitkub链）。
 
 ​**优点：**
 
@@ -97,7 +97,7 @@ MetaMask 是一个基于浏览器的热门钱包插件，支持 ERC20（以太�
 **缺点：**
 
 * 设置需时较长
-* 搭配币安智能链和 PancakeSwap 使用前需要一些额外设置
+* 搭配Bitkub链和 ChangSwap 使用前需要一些额外设置
 * 额外的信息与设置可能会让新手感觉眼花缭乱
 
 [**下载 MetaMask**](https://metamask.io/download.html) **（自动检测您的设备）**
@@ -138,19 +138,19 @@ Token Pocket 是一个原生支持多个网络（加密货币链）的虚拟货�
 3.  安装 Token Pocket 后打开，您将会看到一个询问您是否已有钱包的选项。若您想导入现有的钱包，请选择「我有钱包」。点击「我没有钱包」创建一个新的钱包：
 
     ![](<../.gitbook/assets/mbp3-2021.08.16-103912am-cleanshot\_cleanshot (1) (1).png>)
-4.  在下一个页面，在列表内选择「**币安智能链**」。
+4.  在下一个页面，在列表内选择「**Bitkub链**」。
 
     ![](<../.gitbook/assets/image (153).png>)
 5.  接下来，选择顶部的「**创建钱包**」继续。
 
     ![](../.gitbook/assets/MBP3-2021.08.16-104543AM-CleanShot\_CleanShot.png)
 6. 您需要设置一个保护您账号的密码。为了您的安全，请确保密码强度为「安全」。同时您可以添加一个密码提示，但请确保任何人无法用提示轻易地猜出密码。设置完后，点击「**创建钱包**」继续。
-7. 接着，钱包会提醒您备份助记词。请注意！助记词就是您的「银行卡卡号 + 密码」，任何人掌握了助记词，就可以操作您在区块链上该钱包内的**一切资产**！请务必使用多种方法妥善保管，不要透露给任何人。PancakeSwap 的社区管理员不会向您询问任何私钥或助记词。
+7. 接着，钱包会提醒您备份助记词。请注意！助记词就是您的「银行卡卡号 + 密码」，任何人掌握了助记词，就可以操作您在区块链上该钱包内的**一切资产**！请务必使用多种方法妥善保管，不要透露给任何人。ChangSwap 的社区管理员不会向您询问任何私钥或助记词。
 
 备份好助记词并验证后，创建钱包的操作就完成了。
 
-想要通过 TokenPocket 连接币安智能链并使用 PancakeSwap，您可参考「如何连接钱包」教程中的 TokenPocket 部分：\
-[https://docs.pancakeswap.finance/get-started/connection-guide](https://docs.pancakeswap.finance/get-started/connection-guide).
+想要通过 TokenPocket 连接Bitkub链并使用 ChangSwap，您可参考「如何连接钱包」教程中的 TokenPocket 部分：\
+[https://docs.changswap.finance/get-started/connection-guide](https://docs.changswap.finance/get-started/connection-guide).
 
 ### 导出私钥并在另一台手机或电脑上使用
 
@@ -163,7 +163,7 @@ Token Pocket 允许您使用电脑端或其他设备同时管理一个钱包，�
 1.  在底部点击「**我的**」，并选择「**钱包管理**」。
 
     ![](../.gitbook/assets/MBP3-2021.08.16-105958AM-CleanShot\_CleanShot.png)
-2.  在下一页的左侧点击「**币安智能链**」，并找到您想导出私钥的钱包，点击向右箭头。
+2.  在下一页的左侧点击「**Bitkub链**」，并找到您想导出私钥的钱包，点击向右箭头。
 
     ![](../.gitbook/assets/MBP3-2021.08.16-110225AM-CleanShot\_CleanShot.png)
 3. 当菜单出现时，选择「**导出私钥**」，输入密码即可获得并复制您的钱包私钥。
@@ -178,17 +178,17 @@ Token Pocket 允许您使用电脑端或其他设备同时管理一个钱包，�
 {% tab title="SafePal" %}
 ![](<../.gitbook/assets/image (37).png>)
 
-SafePal 有软件和硬件钱包两种形式。该钱包 App 安装便捷，设置步骤简单，并原生支持币安链 (BEP2) 和币安智能链 (BEP20)。
+SafePal 有软件和硬件钱包两种形式。该钱包 App 安装便捷，设置步骤简单，并原生支持币安链 (KEP2) 和Bitkub链 (KEP20)。
 
 **优点：**
 
 * 在几个加密货币网络之间轻松切换
-* 使用 BNB 支付时有机会获得 25% 手续费折扣（需要登录）
+* 使用 KUB 支付时有机会获得 25% 手续费折扣（需要登录）
 * 内置谷歌认证器
 * 丰富的语言支持
 * 设置步骤简单快捷
 * 同时提用软件和硬件钱包（协同使用）
-* 支持币安智能链和以太坊上的 NFT 收藏品展示及管理
+* 支持Bitkub链和以太坊上的 NFT 收藏品展示及管理
 
 **缺点：**
 

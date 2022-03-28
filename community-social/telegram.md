@@ -2,13 +2,13 @@
 
 **Official Telegram Groups:** 
 
-📣 Announcement Channel \([http://t.me/PancakeSwapAnn](http://t.me/PancakeSwapAnn)\) 
+📣 Announcement Channel \([http://t.me/ChangSwapAnn](http://t.me/ChangSwapAnn)\) 
 
-🏴󐁧󐁢󐁥󐁮󐁧󐁿 English Chat \([http://t.me/pancakeswap](http://t.me/pancakeswap)\) 
+🏴󐁧󐁢󐁥󐁮󐁧󐁿 English Chat \([http://t.me/changswap](http://t.me/changswap)\) 
 
-🇨🇳 Chinese Chat \([http://t.me/PancakeSwap\_CN](http://t.me/PancakeSwap_CN)\) 
+🇨🇳 Chinese Chat \([http://t.me/ChangSwap\_CN](http://t.me/ChangSwap_CN)\) 
 
-🇮🇩 Indonesian Chat \([http://t.me/PancakeSwapIndonesia](http://t.me/PancakeSwapIndonesia)\) 
+🇮🇩 Indonesian Chat \([http://t.me/ChangSwapIndonesia](http://t.me/ChangSwapIndonesia)\) 
 
 😤 Ban Appeal \([https://t.me/joinchat/C\_9mwknNuKq-cfXQ4-HMHA](https://t.me/joinchat/C_9mwknNuKq-cfXQ4-HMHA)\)
 
@@ -16,19 +16,19 @@
 
 **Unofficial Telegram Groups:**
 
- 🇻🇳 Vietnamese Community \([http://t.me/PancakeSwapVI](http://t.me/PancakeSwapVI)\) 
+ 🇻🇳 Vietnamese Community \([http://t.me/ChangSwapVI](http://t.me/ChangSwapVI)\) 
 
-🇵🇭 Filipino Community \([http://t.me/Pancakeswap\_Ph](http://t.me/Pancakeswap_Ph)\) 
+🇵🇭 Filipino Community \([http://t.me/Changswap\_Ph](http://t.me/Changswap_Ph)\) 
 
-🇪🇸 Spanish Community \([http://t.me/PancakeSwapES](http://t.me/PancakeSwapES)\) 
+🇪🇸 Spanish Community \([http://t.me/ChangSwapES](http://t.me/ChangSwapES)\) 
 
-🇷🇺 Russian Community \([http://t.me/pancakeswap\_ru](http://t.me/pancakeswap_ru)\) 
+🇷🇺 Russian Community \([http://t.me/changswap\_ru](http://t.me/changswap_ru)\) 
 
-🇹🇷 Turkish Community \([http://t.me/PancakeSwapTurkish](http://t.me/PancakeSwapTurkish)\)
+🇹🇷 Turkish Community \([http://t.me/ChangSwapTurkish](http://t.me/ChangSwapTurkish)\)
 
- 🇩🇪 Deutsche Community \([http://t.me/pancakeswapgerman](http://t.me/pancakeswapgerman)\)
+ 🇩🇪 Deutsche Community \([http://t.me/changswapgerman](http://t.me/changswapgerman)\)
 
- 🇧🇷 Portuguese Community \([http://t.me/PancakeSwapBR](http://t.me/PancakeSwapBR)\) 
+ 🇧🇷 Portuguese Community \([http://t.me/ChangSwapBR](http://t.me/ChangSwapBR)\) 
 
-🇦🇪 Arabic Community \([http://t.me/PancakeSwapArabic](http://t.me/PancakeSwapArabic)\)
+🇦🇪 Arabic Community \([http://t.me/ChangSwapArabic](http://t.me/ChangSwapArabic)\)
 

@@ -1,8 +1,8 @@
-# How to Trade on the PancakeSwap Exchange
+# How to Trade on the ChangSwap Exchange
 
 ![Image for post](https://miro.medium.com/max/1400/0*C0Ng5_d1hK28qMMh)
 
-1. Go to the exchange page [here](https://exchange.pancakeswap.finance/#/swap).
+1. Go to the exchange page [here](https://exchange.changswap.finance/#/swap).
 
 
 

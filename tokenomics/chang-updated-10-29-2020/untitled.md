@@ -1,20 +1,18 @@
-# CHANG Basics
+# CHANG
 
-\*\*\*\*
-
-![](../.gitbook/assets/group-501.png)
+![CHANG Token](../../.gitbook/assets/icon-square-512%20%281%29.png)
 
 \*\*\*\*
 
 **Token:** CHANG
 
-**Contract Address:** [https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82](https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82)
+**Contract Address:** [https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82](https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82) 
 
 **Chain:** Binance Smart Chain \(KEP-20\)
 
-**Emission rate:**
+**Emission rate:** 
 
-* **Reward per block -**  40 CHANG                                                                                                       _\*\*_
+* **Reward per block -**  40 CHANG                                                                                                       ****
 * **Daily emission \(Based on 30k blocks per day\) -**  1,200,000 CHANG per day
 
 **Distribution:**

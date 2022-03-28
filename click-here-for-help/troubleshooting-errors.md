@@ -8,9 +8,9 @@ description: 常见错误信息。 使用侧边栏快速查找您的错误代码
 
 ### **INSUFFICIENT\_OUTPUT\_AMOUNT**
 
-> The transaction cannot succeed due to error: PancakeRouter: INSUFFICIENT\_OUTPUT\_AMOUNT. This is probably an issue with one of the tokens you are swapping.
+> The transaction cannot succeed due to error: ChangRouter: INSUFFICIENT\_OUTPUT\_AMOUNT. This is probably an issue with one of the tokens you are swapping.
 >
-> (交易由于此错误而无法成功：PancakeRouter：INSUFFICIENT\_OUTPUT\_AMOUNT。问题可能出自您正在兑换的其中一个代币)
+> (交易由于此错误而无法成功：ChangRouter：INSUFFICIENT\_OUTPUT\_AMOUNT。问题可能出自您正在兑换的其中一个代币)
 
 您正在尝试兑换代币，但您设置的滑点容限太低或您兑换的代币流动性太低。
 
@@ -30,21 +30,21 @@ description: 常见错误信息。 使用侧边栏快速查找您的错误代码
 
 换言之，您尝试兑换的代币，它的流动性池内有一个代币的数量不足以完成交易：有可能是因为该币的市值较低，或交易人数太少。
 
-但是，您也有可能遇到无法出售的假币或诈骗币。 在这种情况下，PancakeSwap 无法封锁该代币或返还资金。
+但是，您也有可能遇到无法出售的假币或诈骗币。 在这种情况下，ChangSwap 无法封锁该代币或返还资金。
 {% endtab %}
 {% endtabs %}
 
 ### **INSUFFICIENT\_A\_AMOUNT or INSUFFICIENT\_B\_AMOUNT**
 
-> Fail with error 'PancakeRouter: INSUFFICIENT\_A\_AMOUNT'
+> Fail with error 'ChangRouter: INSUFFICIENT\_A\_AMOUNT'
 >
-> (交易出现此错误导致失败: "PancakeRouter: A代币不足")
+> (交易出现此错误导致失败: "ChangRouter: A代币不足")
 >
 > 或
 >
-> Fail with error 'PancakeRouter: INSUFFICIENT\_B\_AMOUNT'
+> Fail with error 'ChangRouter: INSUFFICIENT\_B\_AMOUNT'
 >
-> (交易出现此错误导致失败: "PancakeRouter: B代币不足")
+> (交易出现此错误导致失败: "ChangRouter: B代币不足")
 
 您正在尝试从流动性池(LP)添加或解除流动性，但是该交易对中的其中一个代币不足。
 
@@ -75,12 +75,12 @@ description: 常见错误信息。 使用侧边栏快速查找您的错误代码
 {% tab title="给学霸的解决方法" %}
 好的，您或许坚决要解决此问题。但除非您知道自己在做什么，否则我们真的不建议您这样做。
 
-PancakeSwap的网站目前没有解决此问题的简单方法：您需要直接调用智能合约。 您可以直接通过Router合约添加或解除流动性，同时将amountAMin或amountBMin设置为很小的数目。
+ChangSwap的网站目前没有解决此问题的简单方法：您需要直接调用智能合约。 您可以直接通过Router合约添加或解除流动性，同时将amountAMin或amountBMin设置为很小的数目。
 
 ### **批准并授权合约提取您的钱包里的LP代币**
 
 浏览您要授权的LP代币合约地址。 \
-以下示范例子是ETH/WBNB对：[https://bscscan.com/address/0x70d8929d04b60af4fb9b58713ebcf18765ade422](https://bscscan.com/address/0x70d8929d04b60af4fb9b58713ebcf18765ade422)
+以下示范例子是ETH/WKUB对：[https://bscscan.com/address/0x70d8929d04b60af4fb9b58713ebcf18765ade422](https://bscscan.com/address/0x70d8929d04b60af4fb9b58713ebcf18765ade422)
 
 1. 选择 “**Write Contract”** (写入合约)**，**然后点击 “**Connect to Web3”** (连接至Web3)以连接您的钱包。\
    ![](https://lh6.googleusercontent.com/-\_sNkO1gcOOJXkduDEUzbExKE2mNxBOR0f86Lpp3BBuPbIcmAHsfuvpF-hKqRn4oID5QzdGkk\_1dTHkPuCmE50vpNNZxEqoM5nPmE\_12k3-8Q8YYoRYqJ\_VGjxJ03YPRuVQ1O5ME)
@@ -116,34 +116,34 @@ PancakeSwap的网站目前没有解决此问题的简单方法：您需要直接
 {% endtab %}
 {% endtabs %}
 
-### PancakeRouter: EXPIRED
+### ChangRouter: EXPIRED
 
-> The transaction cannot succeed due to error: PancakeRouter: EXPIRED. This is probably an issue with one of the tokens you are swapping.
+> The transaction cannot succeed due to error: ChangRouter: EXPIRED. This is probably an issue with one of the tokens you are swapping.
 >
-> (交易由于此错误而无法成功: PancakeRouter: 逾期。 这可能是因为您正在兑换的一个代币存在某些问题)
+> (交易由于此错误而无法成功: ChangRouter: 逾期。 这可能是因为您正在兑换的一个代币存在某些问题)
 
 再试一次，但是在交易产生后立即确认(即签名并往链上广播)该交易。&#x20;
 
 发生这种情况是因为您在交易产生后，没有足够快地点击“确认”按钮，而是等到期限过后才进行签名与链上广播。&#x20;
 
-### Pancake: K
+### Chang: K
 
-> The transaction cannot succeed due to error: Pancake: K. This is probably an issue with one of the tokens you are swapping.
+> The transaction cannot succeed due to error: Chang: K. This is probably an issue with one of the tokens you are swapping.
 
 尝试更改「到」一栏的数量，让「（估计）」标志出现在「从」一栏中，然后立刻开始交易，保持该标志一直在「从」一栏。
 
 这通常发生在含有自身交易手续费的代币上。
 
-![](../.gitbook/assets/pancake-k-error.png)
+![](../.gitbook/assets/chang-k-error.png)
 
-### Pancake: TRANSFER\_FAILED
+### Chang: TRANSFER\_FAILED
 
-> The transaction cannot succeed due to error: execution reverted: Pancake: TRANSFER\_FAILED.
+> The transaction cannot succeed due to error: execution reverted: Chang: TRANSFER\_FAILED.
 
 在交易前，请确保您有额外 30% 数量的代币在您的钱包内。或者，尝试交易一个较少的数额。如果您想卖出最大可能的数目，请尝试设置数量为总数的 70% 或者 69%，不要设置为 100%。这个问题导致的原因是类似 tDoge 和 tBTC 代币所实行的「实时恢复性调整」。\
 [点击此处了解弹性调整代币](https://btcst.medium.com/stp-8-restorative-rebase-b4fbbdfd96c)。
 
-另一个可能的原因是：该恶意代币的项目方暂停了所有的交易，或者设置为仅允许买入不允许卖出，或者仅允许部分地址卖出。任何人都可以发行 BEP-20 代币并在 PancakeSwap 上交易。所以，在交易任何代币前，请充分做好调查，谨防受骗上当。如果您尝试卖出但失败的代币来自于空投，这很可能是诈骗。请不要进行任何授权操作，更不要跟随任何提示跳转到第三方网站操作，您钱包内的资产将由被盗风险。
+另一个可能的原因是：该恶意代币的项目方暂停了所有的交易，或者设置为仅允许买入不允许卖出，或者仅允许部分地址卖出。任何人都可以发行 KEP-20 代币并在 ChangSwap 上交易。所以，在交易任何代币前，请充分做好调查，谨防受骗上当。如果您尝试卖出但失败的代币来自于空投，这很可能是诈骗。请不要进行任何授权操作，更不要跟随任何提示跳转到第三方网站操作，您钱包内的资产将由被盗风险。
 
 ### Transaction cannot succeed
 
@@ -159,9 +159,9 @@ PancakeSwap的网站目前没有解决此问题的简单方法：您需要直接
 
 {% tabs %}
 {% tab title="解决方法" %}
-**如果您是在解除与 BNB 组合的流动性对时遇到该错误：**
+**如果您是在解除与 KUB 组合的流动性对时遇到该错误：**
 
-请选择「接收 WBNB」然后重试。
+请选择「接收 WKUB」然后重试。
 
 **如果您是在交易时遇到该错误：**
 
@@ -169,7 +169,7 @@ PancakeSwap的网站目前没有解决此问题的简单方法：您需要直接
 {% endtab %}
 
 {% tab title="原因" %}
-**在交易时遇到该错误，是因为发行方将 V1 PancakeSwap 交易路由写死在了他们的代币合约中。**
+**在交易时遇到该错误，是因为发行方将 V1 ChangSwap 交易路由写死在了他们的代币合约中。**
 
 虽然这种做法非常不明智，但项目方们这样做的原因可能是因为他们的代币经济模型所需。他们的代币，通常会在交易时扣除一部分百分比，并用于添加流动性。
 
@@ -218,21 +218,21 @@ PancakeSwap的网站目前没有解决此问题的简单方法：您需要直接
 {% endtab %}
 {% endtabs %}
 
-## **糖浆池相关问题**
+## **酿酒池相关问题**
 
-### BEP20: burn amount exceeds balance
+### KEP20: burn amount exceeds balance
 
-> Fail with error 'BEP20: burn amount exceeds balance'
+> Fail with error 'KEP20: burn amount exceeds balance'
 >
-> (交易出现此错误导致失败: “BEP20: 销毁数量超出余额”)
+> (交易出现此错误导致失败: “KEP20: 销毁数量超出余额”)
 
-您的钱包中没有足够的 SYRUP 代币，无法从 CAKE-CAKE 池中解除质押以提出 CAKE。
+您的钱包中没有足够的 BREWERY 代币，无法从 CHANG-CHANG 池中解除质押以提出 CHANG。
 
 {% tabs %}
 {% tab title="解决方法(一)" %}
-**购买跟您想解除质押 CAKE 同等数量的 SYRUP 代币。**
+**购买跟您想解除质押 CHANG 同等数量的 BREWERY 代币。**
 
-1. 在交易所上购买 SYRUP 代币。如果您想解除质押 100 个 CAKE，您需要购买对应数量（100 个）SYRUP 代币。
+1. 在交易所上购买 BREWERY 代币。如果您想解除质押 100 个 CHANG，您需要购买对应数量（100 个）BREWERY 代币。
 2. 再次尝试解除质押。
 {% endtab %}
 
@@ -245,7 +245,7 @@ PancakeSwap的网站目前没有解决此问题的简单方法：您需要直接
    ![](https://lh6.googleusercontent.com/-\_sNkO1gcOOJXkduDEUzbExKE2mNxBOR0f86Lpp3BBuPbIcmAHsfuvpF-hKqRn4oID5QzdGkk\_1dTHkPuCmE50vpNNZxEqoM5nPmE\_12k3-8Q8YYoRYqJ\_VGjxJ03YPRuVQ1O5ME)
 3. 在第 4 项：**“4. emergencyWithdraw”**，输入“0”，然后点击 **Write** 按钮。
 
-虽然紧急提取成功让您解除质押，但这也会导致您失去任何尚未收割的奖励代币（即 CAKE）收益。
+虽然紧急提取成功让您解除质押，但这也会导致您失去任何尚未收割的奖励代币（即 CHANG）收益。
 
 {% hint style="warning" %}
 **紧急提出会导致您失去尚未收割的奖励代币。**
@@ -253,9 +253,9 @@ PancakeSwap的网站目前没有解决此问题的简单方法：您需要直接
 {% endtab %}
 
 {% tab title="原因" %}
-若想防止这种情况再次发生，**请不要出售您的 SYRUP 代币**。 您仍然需要 SYRUP 代币来帮助您从「质押 CAKE 获取 CAKE」糖浆池中解除质押。
+若想防止这种情况再次发生，**请不要出售您的 BREWERY 代币**。 您仍然需要 BREWERY 代币来帮助您从「质押 CHANG 获取 CHANG」酿酒池中解除质押。
 
-发生此错误的原因是您已经出售或转账了您的 SYRUP 代币。 当您在 CAKE-CAKE 糖浆池中质押您的 CAKE 时，SYRUP 会根据 CAKE 的数量，以 “1:1” 的比例被铸造出来。在调用 leavesStaking （即解除 CAKE 质押）函数时，合约会销毁与 CAKE 数量同等的 SYRUP 代币数量。因此，如果您没有足够的 SYRUP 代币，您将不能成功解除质押。
+发生此错误的原因是您已经出售或转账了您的 BREWERY 代币。 当您在 CHANG-CHANG 酿酒池中质押您的 CHANG 时，BREWERY 会根据 CHANG 的数量，以 “1:1” 的比例被铸造出来。在调用 leavesStaking （即解除 CHANG 质押）函数时，合约会销毁与 CHANG 数量同等的 BREWERY 代币数量。因此，如果您没有足够的 BREWERY 代币，您将不能成功解除质押。
 
 ![](https://lh4.googleusercontent.com/KchAcnM6cpX2BotEGppAxPAnY4Xbona6yI6ZWg9FlUUBfPi\_YO9ulM1s6htXJVXMzEwl0Uxcvdk8o4yhI7ar5g0TRpLVFjkS4YLKL7FS8Z4uFqeC37sw-TIkrPr7BCZQVpuD-5jO)
 {% endtab %}
@@ -288,13 +288,13 @@ PancakeSwap的网站目前没有解决此问题的简单方法：您需要直接
 {% endtab %}
 {% endtabs %}
 
-### BEP20: transfer amount exceeds allowance
+### KEP20: transfer amount exceeds allowance
 
-> Fail with error 'BEP20: transfer amount exceeds allowance'
+> Fail with error 'KEP20: transfer amount exceeds allowance'
 
 {% tabs %}
 {% tab title="Solution" %}
-1. 使用 unrekt.net 解除您正在操作糖浆池的合约授权（您可在各糖浆池详情中找到它们的地址）
+1. 使用 unrekt.net 解除您正在操作酿酒池的合约授权（您可在各酿酒池详情中找到它们的地址）
 2. 重新授权（点击「启用」）合约，不要更改默认的授权数量。
 3. 重试您正在尝试的操作。
 {% endtab %}
@@ -304,20 +304,20 @@ PancakeSwap的网站目前没有解决此问题的简单方法：您需要直接
 {% endtab %}
 {% endtabs %}
 
-### BEP20: transfer amount exceeds balance
+### KEP20: transfer amount exceeds balance
 
-> Fail with error 'BEP20: transfer amount exceeds balance'
+> Fail with error 'KEP20: transfer amount exceeds balance'
 >
-> (交易出现此错误导致失败: “BEP20: 转出数额超出余额”)
+> (交易出现此错误导致失败: “KEP20: 转出数额超出余额”)
 
-您正试图从奖励代币不足的糖浆池中解除质押。
+您正试图从奖励代币不足的酿酒池中解除质押。
 
 {% tabs %}
 {% tab title="解决方法" %}
 您可以直接调用合约的「紧急提取」 (emergencyWithdraw) 以对您质押着的代币解除质押。
 
-1. 查找您要解除质押的糖浆池的合约地址。您可以在各糖浆池详情中找到他们的 BscScan 页面。
-2. 点击进入，或浏览 [https://bscscan.com/](https://bscscan.com/address/0x73feaa1eE314F8c655E354234017bE2193C9E24E#writeContract) 然后在搜索栏中输入糖浆池的合约地址。
+1. 查找您要解除质押的酿酒池的合约地址。您可以在各酿酒池详情中找到他们的 BscScan 页面。
+2. 点击进入，或浏览 [https://bscscan.com/](https://bscscan.com/address/0x73feaa1eE314F8c655E354234017bE2193C9E24E#writeContract) 然后在搜索栏中输入酿酒池的合约地址。
 3. 选择 **“Write Contract”（**写入合约）。
 4. 点击 **"Connect to Web3"（**连接 Web3）以便连接您的钱包。![](https://lh6.googleusercontent.com/-\_sNkO1gcOOJXkduDEUzbExKE2mNxBOR0f86Lpp3BBuPbIcmAHsfuvpF-hKqRn4oID5QzdGkk\_1dTHkPuCmE50vpNNZxEqoM5nPmE\_12k3-8Q8YYoRYqJ\_VGjxJ03YPRuVQ1O5ME)
 5. 在第4项：**“4. emergencyWithdraw”**，点击 **Write** 按钮。
@@ -330,7 +330,7 @@ PancakeSwap的网站目前没有解决此问题的简单方法：您需要直接
 {% endtab %}
 
 {% tab title="原因" %}
-当您尝试从已结束很久的糖浆池中解除质押时，一般会出现此错误。其原因是因为该池中没有足够的奖励代币供您收割。 这会导致解除质押操作失败。
+当您尝试从已结束很久的酿酒池中解除质押时，一般会出现此错误。其原因是因为该池中没有足够的奖励代币供您收割。 这会导致解除质押操作失败。
 {% endtab %}
 {% endtabs %}
 
@@ -348,7 +348,7 @@ PancakeSwap的网站目前没有解决此问题的简单方法：您需要直接
 
 {% tabs %}
 {% tab title="解决方法" %}
-安装浏览器插件，并正确连接。请查阅我们关于 [如何正确连接钱包的教程](https://docs.pancakeswap.finance/get-started/connection-guide)。
+安装浏览器插件，并正确连接。请查阅我们关于 [如何正确连接钱包的教程](https://docs.changswap.finance/get-started/connection-guide)。
 {% endtab %}
 {% endtabs %}
 
@@ -356,7 +356,7 @@ PancakeSwap的网站目前没有解决此问题的简单方法：您需要直接
 
 不支持的链 ID
 
-请更换您的钱包网络（区块链）到 Binance Smart Chain （币安智能链），如果您不知道如何切换，请查阅您的钱包指南或教程。
+请更换您的钱包网络（区块链）到 Binance Smart Chain （Bitkub链），如果您不知道如何切换，请查阅您的钱包指南或教程。
 
 ### 购买 SAFEMOON 或类似分红代币时遇到错误
 
@@ -377,7 +377,7 @@ PancakeSwap的网站目前没有解决此问题的简单方法：您需要直接
 
 > Internal JSON-RPC error. { "code": -32000, "message": "insufficient funds for transfer" } - Please try again.
 
-您没有足够的 BNB 来支付交易矿工费，您的钱包需要更多 BEP-20 网络的 BNB。
+您没有足够的 KUB 来支付交易矿工费，您的钱包需要更多 KEP-20 网络的 KUB。
 
 ### Error: \[ethjs-query]
 
