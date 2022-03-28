@@ -1,6 +1,6 @@
 # 常见问题解答
 
-![](https://gblobscdn.gitbook.com/assets%2F-MHREX7DHcljbY5IkjgJ%2F-MbAxZIJGgk1QpS48uum%2F-MbAxk6fW4tsBsVDJVMR%2Fdocs%20masthead%20\(17\).png?alt=media\&token=a7b52851-0c4d-4249-901d-da79120f3eac)
+![](https://gblobkcdn.gitbook.com/assets%2F-MHREX7DHcljbY5IkjgJ%2F-MbAxZIJGgk1QpS48uum%2F-MbAxk6fW4tsBsVDJVMR%2Fdocs%20masthead%20\(17\).png?alt=media\&token=a7b52851-0c4d-4249-901d-da79120f3eac)
 
 该页面会解答一些在 ChangSwap  社区中最常见的问题。
 
@@ -16,7 +16,7 @@
   * [慢雾 对 彩票V2 合约的审计](https://github.com/slowmist/Knowledge-Base/blob/master/open-report/Smart%20Contract%20Security%20Audit%20Report%20-%20ChangSwap%20Lottery.pdf)
 * 公开透明：
   * ChangSwap 在开源软件上构造：我们的网站和所有的智能合约都是公开的，以便最大化透明度。
-  * 我们的智能合约均已在 BscScan 上验证源码，您可以去亲自检查：[1](https://bscscan.com/address/0x10ED43C718714eb63d5aA57B78B54704E256024E) [2](https://bscscan.com/address/0x73feaa1ee314f8c655e354234017be2193c9e24e#code) [3](https://bscscan.com/address/0xbcfccbde45ce874adcb698cc183debcf17952812) [4](https://bscscan.com/address/0x1b96b92314c44b159149f7e0303511fb2fc4774f#code) [5](https://bscscan.com/address/0x92E8CeB7eAeD69fB6E4d9dA43F605D2610214E68) 
+  * 我们的智能合约均已在 BkcScan 上验证源码，您可以去亲自检查：[1](https://bkcscan.com/address/0x10ED43C718714eb63d5aA57B78B54704E256024E) [2](https://bkcscan.com/address/0x73feaa1ee314f8c655e354234017be2193c9e24e#code) [3](https://bkcscan.com/address/0xbcfccbde45ce874adcb698cc183debcf17952812) [4](https://bkcscan.com/address/0x1b96b92314c44b159149f7e0303511fb2fc4774f#code) [5](https://bkcscan.com/address/0x92E8CeB7eAeD69fB6E4d9dA43F605D2610214E68) 
 * 安全操作章程：
   * 对于所有智能合约的互动，大厨们均使用多签名钱包。
   * 合约均有时间锁，让您放心投资。
@@ -55,7 +55,7 @@ CHANG.农场流动性挖矿稍加复杂，并且需要 LP（流动性）凭证�
 
 ## 为什么我的交易失败了？
 
-您可以在 [https://bscscan.com/](https://bscscan.com) 查看您的链上交易状态及失败/错误的原因。您需要复制交易 ID (tx id) 并在搜索栏中粘贴查看。
+您可以在 [https://bkcscan.com/](https://bkcscan.com) 查看您的链上交易状态及失败/错误的原因。您需要复制交易 ID (tx id) 并在搜索栏中粘贴查看。
 
 若您看到具体的错误代码，请参考 [错误排除指南](https://docs.changswap.finance/help/troubleshooting)。
 
@@ -87,7 +87,7 @@ ChangSwap 酿酒池上新相当频繁，在上线前我们均会发布公告。
 
 ## 为什么钱包提醒「没有 KUB 余额」？
 
-若您已经 [向您的Bitkub链 (Binance Smart Chain) 钱包转入了 KUB](https://docs.changswap.finance/get-started/kep20-guide) 但仍然显示该错误，您很可能没有 [将您的钱包连接至Bitkub链 (Binance Smart Chain)](https://docs.changswap.finance/get-started/connection-guide) ，请检查您钱包当前所处的区块链网络，并确保已经选择Bitkub链 (Binance Smart Chain, BSC)。
+若您已经 [向您的Bitkub链 (Binance Smart Chain) 钱包转入了 KUB](https://docs.changswap.finance/get-started/kep20-guide) 但仍然显示该错误，您很可能没有 [将您的钱包连接至Bitkub链 (Binance Smart Chain)](https://docs.changswap.finance/get-started/connection-guide) ，请检查您钱包当前所处的区块链网络，并确保已经选择Bitkub链 (Binance Smart Chain, BKC)。
 
 ## 如何投票？
 

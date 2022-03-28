@@ -4,7 +4,7 @@ description: 如何在 MetaMask 上「清理」卡住的交易
 
 # 如何修复 MetaMask 上卡住的交易
 
-![](https://gblobscdn.gitbook.com/assets%2F-MHREX7DHcljbY5IkjgJ%2F-MbGTDNZ6xd3\_Q-qSEP5%2F-MbJqpp1p79V-5V3Lv1m%2Fdocs%20masthead%20\(12\).png?alt=media\&token=760ddc2a-1dd9-46ab-8a2f-a2ca54a29043)
+![](https://gblobkcdn.gitbook.com/assets%2F-MHREX7DHcljbY5IkjgJ%2F-MbGTDNZ6xd3\_Q-qSEP5%2F-MbJqpp1p79V-5V3Lv1m%2Fdocs%20masthead%20\(12\).png?alt=media\&token=760ddc2a-1dd9-46ab-8a2f-a2ca54a29043)
 
 如果您在 MetaMask 上的交易卡在了「等待中」，并且无法通过「取消」按钮清除，请根据该教程清除您的钱包交易记录。
 
@@ -35,10 +35,10 @@ description: 如何在 MetaMask 上「清理」卡住的交易
 ### **3. 覆盖卡住的交易** <a href="#3-overwrite-the-stuck-transaction" id="3-overwrite-the-stuck-transaction"></a>
 
 现在我们要发起一个新的交易去覆盖之前卡住的交易。我们将自定义 Nonce 值，让它与卡住的交易一致。（即您刚刚记录的数值）\
-![](https://gblobscdn.gitbook.com/assets%2F-MHREX7DHcljbY5IkjgJ%2F-M\_Qf9PqrqKwKENMLChq%2F-M\_QfJwbI-p6skTud7\_o%2Fimage.png?alt=media\&token=13db2345-9ad7-46a4-9937-7f26d7187749)
+![](https://gblobkcdn.gitbook.com/assets%2F-MHREX7DHcljbY5IkjgJ%2F-M\_Qf9PqrqKwKENMLChq%2F-M\_QfJwbI-p6skTud7\_o%2Fimage.png?alt=media\&token=13db2345-9ad7-46a4-9937-7f26d7187749)
 
 1. 新建一个新的交易去覆盖之前的交易，它可以是任何交易（您也可以自己转账给自己）。这次，将 **燃料价格** (Gas Price) 增加至 20。这将大幅度增加该笔交易上链的几率和速度。\
-   ![](https://gblobscdn.gitbook.com/assets%2F-MHREX7DHcljbY5IkjgJ%2F-M\_Qf9PqrqKwKENMLChq%2F-M\_Qft-wFWL0NENZfvV\_%2Fimage.png?alt=media\&token=14028feb-3c51-405c-bc3e-3d8e87d1d37d)
+   ![](https://gblobkcdn.gitbook.com/assets%2F-MHREX7DHcljbY5IkjgJ%2F-M\_Qf9PqrqKwKENMLChq%2F-M\_Qft-wFWL0NENZfvV\_%2Fimage.png?alt=media\&token=14028feb-3c51-405c-bc3e-3d8e87d1d37d)
 2. 在确认页面，请确认燃料价格 (Gas Price) 被设置为 20。
 3. 找到 **自定义 NONCE** 一栏，并将它的值改为之前记录的数值。
 4. 点击确认。\

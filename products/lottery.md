@@ -1,10 +1,10 @@
 # 🎟 彩票 v2
 
-![](https://gblobscdn.gitbook.com/assets%2F-MHREX7DHcljbY5IkjgJ%2F-MdUg8ahFKk9Q8jMaBBP%2F-MdUxt8CCVOUITl4uAqK%2Fdocs%20masthead%20\(3\).png?alt=media\&token=386d0ebc-8033-4dd0-8445-2436be2f6a60)
+![](https://gblobkcdn.gitbook.com/assets%2F-MHREX7DHcljbY5IkjgJ%2F-MdUg8ahFKk9Q8jMaBBP%2F-MdUxt8CCVOUITl4uAqK%2Fdocs%20masthead%20\(3\).png?alt=media\&token=386d0ebc-8033-4dd0-8445-2436be2f6a60)
 
 ChangSwap 彩票给予您赢取巨额 CHANG 奖金的机会！它非常简单、非常公平。只要有足够的 CHANG 购彩，您可以随时参与。
 
-​[查看智能合约](https://bscscan.com/address/0x5aF6D33DE2ccEC94efb1bDF8f92Bd58085432d2c)
+​[查看智能合约](https://bkcscan.com/address/0x5aF6D33DE2ccEC94efb1bDF8f92Bd58085432d2c)
 
 ## **特性：**
 

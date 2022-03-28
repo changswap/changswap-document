@@ -5,7 +5,7 @@
 * **代币符号：**CHANG
 *   **合约地址：**
 
-    &#x20;**** [https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82](https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82)&#x20;
+    &#x20;**** [https://bkcscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82](https://bkcscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82)&#x20;
 * **区块链：** Bitkub链 Binance Smart Chain (KEP20)
 
 ## 基本信息

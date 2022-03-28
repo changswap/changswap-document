@@ -1,8 +1,8 @@
 # 创建钱包
 
-![](https://gblobscdn.gitbook.com/assets%2F-MHREX7DHcljbY5IkjgJ%2F-MbGTDNZ6xd3\_Q-qSEP5%2F-MbJqNikjouS9bDl1rUt%2Fdocs%20masthead%20\(9\).png?alt=media\&token=a86affdf-4276-4963-8f05-661aec80064a)
+![](https://gblobkcdn.gitbook.com/assets%2F-MHREX7DHcljbY5IkjgJ%2F-MbGTDNZ6xd3\_Q-qSEP5%2F-MbJqNikjouS9bDl1rUt%2Fdocs%20masthead%20\(9\).png?alt=media\&token=a86affdf-4276-4963-8f05-661aec80064a)
 
-开始使用 ChangSwap 前，您首先需要创建一个支持Bitkub链（BSC）的钱包。钱包在电脑和手机上都可以使用。请选择最适合您的钱包应用。
+开始使用 ChangSwap 前，您首先需要创建一个支持Bitkub链（BKC）的钱包。钱包在电脑和手机上都可以使用。请选择最适合您的钱包应用。
 
 **在设置钱包时，请务必注意**：
 
@@ -41,7 +41,7 @@ This comparison table gives an overview of the most popular mobile wallets used 
 | 内置 DApp 浏览器                           | ➖        | ✅            |
 | 兼容硬件钱包                                | ✅        | ➖            |
 | 开源（可审计性）                              | ✅        | ✅            |
-| <p>可在 BscScan 上使用</p><p>(适用于高级用户)</p> | ✅        | ➖            |
+| <p>可在 BkcScan 上使用</p><p>(适用于高级用户)</p> | ✅        | ➖            |
 
 ⚠️ 需要额外设置
 
@@ -57,7 +57,7 @@ MetaMask 是一个基于浏览器的热门钱包插件，支持 ERC20（以太�
 ​**优点：**
 
 * 开源代码可审计
-* 适用于 BscScan 上的 web3 操作
+* 适用于 BkcScan 上的 web3 操作
 * 优秀的安全性和可靠性记录
 * 网上有大量的资料与操作指南
 * 非常多小工具及自定义设置

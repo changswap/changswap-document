@@ -1,6 +1,6 @@
 # 需要帮助？点我
 
-![](https://gblobscdn.gitbook.com/assets%2F-MHREX7DHcljbY5IkjgJ%2F-Mb9Zry-ZB3tPvT1CIzP%2F-Mb9nWQCJARFEUg4XCvr%2Fdocs%20masthead%20%2810%29.png?alt=media&token=3f948fee-7dc6-4a3b-9d8b-4357ef4d83c3)
+![](https://gblobkcdn.gitbook.com/assets%2F-MHREX7DHcljbY5IkjgJ%2F-Mb9Zry-ZB3tPvT1CIzP%2F-Mb9nWQCJARFEUg4XCvr%2Fdocs%20masthead%20%2810%29.png?alt=media&token=3f948fee-7dc6-4a3b-9d8b-4357ef4d83c3)
 
 如果您觉得无从下手，如果某个功能没有正确运作，或者您不确定某个操作是否成功，希望这个帮助板块可能能够帮到您。
 

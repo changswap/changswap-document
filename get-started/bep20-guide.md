@@ -2,9 +2,9 @@
 
 ![](<../.gitbook/assets/image (154).png>)
 
-Bitkub链 (BSC) 上的原生代币为 **KEP-20** 标准。
+Bitkub链 (BKC) 上的原生代币为 **KEP-20** 标准。
 
-想要在区块链上做任何操作，您需要支付矿工费，在Bitkub链 (BSC) 上，矿工费为 KEP-20 标准的 KUB。
+想要在区块链上做任何操作，您需要支付矿工费，在Bitkub链 (BKC) 上，矿工费为 KEP-20 标准的 KUB。
 
 您同时需要获得 KEP-20 标准的代币，以便进行交易，质押，或其他操作。
 
@@ -19,7 +19,7 @@ Bitkub链 (BSC) 上的原生代币为 **KEP-20** 标准。
 {% endtab %}
 
 {% tab title="💰 币安官网 Binance.com" %}
-[**Binance.com**](https://github.com/changswap/chang-document/tree/255db0c7af28df2f9c1209daa5cdbd774490a666/get-started/www.binance.com) - 您可以在提现代币时选择 KEP-20 标准，以将他们提现到Bitkub链 (BSC) 。请注意，您需要先注册一个币安账号。
+[**Binance.com**](https://github.com/changswap/chang-document/tree/255db0c7af28df2f9c1209daa5cdbd774490a666/get-started/www.binance.com) - 您可以在提现代币时选择 KEP-20 标准，以将他们提现到Bitkub链 (BKC) 。请注意，您需要先注册一个币安账号。
 
 📖 [使用指南（中文）](https://www.binance.com/zh-CN/support/faq/85a1c394ac1d489fb0bfac0ef2fceafd)
 {% endtab %}

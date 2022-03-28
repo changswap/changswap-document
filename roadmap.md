@@ -4,7 +4,7 @@ description: 「别把它称作路线图」
 
 # 路线图
 
-![](https://gblobscdn.gitbook.com/assets%2F-MHREX7DHcljbY5IkjgJ%2F-MbKS2mFRDg91ZWCu1Fz%2F-MbKZINH3Atuv5bv2dPZ%2Fdocs%20masthead%20\(19\).png?alt=media\&token=a39e0778-1eab-43da-b421-195e3c54d70e)
+![](https://gblobkcdn.gitbook.com/assets%2F-MHREX7DHcljbY5IkjgJ%2F-MbKS2mFRDg91ZWCu1Fz%2F-MbKZINH3Atuv5bv2dPZ%2Fdocs%20masthead%20\(19\).png?alt=media\&token=a39e0778-1eab-43da-b421-195e3c54d70e)
 
 好吧，与其说它是路线图，不如说是一个待办清单，因为内容没有特定的顺序，也没有特定的时间表。这就是我们的工作方式：以最快的速度，做我们能做的事情。随机应变是一种生活方式。
 

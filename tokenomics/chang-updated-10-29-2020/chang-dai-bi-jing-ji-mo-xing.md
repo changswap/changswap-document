@@ -34,7 +34,7 @@
 ## **其他通缩机制** <a href="#other-deflationary-mechanics" id="other-deflationary-mechanics"></a>
 
 {% hint style="info" %}
-销毁过程是手动进行的。[查看销毁的链上交易记录](https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82?a=0x000000000000000000000000000000000000dead)
+销毁过程是手动进行的。[查看销毁的链上交易记录](https://bkcscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82?a=0x000000000000000000000000000000000000dead)
 {% endhint %}
 
 除了以上提及的，CHANG 亦拥有以下的销毁手段：
@@ -73,7 +73,7 @@
 
 若想亲自校验首页上显示的 CHANG 总量是否正确，只需要：
 
-1. 前往 BscScan 上 CHANG 的代币页面，查看 [有多少 CHANG 在销毁 (Burn) 地址中](https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82#balances)。这个数量表示有多少 CHANG 被销毁（从流通总量中移除，无法取回）
+1. 前往 BkcScan 上 CHANG 的代币页面，查看 [有多少 CHANG 在销毁 (Burn) 地址中](https://bkcscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82#balances)。这个数量表示有多少 CHANG 被销毁（从流通总量中移除，无法取回）
 2. 然后，查看总量 (Total Supply) 并减去该数量。
 3. 最后的数字即为 CHANG 流通总量。
 

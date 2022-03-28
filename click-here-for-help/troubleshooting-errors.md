@@ -80,7 +80,7 @@ ChangSwap的网站目前没有解决此问题的简单方法：您需要直接�
 ### **批准并授权合约提取您的钱包里的LP代币**
 
 浏览您要授权的LP代币合约地址。 \
-以下示范例子是ETH/WKUB对：[https://bscscan.com/address/0x70d8929d04b60af4fb9b58713ebcf18765ade422](https://bscscan.com/address/0x70d8929d04b60af4fb9b58713ebcf18765ade422)
+以下示范例子是ETH/WKUB对：[https://bkcscan.com/address/0x70d8929d04b60af4fb9b58713ebcf18765ade422](https://bkcscan.com/address/0x70d8929d04b60af4fb9b58713ebcf18765ade422)
 
 1. 选择 “**Write Contract”** (写入合约)**，**然后点击 “**Connect to Web3”** (连接至Web3)以连接您的钱包。\
    ![](https://lh6.googleusercontent.com/-\_sNkO1gcOOJXkduDEUzbExKE2mNxBOR0f86Lpp3BBuPbIcmAHsfuvpF-hKqRn4oID5QzdGkk\_1dTHkPuCmE50vpNNZxEqoM5nPmE\_12k3-8Q8YYoRYqJ\_VGjxJ03YPRuVQ1O5ME)
@@ -98,7 +98,7 @@ ChangSwap的网站目前没有解决此问题的简单方法：您需要直接�
 
 ### 添加或解除流动性
 
-浏览以下Router合约网址: [https://bscscan.com/address/0x05ff2b0db69458a0750badebc4f9e13add608c7f#writeContract](https://bscscan.com/address/0x05ff2b0db69458a0750badebc4f9e13add608c7f#writeContract)
+浏览以下Router合约网址: [https://bkcscan.com/address/0x05ff2b0db69458a0750badebc4f9e13add608c7f#writeContract](https://bkcscan.com/address/0x05ff2b0db69458a0750badebc4f9e13add608c7f#writeContract)
 
 1. 跟之前一样，选择 **“Write Contract”** 然后点击 **“Connect to Web3”**。
 2. 寻找 **addLiquidity** 或 **removeLiquidity** (根据当下你想做的操作)
@@ -177,8 +177,8 @@ ChangSwap的网站目前没有解决此问题的简单方法：您需要直接�
 
 我们强烈建议任何投放该类代币的项目方做好宣传，以防用户在 V2 上添加流动性。
 
-最新的[最新的交易路由地址：](https://bscscan.com/address/0x10ED43C718714eb63d5aA57B78B54704E256024E)\
-[https://bscscan.com/address/0x10ED43C718714eb63d5aA57B78B54704E256024E](https://bscscan.com/address/0x10ED43C718714eb63d5aA57B78B54704E256024E)
+最新的[最新的交易路由地址：](https://bkcscan.com/address/0x10ED43C718714eb63d5aA57B78B54704E256024E)\
+[https://bkcscan.com/address/0x10ED43C718714eb63d5aA57B78B54704E256024E](https://bkcscan.com/address/0x10ED43C718714eb63d5aA57B78B54704E256024E)
 {% endtab %}
 {% endtabs %}
 
@@ -240,7 +240,7 @@ ChangSwap的网站目前没有解决此问题的简单方法：您需要直接�
 如果还是失败，您可以直接调用合约的「紧急提取」(emergencyWithdraw) 以紧急解除质押您正在质押的代币。
 
 1. 浏览以下网址：\
-   [https://bscscan.com/address/0x73feaa1eE314F8c655E354234017bE2193C9E24E#writeContract ](https://bscscan.com/address/0x73feaa1eE314F8c655E354234017bE2193C9E24E#writeContract)
+   [https://bkcscan.com/address/0x73feaa1eE314F8c655E354234017bE2193C9E24E#writeContract ](https://bkcscan.com/address/0x73feaa1eE314F8c655E354234017bE2193C9E24E#writeContract)
 2. 点击 **“Connect to Web3”** （连接至 Web3）以连接您的钱包。\
    ![](https://lh6.googleusercontent.com/-\_sNkO1gcOOJXkduDEUzbExKE2mNxBOR0f86Lpp3BBuPbIcmAHsfuvpF-hKqRn4oID5QzdGkk\_1dTHkPuCmE50vpNNZxEqoM5nPmE\_12k3-8Q8YYoRYqJ\_VGjxJ03YPRuVQ1O5ME)
 3. 在第 4 项：**“4. emergencyWithdraw”**，输入“0”，然后点击 **Write** 按钮。
@@ -316,8 +316,8 @@ ChangSwap的网站目前没有解决此问题的简单方法：您需要直接�
 {% tab title="解决方法" %}
 您可以直接调用合约的「紧急提取」 (emergencyWithdraw) 以对您质押着的代币解除质押。
 
-1. 查找您要解除质押的酿酒池的合约地址。您可以在各酿酒池详情中找到他们的 BscScan 页面。
-2. 点击进入，或浏览 [https://bscscan.com/](https://bscscan.com/address/0x73feaa1eE314F8c655E354234017bE2193C9E24E#writeContract) 然后在搜索栏中输入酿酒池的合约地址。
+1. 查找您要解除质押的酿酒池的合约地址。您可以在各酿酒池详情中找到他们的 BkcScan 页面。
+2. 点击进入，或浏览 [https://bkcscan.com/](https://bkcscan.com/address/0x73feaa1eE314F8c655E354234017bE2193C9E24E#writeContract) 然后在搜索栏中输入酿酒池的合约地址。
 3. 选择 **“Write Contract”（**写入合约）。
 4. 点击 **"Connect to Web3"（**连接 Web3）以便连接您的钱包。![](https://lh6.googleusercontent.com/-\_sNkO1gcOOJXkduDEUzbExKE2mNxBOR0f86Lpp3BBuPbIcmAHsfuvpF-hKqRn4oID5QzdGkk\_1dTHkPuCmE50vpNNZxEqoM5nPmE\_12k3-8Q8YYoRYqJ\_VGjxJ03YPRuVQ1O5ME)
 5. 在第4项：**“4. emergencyWithdraw”**，点击 **Write** 按钮。

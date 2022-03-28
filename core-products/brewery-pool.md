@@ -4,7 +4,7 @@
 
 1. You STAKE your CHANG to get BREWERY
 2. Now you are earning a portion of 25% of each block reward
-3. Now you stake that BREWERY and start earning tokens from brand new BSC projects
+3. Now you stake that BREWERY and start earning tokens from brand new BKC projects
 
 This is galaxy mega brain CHANG compounding.
 
@@ -27,7 +27,7 @@ Note that any project will be able to distribute tokens via Brewery Pool but onl
 
 **Why would projects want to participate?**
 
-Since ChangSwap has had the [fairest launch ever](https://medium.com/@changswap/the-fairest-launch-ever-5b246644ba2a), BREWERY Pool projects will allow projects to receive market attention by issuing tokens to the largest \(and most active\) BSC community.
+Since ChangSwap has had the [fairest launch ever](https://medium.com/@changswap/the-fairest-launch-ever-5b246644ba2a), BREWERY Pool projects will allow projects to receive market attention by issuing tokens to the largest \(and most active\) BKC community.
 
 Projects will also receive an immediate default listing on the ChangSwap interface, obtaining priority promotion on the exchange \(by ranking temporarily first in selecting tokens on the website\).
 

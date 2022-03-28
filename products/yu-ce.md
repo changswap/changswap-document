@@ -1,6 +1,6 @@
 # 🔮 预测
 
-![](https://gblobscdn.gitbook.com/assets%2F-MHREX7DHcljbY5IkjgJ%2Fsync%2F3ab3800a435b1c3c4f239e95cebbc5547ba8a900.png?alt=media)
+![](https://gblobkcdn.gitbook.com/assets%2F-MHREX7DHcljbY5IkjgJ%2Fsync%2F3ab3800a435b1c3c4f239e95cebbc5547ba8a900.png?alt=media)
 
 ChangSwap 「预测」是一个简单有趣的去中心化预测市场。
 
@@ -14,9 +14,9 @@ ChangSwap 「预测」是一个简单有趣的去中心化预测市场。
 
 玩得开心！
 
-~~​~~[~~查看 V1 智能合约~~](https://bscscan.com/address/0x516ffd7D1e0Ca40b1879935B2De87cb20Fc1124b) ~~(已弃用)~~
+~~​~~[~~查看 V1 智能合约~~](https://bkcscan.com/address/0x516ffd7D1e0Ca40b1879935B2De87cb20Fc1124b) ~~(已弃用)~~
 
-​[**查看 V2 智能合约**](https://bscscan.com/address/0x18b2a687610328590bc8f2e5fedde3b582a49cda)
+​[**查看 V2 智能合约**](https://bkcscan.com/address/0x18b2a687610328590bc8f2e5fedde3b582a49cda)
 
 ## ChangSwap「预测」指南
 

@@ -1,6 +1,6 @@
 # 社交媒体与社区
 
-![](https://gblobscdn.gitbook.com/assets%2F-MHREX7DHcljbY5IkjgJ%2F-MbFSP32KpyXLujbE6FD%2F-MbFS\_7dZYjmW5bxttCI%2Fdocs%20masthead%20\(22\).png?alt=media\&token=388670fb-9f6d-4a19-b434-ffd618be1c03)
+![](https://gblobkcdn.gitbook.com/assets%2F-MHREX7DHcljbY5IkjgJ%2F-MbFSP32KpyXLujbE6FD%2F-MbFS\_7dZYjmW5bxttCI%2Fdocs%20masthead%20\(22\).png?alt=media\&token=388670fb-9f6d-4a19-b434-ffd618be1c03)
 
 在这里您可以找到 ChangSwap 的官方社交媒体渠道和社区列表。如果英语不是您的第一语言，我们也有许多非英语社区，期待您的加入！
 

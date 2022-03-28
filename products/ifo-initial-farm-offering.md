@@ -1,6 +1,6 @@
 # 🛍 IFO \(初次农场发行\)
 
-![](https://gblobscdn.gitbook.com/assets%2F-MHREX7DHcljbY5IkjgJ%2F-Mb9x441YfL2wBkVRPTE%2F-Mb9xWj28M1Jkide1spw%2Fdocs%20masthead%20%286%29.png?alt=media&token=dde633b3-a156-45e6-b763-63533fc4a355)
+![](https://gblobkcdn.gitbook.com/assets%2F-MHREX7DHcljbY5IkjgJ%2F-Mb9x441YfL2wBkVRPTE%2F-Mb9xWj28M1Jkide1spw%2Fdocs%20masthead%20%286%29.png?alt=media&token=dde633b3-a156-45e6-b763-63533fc4a355)
 
 使用 CHANG-KUB LP 代币（流动性凭证）购买新的代币。
 
@@ -39,7 +39,7 @@
 
 简单来说：您投入得更多，您将获得更多。在完售后，您可以领取任何没有成功使用并支付的 LP 代币。
 
-In the “Overflow” method, users can subscribe as much or as little as they want to the IFO, and their final allocation will be based on the amount of funds they put in as a percentage of all funds put in by other users at the time the sale ends. Users will receive back any leftover funds when they claim their tokens after the sale.
+In the “Overflow” method, users can subkcribe as much or as little as they want to the IFO, and their final allocation will be based on the amount of funds they put in as a percentage of all funds put in by other users at the time the sale ends. Users will receive back any leftover funds when they claim their tokens after the sale.
 
 在「超售溢出」方法中，用户可以根据自己实际情况投入任何数量的 LP 代币参与 IFO。最终获得的代币数量，将取决于他们投入资金量，占整个 IFO 投入资金量中的份额。用户在销售结束后，认领购得的代币时，将同时领回任何剩余的资金（LP 代币）。
 
@@ -55,7 +55,7 @@ In the “Overflow” method, users can subscribe as much or as little as they w
 
 ## 如何为我的项目开设 IFO？
 
-与 ChangSwap，Bitkub链上最受欢迎的自动做市及流动性提供平台，一起为您的项目打新。为您的项目直接接入全 BSC 最活跃、发展最快的用户群体。
+与 ChangSwap，Bitkub链上最受欢迎的自动做市及流动性提供平台，一起为您的项目打新。为您的项目直接接入全 BKC 最活跃、发展最快的用户群体。
 
 \*\*\*\*[申请 IFO](https://docs.google.com/forms/d/e/1FAIpQLScGdT5rrVMr4WOWr08pvcroSeuIOtEJf1sVdQGVdcAOqryigQ/viewform)
 

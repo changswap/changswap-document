@@ -1,6 +1,6 @@
 # 商业合作
 
-![](https://gblobscdn.gitbook.com/assets%2F-MHREX7DHcljbY5IkjgJ%2F-MbFSP32KpyXLujbE6FD%2F-MbFSUHosQioE_h8OgDb%2Fdocs%20masthead%20\(21\).png?alt=media\&token=34a44e20-171f-43d7-9c62-a85c2130a741)
+![](https://gblobkcdn.gitbook.com/assets%2F-MHREX7DHcljbY5IkjgJ%2F-MbFSP32KpyXLujbE6FD%2F-MbFSUHosQioE_h8OgDb%2Fdocs%20masthead%20\(21\).png?alt=media\&token=34a44e20-171f-43d7-9c62-a85c2130a741)
 
 ## 农场与酿酒池 
 

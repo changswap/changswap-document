@@ -38,5 +38,5 @@
 
 ![Image for post](https://miro.medium.com/max/1400/0*wHVyuL-WED_T3wiZ)
 
-7. Done! You can click “View on bscscan” to see your transaction details.
+7. Done! You can click “View on bkcscan” to see your transaction details.
 

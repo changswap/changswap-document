@@ -2,7 +2,7 @@
 
 
 
-![](https://gblobscdn.gitbook.com/assets%2F-MHREX7DHcljbY5IkjgJ%2F-MbAJ7hjqYMgdRh4iL8N%2F-MbAJEQBo-wvFjR3ufEo%2Fdocs%20masthead%20%281%29.png?alt=media&token=649c51f4-a67f-4782-a562-c372b4149918)
+![](https://gblobkcdn.gitbook.com/assets%2F-MHREX7DHcljbY5IkjgJ%2F-MbAJ7hjqYMgdRh4iL8N%2F-MbAJEQBo-wvFjR3ufEo%2Fdocs%20masthead%20%281%29.png?alt=media&token=649c51f4-a67f-4782-a562-c372b4149918)
 
 「投票」赋予 ChangSwap 社区发言权，让社区得以为 ChangSwap 的未来发展出谋划策。
 

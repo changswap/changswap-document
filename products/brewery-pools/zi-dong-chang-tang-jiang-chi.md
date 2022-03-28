@@ -4,7 +4,7 @@
 
 现在有两个美味的 CHANG-CHANG 酿酒池供您选择：自动复投，手动复投。继续阅读了解更多！
 
-![自动 CHANG 与手动 CHANG 酿酒池](https://gblobscdn.gitbook.com/assets%2F-MHREX7DHcljbY5IkjgJ%2F-MZW0sdwEdpAMmFILaFG%2F-MZW2B34cavs6S7ETBKf%2Fauto%20and%20manual%20pools.png?alt=media\&token=c3ed2d1d-f9e5-461a-bd3d-02b453080bf5)
+![自动 CHANG 与手动 CHANG 酿酒池](https://gblobkcdn.gitbook.com/assets%2F-MHREX7DHcljbY5IkjgJ%2F-MZW0sdwEdpAMmFILaFG%2F-MZW2B34cavs6S7ETBKf%2Fauto%20and%20manual%20pools.png?alt=media\&token=c3ed2d1d-f9e5-461a-bd3d-02b453080bf5)
 
 ### 自动 CHANG 与手动 CHANG 酿酒池有什么不同？ <a href="docs-internal-guid-c4c16237-7fff-3c33-3a56-18ccd8853f86" id="docs-internal-guid-c4c16237-7fff-3c33-3a56-18ccd8853f86"></a>
 

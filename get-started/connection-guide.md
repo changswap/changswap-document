@@ -1,6 +1,6 @@
 # 连接钱包
 
-![](https://gblobscdn.gitbook.com/assets%2F-MHREX7DHcljbY5IkjgJ%2F-MbGTDNZ6xd3\_Q-qSEP5%2F-MbJq3Dbj4RfmZnUl8jY%2Fdocs%20masthead%20\(11\).png?alt=media\&token=6f27f693-700e-48a5-bf90-6fe6bb1e5b7a)
+![](https://gblobkcdn.gitbook.com/assets%2F-MHREX7DHcljbY5IkjgJ%2F-MbGTDNZ6xd3\_Q-qSEP5%2F-MbJq3Dbj4RfmZnUl8jY%2Fdocs%20masthead%20\(11\).png?alt=media\&token=6f27f693-700e-48a5-bf90-6fe6bb1e5b7a)
 
 现在，您已经拥有钱包和 KEP-20 代币。现在，只需要将钱包连接至 ChangSwap ，即可开始使用！
 
@@ -10,7 +10,7 @@
 
 {% tabs %}
 {% tab title="MetaMask" %}
-![](https://gblobscdn.gitbook.com/assets%2F-MHREX7DHcljbY5IkjgJ%2F-MaWbwvtRDRxirgNEPwC%2F-MaXDK47yFhEeM1ypg2f%2Fimage.png?alt=media\&token=0fd62a2b-6dec-4bac-ba84-ed3eaca63d08)
+![](https://gblobkcdn.gitbook.com/assets%2F-MHREX7DHcljbY5IkjgJ%2F-MaWbwvtRDRxirgNEPwC%2F-MaXDK47yFhEeM1ypg2f%2Fimage.png?alt=media\&token=0fd62a2b-6dec-4bac-ba84-ed3eaca63d08)
 
 请先跟随以下视频 + 文字教程添加Bitkub链 (BKC) 至 MetaMask：
 
@@ -25,7 +25,7 @@
 {% endtab %}
 
 {% tab title="Token Pocket" %}
-![](https://gblobscdn.gitbook.com/assets%2F-MHREX7DHcljbY5IkjgJ%2Fsync%2Fb9951be50d03d9ac5a49667dfa033fb55635011f.png?alt=media)
+![](https://gblobkcdn.gitbook.com/assets%2F-MHREX7DHcljbY5IkjgJ%2Fsync%2Fb9951be50d03d9ac5a49667dfa033fb55635011f.png?alt=media)
 
 请按照下方教程连接钱包，注意，苹果 iOS 若要使用 DApp ，需下载 TestFlight 的 Token Pocket Pro ！
 
@@ -46,11 +46,11 @@
 
 {% tabs %}
 {% tab title="MetaMask" %}
-![](https://gblobscdn.gitbook.com/assets%2F-MHREX7DHcljbY5IkjgJ%2Fsync%2F1be522018fd3464faa261684c1fecb910630f2a0.png?alt=media)
+![](https://gblobkcdn.gitbook.com/assets%2F-MHREX7DHcljbY5IkjgJ%2Fsync%2F1be522018fd3464faa261684c1fecb910630f2a0.png?alt=media)
 
-请先跟随以下视频 + 文字教程添加Bitkub链 (BSC) 至 MetaMask：
+请先跟随以下视频 + 文字教程添加Bitkub链 (BKC) 至 MetaMask：
 
-🎥 [如何添加Bitkub链 (BSC)](https://t.me/ChangSwap\_CN/143416)\
+🎥 [如何添加Bitkub链 (BKC)](https://t.me/ChangSwap\_CN/143416)\
 若您有任何疑问，欢迎加入上面消息所在的 ChangSwap 官方中文电报群组，寻求帮助！
 
 1. 成功添加网络后，您即可访问 [ChangSwap 主页](https://changswap.finance)，点击右上角「连接钱包 / Connect Wallet」图标，并选择 MetaMask 。
@@ -60,7 +60,7 @@
 {% endtab %}
 
 {% tab title="币安钱包" %}
-![](https://gblobscdn.gitbook.com/assets%2F-MHREX7DHcljbY5IkjgJ%2F-Maajz3RNBhCbi\_iel09%2F-MaarA5-6dcy2iDE5Iwx%2Fimage.png?alt=media\&token=15746c07-8908-49db-85ff-b17dcf3ad39c)
+![](https://gblobkcdn.gitbook.com/assets%2F-MHREX7DHcljbY5IkjgJ%2F-Maajz3RNBhCbi\_iel09%2F-MaarA5-6dcy2iDE5Iwx%2Fimage.png?alt=media\&token=15746c07-8908-49db-85ff-b17dcf3ad39c)
 
 1. 请按照提示正确创建钱包并妥善备份好您的助记词。或使用现有助记词导入恢复钱包。
 2.  在顶部的网络选项中，选择「Bitkub链」
@@ -77,10 +77,10 @@
 {% endtab %}
 
 {% tab title="Token Pocket" %}
-![](https://gblobscdn.gitbook.com/assets%2F-MHREX7DHcljbY5IkjgJ%2Fsync%2Fb9951be50d03d9ac5a49667dfa033fb55635011f.png?alt=media)
+![](https://gblobkcdn.gitbook.com/assets%2F-MHREX7DHcljbY5IkjgJ%2Fsync%2Fb9951be50d03d9ac5a49667dfa033fb55635011f.png?alt=media)
 
 1. 当您第一次启动应用程序，将显示 DApp 页面。若没有显示，请手动点击进入。
-2.  在页面中部，找到 **BSC**。
+2.  在页面中部，找到 **BKC**。
 
     ![](<../.gitbook/assets/image (90).png>)
 3.  在 DApps 列表中，点击 **ChangSwap。**

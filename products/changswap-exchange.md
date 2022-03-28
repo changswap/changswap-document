@@ -1,6 +1,6 @@
 # 🔄 交易
 
-![](https://gblobscdn.gitbook.com/assets%2F-MHREX7DHcljbY5IkjgJ%2F-MbEhf2Oym3DwInC1RLG%2F-MbEiJUEIhXOppKXzWwH%2Fdocs%20masthead%20%2819%29.png?alt=media&token=be1e5fa9-8339-4db4-bd7a-8f376fa67935)
+![](https://gblobkcdn.gitbook.com/assets%2F-MHREX7DHcljbY5IkjgJ%2F-MbEhf2Oym3DwInC1RLG%2F-MbEiJUEIhXOppKXzWwH%2Fdocs%20masthead%20%2819%29.png?alt=media&token=be1e5fa9-8339-4db4-bd7a-8f376fa67935)
 
 ChangSwap 是一个自动做市商 \(AMM\) ，交易是它的核心功能。ChangSwap 是在Bitkub链上领先的自动做市商。以及，基于数据，有史以来最受欢迎的去中心化交易所 \(DEX\)！
 

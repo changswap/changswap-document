@@ -6,7 +6,7 @@
 
 \*Effective Emission is in fact slightly below this amount: an additional 45,000 CHANG per day is diverted from the amount allocated to the lottery, and burned (PID 137 - Details below).
 
-In addition to the above, a dynamic amount of CHANG is also [minted to the Dev address](https://bscscan.com/address/0xceba60280fb0ecd9a5a26a1552b90944770a4a0e#tokentxns) at a rate of 9.09%. This means that if 100 CHANG are harvested, then 9.09 CHANG is minted in addition and sent to the Dev Address.
+In addition to the above, a dynamic amount of CHANG is also [minted to the Dev address](https://bkcscan.com/address/0xceba60280fb0ecd9a5a26a1552b90944770a4a0e#tokentxns) at a rate of 9.09%. This means that if 100 CHANG are harvested, then 9.09 CHANG is minted in addition and sent to the Dev Address.
 
 All CHANG minted to the Dev address is burned in the weekly burn and never enters circulation.
 
@@ -58,7 +58,7 @@ The CHANG sent to both pools PID-137 and PID-138 are harvested before completing
 
 To confirm that the circulating CHANG supply shown on the ChangSwap homepage is correct,
 
-1. Then, subtract this burned amount from the "Total Supply" that BscScan shows.
+1. Then, subtract this burned amount from the "Total Supply" that BkcScan shows.
 2. This gives you the actual CHANG supply.
 
 ####  <a href="read-more-about-changs-deflationary-mechanics-on-the-next-page" id="read-more-about-changs-deflationary-mechanics-on-the-next-page"></a>
