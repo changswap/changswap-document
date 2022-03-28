@@ -1,6 +1,6 @@
 # ChangSwap Intro
 
-![](<.gitbook/assets/截屏2022-03-28 下午2.19.20.png>)
+![](.gitbook/assets/info.png)
 
 {% hint style="success" %}
 **ChangSwap helps you make the most out of your crypto in three ways:**
