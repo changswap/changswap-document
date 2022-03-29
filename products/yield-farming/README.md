@@ -1,6 +1,6 @@
 # 🚜 Yield Farming
 
-![](<../../.gitbook/assets/docs-masthead-1- (2).png>)
+![](../../.gitbook/assets/yieldfarms.png)
 
 Yield Farms allow users to earn CHANG while supporting ChangSwap by staking LP Tokens.
 

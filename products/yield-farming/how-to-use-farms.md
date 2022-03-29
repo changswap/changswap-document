@@ -4,7 +4,7 @@ description: Yield Farming on ChangSwap is easy!
 
 # How to Use Farms
 
-![](<../../.gitbook/assets/docs-masthead (2) (1).png>)
+![](../../.gitbook/assets/howtofarm.png)
 
 Yield Farming in Farms is a great way to earn CHANG rewards on ChangSwap.
 

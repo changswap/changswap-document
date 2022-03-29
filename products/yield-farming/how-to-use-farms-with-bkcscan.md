@@ -1,6 +1,6 @@
 # How to Use Farms with BkcScan
 
-![](<../../.gitbook/assets/docs-masthead-21- (2).png>)
+![](../../.gitbook/assets/howtousefarmswithbkcscan.png)
 
 Since it requires several steps, using Farms with ChangSwap can seem intimidating at first. This guide will walk you through using the Farms contract directly through BkcScan.
 
@@ -145,8 +145,6 @@ If you didn't copy down your PID earlier, you can learn how to get it in the **F
 6\. You can confirm your withdrawal worked by clicking **View your transaction**.
 
 ![](<../../.gitbook/assets/image (122).png>)
-
-
 
 ## **Making an emergency withdrawal**
 
