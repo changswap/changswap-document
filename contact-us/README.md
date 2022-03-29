@@ -1,6 +1,6 @@
 # Contact Us
 
-![](../.gitbook/assets/docs-masthead-20-.png)
+![](../.gitbook/assets/contactus.png)
 
 ####
 
@@ -12,7 +12,7 @@
 
 ### [Apply for an IFO (Token Sale)](business-partnerships.md#ifos-token-sales)
 
-### [Apply for the NFT Market](broken-reference)
+### [Apply for the NFT Market](broken-reference/)
 
 ####
 

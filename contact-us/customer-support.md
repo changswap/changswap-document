@@ -1,6 +1,6 @@
 # Customer Support
 
-![Well, the thing is...](../.gitbook/assets/docs-masthead-23-.png)
+![Well, the thing is...](../.gitbook/assets/customersupport.png)
 
 ## There is NO customer support for ChangSwap.
 

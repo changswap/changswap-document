@@ -4,7 +4,7 @@ description: Guidlines and downloadable assets like the ChangSwap logo SVG
 
 # Brand & Logos
 
-![](<.gitbook/assets/Frame 6.png>)
+![](.gitbook/assets/brandlogo.png)
 
 👇[ Jump to logo download](brand.md#changswap-logo-downloads)
 
@@ -36,7 +36,7 @@ While we strongly believe in and follow the open source ethos, **protecting the 
 
 Here are a few examples of forbidden uses of our Brand Assets:
 
-* ⛔️ **Don't use our Brand Assets in your products' name, logo, NFTs, etc.**&#x20;
+* ⛔️ **Don't use our Brand Assets in your products' name, logo, NFTs, etc.**
   * For example, making an app called "ChangSwap Engine" or "CHANG Child" are not allowed.
   * Don't use the ChangSwap logo in whole or in part as part of your products' logos, marketing material, website, or other.
   * Logos with a strong resemblence to the ChangSwap Icon are also forbidden.
@@ -61,10 +61,6 @@ Have fun making a unique brand that's clearly yours -- if your product is strong
 
 Once you've read all the above, download the ChangSwap and CHANG logos below.
 
-{% file src=".gitbook/assets/ChangSwap Logos.zip" %}
-Download the official ChangSwap and CHANG logos.
-{% endfile %}
-
 By downloading this file, you confirm that you will only use it to the extent permitted by the Terms detailed in this page.
 
 {% hint style="info" %}
@@ -72,4 +68,3 @@ As of November 1st, the CHANG token logo will also be represented by the ChangSw
 
 The previous CHANG icon, representing changs, has been depracated.
 {% endhint %}
-

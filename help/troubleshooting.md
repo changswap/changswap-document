@@ -4,7 +4,7 @@ description: Common error messages. Use the sidebar ➡️to jump to the error y
 
 # Troubleshooting Errors
 
-![](<../.gitbook/assets/docs masthead (16).png>)
+![](../.gitbook/assets/troubleshooting.png)
 
 Sometimes you may find yourself facing a problem that doesn't have a clear solution. These troubleshooting tips may help you solve problems you run into.
 
@@ -318,7 +318,7 @@ This error tends to appear when you're trying to unstake from an old Brewery Poo
 
 ## **Issues with Prediction**
 
-Check [Broken link](broken-reference "mention")
+Check [broken-reference](broken-reference/ "mention")
 
 ## **Other issues**
 

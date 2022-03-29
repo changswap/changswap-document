@@ -1,6 +1,6 @@
 # 🔄 Exchange
 
-![](../../.gitbook/assets/docs-masthead-19-.png)
+![](../../.gitbook/assets/exchange.png)
 
 ChangSwap is an Automated Market Maker (AMM), and the Exchange is at the heart of ChangSwap. ChangSwap is the leading AMM on the Bitkub Chain, and as statistics tell, the most popular Decentralized Exchange (DEX) ever!
 

@@ -1,6 +1,6 @@
 # Business Partnerships
 
-![](<../.gitbook/assets/docs masthead (21).png>)
+![](../.gitbook/assets/business.png)
 
 ## Farms and Brewery Pools
 
@@ -51,7 +51,7 @@ We aim to respond to applications within a week, but due to a large number of re
 
 ## NFT Market <a href="#exchange" id="exchange"></a>
 
-[Apply to list](broken-reference)
+[Apply to list](broken-reference/)
 
 ## Listing on the Exchange <a href="#exchange" id="exchange"></a>
 

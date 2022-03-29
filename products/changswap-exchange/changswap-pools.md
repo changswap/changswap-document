@@ -1,6 +1,6 @@
 # Liquidity Pools
 
-![](<../../.gitbook/assets/docs-masthead-4- (1).png>)
+![](../../.gitbook/assets/liquiditypools.png)
 
 When you add your token to a Liquidity Pool you will receive Liquidity Provider (LP) tokens and share in the fees.
 
@@ -8,7 +8,7 @@ When you add your token to a Liquidity Pool you will receive Liquidity Provider 
 
 As an example, if you deposited **CHANG** and **KUB** into a Liquidity Pool, you'd receive **CHANG-KUB LP** tokens.
 
-The number of LP tokens you receive represents your portion of the CHANG-KUB Liquidity Pool.&#x20;
+The number of LP tokens you receive represents your portion of the CHANG-KUB Liquidity Pool.
 
 You can also redeem your funds at any time by removing your liquidity.
 
@@ -16,7 +16,7 @@ You can also redeem your funds at any time by removing your liquidity.
 
 ## Liquidity Providers earn trading fees
 
-Providing liquidity gives you a reward in the form of trading fees when people use your liquidity pool.&#x20;
+Providing liquidity gives you a reward in the form of trading fees when people use your liquidity pool.
 
 Whenever someone trades on ChangSwap, the trader pays a 0.25% fee, **of which 0.17%** is added to the Liquidity Pool of the swap pair they traded on.
 

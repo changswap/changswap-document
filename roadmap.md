@@ -4,7 +4,7 @@ description: '"Don''t call it a roadmap"'
 
 # Roadmap
 
-![](<.gitbook/assets/docs-masthead-19- (1).png>)
+![](<.gitbook/assets/roadmap (1).png>)
 
 _Updated Jan. 21, 2022_
 
@@ -86,4 +86,3 @@ Some items didn't make it into the "Coming Up" section due to security or confid
 * Analytics: Info site
 * Voting v2
 * IFO CHANG Pool & IFO 3.0
-

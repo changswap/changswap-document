@@ -1,6 +1,6 @@
 # Token Swaps
 
-![](<../../.gitbook/assets/docs masthead (18).png>)
+![](../../.gitbook/assets/tokenswap.png)
 
 \*\*\*\*[**Token swaps**](https://exchange.changswap.com/#/swap) on ChangSwap are a simple way to trade one KEP-20 token for another via automated liquidity pools.
 

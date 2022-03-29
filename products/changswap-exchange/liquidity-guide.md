@@ -1,6 +1,6 @@
 # How to Add/Remove Liquidity
 
-![](../../.gitbook/assets/docs-masthead-2-.png)
+![](../../.gitbook/assets/howtoaddremoveliquidity.png)
 
 "Liquidity" is central to how ChangSwap's Exchange works. You can add liquidity for any token pair by staking both through the Liquidity page.
 
@@ -12,8 +12,9 @@ To provide liquidity, you’ll need to commit an amount of any token pair you li
 
 You can easily trade for any tokens you need. Visit our [How to Trade on ChangSwap](https://docs.changswap.com/get-started/trade-guide) guide if you need to.
 
-In this example, we will add liquidity using KUB and CHANG.\
-****
+In this example, we will add liquidity using KUB and CHANG.\\
+
+***
 
 1\. Visit the [Liquidity page](https://exchange.changswap.com/#/pool).
 
@@ -73,7 +74,7 @@ To remove liquidity.
 
 ![](../../.gitbook/assets/Add\_Remove\_LP\_12.png)
 
-5\. Click **Enable**. Your wallet will ask you to sign the action**.**
+5\. Click **Enable**. Your wallet will ask you to sign the action\*\*.\*\*
 
 ![](../../.gitbook/assets/Add\_Remove\_LP\_13.png)
 
@@ -85,4 +86,4 @@ To remove liquidity.
 
 ![](<../../.gitbook/assets/Add\_Remove\_LP\_15 (1).png>)
 
-8\. After the transaction is confirmed. You will receive two of the tokens from your pair. And if you haven't remove all of your liquidity, your remaining liquidity value will be updated on "My Liquidity" page.\
+8\. After the transaction is confirmed. You will receive two of the tokens from your pair. And if you haven't remove all of your liquidity, your remaining liquidity value will be updated on "My Liquidity" page.\\
