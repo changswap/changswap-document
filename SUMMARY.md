@@ -50,6 +50,7 @@
 
 ## MINING
 
+* [What is the mining](mining/what.md)
 * [How to mine CHANG](mining/how.md)
 * [Buy miners](mining/buy.md)
 * [Open Platform](mining/open.md)
