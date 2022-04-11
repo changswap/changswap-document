@@ -47,3 +47,9 @@
     * [Router v2](code/smart-contracts/changswap-exchange/router-v2.md)
   * [Main Staking/Brewery Pool/MasterChef Contract](code/smart-contracts/main-staking-masterchef-contract.md)
   * [Auto CHANG Brewery Pool (ChangVault)](code/smart-contracts/changvault.md)
+
+## MINING
+
+* [How to mine CHANG](mining/how.md)
+* [Buy miners](mining/buy.md)
+* [Open Platform](mining/open.md)
