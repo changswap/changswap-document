@@ -17,37 +17,37 @@
 
 ## 我怎样质押我的 CHANG？
 
-您可以在酿酒池中质押 CHANG 并赚取 CHANG 或其他代币，访问 [酿酒池页面](https://changswap.finance/pools)。
+您可以在酿酒池中质押 CHANG 并赚取 CHANG 或其他代币，访问 [酿酒池页面](https://changswap.com/pools)。
 
-详情请查看我们的 [如何在酿酒池中质押指南](https://docs.changswap.finance/products/brewery-pool/brewery-pool-guide) 。
+详情请查看我们的 [如何在酿酒池中质押指南](https://docs.changswap.com/products/brewery-pool/brewery-pool-guide) 。
 
 ## 酿酒池质押挖矿和农场流动性挖矿有什么区别？
 
 无论是在酿酒池，还是在农场中质押。均是支持 ChangSwap 发展的方式，均可为您赚取更多的 CHANG 或其他代币。
 
 酿酒池质押挖矿仅需要您质押 CHANG 到酿酒池中，即可赚取 CHANG 或其他代币。\
-[了解更多关于酿酒池质押的信息](https://docs.changswap.finance/products/brewery-pool)。
+[了解更多关于酿酒池质押的信息](https://docs.changswap.com/products/brewery-pool)。
 
 CHANG.农场流动性挖矿稍加复杂，并且需要 LP（流动性）凭证来赚取 CHANG。\
-[了解更多关于农场挖矿的信息](https://docs.changswap.finance/products/yield-farming)。
+[了解更多关于农场挖矿的信息](https://docs.changswap.com/products/yield-farming)。
 
 ## 我该怎样进行农场流动性挖矿？
 
-请查看我们的 [农场挖矿指南](https://docs.changswap.finance/products/yield-farming/how-to-use-farms) 了解更多信息。
+请查看我们的 [农场挖矿指南](https://docs.changswap.com/products/yield-farming/how-to-use-farms) 了解更多信息。
 
 ## 我在哪里可以找到 ChangSwap 的发展路线图？
 
-请查看 [我们的代办事项列表](https://docs.changswap.finance/roadmap)，但我们不将其称作「路线图」。
+请查看 [我们的代办事项列表](https://docs.changswap.com/roadmap)，但我们不将其称作「路线图」。
 
 ## 我该怎样连接我的钱包到Bitkub链和 ChangSwap？
 
-请查看 [钱包连接指南](https://docs.changswap.finance/get-started/connection-guide)。
+请查看 [钱包连接指南](https://docs.changswap.com/get-started/connection-guide)。
 
 ## 为什么我的交易失败了？
 
 您可以在 [https://bkcscan.com/](https://bkcscan.com) 查看您的链上交易状态及失败/错误的原因。您需要复制交易 ID (tx id) 并在搜索栏中粘贴查看。
 
-若您看到具体的错误代码，请参考 [错误排除指南](https://docs.changswap.finance/help/troubleshooting)。
+若您看到具体的错误代码，请参考 [错误排除指南](https://docs.changswap.com/help/troubleshooting)。
 
 ## 什么时候有更多新的酿酒池？
 
@@ -67,17 +67,17 @@ ChangSwap 酿酒池上新相当频繁，在上线前我们均会发布公告。
 
 ## 怎样查看 ChangSwap 的智能合约？
 
-请查看 [查找我们的智能合约页面](https://docs.changswap.finance/code/smart-contracts/finding-contracts)。
+请查看 [查找我们的智能合约页面](https://docs.changswap.com/code/smart-contracts/finding-contracts)。
 
 ## 为什么钱包提醒「没有 KUB 余额」？
 
-若您已经 [向您的Bitkub链 (Binance Smart Chain) 钱包转入了 KUB](https://docs.changswap.finance/get-started/kep20-guide) 但仍然显示该错误，您很可能没有 [将您的钱包连接至Bitkub链 (Binance Smart Chain)](https://docs.changswap.finance/get-started/connection-guide) ，请检查您钱包当前所处的区块链网络，并确保已经选择Bitkub链 (Binance Smart Chain, BKC)。
+若您已经 [向您的Bitkub链 (Bitkub Smart Chain) 钱包转入了 KUB](https://docs.changswap.com/get-started/kep20-guide) 但仍然显示该错误，您很可能没有 [将您的钱包连接至Bitkub链 (Bitkub Smart Chain)](https://docs.changswap.com/get-started/connection-guide) ，请检查您钱包当前所处的区块链网络，并确保已经选择Bitkub链 (Bitkub Smart Chain, BKC)。
 
 ## CHANG 的总量是多少？
 
 $CHANG 没有一个设定的最大总量，总流通量通过各种销毁手段得以控制。\
 \
-请阅读 [更多关于 ChangSwap 的代币经济模型](https://docs.changswap.finance/tokenomics/chang)。
+请阅读 [更多关于 ChangSwap 的代币经济模型](https://docs.changswap.com/tokenomics/chang)。
 
 ## 储备金库内的资金一般用于什么用途？
 
@@ -91,4 +91,4 @@ ChangSwap 其他智能合约，例如 IFO 和自动 CHANG 酿酒池，同样受�
 
 ## 上述答案没有解决我的问题，我应该在哪里寻求帮助？
 
-如果您在文档中没有找到问题的解答，请在 [ChangSwap 官方社交频道](https://docs.changswap.finance/contact-us/telegram) 中询问您的问题。社区志愿者们将尽可能地帮助您。
+如果您在文档中没有找到问题的解答，请在 [ChangSwap 官方社交频道](https://docs.changswap.com/contact-us/telegram) 中询问您的问题。社区志愿者们将尽可能地帮助您。

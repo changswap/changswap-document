@@ -4,7 +4,7 @@
 *   **合约地址：**
 
     \*\*\*\* [https://bkcscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82](https://bkcscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82)
-* **区块链：** Bitkub链 Binance Smart Chain (KEP20)
+* **区块链：** Bitkub链 Bitkub Smart Chain (KEP20)
 
 ## 基本信息
 

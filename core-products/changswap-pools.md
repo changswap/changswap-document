@@ -1,6 +1,6 @@
 # Pools
 
-\*\*\*\*[**ChangSwap pools** ](https://exchange.changswap.finance/#/pool)allow you to provide liquidity by adding your tokens to liquidity pools or “LPs”.
+\*\*\*\*[**ChangSwap pools** ](https://changswap.com/#/pool)allow you to provide liquidity by adding your tokens to liquidity pools or “LPs”.
 
 When you add your token to a liquidity pool \(LP\), you will receive FLIP tokens \(ChangSwap’s version of liquidity provider tokens\).
 
@@ -24,5 +24,5 @@ For example:
 * The CHANG/KUB liquidity pool now has 10.017 CHANG and 10.017 KUB.
 * Each FLIP token is now worth 1.00017 CHANG + 1.00017 KUB.
 
-To make being a liquidity provider even more worth your while, you can also put your FLIP tokens to work whipping up some fresh yield on the [CHANG farms \(here\)](https://changswap.finance/), while still earning your 0.17% trading fee reward.
+To make being a liquidity provider even more worth your while, you can also put your FLIP tokens to work whipping up some fresh yield on the [CHANG farms \(here\)](https://changswap.com/), while still earning your 0.17% trading fee reward.
 

@@ -339,11 +339,11 @@ ChangSwap的网站目前没有解决此问题的简单方法：您需要直接�
 > 提供商错误\
 > 未找到提供商
 
-该错误常见于：点击「浏览器钱包插件连接」，例如 MetaMask 或 Binance Chain Wallet，但您未安装插件时。
+该错误常见于：点击「浏览器钱包插件连接」，例如 MetaMask 或 Bitkub chain Wallet，但您未安装插件时。
 
 {% tabs %}
 {% tab title="解决方法" %}
-安装浏览器插件，并正确连接。请查阅我们关于 [如何正确连接钱包的教程](https://docs.changswap.finance/get-started/connection-guide)。
+安装浏览器插件，并正确连接。请查阅我们关于 [如何正确连接钱包的教程](https://docs.changswap.com/get-started/connection-guide)。
 {% endtab %}
 {% endtabs %}
 
@@ -351,7 +351,7 @@ ChangSwap的网站目前没有解决此问题的简单方法：您需要直接�
 
 不支持的链 ID
 
-请更换您的钱包网络（区块链）到 Binance Smart Chain （Bitkub链），如果您不知道如何切换，请查阅您的钱包指南或教程。
+请更换您的钱包网络（区块链）到 Bitkub Smart Chain （Bitkub链），如果您不知道如何切换，请查阅您的钱包指南或教程。
 
 ### Internal JSON-RPC errors
 

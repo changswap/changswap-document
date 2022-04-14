@@ -24,7 +24,7 @@
 
 {% tabs %}
 {% tab title="MetaMask" %}
-1. 成功添加网络后，您即可访问 [ChangSwap 主页](https://changswap.finance)，点击右上角「连接钱包 / Connect Wallet」图标，并选择 MetaMask 。
+1. 成功添加网络后，您即可访问 [ChangSwap 主页](https://changswap.com)，点击右上角「连接钱包 / Connect Wallet」图标，并选择 MetaMask 。
 2.  MetaMask 将弹出窗口请求确认，请点击「下一步」，然后点击「连接」。
 
     <img src="../.gitbook/assets/MBP3-2021.08.16-092305PM-Chromium_MetaMask Notification.png" alt="" data-size="original">

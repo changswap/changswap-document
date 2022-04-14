@@ -10,11 +10,11 @@
 
 ### 错误排错指南
 
-[错误排除指南](https://docs.changswap.finance/help/troubleshooting) 收集了所有在使用过程中可能会遇见的错误，它不但会告诉您可能的解决方案，还会告诉您发生问题的原因。
+[错误排除指南](https://docs.changswap.com/help/troubleshooting) 收集了所有在使用过程中可能会遇见的错误，它不但会告诉您可能的解决方案，还会告诉您发生问题的原因。
 
 ### 常见问题
 
-[常见问题](https://docs.changswap.finance/help/faq) 收录了 ChangSwap 用户们在使用中经常质询的问题。每个问题均附有有答案、建议、解释或一些有用的资源链接。
+[常见问题](https://docs.changswap.com/help/faq) 收录了 ChangSwap 用户们在使用中经常质询的问题。每个问题均附有有答案、建议、解释或一些有用的资源链接。
 
 ### 其他教程及指南
 

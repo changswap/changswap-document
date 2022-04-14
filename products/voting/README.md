@@ -6,7 +6,7 @@
 
 「投票」赋予 ChangSwap 社区发言权，让社区得以为 ChangSwap 的未来发展出谋划策。
 
-请查看 [ChangSwap 投票页面](https://changswap.finance/voting)
+请查看 [ChangSwap 投票页面](https://changswap.com/voting)
 
 **核心：**由 ChangSwap 团队发起的提案，决策将按投票结果执行。
 

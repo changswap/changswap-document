@@ -16,5 +16,5 @@
 * **BAKE/KUB \(1x Rewards\) - For this one, you can use Bakery’s LP token directly.**
 * **BURGER/KUB \(1x Rewards\)** 
 
-**\*\*\[**Get your FLIP tokens \(ChangSwap Liquidity Provider Tokens\) HERE**\]\(**[https://exchange.changswap.finance/\#/swap](https://exchange.changswap.finance/#/swap)**\)**.\*\*
+**\*\*\[**Get your FLIP tokens \(ChangSwap Liquidity Provider Tokens\) HERE**\]\(**[https://changswap.com/\#/swap](https://changswap.com/#/swap)**\)**.\*\*
 

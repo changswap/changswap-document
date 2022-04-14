@@ -52,7 +52,7 @@ This comparison table gives an overview of the most popular mobile wallets used 
 {% tab title="MetaMask" %}
 ![](<../.gitbook/assets/image (33) (3) (4) (5).png>)
 
-MetaMask 是一个基于浏览器的热门钱包插件，支持 ERC20（以太坊网络）、KEP2 和 KEP20（币安链与Bitkub链）。
+MetaMask 是一个基于浏览器的热门钱包插件，支持 ERC20（以太坊网络）、KEP2 和 KEP20（Bitkub链与Bitkub链）。
 
 ​**优点：**
 

@@ -4,13 +4,13 @@
 
 ![](https://lh6.googleusercontent.com/Dale9ZEPCvap9dHrQbAIsye8xakYV5fImD3QLRoHeeeyZrz5uKXN4ZJwv4tctoI7DxDOcV_eVHl8kbQXmaRprgcACXQUlhy__fqf_itink-MyiBg7mUylBsp49IOr6aDZyJ_yMWr)
 
-1. **Go to the farm page** [**here**](https://changswap.finance/farms)**.**
+1. **Go to the farm page** [**here**](https://changswap.com/farms)**.**
 
 \*\*\*\*
 
 ![](https://lh6.googleusercontent.com/ACvmc-jkAPXkIjsFMCFj7SzOuWXtBzuYBnLWnD_mu1z55XW4POrUEUnfHf_MdNFBwIJboeOplOzbnD0XfaIj5NwacErLiQCkPSfz2DTR_imCidSvJF5TwWQ0vcEtakxSWUr_ibxW)
 
-**2. Connect your Binance Smart Chain Wallet \(top-right hand corner\)**
+**2. Connect your Bitkub Smart Chain Wallet \(top-right hand corner\)**
 
 \*\*\*\*
 
@@ -22,7 +22,7 @@
 
 ![](https://lh4.googleusercontent.com/Hd3RrSXeCp1Al-uoB6Aa1WO--KPZjnc6VBABhRa0IiROKE66kBFcn8yMELwAOJI5dakVQoCjMqi-RDmP3VLKlSpdS9R3QPy8Qt3x0K2wDmyhFXex142TiGPVRd23jXrn5JKkoHQ8)
 
-**4. Go to the exchange page** [**here**](https://exchange.changswap.finance/?_gl=1*rbtvb8*_ga*MTUzNDEzNDQxMy4xNjAwNzkzNDM4*_ga_334KNG3DMQ*MTYwNDA2MDUwMS40OC4xLjE2MDQwNjU0NTIuMA..#/swap) **and click “Pool” and then “Add Liquidity”.**
+**4. Go to the exchange page** [**here**](https://changswap.com/?_gl=1*rbtvb8*_ga*MTUzNDEzNDQxMy4xNjAwNzkzNDM4*_ga_334KNG3DMQ*MTYwNDA2MDUwMS40OC4xLjE2MDQwNjU0NTIuMA..#/swap) **and click “Pool” and then “Add Liquidity”.**
 
 \*\*\*\*
 
@@ -43,7 +43,7 @@
 
 ![](https://lh3.googleusercontent.com/eaXzqIXl-vq0G2gjwNx4AO9Ab8TmcDM0KSM1ROFvZ0gLX8ce-ufPy-zNqA8bI0FWPN4NNaOqIai3X-fg-n4rzWNBYUiaxRp4ezIFwCOG_st5fd19urcf6ZBBuezuuZXj_wNOtFBC)
 
-**7. You now have liquidity tokens. Next, go back to the farm page** [**here**](https://changswap.finance/farms)**.**
+**7. You now have liquidity tokens. Next, go back to the farm page** [**here**](https://changswap.com/farms)**.**
 
 \*\*\*\*
 

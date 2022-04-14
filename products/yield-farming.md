@@ -2,9 +2,9 @@
 
 流动性挖矿让用户们通过质押 LP 代币（流动性凭证）来支持 ChangSwap 并赚取 CHANG 代币。
 
-查看 [如何使用农场指南](https://docs.changswap.finance/products/yield-farming/how-to-use-farms) 立刻开始流动性挖矿。
+查看 [如何使用农场指南](https://docs.changswap.com/products/yield-farming/how-to-use-farms) 立刻开始流动性挖矿。
 
-请同时查阅 [如何找到农场智能合约](https://docs.changswap.finance/products/yield-farming)
+请同时查阅 [如何找到农场智能合约](https://docs.changswap.com/products/yield-farming)
 
 {% hint style="warning" %}
 流动性挖矿与酿酒池相比，会给予更高的奖励，但同时它们拥有**无常损失**带来的风险。它并没有听起来那么可怕，但在开始挖矿前，适当的去了解它是值得的。

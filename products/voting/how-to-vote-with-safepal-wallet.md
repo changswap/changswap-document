@@ -4,7 +4,7 @@ First, open your SafePal wallet and select the dApp browser icon in the menu dow
 
 ![](../../.gitbook/assets/Safepal-1.PNG)
 
-Second, enter the URL of the voting page in the address bar. If you don't know the direct URL to the vote you want to vote on, you can go to [voting.changswap.finance](https://voting.changswap.finance) and find the vote from there.
+Second, enter the URL of the voting page in the address bar. If you don't know the direct URL to the vote you want to vote on, you can go to [voting.changswap.com](https://voting.changswap.com) and find the vote from there.
 
 ![](../../.gitbook/assets/Safepal-2.PNG)
 

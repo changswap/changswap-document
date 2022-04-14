@@ -11,16 +11,16 @@
 
 ## **如何参加 IFO**
 
-请浏览 [https://changswap.finance/ifo](https://changswap.finance/ifo) 来了解更多关于 IFO 的信息。
+请浏览 [https://changswap.com/ifo](https://changswap.com/ifo) 来了解更多关于 IFO 的信息。
 
 **开售前**
 
-1. [购买 CHANG](https://exchange.changswap.finance/?_gl=1*1bc8owa*_ga*ODA4ODE5MjM4LjE2MDUxNTI3NTE.*_ga_334KNG3DMQ*MTYwNTQ4OTEwNy4yNi4xLjE2MDU0ODkxMjcuMA..#/swap) 和 KUB 代币。
-2. 添加 CHANG-KUB 流动性[以获得 CHANG-KUB LP 代币（流动性凭证）](https://exchange.changswap.finance/?_gl=1*14203p6*_ga*ODA4ODE5MjM4LjE2MDUxNTI3NTE.*_ga_334KNG3DMQ*MTYwNTQ4OTEwNy4yNi4xLjE2MDU0ODkyMzAuMA..#/pool)。
+1. [购买 CHANG](https://changswap.com/?_gl=1*1bc8owa*_ga*ODA4ODE5MjM4LjE2MDUxNTI3NTE.*_ga_334KNG3DMQ*MTYwNTQ4OTEwNy4yNi4xLjE2MDU0ODkxMjcuMA..#/swap) 和 KUB 代币。
+2. 添加 CHANG-KUB 流动性[以获得 CHANG-KUB LP 代币（流动性凭证）](https://changswap.com/?_gl=1*14203p6*_ga*ODA4ODE5MjM4LjE2MDUxNTI3NTE.*_ga_334KNG3DMQ*MTYwNTQ4OTEwNy4yNi4xLjE2MDU0ODkyMzAuMA..#/pool)。
 
 **开售后：**
 
-1. 销售开始后，访问 [https://changswap.finance/ifo](https://changswap.finance/ifo) 并投入您的 CHANG-KUB LP 代币，来购买 IFO 项目代币
+1. 销售开始后，访问 [https://changswap.com/ifo](https://changswap.com/ifo) 并投入您的 CHANG-KUB LP 代币，来购买 IFO 项目代币
 
 **完售后：**
 
@@ -28,11 +28,11 @@
 2. 完成！如果出现 [超售](https://app.gitbook.com/@changswap-1/s/changswap/~/drafts/-MMK-KmBq5_Mfs94Ul6x/core-products/ifo-initial-farm-offering#overflow) ，您需要回到 IFO 页面手动领取剩余没有用到的 CHANG-KUB 代币。
 
 {% hint style="info" %}
-如果您决定远在 IFO 开始前，即组合获得 CHANG-KUB LP 代币。您可以将它们质押在 [CHANG-KUB 农场](https://changswap.finance/farms) ，在等待 IFO 开售的同时，赚取 CHANG 奖励
+如果您决定远在 IFO 开始前，即组合获得 CHANG-KUB LP 代币。您可以将它们质押在 [CHANG-KUB 农场](https://changswap.com/farms) ，在等待 IFO 开售的同时，赚取 CHANG 奖励
 {% endhint %}
 
 {% hint style="warning" %}
-当您持有 CHANG-KUB LP 代币，您会有 [无常损失](https://academy.binance.com/en/articles/impermanent-loss-explained) 的风险。
+当您持有 CHANG-KUB LP 代币，您会有 [无常损失](https://academy.Bitkub.com/en/articles/impermanent-loss-explained) 的风险。
 {% endhint %}
 
 ## **什么是「超售溢出」销售方法？** <a id="overflow"></a>

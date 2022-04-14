@@ -2,13 +2,13 @@
 
 ![Image for post](https://miro.medium.com/max/1400/0*C0Ng5_d1hK28qMMh)
 
-1. Go to the exchange page [here](https://exchange.changswap.finance/#/swap).
+1. Go to the exchange page [here](https://changswap.com/#/swap).
 
 
 
 ![Image for post](https://miro.medium.com/max/512/0*roteFKZKRqO-IWYU)
 
-2. Unlock your Binance Smart Chain Wallet \(top right-hand side\).
+2. Unlock your Bitkub Smart Chain Wallet \(top right-hand side\).
 
 
 
