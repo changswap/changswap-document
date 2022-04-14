@@ -1,38 +1,38 @@
-# Social Accounts & Communities
+# บัญชีโซเชียล & ชุมชน
 
 ![](../.gitbook/assets/socialcommunities.png)
 
-Here you'll find a list of ChangSwap's official Social media channels and communities. If English is not your first language, we have a number of non-English communities that would love to have you join them!
+คุณจะพบรายการช่องทางและชุมชนโซเชียลมีเดียอย่างเป็นทางการของ ChangSwap ได้ที่นี่ หากภาษาอังกฤษไม่ใช่ภาษาแรกของคุณ เรามีชุมชนที่ไม่ใช่ภาษาอังกฤษจำนวนหนึ่งที่อยากให้คุณเข้าร่วม!
 
 ## 🐦 Twitter
 
 [https://twitter.com/changswap](https://twitter.com/changswap)
 
-## 📰 Blog (Medium)
+## 📰 บล็อก (กลาง)
 
 {% embed url="https://medium.com/changswap" %}
 
-## 🤖Discord
+## 🤖ความไม่ลงรอยกัน
 
-Newly launched on 24th Nov! The below is the only link for our discord server!
+เปิดตัวใหม่ 24 พ.ย. นี้! ด้านล่างนี้เป็นลิงค์เดียวสำหรับเซิร์ฟเวอร์ที่ไม่ลงรอยกันของเรา!
 
 [https://discord.gg/changswap](https://discord.gg/changswap)
 
-## 💬 Telegram
+## 💬 โทรเลข
 
-**Official Telegram Groups:**
+**กลุ่มโทรเลขอย่างเป็นทางการ:**
 
-* 📣 Announcement Channel ([http://t.me/ChangSwapAnn](http://t.me/ChangSwapAnn))
-* 🥞 English ([http://t.me/changswap](http://t.me/changswap))
-* 🇨🇳 Chinese ([http://t.me/ChangSwap\_CN](http://t.me/ChangSwap\_CN))
+* 📣 ช่องทางประกาศ ([http://t.me/ChangSwapAnn](http://t.me/ChangSwapAnn))
+* 🥞 ภาษาอังกฤษ ([http://t.me/changswap](http://t.me/changswap))
+* 🇨🇳 ภาษาจีน ([http://t.me/ChangSwap\_CN](http://t.me/ChangSwap\_CN))
 * :flag\_th:Thailand ([http://t.me/ChangSwapThailand](http://t.me/ChangSwapThailand))
 
 
 
 {% hint style="danger" %}
-Admins will NEVER send you a direct message. If anybody approaches you directly on e.g. Telegram pretending to represent customer support, please block them and report spam.
+ผู้ดูแลระบบจะไม่ส่งข้อความถึงคุณโดยตรง หากมีใครเข้าใกล้คุณโดยตรงเช่น โทรเลขอ้างว่าเป็นตัวแทนของการสนับสนุนลูกค้า โปรดบล็อกพวกเขาและรายงานสแปม
 {% endhint %}
 
 {% hint style="danger" %}
-**NEVER, under any situation, should you ever give someone your private key or recovery phrases. Immediately block and report anyone that asks for them.**
+**ไม่ว่าสถานการณ์ใดๆ คุณควรให้คีย์ส่วนตัวหรือวลีกู้คืนแก่ใครซักคน บล็อกและรายงานทุกคนที่ขอพวกเขาทันที**
 {% endhint %}

@@ -1,21 +1,21 @@
 ---
-description: Find your way on Chang Github
+Description: ค้นหาเส้นทางของคุณบน Chang Github
 ---
 
-# Codebase Overview
+# ภาพรวม Codebase
 
-## Introduction
+## บทนำ
 
-All our repositories are stored on [Github](https://github.com/changswap). Most of them are public, and you can freely submit an issue or a pull request. Make sure you read this whole guide, and the guidelines specific to each repository before.
+ที่เก็บของเราทั้งหมดถูกเก็บไว้ใน [Github](https://github.com/changswap) ส่วนใหญ่เป็นแบบสาธารณะ และคุณสามารถส่งปัญหาหรือคำขอดึงข้อมูลได้อย่างอิสระ ตรวจสอบให้แน่ใจว่าคุณได้อ่านคู่มือนี้ทั้งหมดและหลักเกณฑ์เฉพาะสำหรับที่เก็บแต่ละแห่งมาก่อน
 
-## Github repositories
+## ที่เก็บ Github
 
-* [Toolkit](https://github.com/changswap/chang-toolkit): Contains a set of packages used to build the chang ecosystem, including the uikit.
-* [Frontend](https://github.com/changswap/chang-frontend): The main frontend. It contains all the features that are not listed below.
-* [Voting](https://github.com/changswap/snapshot-front): The community voting features.
+* [Toolkit](https://github.com/changswap/chang-toolkit): ประกอบด้วยชุดแพ็คเกจที่ใช้สร้างระบบนิเวศของ chang รวมถึง uikit
+* [ส่วนหน้า](https://github.com/changswap/chang-frontend): ส่วนหน้าหลัก ประกอบด้วยคุณลักษณะทั้งหมดที่ไม่ได้ระบุไว้ด้านล่าง
+* [โหวต](https://github.com/changswap/snapshot-front): คุณสมบัติการโหวตของชุมชน
 
-| Project  | Github                                                                                               | Website                                          | Stack                                                                                   |
-| -------- | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------ | --------------------------------------------------------------------------------------- |
-| Toolkit  | [![](../../.gitbook/assets/GitHub-Mark-120px-plus.png)](https://github.com/changswap/chang-toolkit)  | [🔗Netlify](https://changswap-uikit.netlify.app) | ![](../../.gitbook/assets/download.svg)![](../../.gitbook/assets/ts-logo-round-128.svg) |
-| Frontend | [![](../../.gitbook/assets/GitHub-Mark-120px-plus.png)](https://github.com/changswap/chang-frontend) | [🔗ChangSwap](https://changswap.com)             | ![](../../.gitbook/assets/download.svg)![](../../.gitbook/assets/ts-logo-round-128.svg) |
-| Voting   | [![](../../.gitbook/assets/GitHub-Mark-120px-plus.png)](https://github.com/changswap/snapshot-front) | [🔗ChangSwap](https://voting.changswap.com)      | ![](../../.gitbook/assets/logo.png) ![](../../.gitbook/assets/ts-logo-round-128.svg)    |
+| โครงการ | Github | เว็บไซต์ | กอง |
+| -------- | -------------------------------------------------- -------------------------------------------------- | ------------------------------------------------ | -------------------------------------------------- ------------------------------------- |
+| ชุดเครื่องมือ | [![](../../.gitbook/assets/GitHub-Mark-120px-plus.png)](https://github.com/changswap/chang-toolkit) | [🔗Netlify](https://changswap-uikit.netlify.app) | ![](../../.gitbook/assets/download.svg)![](../../.gitbook/assets/ts-logo-round-128.svg) |
+| ฟรอนท์เอนด์ | [![](../../.gitbook/assets/GitHub-Mark-120px-plus.png)](https://github.com/changswap/chang-frontend) | [🔗ChangSwap](https://changswap.com) | ![](../../.gitbook/assets/download.svg)![](../../.gitbook/assets/ts-logo-round-128.svg) |
+| โหวต | [![](../../.gitbook/assets/GitHub-Mark-120px-plus.png)](https://github.com/changswap/snapshot-front) | [🔗ChangSwap](https://voting.changswap.com) | ![](../../.gitbook/assets/logo.png) ![](../../.gitbook/assets/ts-logo-round-128.svg) |

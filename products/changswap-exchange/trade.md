@@ -1,15 +1,15 @@
-# Token Swaps
+# การแลกเปลี่ยนโทเค็น
 
 ![](../../.gitbook/assets/tokenswap.png)
 
-\*\*\*\*[**Token swaps**](https://changswap.com) on ChangSwap are a simple way to trade one KEP-20 token for another via automated liquidity pools.
+\*\*\*\*[**Token swaps**](https://changswap.com) บน ChangSwap เป็นวิธีง่ายๆ ในการแลกเปลี่ยน KEP-20 token กับอีกอันหนึ่งผ่านกลุ่มสภาพคล่องอัตโนมัติ
 
 ![](<../../.gitbook/assets/截屏2022-04-14 09.17.20.png>)
 
-When you make a token swap (trade) on the exchange you will pay a **0.25% trading fee**, which is broken down as follows:
+เมื่อคุณทำการแลกเปลี่ยนโทเค็น (การค้า) บนการแลกเปลี่ยน คุณจะต้องจ่าย **ค่าธรรมเนียมการซื้อขาย 0.25%** ซึ่งแบ่งออกเป็นดังนี้:
 
-**0.17%** - Returned to Liquidity Pools in the form of a fee reward for liquidity providers.
+**0.17%** - กลับสู่ Liquidity Pool ในรูปแบบของรางวัลค่าธรรมเนียมสำหรับผู้ให้บริการสภาพคล่อง
 
-**0.03%** - Sent to the ChangSwap Treasury.
+**0.03%** - ส่งไปที่คลัง ChangSwap
 
-**0.05%** - Sent towards CHANG buyback and burn.
+**0.05%** - ส่งให้ CHANG ซื้อคืนและเบิร์น

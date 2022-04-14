@@ -1,112 +1,112 @@
-# General FAQ
+# คำถามที่พบบ่อยทั่วไป
 
 ![](../.gitbook/assets/generalfaq.png)
 
-This FAQ page answers some of the more commonly asked questions from the ChangSwap community.
+หน้าคำถามที่พบบ่อยนี้จะตอบคำถามที่พบบ่อยบางส่วนจากชุมชน ChangSwap
 
-## Is ChangSwap safe? Has ChangSwap been Audited?
+## ChangSwap ปลอดภัยหรือไม่? ChangSwap ได้รับการตรวจสอบแล้วหรือไม่?
 
-See for yourself:
+ดูด้วยตัวคุณเอง:
 
-* Transparent:
-  * We’re built on open-source software: our site and all our Smart Contracts are publicly visible for maximum transparency.
-  * Our contracts are verified on BkcScan so you know that what you see is what you get: [1](https://bkcscan.com/address/0x10ED43C718714eb63d5aA57B78B54704E256024E) [2](https://bkcscan.com/address/0x73feaa1ee314f8c655e354234017be2193c9e24e#code) [3](https://bkcscan.com/address/0xbcfccbde45ce874adcb698cc183debcf17952812) [4](https://bkcscan.com/address/0x1b96b92314c44b159149f7e0303511fb2fc4774f#code) [5](https://bkcscan.com/address/0x92E8CeB7eAeD69fB6E4d9dA43F605D2610214E68)
-* Security best practices:
-  * The chefs use multisig for all contracts.
-  * Our contracts’ time-lock gives you peace of mind.
+* โปร่งใส:
+  * เราสร้างขึ้นจากซอฟต์แวร์โอเพนซอร์ซ: ไซต์ของเราและสัญญาอัจฉริยะทั้งหมดของเราจะปรากฏต่อสาธารณะเพื่อความโปร่งใสสูงสุด
+  * สัญญาของเราได้รับการยืนยันบน BkcScan เพื่อให้คุณรู้ว่าสิ่งที่คุณเห็นคือสิ่งที่คุณได้รับ: [1](https://bkcscan.com/address/0x10ED43C718714eb63d5aA57B78B54704E256024E) [2](https://bkcscan.com/address/0x73feaa1e33514f4234017c655 #code) [3](https://bkcscan.com/address/0xbcfccbde45ce874adcb698cc183debcf17952812) [4](https://bkcscan.com/address/0x1b96b92314c44b159149f7e0303511fb2fc4774f#codekcdressscan) [5](https://https://https://https://bkcscan.com/address/0xbcfccbde45ce874adcb698cc183debcf17952812) /0x92E8CeB7eAeD69fB6E4d9dA43F605D2610214E68)
+* แนวทางปฏิบัติด้านความปลอดภัยที่ดีที่สุด:
+  * เชฟใช้ multisig สำหรับสัญญาทั้งหมด
+  * การล็อกเวลาของสัญญาของเราช่วยให้คุณสบายใจ
 
-## How can I stake CHANG?
+## ฉันจะเดิมพันช้างได้อย่างไร?
 
-You can stake your CHANG in ChangSwap Brewery Pools. Visit the [Brewery Pools page](https://changswap.com/pools).
+คุณสามารถเดิมพัน CHANG ของคุณใน ChangSwap Brewery Pools ไปที่ [หน้าโรงเบียร์](https://changswap.com/pools)
 
-Read our [How to Stake in Brewery Pools guide](https://docs.changswap.com/products/brewery-pool/brewery-pool-guide) if you'd like a hand getting started with staking.
+อ่าน [คู่มือวิธีการเดิมพันในโรงเบียร์](https://docs.changswap.com/products/brewery-pool/brewery-pool-guide) ของเรา หากคุณต้องการเริ่มต้นการปักหลัก
 
-## What is the difference between staking and farming?
+## การปักหลักกับการทำฟาร์มต่างกันอย่างไร?
 
-Staking in Brewery Pools and farming with Yield Farming are both ways to earn more CHANG by supporting ChangSwap.
+การปักหลักในโรงเบียร์และการทำฟาร์มด้วย Yield Farming ทั้งสองวิธีในการหารายได้ CHANG เพิ่มขึ้นด้วยการสนับสนุน ChangSwap
 
-Staking only needs some CHANG to be added to a Brewery Pool to earn CHANG or other tokens.\
-[Learn more about Brewery Pool staking.](https://docs.changswap.com/products/brewery-pool)
+การปักหลักต้องการเพียง CHANG บางส่วนที่จะเพิ่มใน Brewery Pool เพื่อรับ CHANG หรือโทเค็นอื่น ๆ\
+[เรียนรู้เพิ่มเติมเกี่ยวกับการปักหลัก Brewery Pool](https://docs.changswap.com/products/brewery-pool)
 
-Farming is more complicated and needs LP Tokens to earn CHANG.\
-[Learn more about Yield Farming.](https://docs.changswap.com/products/yield-farming)
+การทำฟาร์มนั้นซับซ้อนกว่าและต้องใช้ LP Token เพื่อรับ CHANG\
+[เรียนรู้เพิ่มเติมเกี่ยวกับ Yield Farming](https://docs.changswap.com/products/yield-farming)
 
-## How do I farm?
+## จะทำฟาร์มอย่างไร?
 
-We have a [Yield Farming guide](https://docs.changswap.com/products/yield-farming/how-to-use-farms) if you're interested in learning how to farm.
+เรามี [คู่มือการปลูกพืชผล](https://docs.changswap.com/products/yield-farming/how-to-use-farms) หากคุณสนใจที่จะเรียนรู้วิธีการทำฟาร์ม
 
-## Where can I view the ChangSwap roadmap?
+## ฉันจะดูโร้ดแมป ChangSwap ได้ที่ไหน
 
-You can [view our to-do list here, but don't call it a roadmap](https://docs.changswap.com/roadmap).
+คุณสามารถ [ดูรายการสิ่งที่ต้องทำของเราได้ที่นี่ แต่อย่าเรียกว่าแผนงาน](https://docs.changswap.com/roadmap)
 
-## How do I connect my wallet to Bitkub Chain and ChangSwap?
+## ฉันจะเชื่อมต่อกระเป๋าเงินของฉันกับ Bitkub Chain และ ChangSwap ได้อย่างไร
 
-We have a [Connect Your Wallet to ChangSwap guide](https://docs.changswap.com/get-started/connection-guide) covering this in detail.
+เรามี [เชื่อมต่อ Wallet ของคุณกับคู่มือ ChangSwap](https://docs.changswap.com/get-started/connection-guide) ที่ครอบคลุมรายละเอียดนี้
 
-## What's the best wallet for ChangSwap?
+## กระเป๋าเงินที่ดีที่สุดสำหรับ ChangSwap คืออะไร?
 
-It depends on your needs. We have an [in-depth guide to selecting and creating a wallet](https://docs.changswap.com/get-started/wallet-guide) that's right for you.
+ขึ้นอยู่กับความต้องการของคุณ เรามี [คำแนะนำในเชิงลึกในการเลือกและสร้างกระเป๋าเงิน](https://docs.changswap.com/get-started/wallet-guide) ที่เหมาะกับคุณ
 
-## Why is my transaction failing?
+## ทำไมธุรกรรมของฉันถึงล้มเหลว
 
-You can check the status of a transaction on [https://bkcscan.com/](https://bkcscan.com).
+ตรวจสอบสถานะการทำธุรกรรมได้ที่ [https://bkcscan.com/](https://bkcscan.com)
 
-Our [Troubleshooting Errors guide](https://docs.changswap.com/help/troubleshooting) may have a solution for your problem if you're having issues.
+[คู่มือการแก้ไขปัญหาข้อผิดพลาด](https://docs.changswap.com/help/troubleshooting) ของเราอาจมีวิธีแก้ไขปัญหาหากคุณประสบปัญหา
 
-You can also see our [Fixing Stuck Pending Transactions guide](https://docs.changswap.com/help/unsticking-a-transaction-stuck-as-pending-with-metamask) if you have a stuck transaction.
+คุณยังสามารถดู[คู่มือการแก้ไขธุรกรรมที่ค้างอยู่](https://docs.changswap.com/help/unsticking-a-transaction-stuck-as-pending-with-metamask) หากคุณมีธุรกรรมที่ติดขัด
 
-## When will you open more pools?
+## เมื่อไหร่จะเปิดสระเพิ่ม?
 
-New Pools are added to ChangSwap frequently. There will always be an announcement before the launch of new pools.
+พูลใหม่จะถูกเพิ่มใน ChangSwap บ่อยครั้ง จะมีการประกาศก่อนการเปิดตัวพูลใหม่เสมอ
 
-Join the [announcements Telegram group](https://t.me/ChangSwapAnn) to learn about new Pools as early as possible.
+เข้าร่วม [กลุ่มโทรเลขประกาศ](https://t.me/ChangSwapAnn) เพื่อเรียนรู้เกี่ยวกับพูลใหม่โดยเร็วที่สุด
 
-## Did Farm APR calculation change?
+## การคำนวณ APR ฟาร์มเปลี่ยนแปลงหรือไม่
 
-Previously, rewards earned by LP Token-holders generated from trading fees were not included in Farm APR calculations. APR calculations now include these rewards, and better reflect the expected APR for Farm pairs.
+ก่อนหน้านี้ รางวัลที่ได้รับจากผู้ถือ LP Token ที่เกิดจากค่าธรรมเนียมการซื้อขายจะไม่รวมอยู่ในการคำนวณ Farm APR การคำนวณ APR ตอนนี้รวมรางวัลเหล่านี้แล้ว และสะท้อน APR ที่คาดหวังสำหรับคู่ฟาร์มได้ดีขึ้น
 
-## How do I get airdrops?
+## ฉันจะรับแอร์ดรอปได้อย่างไร
 
-Whenever there is an official airdrop on ChangSwap it will be announced along with the requirements.
+เมื่อใดก็ตามที่มี airdrop อย่างเป็นทางการบน ChangSwap จะมีการประกาศพร้อมกับข้อกำหนด
 
-Please remember anyone can airdrop tokens to ChangSwap users since every transaction is public on BkcScan. Be sure to do your own research when it comes to non-official airdrops. To protect your funds, we recommend you don't use a smart contract you don't understand from a source you don't trust.
+โปรดจำไว้ว่าใครๆ ก็สามารถส่งโทเค็นให้กับผู้ใช้ ChangSwap ได้ เนื่องจากทุกธุรกรรมเป็นสาธารณะบน BkcScan อย่าลืมทำวิจัยของคุณเองเมื่อพูดถึง airdrops ที่ไม่เป็นทางการ เพื่อปกป้องเงินของคุณ เราขอแนะนำให้คุณอย่าใช้สัญญาอัจฉริยะที่คุณไม่เข้าใจจากแหล่งที่คุณไม่เชื่อถือ
 
-## How can I report a bug?
+## ฉันจะรายงานจุดบกพร่องได้อย่างไร
 
-Learn about our [bug bounty and potential bounty payouts](https://docs.changswap.com/code/bug-bounty).
+เรียนรู้เกี่ยวกับ[ค่าหัวบั๊กและการจ่ายเงินรางวัลที่เป็นไปได้](https://docs.changswap.com/code/bug-bounty)
 
-## Where can I view smart contracts?
+## ฉันจะดูสัญญาอัจฉริยะได้ที่ไหน
 
-Learn how to find smart contracts on our [Finding Contracts page](https://docs.changswap.com/code/smart-contracts).
+เรียนรู้วิธีค้นหาสัญญาอัจฉริยะใน [หน้าการค้นหาสัญญา](https://docs.changswap.com/code/smart-contracts)
 
-## Why does it say I have no KUB balance?
+## ทำไมมันขึ้นว่าไม่มียอด KUB?
 
-If you've already [transferred KUB into your Bitkub Chain-enabled wallet](https://docs.changswap.com/get-started/kep20-guide) but still have this error, you're most likely not [connected to Bitkub Chain](https://docs.changswap.com/get-started/connection-guide) within your wallet. Check your wallet's selected network and make sure you have Bitkub Chain (BKC) selected.
+หากคุณ [โอน KUB ไปยังกระเป๋าเงินที่เปิดใช้งาน Bitkub Chain](https://docs.changswap.com/get-started/kep20-guide) แล้ว แต่ยังมีข้อผิดพลาดนี้อยู่ เป็นไปได้มากว่าคุณไม่ได้เชื่อมต่อกับ Bitkub Chain](https://docs.changswap.com/get-started/connection-guide) ภายในกระเป๋าเงินของคุณ ตรวจสอบเครือข่ายกระเป๋าเงินที่เลือก และตรวจสอบให้แน่ใจว่าคุณได้เลือก Bitkub Chain (BKC)
 
 
 
-## What is the max supply of CHANG?
+## อุปทานสูงสุดของช้างคืออะไร?
 
-$CHANG does not have a maximum supply. The circulating supply is managed through built-in burning and regular burning events.\
+$CHANG ไม่มีอุปทานสูงสุด อุปทานหมุนเวียนได้รับการจัดการผ่านการเผาในตัวและเหตุการณ์การเผาไหม้ปกติ\
 \
-Read this to [learn more about ChangSwap's tokenomics](https://docs.changswap.com/tokenomics/chang).
+อ่านสิ่งนี้เพื่อ [เรียนรู้เพิ่มเติมเกี่ยวกับโทเค็นของ ChangSwap](https://docs.changswap.com/tokenomics/chang)
 
-## What are the treasury funds used for?
+## กองทุนธนารักษ์ใช้ทำอะไร ?
 
-The treasury funds are used to cover the expenses involved in running ChangSwap. These expenses include salaries, audits, prizes, hosting, upkeep, bounties, etc.
+กองทุนซื้อคืนใช้เพื่อครอบคลุมค่าใช้จ่ายที่เกี่ยวข้องกับการดำเนินการ ChangSwap ค่าใช้จ่ายเหล่านี้รวมถึงเงินเดือน การตรวจสอบ รางวัล การโฮสต์ ค่าบำรุงรักษา ค่าหัว ฯลฯ
 
-## Is ChangSwap protected from flashloan attacks?
+## ChangSwap ได้รับการปกป้องจากการโจมตี flashloan หรือไม่?
 
-ChangSwap's vault has anti-flashloan protection. ChangSwap’s CHANG token isn’t vulnerable to flash loan attacks. Unlike vulnerable tokens, CHANG token minting is predefined, and can’t be adjusted in a single transaction. Ownership cannot be transferred outside of MasterChef contract.
+ห้องนิรภัยของ ChangSwap มีการป้องกันการยืมแฟลช โทเค็น CHANG ของ ChangSwap ไม่มีความเสี่ยงที่จะถูกโจมตีด้วยแฟลชสินเชื่อ CHANG token minting แตกต่างจากโทเค็นที่มีช่องโหว่ และไม่สามารถปรับได้ในธุรกรรมเดียว ไม่สามารถโอนความเป็นเจ้าของนอกสัญญา MasterChef ได้
 
-ChangSwap’s other smart contracts, like IFO and AutoPool, are protected as well; they prevent other contracts from interacting with them, reducing the scope of vector attacks.
+สัญญาอัจฉริยะอื่นๆ ของ ChangSwap เช่น IFO และ AutoPool ได้รับการคุ้มครองเช่นกัน พวกเขาป้องกันสัญญาอื่น ๆ จากการโต้ตอบกับพวกเขา ลดขอบเขตของการโจมตีเวกเตอร์
 
 
 
-## What is BREWERY?
+## โรงเบียร์คืออะไร?
 
-BREWERY was a part of the staking process earlier in ChangSwap's life. BREWERY was discontinued when a security issue was discovered and is no longer a part of ChangSwap.
+โรงเบียร์เป็นส่วนหนึ่งของกระบวนการปักหลักในช่วงชีวิตของ ChangSwap BREWERY ถูกยกเลิกเมื่อพบปัญหาด้านความปลอดภัยและไม่ได้เป็นส่วนหนึ่งของ ChangSwap อีกต่อไป
 
-## I can't find an answer for my question. Where do I find an answer?
+## ฉันไม่พบคำตอบสำหรับคำถามของฉัน ฉันจะหาคำตอบได้ที่ไหน
 
-If you can't find what you're looking for in ChangSwap's documentation, ask your question on [ChangSwap's official social media platforms](https://docs.changswap.com/contact-us/telegram) and someone will do their best to help you out.
+หากคุณไม่พบสิ่งที่ต้องการในเอกสารประกอบของ ChangSwap ให้ถามคำถามของคุณบน [แพลตฟอร์มโซเชียลมีเดียอย่างเป็นทางการของ ChangSwap](https://docs.changswap.com/contact-us/telegram) แล้วใครบางคนจะทำให้ดีที่สุด เพื่อช่วยคุณ

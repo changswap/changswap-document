@@ -1,80 +1,82 @@
-# Business Partnerships
+#ความร่วมมือทางธุรกิจ
 
 ![](../.gitbook/assets/business.png)
 
-## Farms and Brewery Pools
+## ฟาร์มและโรงเบียร์
 
-Farms incentivize users to provide liquidity for your trading pair by distributing CHANG to your pair's LP Token holders.
+Farms สร้างแรงจูงใจให้ผู้ใช้จัดหาสภาพคล่องให้กับคู่ซื้อขายของคุณโดยแจกจ่าย CHANG ให้กับผู้ถือ LP Token ของคู่เงินของคุณ
 
-Brewery Pools are a way of distributing your tokens to BKC users who stake CHANG in the pool.
+Brewery Pools เป็นวิธีแจกจ่ายโทเค็นของคุณให้กับผู้ใช้ BKC ที่ถือหุ้น CHANG ในพูล
 
-These two products go hand-in-paw on ChangSwap: when a project provides their tokens for a Brewery Pool, we'll also create a Farm. If you're looking to distribute tokens and incentivize liquidity, get in touch.
+ผลิตภัณฑ์ทั้งสองนี้เข้ากันได้ดีกับ ChangSwap: เมื่อโปรเจ็กต์มอบโทเค็นให้กับโรงเบียร์ เราจะสร้างฟาร์มด้วย หากคุณต้องการแจกจ่ายโทเค็นและกระตุ้นสภาพคล่อง โปรดติดต่อ
 
-**​Apply to run a Farm or Brewery Pool​**
+**​สมัครเปิดฟาร์มหรือโรงเบียร์​**
 
-* Please don't email us to apply - we only respond to applications via the application form.
-* Please don't chase us for a response on your application. We have a constant backlog of quality projects reaching out to us.
+* กรุณาอย่าส่งอีเมลถึงเราเพื่อสมัคร - เราตอบกลับเฉพาะใบสมัครผ่านแบบฟอร์มใบสมัครเท่านั้น
+* โปรดอย่าไล่ตามเราเพื่อตอบกลับใบสมัครของคุณ เรามีงานในมืออย่างต่อเนื่องของโครงการคุณภาพที่ติดต่อหาเรา
 
-### How long will it take to get a response?
+### ใช้เวลานานเท่าใดจึงจะได้รับคำตอบ
 
-We aim to respond to applications within a week, but due to a large number of requests, we’re unable to respond to every single applicant. If you don’t hear back from us within two weeks of applying, try reaching out to[ ](https://t.me/ChefTaro)Telegram, with **the name of your project, your token ticker, and the date you applied.**
+เราตั้งเป้าที่จะตอบกลับใบสมัครภายในหนึ่งสัปดาห์ แต่เนื่องจากมีคำขอจำนวนมาก เราจึงไม่สามารถตอบสนองต่อผู้สมัครทุกรายได้ หากคุณไม่ได้รับการติดต่อกลับจากเราภายในสองสัปดาห์หลังจากสมัคร โปรดติดต่อ[ ](https://t.me/ChefTaro)Telegram พร้อม **ชื่อโครงการของคุณ เครื่องหมายโทเค็น และวันที่ ที่คุณสมัคร**
 
-### What’s the difference between a Core Farm VS Farm Auction
+### อะไรคือความแตกต่างระหว่าง Core Farm VS Farm Auction
 
-A Core Farm is usually offered to projects who have shown excellent trading volumes on ChangSwap and have met the standards of our internal review process, while any project can participate in a Farm Auction and win a Farm slot.
+โดยปกติแล้ว Core Farm จะเสนอให้กับโปรเจ็กต์ที่แสดงปริมาณการซื้อขายที่ยอดเยี่ยมบน ChangSwap และตรงตามมาตรฐานของกระบวนการตรวจสอบภายในของเรา ในขณะที่โครงการใดๆ สามารถเข้าร่วมการประมูลฟาร์มและชนะสล็อตฟาร์มได้
 
-### What are the qualifying criteria for Community VS Core?
+### อะไรคือเกณฑ์คุณสมบัติสำหรับ Community VS Core?
 
-Qualifying criteria for Community Farms and Core Farms/Pools are based on our internal review process. We don’t publish them externally. If you’re not eligible for a Core Farm, we may invite you to apply for a Community Farm instead.
+เกณฑ์คุณสมบัติสำหรับฟาร์มชุมชนและฟาร์มหลัก/สระว่ายน้ำนั้นขึ้นอยู่กับกระบวนการตรวจสอบภายในของเรา เราไม่เผยแพร่สู่ภายนอก หากคุณไม่มีสิทธิ์เข้าร่วมฟาร์มหลัก เราอาจเชิญคุณสมัครฟาร์มชุมชนแทน
 
-### Can I get a larger Farm multiplier? Or can I extend my Brewery Pool and Farm?
+### ฉันขอตัวคูณฟาร์มที่ใหญ่ขึ้นได้ไหม หรือฉันสามารถขยายโรงเบียร์และฟาร์มของฉันได้หรือไม่?
 
-If you’ve already got an ongoing Pool and Farm, you may be able to extend the timeline via a Boost Pool. If you wish to increase the multiplier, the team will consider it if the 30-day volume is increased. Contact us via your existing ChangSwap communication channels for enquiries.
+หากคุณมี Pool and Farm ต่อเนื่องอยู่แล้ว คุณอาจขยายไทม์ไลน์ผ่าน Boost Pool ได้ หากคุณต้องการเพิ่มตัวคูณ ทีมงานจะพิจารณาเพิ่มหากปริมาณใน 30 วันเพิ่มขึ้น ติดต่อเราผ่านช่องทางการสื่อสารของ ChangSwap ที่คุณมีอยู่เพื่อสอบถามข้อมูล
 
-## IFOs (Token Sales)
+## IFO (การขายโทเค็น)
 
-"IFO" (Initial Farm Offering) is a new model of token sale pioneered by ChangSwap. Here's how it works, in short:
+"IFO" (Initial Farm Offering) คือรูปแบบใหม่ของการขายโทเค็นที่ริเริ่มโดย ChangSwap นี่คือวิธีการทำงานโดยย่อ:
 
-* Users buy your token with CHANG tokens.
-* After the sale, we distribute the CHANG to you.
+* ผู้ใช้ซื้อโทเค็นของคุณด้วยโทเค็น CHANG
+* หลังการขาย เราแจก CHANG ให้คุณ
 
-Learn more about [how IFOs work.](https://medium.com/changswap/initial-farm-offering-ifo-3-0-ifo-staking-pool-622d8bd356f1)
+เรียนรู้เพิ่มเติมเกี่ยวกับ [วิธีการทำงานของ IFO](https://medium.com/changswap/initial-farm-offering-ifo-3-0-ifo-staking-pool-622d8bd356f1)
 
-[Apply to run an IFO](https://docs.google.com/forms/d/e/1FAIpQLSf0Vmy3k0KyXtXwqxr8QLjD8Xd6KBAmkYxcBRRVTUYJVX17fA/viewform)
+[สมัครเพื่อเรียกใช้ IFO](https://docs.google.com/forms/d/e/1FAIpQLSf0Vmy3k0KyXtXwqxr8QLjD8Xd6KBAmkYxcBRRVTUYJVX17fA/viewform)
 
-* Please don't email us to apply - we only respond to applications via the application form.
-* Please don't chase us for a response on your application. We have a constant backlog of quality projects reaching out to us.
+* กรุณาอย่าส่งอีเมลถึงเราเพื่อสมัคร - เราตอบกลับเฉพาะใบสมัครผ่านแบบฟอร์มใบสมัครเท่านั้น
+* โปรดอย่าไล่ตามเราเพื่อตอบกลับใบสมัครของคุณ เรามีงานในมืออย่างต่อเนื่องของโครงการคุณภาพที่ติดต่อหาเรา
 
-### How long will it take to get a response?
+### ใช้เวลานานเท่าใดจึงจะได้รับคำตอบ
 
-We aim to respond to applications within a week, but due to a large number of requests, we’re unable to respond to every single applicant. If you don’t hear back from us within two weeks of applying, try reaching out to Telegram, with **the name of your project, your token ticker, and the date you applied.**
+เราตั้งเป้าที่จะตอบกลับใบสมัครภายในหนึ่งสัปดาห์ แต่เนื่องจากมีคำขอจำนวนมาก เราจึงไม่สามารถตอบสนองต่อผู้สมัครทุกรายได้ หากคุณไม่ได้รับการตอบกลับจากเราภายในสองสัปดาห์หลังจากสมัคร ให้ลองติดต่อ Telegram พร้อมแจ้ง **ชื่อโครงการของคุณ สัญลักษณ์โทเค็น และวันที่คุณสมัคร**
 
-## Listing on the Exchange <a href="#exchange" id="exchange"></a>
+## รายการแลกเปลี่ยน <a href="#exchange" id="exchange"></a>
 
-### How can I list my token on the exchange?
+### ฉันจะแสดงรายการโทเค็นของฉันในการแลกเปลี่ยนได้อย่างไร
 
-Anybody can "list" any KEP-20 network token on ChangSwap. You don't need to contact us or ask permission. You just need to [add liquidity to a liquidity pool](../products/changswap-exchange/changswap-pools.md) - that's it. Traders can then trade your token by entering your token's contract address.
+ทุกคนสามารถ "แสดงรายการ" โทเค็นเครือข่าย KEP-20 บน ChangSwap คุณไม่จำเป็นต้องติดต่อเราหรือขออนุญาต คุณเพียงแค่ต้อง [เพิ่มสภาพคล่องให้กับกลุ่มสภาพคล่อง](../products/changswap-exchange/changswap-pools.md) - เท่านั้น ผู้ค้าสามารถแลกเปลี่ยนโทเค็นของคุณได้โดยป้อนที่อยู่สัญญาของโทเค็น
 
-### How can I add my token to the default list?
+### ฉันจะเพิ่มโทเค็นในรายการเริ่มต้นได้อย่างไร
 
-The top 100 list is generated according to the highest volume for a specific period of time. As for the Extended list: projects hosting Farms will usually be added, and other tokens chosen by ChangSwap core team may also be added.
+รายการ 100 อันดับแรกจะสร้างขึ้นตามปริมาณสูงสุดในช่วงเวลาที่กำหนด สำหรับรายการเพิ่มเติม: โดยปกติจะมีการเพิ่มโปรเจ็กต์ที่โฮสต์ Farms และโทเค็นอื่นๆ ที่เลือกโดยทีมหลักของ ChangSwap อาจถูกเพิ่มเข้าไปด้วย
 
-We don’t take applications for these lists. Users can still add your token manually by entering its contract address.
+เราไม่รับใบสมัครสำหรับรายการเหล่านี้ ผู้ใช้ยังคงเพิ่มโทเค็นของคุณได้ด้วยตนเองโดยป้อนที่อยู่ของสัญญา
 
-### How can I add my token's logo/icon?
+### ฉันจะเพิ่มโลโก้/ไอคอนของโทเค็นได้อย่างไร
 
-Please add your icon to Trust Wallet’s assets repo, which ChangSwap references: [https://github.com/trustwallet/assets](https://github.com/trustwallet/assets)
+โปรดเพิ่มไอคอนของคุณลงใน repo สินทรัพย์ของ Trust Wallet ซึ่ง ChangSwap อ้างอิง: [https://github.com/trustwallet/assets](https://github.com/trustwallet/assets)
 
-### Someone made a fake copy of my token! Can you block it?
+### มีคนทำสำเนาโทเค็นของฉันปลอม! บล็อคได้มั้ยคะ?
 
-Due to ChangSwap’s nature as an AMM-based DEX, we’re not able to prevent the trading of any KEP-20 token. We recommend ensuring that your token contract is clearly visible and verifiable on your site, and educating your users about how to safely trade your token.
+เนื่องจากธรรมชาติของ ChangSwap เป็น DEX ที่ใช้ AMM เราจึงไม่สามารถป้องกันการซื้อขายโทเค็น KEP-20 ใดๆ ได้ เราแนะนำให้ตรวจสอบให้แน่ใจว่าสัญญาโทเค็นของคุณมองเห็นได้ชัดเจนและตรวจสอบได้บนไซต์ของคุณ และให้ความรู้แก่ผู้ใช้ของคุณเกี่ยวกับวิธีการแลกเปลี่ยนโทเค็นของคุณอย่างปลอดภัย
 
-### People get an error when trading my token. What can I do?
+### ผู้คนได้รับข้อผิดพลาดเมื่อแลกเปลี่ยนโทเค็นของฉัน ฉันจะทำอย่างไร?
 
-Check our [Troubleshooting page](../help/troubleshooting.md) for a list of common errors on the exchange, and how to solve them.
+ตรวจสอบ [หน้าการแก้ไขปัญหา] (../help/troubleshooting.md) เพื่อดูรายการข้อผิดพลาดทั่วไปในการแลกเปลี่ยน และวิธีแก้ปัญหา
 
-## Something else
+## อื่น ๆ อีก
 
-You can shoot us an email at info@changswap.com if the above parts don't cover your questions.
+คุณสามารถส่งอีเมลหาเราได้ที่ info@changswap.com หากส่วนข้างต้นไม่ครอบคลุมคำถามของคุณ
 
-Please don't try to contact us via this email for [customer support](customer-support.md), that's not what it's for and we won't respond: your best option for getting help with the product is via the [Telegram or Reddit community](telegram.md).
+โปรดอย่าพยายามติดต่อเราผ่านอีเมลนี้สำหรับ [ฝ่ายสนับสนุนลูกค้า](customer-support.md) นั่นไม่ใช่เหตุผลและเราจะไม่ตอบกลับ: ตัวเลือกที่ดีที่สุดของคุณสำหรับการรับความช่วยเหลือ
+
+โปรดอย่าพยายามติดต่อเราผ่านอีเมลนี้สำหรับ [customer support](customer-support.md) นั่นไม่ใช่เหตุผลและเราจะไม่ตอบกลับ: ตัวเลือกที่ดีที่สุดของคุณสำหรับการรับความช่วยเหลือเกี่ยวกับผลิตภัณฑ์คือผ่านทาง [Telegram หรือชุมชน Reddit](telegram.md)

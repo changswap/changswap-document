@@ -1,89 +1,89 @@
-# How to Add/Remove Liquidity
+# วิธีการเพิ่ม/ลบสภาพคล่อง
 
 ![](../../.gitbook/assets/howtoaddremoveliquidity.png)
 
-"Liquidity" is central to how ChangSwap's Exchange works. You can add liquidity for any token pair by staking both through the Liquidity page.
+"สภาพคล่อง" เป็นศูนย์กลางของการทำงานของการแลกเปลี่ยนของ ChangSwap คุณสามารถเพิ่มสภาพคล่องให้กับคู่โทเค็นใดๆ ก็ได้โดยเดิมพันทั้งสองผ่านหน้าสภาพคล่อง
 
-In return for adding liquidity, you'll receive trading fees for that pair, and receive LP Tokens you can [stake in Farms](https://docs.changswap.com/products/yield-farming/farms) to earn CHANG rewards!
+เพื่อแลกกับการเพิ่มสภาพคล่อง คุณจะได้รับค่าธรรมเนียมการซื้อขายสำหรับคู่นั้น และรับ LP Token ที่คุณสามารถ [เดิมพันในฟาร์ม](https://docs.changswap.com/products/yield-farming/farms) เพื่อรับรางวัล CHANG !
 
-### **Adding liquidity**
+### **เพิ่มสภาพคล่อง**
 
-To provide liquidity, you’ll need to commit an amount of any token pair you like. Your lowest value (in USD) of the two tokens will be the limit to the liquidity you can provide.
+เพื่อให้มีสภาพคล่อง คุณจะต้องยอมรับคู่โทเค็นที่คุณต้องการ มูลค่าต่ำสุดของคุณ (เป็น USD) ของโทเค็นทั้งสองจะเป็นขีดจำกัดของสภาพคล่องที่คุณสามารถให้ได้
 
-You can easily trade for any tokens you need. Visit our [How to Trade on ChangSwap](https://docs.changswap.com/get-started/trade-guide) guide if you need to.
+คุณสามารถแลกเปลี่ยนโทเค็นที่คุณต้องการได้อย่างง่ายดาย ไปที่คู่มือ [วิธีแลกเปลี่ยนกับ ChangSwap](https://docs.changswap.com/get-started/trade-guide) หากคุณต้องการ
 
-In this example, we will add liquidity using KUB and CHANG.\\
+ในตัวอย่างนี้ เราจะเพิ่มสภาพคล่องโดยใช้ KUB และ CHANG\\
 
 ***
 
-1\. Visit the [Liquidity page](https://changswap.com/liquidity/).
+1\. ไปที่ [หน้าสภาพคล่อง](https://changswap.com/liquidity/)
 
 ![](<../../.gitbook/assets/截屏2022-04-14 09.25.44.png>)
 
-2\. Click the **Add Liquidity** button.
+2\. คลิกปุ่ม **เพิ่มสภาพคล่อง**
 
 ![](<../../.gitbook/assets/截屏2022-04-14 09.26.30.png>)
 
-3\. For the top Input, click 'Select a currency'. Then choose one of the token in the liquidity pair you want to add liquidity to. Here, we are gong to use KUB as an example.
+3\. สำหรับการป้อนข้อมูลด้านบน ให้คลิก 'เลือกสกุลเงิน' จากนั้นเลือกหนึ่งในโทเค็นในคู่สภาพคล่องที่คุณต้องการเพิ่มสภาพคล่อง เราจะใช้ KUB เป็นตัวอย่าง
 
 ![](<../../.gitbook/assets/截屏2022-04-14 09.27.13.png>)
 
-4\. For the bottom input, click ‘Select a currency’. And choose the other token in the liquidity pair you want to add liquidity to. Here, we are gong to use CHANG as an example.
+4\. สำหรับการป้อนข้อมูลด้านล่าง ให้คลิก 'เลือกสกุลเงิน' และเลือกโทเค็นอื่นในคู่สภาพคล่องที่คุณต้องการเพิ่มสภาพคล่อง เราจะใช้ CHANG เป็นตัวอย่าง
 
 ![](<../../.gitbook/assets/截屏2022-04-14 09.27.48.png>)
 
-5\. Enter an amount on one of the tokens under “Input”. The other should be calculated and filled automatically.
+5\. ป้อนจำนวนหนึ่งในโทเค็นภายใต้ "ป้อนข้อมูล" อีกอันควรคำนวณและกรอกโดยอัตโนมัติ
 
 ![](<../../.gitbook/assets/截屏2022-04-14 09.28.30.png>)
 
-(If one of the token does not have enough balance. You will see an error and the button being greyed out. Please enter a lower amount to proceed.)
+(หากโทเค็นตัวใดตัวหนึ่งมียอดคงเหลือไม่เพียงพอ คุณจะเห็นข้อผิดพลาดและปุ่มเป็นสีเทา โปรดป้อนจำนวนที่น้อยลงเพื่อดำเนินการต่อ)
 
 ![](<../../.gitbook/assets/截屏2022-04-14 09.29.25.png>)
 
-6\. Click the **Enable CHANG** button. If you are adding liquidity against tokens other than KUB, you might need to click enable twice for each token in your pair. Your wallet will ask you to confirm the action.
+6\. คลิกปุ่ม **เปิดใช้งาน CHANG** หากคุณกำลังเพิ่มสภาพคล่องให้กับโทเค็นอื่นที่ไม่ใช่ KUB คุณอาจต้องคลิกเปิดใช้งานสองครั้งสำหรับแต่ละโทเค็นในคู่ของคุณ กระเป๋าเงินของคุณจะขอให้คุณยืนยันการดำเนินการ
 
 ![](<../../.gitbook/assets/截屏2022-04-14 09.30.52.png>)
 
-7\. The **Supply** button will then light up. Click to proceed.
+7\. ปุ่ม **อุปทาน** จะสว่างขึ้น คลิกเพื่อดำเนินการต่อ
 
 ![](<../../.gitbook/assets/截屏2022-04-14 09.32.04.png>)
 
-8\. Your wallet will ask you for confirmation. Confirm your transaction from your wallet.
+8\. กระเป๋าเงินของคุณจะขอให้คุณยืนยัน ยืนยันการทำธุรกรรมของคุณจากกระเป๋าเงินของคุณ
 
 ![](<../../.gitbook/assets/截屏2022-04-14 09.32.41.png>)
 
-9\. Soon after, you will see your LP Token balance at the bottom of the page.
+9\. หลังจากนั้นไม่นาน คุณจะเห็นยอดคงเหลือ LP Token ของคุณที่ด้านล่างของหน้า
 
-You can repeat the above steps to add more liquidity, or add liquidity to different pairs.
+คุณสามารถทำซ้ำขั้นตอนข้างต้นเพื่อเพิ่มสภาพคล่อง หรือเพิ่มสภาพคล่องให้กับคู่เงินต่างๆ
 
-### **Removing liquidity**
+### **ปลดสภาพคล่อง**
 
-To remove liquidity.
+เพื่อขจัดสภาพคล่อง
 
-1\. Visit the [Liquidity page](https://exchange.changswap.com/#/pool)**.**
+1\. เข้าไปที่ [หน้าสภาพคล่อง](https://exchange.changswap.com/#/pool)**.**
 
-2\. Click on the pair you want to remove liquidity from under “Your Liquidity".
+2\. คลิกที่คู่เงินที่คุณต้องการลบสภาพคล่องออกจากใต้ “สภาพคล่องของคุณ”
 
 ![](<../../.gitbook/assets/截屏2022-04-14 09.33.29.png>)
 
-3\. Click **Remove**. A new modal will appear.
+3\. คลิก **ลบ** โมดอลใหม่จะปรากฏขึ้น
 
 ![](<../../.gitbook/assets/截屏2022-04-14 09.34.20.png>)
 
-4\. Use the buttons or slider to choose how much liquidity you want to remove. Choose **MAX** to remove all of your liquidity from this pair.
+4\. ใช้ปุ่มหรือตัวเลื่อนเพื่อเลือกปริมาณสภาพคล่องที่คุณต้องการลบ เลือก **MAX** เพื่อลบสภาพคล่องทั้งหมดของคุณออกจากคู่นี้
 
 ![](<../../.gitbook/assets/截屏2022-04-14 09.35.09.png>)
 
-5\. Click **Enable**. Your wallet will ask you to sign the action\*\*.\*\*
+5\. คลิก **เปิดใช้งาน** กระเป๋าเงินของคุณจะขอให้คุณลงนามในการดำเนินการ\*\*.\*\*
 
 ![](<../../.gitbook/assets/截屏2022-04-14 09.35.52.png>)
 
-6\. The **Remove** button will light up. Click to proceed.
+6\. ปุ่ม **ลบ** จะสว่างขึ้น คลิกเพื่อดำเนินการต่อ
 
 ![](<../../.gitbook/assets/截屏2022-04-14 09.36.21.png>)
 
-7\. A window will appear showing how much token you will receive. Click **Confirm**. Your wallet will ask you to confirm the action.
+7\. หน้าต่างจะปรากฏขึ้นเพื่อแสดงจำนวนโทเค็นที่คุณจะได้รับ คลิก **ยืนยัน** กระเป๋าเงินของคุณจะขอให้คุณยืนยันการดำเนินการ
 
 ![](<../../.gitbook/assets/截屏2022-04-14 09.36.48.png>)
 
-8\. After the transaction is confirmed. You will receive two of the tokens from your pair. And if you haven't remove all of your liquidity, your remaining liquidity value will be updated on "My Liquidity" page.\\
+8\. หลังจากยืนยันธุรกรรมแล้ว คุณจะได้รับโทเค็นสองอันจากคู่ของคุณ และหากคุณยังไม่ได้ลบสภาพคล่องออกทั้งหมด มูลค่าสภาพคล่องคงเหลือของคุณจะได้รับการอัปเดตในหน้า "สภาพคล่องของฉัน"\\

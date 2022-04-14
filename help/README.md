@@ -1,25 +1,25 @@
-# Click Here for Help
+#คลิกที่นี่เพื่อขอความช่วยเหลือ
 
 ![](../.gitbook/assets/helparea.png)
 
-If you find yourself stuck, if something isn't working like it's meant to, or you're not sure if something has worked or not, this help section may be able to, well, help.
+หากคุณพบว่าตัวเองติดขัด มีบางอย่างไม่ทำงานตามที่ควรจะเป็น หรือคุณไม่แน่ใจว่ามีบางอย่างทำงานหรือไม่ ส่วนความช่วยเหลือนี้อาจช่วยคุณได้
 
-## Help sections
+## ส่วนช่วยเหลือ
 
-We have broken the help topic down into sections to help you find what you're after. Below is an overview on what you'll find.
+เราได้แบ่งหัวข้อความช่วยเหลือออกเป็นส่วนๆ เพื่อช่วยคุณค้นหาสิ่งที่คุณต้องการ ด้านล่างนี้คือภาพรวมของสิ่งที่คุณจะได้พบ
 
-### Troubleshooting Errors
+### การแก้ไขข้อผิดพลาด
 
-The [Troubleshooting Errors page](https://docs.changswap.com/help/troubleshooting) has a collection of errors users may run into while using ChangSwap. It shows the problem with both a solution to the problem, and a reason explaining why the problem happened.
+[หน้าการแก้ไขปัญหาข้อผิดพลาด](https://docs.changswap.com/help/troubleshooting) มีชุดข้อผิดพลาดที่ผู้ใช้อาจพบขณะใช้ ChangSwap มันแสดงให้เห็นปัญหาที่มีทั้งวิธีแก้ไขปัญหาและเหตุผลที่อธิบายว่าทำไมปัญหาจึงเกิดขึ้น
 
-### General FAQ
+### คำถามที่พบบ่อยทั่วไป
 
-The [General FAQ page](https://docs.changswap.com/help/faq) answers the common questions we get from ChangSwap users. The answers to these questions give advice, an explanation, or a link to a useful resource.
+[หน้าคำถามที่พบบ่อยทั่วไป](https://docs.changswap.com/help/faq) ตอบคำถามทั่วไปที่เราได้รับจากผู้ใช้ ChangSwap คำตอบสำหรับคำถามเหล่านี้จะให้คำแนะนำ คำอธิบาย หรือลิงก์ไปยังแหล่งข้อมูลที่เป็นประโยชน์
 
-### Other Guides
+### คำแนะนำอื่น ๆ
 
-There are also a number of guides in the help topic that will walk you through technical problems. We add guides when a problem that may be difficult to solve comes up often, so if you're having trouble be sure to check here for a guide to your problem.
+นอกจากนี้ยังมีคำแนะนำมากมายในหัวข้อความช่วยเหลือที่จะแนะนำคุณเกี่ยวกับปัญหาทางเทคนิค เราเพิ่มคำแนะนำเมื่อเกิดปัญหาที่อาจแก้ไขได้ยาก ดังนั้นหากคุณประสบปัญหา โปรดอ่านคำแนะนำสำหรับปัญหาของคุณที่นี่
 
-## Seeking support
+## ขอการสนับสนุน
 
-ChangSwap doesn't have a dedicated support service. Instead, if you find yourself with a problem that has no answer here, you can ask for help on [ChangSwap's Telegram channel](https://t.me/changswap). For your safety, make sure you read the notice about scams if it's your first time on our Telegram.
+ChangSwap ไม่มีบริการสนับสนุนเฉพาะ แต่หากคุณพบปัญหาที่ไม่มีคำตอบที่นี่ คุณสามารถขอความช่วยเหลือได้ที่ [ช่อง Telegram ของ ChangSwap](https://t.me/changswap) เพื่อความปลอดภัยของคุณ โปรดอ่านประกาศเกี่ยวกับการหลอกลวง หากคุณเพิ่งเปิดโทรเลขของเราเป็นครั้งแรก

@@ -1,39 +1,39 @@
-# Liquidity Pools
+# สระสภาพคล่อง
 
 ![](../../.gitbook/assets/liquiditypools.png)
 
-When you add your token to a Liquidity Pool you will receive Liquidity Provider (LP) tokens and share in the fees.
+เมื่อคุณเพิ่มโทเค็นของคุณใน Liquidity Pool คุณจะได้รับโทเค็น Liquidity Provider (LP) และแบ่งปันค่าธรรมเนียม
 
 ## LP Tokens
 
-As an example, if you deposited **CHANG** and **KUB** into a Liquidity Pool, you'd receive **CHANG-KUB LP** tokens.
+ตัวอย่างเช่น หากคุณฝาก **CHANG** และ **KUB** ลงใน Liquidity Pool คุณจะได้รับโทเค็น **CHANG-KUB LP**
 
-The number of LP tokens you receive represents your portion of the CHANG-KUB Liquidity Pool.
+จำนวนโทเค็น LP ที่คุณได้รับแสดงถึงส่วนของคุณในกลุ่มสภาพคล่องของ CHANG-KUB
 
-You can also redeem your funds at any time by removing your liquidity.
+คุณยังสามารถแลกเงินของคุณได้ทุกเมื่อโดยลบสภาพคล่องของคุณออก
 
 ![](<../../.gitbook/assets/截屏2022-04-14 09.24.06.png>)
 
-## Liquidity Providers earn trading fees
+## ผู้ให้บริการสภาพคล่องได้รับค่าธรรมเนียมการซื้อขาย
 
-Providing liquidity gives you a reward in the form of trading fees when people use your liquidity pool.
+การจัดหาสภาพคล่องให้รางวัลแก่คุณในรูปแบบของค่าธรรมเนียมการซื้อขายเมื่อมีผู้คนใช้กลุ่มสภาพคล่องของคุณ
 
-Whenever someone trades on ChangSwap, the trader pays a 0.25% fee, **of which 0.17%** is added to the Liquidity Pool of the swap pair they traded on.
+เมื่อใดก็ตามที่มีคนทำการซื้อขายบน ChangSwap ผู้ซื้อขายจะจ่ายค่าธรรมเนียม 0.25% **ซึ่ง 0.17%** จะถูกเพิ่มไปยังกลุ่มสภาพคล่องของคู่สวอปที่พวกเขาซื้อขาย
 
-For example:
+ตัวอย่างเช่น:
 
-* There are 10 LP tokens representing 10 CHANG and 10 KUB tokens.
+* มีโทเค็น LP 10 อัน แทนโทเค็น 10 CHANG และ 10 KUB
 * 1 LP token = 1 CHANG + 1 KUB
-* Someone trades 10 CHANG for 10 KUB.
-* Someone else trades 10 KUB for 10 CHANG.
-* The CHANG/KUB liquidity pool now has 10.017 CHANG and 10.017 KUB.
-* Each LP token is now worth 1.00017 CHANG + 1.00017 KUB.
+* มีคนแลกเปลี่ยน 10 CHANG สำหรับ 10 KUB
+* คนอื่นแลก 10 KUB เป็น 10 CHANG
+* สระสภาพคล่อง CHANG/KUB ตอนนี้มี 10.017 CHANG และ 10.017 KUB
+* โทเค็น LP แต่ละรายการมีมูลค่า 1.00017 CHANG + 1.00017 KUB
 
-To make being a liquidity provider even more worth your while, you can also put your LP tokens to work whipping up some fresh yield on the [CHANG Farms](https://changswap.com/farms/), while still earning your 0.17% trading fee reward.
+เพื่อให้การเป็นผู้ให้บริการสภาพคล่องคุ้มค่ายิ่งขึ้นในขณะที่คุณยังสามารถนำโทเค็น LP ของคุณไปใช้เพื่อเพิ่มผลตอบแทนใน [CHANG Farms](https://changswap.com/farms/) ในขณะที่ยังคงได้รับ 0.17 % ผลตอบแทนค่าธรรมเนียมการซื้อขาย
 
-## Impermanent Loss
+## การสูญเสียชั่วคราว
 
-Providing liquidity is not without risk, as you may be exposed to impermanent loss.
+การจัดหาสภาพคล่องนั้นไม่ได้ปราศจากความเสี่ยง เนื่องจากคุณอาจประสบกับการสูญเสียอย่างไม่ถาวร
 
 \
-[“Simply put, impermanent loss is the difference between holding tokens in an AMM and holding them in your wallet.” - Nate Hindman](https://blog.bancor.network/beginners-guide-to-getting-rekt-by-impermanent-loss-7c9510cb2f22)
+["พูดง่ายๆ ว่าการสูญเสียที่ไม่ถาวรคือความแตกต่างระหว่างการถือโทเค็นใน AMM และการถือไว้ในกระเป๋าเงินของคุณ" - เนท ฮินด์แมน](https://blog.bancor.network/beginners-guide-to-getting-rekt-by-impermanent-loss-7c9510cb2f22)

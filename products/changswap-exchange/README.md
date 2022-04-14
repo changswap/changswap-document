@@ -1,25 +1,25 @@
-# 🔄 Exchange
+# 🔄 แลกเปลี่ยน
 
 ![](../../.gitbook/assets/exchange.png)
 
-ChangSwap is an Automated Market Maker (AMM), and the Exchange is at the heart of ChangSwap. ChangSwap is the leading AMM on the Bitkub Chain, and as statistics tell, the most popular Decentralized Exchange (DEX) ever!
+ChangSwap คือผู้สร้างตลาดอัตโนมัติ (AMM) และการแลกเปลี่ยนคือหัวใจของ ChangSwap ChangSwap เป็น AMM ชั้นนำใน Bitkub Chain และตามสถิติแล้ว Decentralized Exchange (DEX) ที่ได้รับความนิยมมากที่สุดตลอดกาล!
 
-The ChangSwap Exchange offers several features that support decentralized trading:
+ChangSwap Exchange มีคุณสมบัติหลายอย่างที่สนับสนุนการซื้อขายแบบกระจายอำนาจ:
 
-### Swapping/Trading
+### การแลกเปลี่ยน/การซื้อขาย
 
-ChangSwap lets users trade without the need to go through a Centralized Exchange. Everything you do on ChangSwap is routed directly through your own wallet—no need to trust someone else with your coins!
+ChangSwap ให้ผู้ใช้ซื้อขายโดยไม่ต้องผ่าน Centralized Exchange ทุกสิ่งที่คุณทำบน ChangSwap จะถูกส่งโดยตรงผ่านกระเป๋าเงินของคุณ ไม่จำเป็นต้องไว้ใจคนอื่นด้วยเหรียญของคุณ!
 
-### Liquidity Pools
+### สระสภาพคล่อง
 
-You can only swap tokens on ChangSwap if there is enough liquidity for those tokens. If nobody has added much liquidity for the token or tokens you want to swap, it will be difficult, expensive, or impossible to do so.
+คุณสามารถสลับโทเค็นบน ChangSwap ได้หากมีสภาพคล่องเพียงพอสำหรับโทเค็นเหล่านั้น หากไม่มีใครเพิ่มสภาพคล่องให้กับโทเค็นหรือโทเค็นที่คุณต้องการแลกเปลี่ยนมากนัก มันจะทำได้ยาก มีราคาแพง หรือเป็นไปไม่ได้เลย
 
-Providing liquidity will get you LP Tokens, which will earn you rewards in the form of trading fees for making sure there's always liquidity for the exchange to use.
+การให้สภาพคล่องจะทำให้คุณได้รับ LP Token ซึ่งจะทำให้คุณได้รับผลตอบแทนในรูปแบบของค่าธรรมเนียมการซื้อขายเพื่อให้แน่ใจว่ามีสภาพคล่องอยู่เสมอสำหรับการแลกเปลี่ยนที่จะใช้
 
-### Yield Farming
+### ผลผลิตทางการเกษตร
 
-Yield farming lets users that are providing liquidity earn CHANG rewards by locking their LP tokens into a smart contract.
+การทำฟาร์มผลตอบแทนให้ผู้ใช้ที่ให้สภาพคล่องได้รับรางวัล CHANG โดยการล็อคโทเค็น LP ของพวกเขาไว้ในสัญญาอัจฉริยะ
 
-### Initial Farm Offerings (IFOs)
+### ข้อเสนอฟาร์มเริ่มต้น (IFO)
 
-An Initial Farm Offering is an event that lets users buy into a limited-time offer to purchase new tokens. The IFO price is usually very generous.
+Initial Farm Offer เป็นกิจกรรมที่ให้ผู้ใช้ซื้อในข้อเสนอแบบจำกัดเวลาเพื่อซื้อโทเค็นใหม่ ราคา IFO มักจะใจกว้างมาก

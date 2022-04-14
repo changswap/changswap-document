@@ -1,25 +1,25 @@
-# CHANG
+#ช้างเผือก
 
-* **Ticker:** CHANG
-* **Contract Address:** [https://bkcscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82](https://bkcscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82)
-* **Chain:** Bitkub Chain (KEP20)
+* **Ticker:** ช้าง
+* **ที่อยู่สัญญา:** [https://bkcscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82](https://bkcscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82)
+* **Chain:** ห่วงโซ่ Bitkub (KEP20)
 
-## The basics
+## พื้นฐาน
 
-CHANG is the delicious token that powers the ChangSwap ecosystem.
+CHANG คือโทเค็นแสนอร่อยที่ขับเคลื่อนระบบนิเวศของ ChangSwap
 
-Earn CHANG from Farms and Brewery Pools, or [buy it on the exchange](../../products/changswap-exchange/), then explore its use cases:
+รับ CHANG จาก Farms and Brewery Pools หรือ [ซื้อจากการแลกเปลี่ยน](../../products/changswap-exchange/) จากนั้นสำรวจกรณีการใช้งาน:
 
-* Stake it in [Brewery Pools](../../products/brewery-pool/) to earn free tokens
-* Use it in [Yield Farms](https://docs.changswap.com/products/yield-farming) to earn more CHANG
+* เดิมพันใน [Brewery Pools](../../products/brewery-pool/) เพื่อรับโทเค็นฟรี
+* ใช้ใน [Yield Farms](https://docs.changswap.com/products/yield-farming) เพื่อรับ CHANG มากขึ้น
 
 
 
-But that's not all -- there's much more on the horizon for CHANG!
+แต่นั่นยังไม่หมด -- ยังมีอะไรอีกมากมายรออยู่สำหรับ CHANG!
 
-## In detail
+## ในรายละเอียด
 
-Check below to discover the nuts and bolts of how CHANG works.
+ตรวจสอบด้านล่างเพื่อค้นหาน็อตและสลักเกลียวเกี่ยวกับวิธีการทำงานของ CHANG
 
 {% content-ref url="chang-tokenomics.md" %}
 [chang-tokenomics.md](chang-tokenomics.md)

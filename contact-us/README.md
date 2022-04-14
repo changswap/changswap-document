@@ -1,19 +1,19 @@
-# Contact Us
+# ติดต่อเรา
 
 ![](../.gitbook/assets/contactus.png)
 
 ####
 
-#### Business Contacts
+#### การติดต่อทางธุรกิจ
 
-### [Apply for Yield Farm or Brewery Pool](business-partnerships.md#farms-and-brewery-pools)
+### [สมัคร Yield Farm หรือ Brewery Pool](business-partnerships.md#farms-and-brewery-pools)
 
-### [Apply for an IFO (Token Sale)](business-partnerships.md#ifos-token-sales)
+### [สมัคร IFO (การขายโทเค็น)](business-partnerships.md#ifos-token-sales)
 
 
 
-#### Help!
+#### ช่วย!
 
-### [Customer Support](customer-support.md#there-is-no-customer-support-for-changswap)
+### [การสนับสนุนลูกค้า](customer-support.md#there-is-no-customer-support-for-changswap)
 
-### [Social Communities](telegram.md)
+### [ชุมชนโซเชียล](telegram.md)

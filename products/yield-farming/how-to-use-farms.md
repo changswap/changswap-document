@@ -1,120 +1,120 @@
 ---
-description: Yield Farming on ChangSwap is easy!
+คำอธิบาย: Yield Farming บน ChangSwap นั้นง่าย!
 ---
 
-# How to Use Farms
+# วิธีใช้ฟาร์ม
 
 ![](../../.gitbook/assets/howtofarm.png)
 
-Yield Farming in Farms is a great way to earn CHANG rewards on ChangSwap.
+Yield Farming in Farms เป็นวิธีที่ยอดเยี่ยมในการรับรางวัล CHANG บน ChangSwap
 
-Unlike Brewery Pools, Farms require you to stake **two tokens** to get LP Tokens, which you then stake in the Farm to earn rewards. This lets you earn CHANG while still keeping a position in your other tokens!
+ฟาร์มต้องการให้คุณเดิมพัน **สองโทเค็น** เพื่อรับ LP Token ซึ่งแตกต่างจาก Brewery Pools จากนั้นคุณเดิมพันในฟาร์มเพื่อรับรางวัล สิ่งนี้ช่วยให้คุณได้รับ CHANG ในขณะที่ยังคงตำแหน่งในโทเค็นอื่น ๆ ของคุณ!
 
-{% hint style="warning" %}
-Yield farming can give better rewards than Brewery Pools, but it comes with a risk of **Impermanent Loss**. It’s not as scary as it sounds, but it is worth learning about the concept before you get started.
-{% endhint %}
+{% คำใบ้ style="คำเตือน" %}
+การทำฟาร์มด้วยผลผลิตสามารถให้รางวัลได้ดีกว่าโรงเบียร์ แต่มาพร้อมกับความเสี่ยง **การสูญเสียอย่างถาวร** มันไม่ได้น่ากลัวอย่างที่คิด แต่มันคุ้มค่าที่จะเรียนรู้เกี่ยวกับแนวคิดนี้ก่อนที่คุณจะเริ่มต้น
+{% สิ้นสุด %}
 
-## Getting prepared
+## เตรียมพร้อม
 
-Yield farming takes a little work to get set up.
+การทำฟาร์มให้ผลผลิตต้องใช้เวลาเล็กน้อยในการตั้งค่า
 
-You’re going to need some "LP Tokens" to enter into a Farm with. Farms can only accept their own exact LP Token; for example, the CHANG-KUB Farm will only accept CHANG-KUB LP Tokens.
+คุณจะต้องมี "LP Tokens" เพื่อเข้าสู่ฟาร์มด้วย ฟาร์มสามารถรับได้เฉพาะ LP Token ของตัวเองเท่านั้น ตัวอย่างเช่น CHANG-KUB Farm จะยอมรับเฉพาะโทเค็น LP ของ CHANG-KUB เท่านั้น
 
-To get the exact LP Token, you'll need to provide liquidity for that trading pair. So to get CHANG-KUB LP Tokens, you'll first have to provide liquidity for the CHANG-KUB pair.
+ในการรับ LP Token คุณจะต้องจัดเตรียมสภาพคล่องสำหรับคู่การซื้อขายนั้น ดังนั้นในการรับโทเค็น LP ของ CHANG-KUB คุณต้องจัดเตรียมสภาพคล่องสำหรับคู่ CHANG-KUB ก่อน
 
-It may sound intimidating, but it's not too complicated. Let's go through step by step.
+อาจฟังดูน่ากลัว แต่ก็ไม่ซับซ้อนเกินไป มาดูทีละขั้นตอนกัน
 
-### Finding your Farm
+### ค้นหาฟาร์มของคุณ
 
-Before you proceed, you'll want to choose a Farm that's right for you. [Visit the Farms page](https://changswap.com/farms) and you’ll see a list of available Farms.
+ก่อนที่คุณจะดำเนินการต่อ คุณจะต้องเลือกฟาร์มที่เหมาะกับคุณ [ไปที่หน้าฟาร์ม](https://changswap.com/farms) แล้วคุณจะเห็นรายชื่อฟาร์มที่พร้อมใช้งาน
 
 ![](<../../.gitbook/assets/截屏2022-04-14 09.40.32.png>)
 
-CHANG-KUB and BUSD-KUB are pinned to the top of the list with the default **Hot** sorting. After the pinned Farms, Hot will show other Farms in order of how new they are.
+CHANG-KUB และ BUSD-KUB ถูกตรึงไว้ที่ด้านบนสุดของรายการด้วยการจัดเรียง **Hot** เริ่มต้น หลังจากฟาร์มที่ตรึงไว้แล้ว Hot จะแสดงฟาร์มอื่น ๆ โดยเรียงตามลำดับความใหม่
 
-You can choose another sorting option if you like, such as by **APR** for the Farms with the highest reward rate currently.
+คุณสามารถเลือกตัวเลือกการจัดเรียงอื่นได้หากต้องการ เช่น ภายใน **เมษายน** สำหรับฟาร์มที่มีอัตรารางวัลสูงสุดในปัจจุบัน
 
-When you find a Farm that you'd like to use, note down the trading pair, e.g. KUB-CHANG in case you need it later.
+เมื่อคุณพบฟาร์มที่คุณต้องการใช้ ให้จดบันทึกคู่การซื้อขาย เช่น KUB-CHANG ในกรณีที่คุณต้องการในภายหลัง
 
-### Providing liquidity to get LP Tokens
+### จัดหาสภาพคล่องเพื่อรับ LP Tokens
 
-Now that you've found a Farm to stake in, you will need to add liquidity to get your LP Tokens.
+เมื่อคุณพบฟาร์มที่จะเดิมพันแล้ว คุณจะต้องเพิ่มสภาพคล่องเพื่อรับ LP Token ของคุณ
 
-1. Click on the row of the Farm you've chosen from the list. It will open to show more details.
-2. On the left, you'll see some links. Click the **Get (your pair) LP** link.
+1. คลิกแถวของฟาร์มที่คุณเลือกจากรายการ จะเปิดขึ้นเพื่อแสดงรายละเอียดเพิ่มเติม
+2. ทางด้านซ้าย คุณจะเห็นบางลิงก์ คลิกลิงก์ **รับ (คู่ของคุณ) LP**
 
 ![](<../../.gitbook/assets/截屏2022-04-14 09.41.09.png>)
 
-This will open the Add Liquidity page for your Farm's pair. We have a [guide to adding liquidity](https://docs.changswap.com/get-started/liquidity-guide) you can follow to get your LP Tokens.
+ซึ่งจะเปิดหน้าเพิ่มสภาพคล่องสำหรับคู่ฟาร์มของคุณ เรามี [คู่มือการเพิ่มสภาพคล่อง](https://docs.changswap.com/get-started/liquidity-guide) ที่คุณสามารถติดตามเพื่อรับ LP Token ของคุณได้
 
-## Putting your LP Tokens into a farm
+## นำ LP Token ของคุณไปไว้ในฟาร์ม
 
-Now that you have your LP Tokens, you’re ready to start staking them in a Farm and earning rewards!
+ตอนนี้คุณมี LP Token ของคุณแล้ว คุณก็พร้อมที่จะเริ่มปักหลักในฟาร์มและรับรางวัล!
 
-### Putting your LP Tokens into the Farm
+### นำ LP Token ของคุณเข้าสู่ฟาร์ม
 
-1. Go back to the [Farms page](https://changswap.com/farms) and locate your Farm. Click anywhere on the row showing your pair. It will expand to show more details.
+1. กลับไปที่ [หน้าฟาร์ม](https://changswap.com/farms) และค้นหาฟาร์มของคุณ คลิกที่ใดก็ได้ในแถวที่แสดงคู่ของคุณ จะขยายเพื่อแสดงรายละเอียดเพิ่มเติม
 
 ![](<../../.gitbook/assets/截屏2022-04-14 09.42.16.png>)
 
-When you’re ready, click the **Enable** button and confirm your action in your wallet.
+เมื่อคุณพร้อมแล้ว ให้คลิกปุ่ม **เปิดใช้งาน** และยืนยันการดำเนินการในกระเป๋าเงินของคุณ
 
-1. After a short wait, the Enable button will change to **Stake LP**. Click it and a new window will appear.
+1. หลังจากรอสักครู่ ปุ่มเปิดใช้งานจะเปลี่ยนเป็น **Stake LP** คลิกแล้วหน้าต่างใหม่จะปรากฏขึ้น
 
 ![](<../../.gitbook/assets/截屏2022-04-14 09.44.05 (1).png>)
 
-Type the amount of LP Tokens you would like to farm with into the field, or just click **Max** to use all of your LP Tokens.
+พิมพ์จำนวน LP Tokens ที่คุณต้องการฟาร์มด้วยลงในช่อง หรือเพียงคลิก **สูงสุด** เพื่อใช้ LP Token ทั้งหมดของคุณ
 
-1. When you have the amount entered, the **Confirm** button will light up. Click it. Your wallet will ask you to confirm your action.
+1. เมื่อคุณใส่จำนวนเงินแล้ว ปุ่ม **ยืนยัน** จะสว่างขึ้น คลิกเลย กระเป๋าเงินของคุณจะขอให้คุณยืนยันการกระทำของคุณ
 
 ![](<../../.gitbook/assets/截屏2022-04-14 09.45.03.png>)
 
-1. After a short wait, the window will close, and you will see your new staked LP Token balance in the details.
+1. หลังจากรอสักครู่ หน้าต่างจะปิดลง และคุณจะเห็นยอด LP Token ที่เดิมพันใหม่ของคุณในรายละเอียด
 
 ![](<../../.gitbook/assets/截屏2022-04-14 09.46.27.png>)
 
-## Adding or removing LP Tokens from a Farm
+## การเพิ่มหรือลบ LP Tokens จากฟาร์ม
 
 
 
-1. Find the Farm you have LP Tokens in, and click the row to view details. You will see a **-** and **+** button on the right-hand side. Click **-** to remove LP Tokens, or **+** to add more LP Tokens.
+1. ค้นหาฟาร์มที่คุณมี LP Tokens และคลิกแถวเพื่อดูรายละเอียด คุณจะเห็นปุ่ม **-** และ **+** ทางด้านขวามือ คลิก **-** เพื่อลบ LP Token หรือ **+** เพื่อเพิ่ม LP Tokens
 
 ![](<../../.gitbook/assets/截屏2022-04-14 09.47.40.png>)
 
-1. A window will open that looks like the one you used earlier to first stake your LP Tokens. Like last time, type the amount you would like to unstake/stake, or click **Max** to remove/add all available LP Tokens.
+1. หน้าต่างจะเปิดขึ้นซึ่งดูเหมือนกับที่คุณใช้ก่อนหน้านี้เพื่อวางเดิมพัน LP Token ของคุณก่อน เช่นเดียวกับครั้งที่แล้ว พิมพ์จำนวนเงินที่คุณต้องการยกเลิก/เดิมพัน หรือคลิก **สูงสุด** เพื่อลบ/เพิ่ม LP Token ที่มีอยู่ทั้งหมด
 
 ![](<../../.gitbook/assets/截屏2022-04-14 09.48.59.png>)
 
-1. Make sure your information is correct. When you are ready, click the **Confirm** button and confirm the action in your wallet.
-2. After a short wait, your new balance will show in the details section of your LP Token pair. If you've unstaked your LP Tokens, any unharvested rewards you had will automatically have been collected.
+1. ตรวจสอบให้แน่ใจว่าข้อมูลของคุณถูกต้อง เมื่อคุณพร้อมแล้ว ให้คลิกปุ่ม **ยืนยัน** และยืนยันการดำเนินการในกระเป๋าเงินของคุณ
+2. หลังจากรอสักครู่ ยอดคงเหลือใหม่ของคุณจะแสดงในส่วนรายละเอียดของคู่ LP Token ของคุณ หากคุณได้ปลดล็อก LP Token ของคุณแล้ว รางวัลที่ยังไม่ได้เก็บเกี่ยวใดๆ ที่คุณมีจะถูกรวบรวมโดยอัตโนมัติ
 
-## Collecting your farming rewards
+## รวบรวมรางวัลการทำฟาร์มของคุณ
 
-Farming will bring you CHANG rewards over time. You can collect these rewards and use them to get more LP Tokens, stake them in Brewery Pools, use them to play Lottery, or anything else you’d like.
+การทำฟาร์มจะทำให้คุณได้รับรางวัล CHANG เมื่อเวลาผ่านไป คุณสามารถรวบรวมรางวัลเหล่านี้และใช้เพื่อรับ LP Token เพิ่มขึ้น เดิมพันใน Brewery Pools ใช้เพื่อเล่นลอตเตอรี หรืออะไรก็ได้ที่คุณต้องการ
 
-### Returning to your Farm to Harvest
+### กลับไปที่ฟาร์มของคุณเพื่อเก็บเกี่ยว
 
-You can harvest your Farm and Brewery Pool rewards together from the Home page. If you'd like to collect your farming rewards only, follow along.
+คุณสามารถเก็บเกี่ยวรางวัล Farm และ Brewery Pool ร่วมกันได้จากหน้าแรก หากคุณต้องการสะสมรางวัลการทำฟาร์มของคุณเท่านั้น ให้ทำตาม
 
-To collect your rewards, you’ll need to visit your chosen Farm and collect the CHANG waiting for you.
+ในการรับรางวัล คุณจะต้องไปที่ฟาร์มที่คุณเลือกและรวบรวม CHANG ที่รอคุณอยู่
 
-1. Return to the Farms page [here](https://changswap.com/farms).
-2. Find the Farm you staked your LP Tokens in, and click the row to view details. You should see an estimate of your rewards under “Chang earned”.
+1. กลับไปที่หน้าฟาร์ม [ที่นี่](https://changswap.com/farms)
+2. ค้นหาฟาร์มที่คุณเดิมพัน LP Tokens ของคุณ แล้วคลิกแถวเพื่อดูรายละเอียด คุณควรเห็นค่าประมาณของรางวัลของคุณภายใต้ “ช้างที่ได้รับ”
 
 ![](<../../.gitbook/assets/截屏2022-04-14 09.51.15.png>)
 
-1. Click the **Harvest** button and confirm the action in your wallet. After a short wait, the CHANG will be claimed to your wallet for you to use as you like.
+1. คลิกปุ่ม **เก็บเกี่ยว** และยืนยันการดำเนินการในกระเป๋าเงินของคุณ หลังจากรอสักครู่ CHANG จะถูกอ้างสิทธิ์ในกระเป๋าเงินของคุณเพื่อให้คุณใช้งานได้ตามที่คุณต้องการ
 
-### How often should I harvest my rewards?
+### ฉันควรเก็บเกี่ยวรางวัลบ่อยแค่ไหน?
 
-How often you harvest your rewards is up to you, but it does help to remember that there is a small fee involved in harvesting.
+ความถี่ในการเก็บเกี่ยวรางวัลนั้นขึ้นอยู่กับคุณ แต่การจำไว้ว่ามีค่าธรรมเนียมเล็กน้อยในการเก็บเกี่ยว
 
-You can see this fee in your wallet when confirming after clicking **Harvest**.
+คุณสามารถดูค่าธรรมเนียมนี้ในกระเป๋าเงินของคุณได้เมื่อยืนยันหลังจากคลิก **เก็บเกี่ยว**
 
-![](<../../.gitbook/assets/image (31).png>)
+![](<../../.gitbook/assets/image (31.png>)
 
-This shows the fee for harvesting as it appears in the MetaMask wallet. Different wallets will show the information a little differently. Consider leaving your rewards to grow for a while so you pay fees less often.
+นี่แสดงค่าธรรมเนียมสำหรับการเก็บเกี่ยวตามที่ปรากฏในกระเป๋าเงิน MetaMask กระเป๋าเงินที่แตกต่างกันจะแสดงข้อมูลแตกต่างกันเล็กน้อย พิจารณาปล่อยให้รางวัลของคุณเพิ่มขึ้นชั่วขณะหนึ่ง เพื่อให้คุณจ่ายค่าธรรมเนียมน้อยลง
 
-And that's all there is to it! You may also want to look at [how to use ChangSwap Brewery Pools](https://docs.changswap.com/get-started/brewery-pool-guide) to earn rewards.
+และนั่นคือทั้งหมดที่มีให้! คุณอาจต้องการดู [วิธีใช้ ChangSwap Brewery Pools](https://docs.changswap.com/get-started/brewery-pool-guide) เพื่อรับรางวัล
 
-Happy farming!
+การทำฟาร์มอย่างมีความสุข!

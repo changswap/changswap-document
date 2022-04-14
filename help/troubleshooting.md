@@ -1,428 +1,428 @@
 ---
-description: Common error messages. Use the sidebar ➡️to jump to the error you're seeing.
+คำอธิบาย: ข้อความแสดงข้อผิดพลาดทั่วไป ใช้แถบด้านข้าง➡️เพื่อข้ามไปยังข้อผิดพลาดที่คุณเห็น
 ---
 
-# Troubleshooting Errors
+# แก้ไขข้อผิดพลาด
 
 ![](../.gitbook/assets/troubleshooting.png)
 
-Sometimes you may find yourself facing a problem that doesn't have a clear solution. These troubleshooting tips may help you solve problems you run into.
+บางครั้งคุณอาจพบว่าตัวเองประสบปัญหาที่ไม่มีวิธีแก้ไขที่ชัดเจน เคล็ดลับการแก้ปัญหาเหล่านี้อาจช่วยคุณแก้ปัญหาที่คุณพบได้
 
-## **Issues on the Exchange**
+## **ปัญหาการแลกเปลี่ยน**
 
-### **INSUFFICIENT\_OUTPUT\_AMOUNT**
+### **ไม่เพียงพอ\_OUTPUT\_AMOUNT**
 
-> The transaction cannot succeed due to error: ChangRouter: INSUFFICIENT\_OUTPUT\_AMOUNT. This is probably an issue with one of the tokens you are swapping.
+> ธุรกรรมไม่สำเร็จเนื่องจากข้อผิดพลาด: ChangRouter: INSUFFICIENT\_OUTPUT\_AMOUNT นี่อาจเป็นปัญหากับหนึ่งในโทเค็นที่คุณกำลังแลกเปลี่ยน
 >
-> the transaction cannot succeed due to error: execution reverted: changrouter: insufficient\_output\_amount.
+> ธุรกรรมไม่สำเร็จเนื่องจากข้อผิดพลาด: การคืนค่าการดำเนินการ: changrouter:ไม่เพียงพอ\_output\_amount
 
-You're trying to swap tokens, but your slippage tolerance is too low or liquidity is too low.
+คุณกำลังพยายามสลับโทเค็น แต่ความทนทานต่อการเลื่อนหลุดต่ำเกินไปหรือสภาพคล่องต่ำเกินไป
 
 {% tabs %}
 {% tab title="Solution" %}
-1. Refresh your page and try again later.
-2. Try trading a smaller amount at one time.
-3. Increase your slippage tolerance:
-   1. Tap the settings icon on the liquidity page.
-   2. Increase your slippage tolerance a little and try again. ![](<../.gitbook/assets/截屏2022-04-14 08.55.59 (1).png>)
-4. Lastly, try inputting an amount with fewer decimal places.
+1. รีเฟรชหน้าของคุณและลองอีกครั้งในภายหลัง
+2. ลองซื้อขายในจำนวนที่น้อยลงในคราวเดียว
+3. เพิ่มความทนทานต่อการเลื่อนหลุดของคุณ:
+   1. แตะไอคอนการตั้งค่าในหน้าสภาพคล่อง
+   2. เพิ่มความทนทานต่อการเลื่อนหลุดเล็กน้อยแล้วลองอีกครั้ง ![](<../.gitbook/assets/截屏2022-04-14 08.55.59 (1).png>)
+4. สุดท้าย ลองใส่จำนวนที่มีทศนิยมน้อยลง
 {% endtab %}
 
 {% tab title="Reason" %}
-**This usually happens when trading tokens with low liquidity.**
+**สิ่งนี้มักจะเกิดขึ้นเมื่อทำการซื้อขายโทเค็นที่มีสภาพคล่องต่ำ**
 
-That means there isn't enough of one of the tokens you're trying to swap in the Liquidity Pool: it's probably a small-cap token that few people are trading.
+นั่นหมายความว่ามีโทเค็นตัวใดตัวหนึ่งไม่เพียงพอที่คุณกำลังพยายามแลกเปลี่ยนใน Liquidity Pool: อาจเป็นโทเค็นขนาดเล็กที่มีคนซื้อขายเพียงไม่กี่คน
 
-However, there's also the chance that you're trying to trade a scam token which cannot be sold. In this case, ChangSwap isn't able to block a token or return funds.
+อย่างไรก็ตาม ยังมีโอกาสที่คุณกำลังพยายามแลกเปลี่ยนโทเค็นหลอกลวงที่ไม่สามารถขายได้ ในกรณีนี้ ChangSwap ไม่สามารถบล็อกโทเค็นหรือคืนเงินได้
 {% endtab %}
 {% endtabs %}
 
-### **INSUFFICIENT\_A\_AMOUNT or INSUFFICIENT\_B\_AMOUNT**
+### ** INSUFFICIENT\_A\_AMOUNT หรือ INSUFFICIENT\_B\_AMOUNT**
 
-> Fail with error 'ChangRouter: INSUFFICIENT\_A\_AMOUNT'\
-> or\
-> Fail with error 'ChangRouter: INSUFFICIENT\_B\_AMOUNT'
+> ล้มเหลวโดยมีข้อผิดพลาด 'ChangRouter: INSUFFICIENT\_A\_AMOUNT'\
+> หรือ\
+> ล้มเหลวโดยมีข้อผิดพลาด 'ChangRouter: INSUFFICIENT\_B\_AMOUNT'
 
-You're trying to add/remove liquidity from a liquidity pool (LP), but there isn't enough of one of the two tokens in the pair.
+คุณกำลังพยายามเพิ่ม/ลบสภาพคล่องออกจากกลุ่มสภาพคล่อง (LP) แต่มีโทเค็นสองตัวในคู่ไม่เพียงพอ
 
 {% tabs %}
 {% tab title="Solution" %}
-**Refresh your page and try again, or try again later.**
+**รีเฟรชเพจแล้วลองอีกครั้ง หรือลองอีกครั้งในภายหลัง**
 
-Still doesn't work?
+ยังไม่ทำงาน?
 
-1. Tap the settings icon on the liquidity page.
-2. Increase your slippage tolerance a little and try again.
+1. แตะไอคอนการตั้งค่าในหน้าสภาพคล่อง
+2. เพิ่มความทนทานต่อการเลื่อนหลุดเล็กน้อยแล้วลองอีกครั้ง
 
 ![](<../.gitbook/assets/截屏2022-04-14 08.55.59 (1).png>)
 {% endtab %}
 
 {% tab title="Reason" %}
-The error is caused by trying to add or remove liquidity for a liquidity pool (LP) with an insufficient amount of token A or token B (one of the tokens in the pair).
+ข้อผิดพลาดเกิดจากการพยายามเพิ่มหรือลบสภาพคล่องสำหรับกลุ่มสภาพคล่อง (LP) ที่มีโทเค็น A หรือโทเค็น B ไม่เพียงพอ (หนึ่งในโทเค็นในคู่เงิน)
 
-It might be the case that prices are updating too fast when and your slippage tolerance is too low.
+อาจเป็นกรณีที่ราคาอัปเดตเร็วเกินไปเมื่อและค่าเผื่อการเลื่อนหลุดของคุณต่ำเกินไป
 
-![](https://lh5.googleusercontent.com/T1KMtz2ILDVHljGw1iLbIv0W1KVl7qXL8zU2nLFHkUvDb5oMw9mpUzzBwWmIBz15XDsxZ5w7wsaqAwCs\_pxdobz\_kY\_7BhcZhYtpqWuQGFs23DZq98-SVInlfsS07WzxFPLIYXHt)
+![](https://lh5.googleusercontent.com/T1KMtz2ILDVHljGw1iLbIv0W1KVl7qXL8zU2nLFHkUvDb5oMw9mpUzzBwWmIBz15XDsxZ5w7wsaqAwCs\_pxdobQ7\_kYpYpHlZ5w7wsaqAwCs\_pxdobQ7\_kYpYpHlZ5w7p
 
-![](https://lh5.googleusercontent.com/7aspaCCvDjzxbJxngqwgeq737LB3OUNcAs592QqlEkyrAOTfKsrt\_FAwpEylaIJhff5ZcYlzB\_r0v1JZwfj3j8Ah6jlUbRoMrAqVfTb3cwDI7B1i5HJtZSQOsTPrv7l7SaclC3BV)
+![](https://lh5.googleusercontent.com/7aspaCCvDjzxbJxngqwgeq737LB3OUNcAs592QqlEkyrAOTfKsrt\_FAwpEylaIJhff5ZcYlzB\_r0v1JZwfj3j8Ah6AjlUbfDiCt7iC7iC7iC7iC7c7c7i7e
 {% endtab %}
 
 {% tab title="Solution for nerds" %}
-OK, so you're really determined to fix this. We really don't recommend doing this unless you know what you're doing.
+ตกลง คุณตั้งใจแน่วแน่ที่จะแก้ไขปัญหานี้ เราไม่แนะนำให้ทำเช่นนี้เว้นแต่คุณจะรู้ว่ากำลังทำอะไรอยู่
 
-There currently isn't a simple way to solve this issue from the ChangSwap website: you'll need to interact with the contract directly. You can add liquidity directly via the Router contract, while setting amountAMin to a small amount, then withdrawing all liquidity.
+ขณะนี้ยังไม่มีวิธีง่ายๆ ในการแก้ปัญหานี้จากเว็บไซต์ ChangSwap: คุณจะต้องโต้ตอบกับสัญญาโดยตรง คุณสามารถเพิ่มสภาพคล่องได้โดยตรงผ่านสัญญาของเราเตอร์ ในขณะที่ตั้งค่า จำนวนAMin เป็นจำนวนเล็กน้อย แล้วถอนสภาพคล่องทั้งหมด
 
-**Approve the LP contract**
+**อนุมัติสัญญา LP**
 
-Head to the contract of the LP token you're trying to approve.\
-For example, here's the ETH/WKUB pair: [https://bkcscan.com/address/0x70d8929d04b60af4fb9b58713ebcf18765ade422](https://bkcscan.com/address/0x70d8929d04b60af4fb9b58713ebcf18765ade422)
+ไปที่สัญญาของ LP token ที่คุณพยายามอนุมัติ\
+ตัวอย่างเช่น นี่คือคู่ ETH/WKUB: [https://bkcscan.com/address/0x70d8929d04b60af4fb9b58713ebcf18765ade422](https://bkcscan.com/address/0x70d8929d04b60af4fb9b58713)ebcf18765ade
 
-1. Select **Write Contract**, then **Connect to Web3** and connect your wallet. ![](https://lh6.googleusercontent.com/-\_sNkO1gcOOJXkduDEUzbExKE2mNxBOR0f86Lpp3BBuPbIcmAHsfuvpF-hKqRn4oID5QzdGkk\_1dTHkPuCmE50vpNNZxEqoM5nPmE\_12k3-8Q8YYoRYqJ\_VGjxJ03YPRuVQ1O5ME)
-2. In **section "1. approve",** approve the LP token for the router by entering
-   1. spender (address): enter the contract address of the LP token you're trying to interact with
-   2. value (uint256): -1
+1. เลือก **เขียนสัญญา** จากนั้นเลือก **เชื่อมต่อกับ Web3** และเชื่อมต่อกระเป๋าเงินของคุณ ![](https://lh6.googleusercontent.com/-\_sNkO1gcOOJXkduDEUzbExKE2mNxBOR0f86Lpp3BBuPbIcmAHsfuvpF-hKqRn4oID5QzdGkk\_1dTHkPuCmE50vpQ8VYPxEqoRuJoMYqoMYqoMYqoMJMJMJMJMJMJMJMJM_JMJMJMJMJMJMJMJ5JMJMJMJMJ5JRJ7JRJ7JM7JM7JMJ7JK7JK7JRJM7J7J7J7J7J7J7J7J7X4X4X4X4X4X4 …
+2. ใน **ส่วน "1. อนุมัติ",** อนุมัติโทเค็น LP สำหรับเราเตอร์โดยป้อน
+   1. ผู้ใช้จ่าย (ที่อยู่): ป้อนที่อยู่สัญญาของโทเค็น LP ที่คุณพยายามโต้ตอบด้วย
+   2. ค่า (uint256): -1
 
-**Query "balanceOf"**
+**แบบสอบถาม "ยอดดุล"**
 
-1. Switch to **Read Contract.**
-2. In **5. balanceOf**, input your wallet address and hit **Query**.
-3. Keep track of the number that's exported. It shows your balance within the LP in the uint256 format, which you'll need in the next step.
+1. เปลี่ยนเป็น **อ่านสัญญา**
+2. ใน **5. balanceOf** ป้อนที่อยู่กระเป๋าเงินของคุณแล้วกด **แบบสอบถาม**
+3. ติดตามหมายเลขที่ส่งออก มันแสดงยอดเงินของคุณภายใน LP ในรูปแบบ uint256 ซึ่งคุณจะต้องใช้ในขั้นตอนถัดไป
 
 ![](<../.gitbook/assets/image (7).png>)
 
-**Add or Remove Liquidity**
+**เพิ่มหรือลบสภาพคล่อง**
 
-Head to the router contract: [https://bkcscan.com/address/0x05ff2b0db69458a0750badebc4f9e13add608c7f#writeContract](https://bkcscan.com/address/0x05ff2b0db69458a0750badebc4f9e13add608c7f#writeContract)
+ไปที่สัญญาเราเตอร์: [https://bkcscan.com/address/0x05ff2b0db69458a0750badebc4f9e13add608c7f#writeContract](https://bkcscan.com/address/0x05ff2b0db69458a0750badebc4f9e13addContract8c7f#writeContract8c7f)
 
-1. Select **Write Contract** and **Connect to Web3** as above.
-2. Find **addLiquidity** or **removeLiquidity** (whichever one you're trying to do)
-3. Enter the token addresses of both of the tokens in the LP.
-4. In **liquidity (uint256),** enter the uint256 number which you got from "balanceOf" above.
-5. Set a low **amountAMin** or **amountBMin**: try 1 for both.
-6. Add your wallet address in **to (address)**.
-7. Deadline must be an epoch time greater than the time the tx is executed.
+1. เลือก **เขียนสัญญา** และ **เชื่อมต่อกับ Web3** ตามด้านบน
+2. ค้นหา **addLiquidity** หรือ **removeLiquidity** (ไม่ว่าคุณจะพยายามทำอะไร)
+3. ป้อนที่อยู่โทเค็นของทั้งสองโทเค็นใน LP
+4. ใน **สภาพคล่อง (uint256)** ให้ป้อนหมายเลข uint256 ที่คุณได้รับจาก "balanceOf" ด้านบน
+5. ตั้งค่า **amountAMin** หรือ **amountBMin** ให้ต่ำ: ลอง 1 สำหรับทั้งคู่
+6. เพิ่มที่อยู่กระเป๋าสตางค์ของคุณใน **ถึง (ที่อยู่)**
+7. กำหนดเวลาจะต้องเป็นช่วงเวลาที่มากกว่าเวลาที่ tx ถูกดำเนินการ
 
 ![](<../.gitbook/assets/image (5).png>)
 
-{% hint style="warning" %}
-This can cause very high slippage, and can cause the user to lose some funds if frontrun
+{% คำใบ้ style="คำเตือน" %}
+ซึ่งอาจทำให้เกิดการคลาดเคลื่อนได้สูงมาก และอาจทำให้ผู้ใช้สูญเสียเงินทุนบางส่วนได้หากใช้แนวหน้า
 {% endhint %}
 {% endtab %}
 {% endtabs %}
 
-### ChangRouter: EXPIRED
+### ChangRouter: หมดอายุ
 
-> The transaction cannot succeed due to error: ChangRouter: EXPIRED. This is probably an issue with one of the tokens you are swapping.
+> ธุรกรรมไม่สำเร็จเนื่องจากข้อผิดพลาด: ChangRouter: EXPIRED นี่อาจเป็นปัญหากับหนึ่งในโทเค็นที่คุณกำลังแลกเปลี่ยน
 
-Try again, but confirm (sign and broadcast) the transaction as soon as you generate it.
+ลองอีกครั้ง แต่ยืนยัน (ลงชื่อและออกอากาศ) ธุรกรรมทันทีที่คุณสร้าง
 
-This happened because you started making a transaction, but you didn't sign and broadcast it until it was past the deadline. That means you didn't hit "Confirm" quickly enough.
+สิ่งนี้เกิดขึ้นเนื่องจากคุณเริ่มทำธุรกรรม แต่คุณไม่ได้ลงนามและเผยแพร่จนกว่าจะพ้นกำหนด นั่นหมายความว่าคุณไม่ได้กด "ยืนยัน" เร็วพอ
 
-### Chang: K
+### ช้าง: K
 
-> The transaction cannot succeed due to error: Chang: K. This is probably an issue with one of the tokens you are swapping.
+> ธุรกรรมไม่สำเร็จเนื่องจากข้อผิดพลาด: Chang: K. นี่อาจเป็นปัญหากับหนึ่งในโทเค็นที่คุณกำลังแลกเปลี่ยน
 
-Try modifying the amount on “To” field. Therefore putting "(estimated)" symbol on “From”. Then initiate the swap immediately.
+ลองแก้ไขจำนวนเงินในช่อง "ถึง" จึงใส่สัญลักษณ์ "(โดยประมาณ)" บน "จาก" จากนั้นเริ่มการแลกเปลี่ยนทันที
 
-This usually happen when you are trying to swap a token with its own fee.
+ซึ่งมักจะเกิดขึ้นเมื่อคุณพยายามสลับโทเค็นด้วยค่าธรรมเนียมของตัวเอง
 
-### Chang: TRANSFER\_FAILED
+### ช้าง: TRANSFER\_FAILED
 
-> The transaction cannot succeed due to error: execution reverted: Chang: TRANSFER\_FAILED.
+> ธุรกรรมไม่สำเร็จเนื่องจากข้อผิดพลาด: การคืนค่าการดำเนินการ: ช้าง: TRANSFER\_FAILED
 
-Make sure you have 30% more tokens in your wallet than you intend to trade, or try to trade a lower amount. If you want to sell the maximum possible, try 70% or 69% instead of 100%.\
-Caused by the design of Restorative Rebase tokens like tDoge or tBTC.\
-[Understand how restorative rebase tokens work](https://btcst.medium.com/stp-8-restorative-rebase-b4fbbdfd96c).
+ตรวจสอบให้แน่ใจว่าคุณมีโทเค็นในกระเป๋าสตางค์ของคุณมากกว่า 30% หรือพยายามแลกเปลี่ยนในปริมาณที่น้อยกว่า หากคุณต้องการขายให้ได้มากที่สุด ลอง 70% หรือ 69% แทน 100%\
+เกิดจากการออกแบบโทเค็น Restorative Rebase เช่น tDoge หรือ tBTC\
+[ทำความเข้าใจวิธีการทำงานของโทเค็นการรีเบสแบบบูรณะ](https://btcst.medium.com/stp-8-restorative-rebase-b4fbbdfd96c)
 
-Another possible cause of this issue is the malicious token issuer just suspended the trading for their token. Or they made selling action only possible for selected wallet addresses. Please always do your own research to avoid any potential fraud. If the token you are trying to swap but failed with this error code is coming from an airdrop, that is most likely a scam. Please do not perform any token approval or follow any links, your fund may be at risk if you try to do so.
+สาเหตุที่เป็นไปได้อีกประการของปัญหานี้คือผู้ออกโทเค็นที่เป็นอันตรายเพิ่งระงับการซื้อขายโทเค็นของตน หรือพวกเขาทำการขายได้เฉพาะกับที่อยู่กระเป๋าเงินที่เลือกเท่านั้น โปรดทำวิจัยของคุณเองเสมอเพื่อหลีกเลี่ยงการฉ้อโกงที่อาจเกิดขึ้น หากโทเค็นที่คุณพยายามเปลี่ยนแต่ล้มเหลวด้วยรหัสข้อผิดพลาดนี้มาจาก airdrop นั่นอาจเป็นการหลอกลวง โปรดอย่าดำเนินการอนุมัติโทเค็นใดๆ หรือคลิกลิงก์ใดๆ กองทุนของคุณอาจมีความเสี่ยงหากคุณพยายามทำเช่นนั้น
 
-### Transaction cannot succeed
+### ธุรกรรมไม่สำเร็จ
 
-Try trading a smaller amount, or increase slippage tolerance via the settings icon and try again. This is caused by low liquidity.
+ลองซื้อขายในจำนวนที่น้อยลงหรือเพิ่มความทนทานต่อการเลื่อนหลุดผ่านไอคอนการตั้งค่าแล้วลองอีกครั้ง เกิดจากสภาพคล่องต่ำ
 
-### **Price Impact too High**
+### ** ราคาผลกระทบสูงเกินไป **
 
-Try trading a smaller amount, or increase slippage tolerance via the settings icon and try again. This is caused by low liquidity.
+ลองซื้อขายในจำนวนที่น้อยลงหรือเพิ่มความทนทานต่อการเลื่อนหลุดผ่านไอคอนการตั้งค่าแล้วลองอีกครั้ง เกิดจากสภาพคล่องต่ำ
 
-### estimateGas failed
+### การประมาณการแก๊สล้มเหลว
 
-> This transaction would fail. Please contact support
-
-{% tabs %}
-{% tab title="Solution" %}
-**If you got this error while removing liquidity from a KUB pair:**
-
-Please select "Receive WKUB" and retry.
-
-**If you got this error while trying to swap:**
-
-Please contact the project team of the token you're trying to swap. \*\*\*\* This issue must be resolved by the project team.
-{% endtab %}
-
-{% tab title="Reason" %}
-**This issue (while swapping) is caused by tokens which have hard-coded the V1 ChangSwap router into their contract.**
-
-While this practice is ill-advised at best, the reason for these projects having done this appears to be due to their tokenomics, in which each purchase sends a % of the token to LPs.
-
-The projects affected will likely not work with the V2 router: they will most likely need to create new versions of their tokens pointing to our new router address, and migrate any existing token holders to their new token.
-
-We recommend that any projects which created such tokens should also make efforts to prevent their users from adding them to V2 LP.
-
-The up-to-date router address is [https://bkcscan.com/address/0x10ED43C718714eb63d5aA57B78B54704E256024E](https://bkcscan.com/address/0x10ED43C718714eb63d5aA57B78B54704E256024E)
-{% endtab %}
-{% endtabs %}
-
-### Cannot read property 'toHexString' of undefined
-
-> "Unknown error: "Cannot read property 'toHexString' of undefined"
-
-When trying to swap tokens, the transaction fails and this error message is displayed. This error has been reported on mobile devices using Trust Wallet.
+> ธุรกรรมนี้จะล้มเหลว โปรดติดต่อฝ่ายสนับสนุน
 
 {% tabs %}
 {% tab title="Solution" %}
-1. Attempt the transaction again with increased slippage allowance.
-2. If 1. does not resolve your problem, consider using another wallet such as SafePal for your transaction.
+**หากคุณพบข้อผิดพลาดนี้ขณะลบสภาพคล่องออกจากคู่ KUB:**
+
+โปรดเลือก "รับ WKUB" และลองอีกครั้ง
+
+**หากคุณพบข้อผิดพลาดนี้ขณะพยายามสลับ:**
+
+โปรดติดต่อทีมงานโปรเจ็กต์ของโทเค็นที่คุณพยายามแลกเปลี่ยน \*\*\*\* ปัญหานี้ต้องได้รับการแก้ไขโดยทีมงานโครงการ
 {% endtab %}
 
 {% tab title="Reason" %}
-**This usually happens when trading tokens with insufficient slippage allowance on Trust Wallet.**
+**ปัญหานี้ (ขณะทำการสลับ) เกิดจากโทเค็นที่มีการฮาร์ดโค้ดเราเตอร์ V1 ChangSwap ในสัญญา**
 
-The exact details of the problem are still being investigated.
+แม้ว่าแนวทางปฏิบัตินี้จะไม่ได้รับการแนะนำอย่างดีที่สุด เหตุผลสำหรับโครงการเหล่านี้ที่ทำเช่นนี้ดูเหมือนจะเป็นเพราะโทคีโนมิกส์ ซึ่งการซื้อแต่ละครั้งจะส่ง % ของโทเค็นไปยัง LP
+
+โปรเจ็กต์ที่ได้รับผลกระทบจะไม่ทำงานกับเราเตอร์ V2: พวกเขามักจะต้องสร้างโทเค็นเวอร์ชันใหม่ที่ชี้ไปยังที่อยู่เราเตอร์ใหม่ของเรา และย้ายผู้ถือโทเค็นที่มีอยู่ไปยังโทเค็นใหม่
+
+เราขอแนะนำว่าโครงการใดๆ ที่สร้างโทเค็นดังกล่าวควรพยายามป้องกันไม่ให้ผู้ใช้เพิ่มลงใน V2 LP
+
+ที่อยู่เราเตอร์ที่เป็นปัจจุบันคือ [https://bkcscan.com/address/0x10ED43C718714eb63d5aA57B78B54704E256024E](https://bkcscan.com/address/0x10ED43C718714eb63d5aA57B78B54704E256024E)
 {% endtab %}
 {% endtabs %}
 
-### **Execution reverted: TransferHelper: TRANSFER\_FROM\_FAILED.**
+### ไม่สามารถอ่านคุณสมบัติ 'toHexString' ของ undefined
 
-> The transaction cannot succeed due to error: execution reverted: TransferHelper: TRANSFER\_FROM\_FAILED.
+> "ข้อผิดพลาดที่ไม่รู้จัก: "ไม่สามารถอ่านคุณสมบัติ 'toHexString' ของ undefined"
 
-When trying to swap tokens, the transaction fails and this error message is displayed. This error has been reported across platforms.
+เมื่อพยายามสลับโทเค็น ธุรกรรมจะล้มเหลวและข้อความแสดงข้อผิดพลาดนี้จะปรากฏขึ้น มีการรายงานข้อผิดพลาดนี้บนอุปกรณ์มือถือโดยใช้ Trust Wallet
 
 {% tabs %}
 {% tab title="Solution" %}
-1. Check to make sure you have sufficient funds available.
-2. Ensure you have given the contract allowance to spend the amount of funds you're attempting to trade with.
+1. ลองทำรายการอีกครั้งโดยมีค่าเผื่อการคลาดเคลื่อนเพิ่มขึ้น
+2. หาก 1. ไม่สามารถแก้ไขปัญหาของคุณได้ ให้พิจารณาใช้กระเป๋าเงินอื่น เช่น SafePal สำหรับการทำธุรกรรมของคุณ
 {% endtab %}
 
 {% tab title="Reason" %}
-This error happens when trading tokens with insufficient allowance, or when a wallet has insufficient funds.\
-If you're trading tokens with Restorative Rebase like tau assets tDoge or tBTC, make sure you understand how they work first with this [guide to Rebase tokens](https://btcst.medium.com/stp-8-restorative-rebase-b4fbbdfd96c).
+**สิ่งนี้มักเกิดขึ้นเมื่อทำการซื้อขายโทเค็นโดยมีค่าเผื่อการเลื่อนหลุดไม่เพียงพอใน Trust Wallet**
+
+รายละเอียดที่แน่นอนของปัญหายังอยู่ในระหว่างการตรวจสอบ
 {% endtab %}
 {% endtabs %}
 
-## **Issues with Brewery Pools**
+### **กลับการดำเนินการ: TransferHelper: TRANSFER\_FROM\_FAILED**
 
-### KEP20: burn amount exceeds balance
+> ธุรกรรมไม่สำเร็จเนื่องจากข้อผิดพลาด: การดำเนินการถูกเปลี่ยนกลับ: TransferHelper: TRANSFER\_FROM\_FAILED
 
-> Fail with error 'KEP20: burn amount exceeds balance'
+เมื่อพยายามสลับโทเค็น ธุรกรรมจะล้มเหลวและข้อความแสดงข้อผิดพลาดนี้จะปรากฏขึ้น มีการรายงานข้อผิดพลาดนี้ในแพลตฟอร์มต่างๆ
 
-You don't have enough SYRUP in your wallet to unstake from the CHANG-CHANG pool.
+{% tabs %}
+{% tab title="Solution" %}
+1. ตรวจสอบให้แน่ใจว่าคุณมีเงินเพียงพอ
+2. ตรวจสอบให้แน่ใจว่าคุณได้ให้สัญญาอนุญาตเพื่อใช้จ่ายเงินที่คุณพยายามจะซื้อขายด้วย
+{% endtab %}
 
-**Get at least as much SYRUP as the amount of CHANG that you’re trying to unstake.**
+{% tab title="Reason" %}
+ข้อผิดพลาดนี้เกิดขึ้นเมื่อทำการซื้อขายโทเค็นโดยมีค่าเผื่อไม่เพียงพอ หรือเมื่อกระเป๋าเงินมีเงินไม่เพียงพอ\
+หากคุณกำลังซื้อขายโทเค็นด้วย Restorative Rebase เช่น tau asset tDoge หรือ tBTC อย่าลืมทำความเข้าใจวิธีการทำงานก่อนด้วย [คำแนะนำเกี่ยวกับ Rebase tokens](https://btcst.medium.com/stp-8-restorative-rebase -b4fbbdfd96c)
+{% endtab %}
+{% endtabs %}
 
-1. Buy SYRUP on the exchange. If you want to unstake 100 CHANG, you need at least 100 SYRUP.
-2. Try unstaking again.
+## **ปัญหาเกี่ยวกับโรงเบียร์**
 
-If that still fails, you can perform an “emergencyWithdraw” from the contract directly to unstake your staked tokens.
+### KEP20: ปริมาณการเบิร์นเกินสมดุล
 
-1. Go to: [https://bkcscan.com/address/0x73feaa1eE314F8c655E354234017bE2193C9E24E#writeContract](https://bkcscan.com/address/0x73feaa1eE314F8c655E354234017bE2193C9E24E#writeContract)
-2. Click **“Connect to Web3”** and connect your wallet. ![](https://lh6.googleusercontent.com/-\_sNkO1gcOOJXkduDEUzbExKE2mNxBOR0f86Lpp3BBuPbIcmAHsfuvpF-hKqRn4oID5QzdGkk\_1dTHkPuCmE50vpNNZxEqoM5nPmE\_12k3-8Q8YYoRYqJ\_VGjxJ03YPRuVQ1O5ME)
-3. In section **“4. emergencyWithdraw”**, enter "0" and click “Write”.
+> ล้มเหลวโดยมีข้อผิดพลาด 'KEP20: จำนวนการเบิร์นเกินยอดคงเหลือ'
 
-This will unstake your staked tokens and lose any uncollected CHANG yield.
+คุณมีน้ำเชื่อมในกระเป๋าไม่เพียงพอที่จะถอนออกจากสระช้างช้าง
+
+**รับน้ำเชื่อมอย่างน้อยเท่ากับจำนวนช้างที่คุณพยายามจะเลิกดื่ม**
+
+1. ซื้อน้ำเชื่อมจากการแลกเปลี่ยน ถ้าคุณต้องการยกเลิก 100 CHANG คุณต้องมีอย่างน้อย 100 SYRUP
+2. ลองแกะใหม่อีกครั้ง
+
+หากยังคงล้มเหลว คุณสามารถดำเนินการ “ถอนเงินฉุกเฉิน” จากสัญญาได้โดยตรงเพื่อปลดโทเค็นที่เดิมพันของคุณ
+
+1. ไปที่: [https://bkcscan.com/address/0x73feaa1eE314F8c655E354234017bE2193C9E24E#writeContract](https://bkcscan.com/address/0x73feaa1eE314F8c655E354234017bE2193C9E24E)
+2. คลิก **“เชื่อมต่อกับ Web3”** และเชื่อมต่อกระเป๋าเงินของคุณ ![](https://lh6.googleusercontent.com/-\_sNkO1gcOOJXkduDEUzbExKE2mNxBOR0f86Lpp3BBuPbIcmAHsfuvpF-hKqRn4oID5QzdGkk\_1dTHkPuCmE50vpQ8VYPxEqoRuJoMYqoMYqoMYqoMJMJMJMJMJMJMJMJM_JMJMJMJMJMJMJMJ5JMJMJMJMJ5JRJ7JRJ7JM7JM7JMJ7JK7JK7JRJM7J7J7J7J7J7J7J7J7X4X4X4X4X4X4 …
+3. ในส่วน **“4. ถอนฉุกเฉิน”** ป้อน "0" แล้วคลิก “เขียน”
+
+สิ่งนี้จะ unstake โทเค็นที่เดิมพันของคุณและสูญเสียผลตอบแทน CHANG ที่ยังไม่ได้รวบรวม
 
 {% hint style="warning" %}
-**This will lose any yield that you haven’t harvested yet.**
+**สิ่งนี้จะสูญเสียผลผลิตที่คุณยังไม่ได้เก็บเกี่ยว**
 {% endhint %}
 
-To stop this happening again, **don’t sell your SYRUP.** You still need it to unstake from the “Stake CHANG Earn CHANG” pool.
+เพื่อหยุดสิ่งนี้ให้เกิดขึ้นอีก **อย่าขายน้ำเชื่อมของคุณ** คุณยังคงต้องใช้มันเพื่อถอนออกจากกลุ่ม "Stake CHANG Earn CHANG"
 
-This error has happened because you have sold or transferred SYRUP tokens. SYRUP is minted in a 1:1 ratio to CHANG when you stake in the CHANG-CHANG Brewery Pool. SYRUP must be burned at a 1:1 ratio to CHANG when calling leaveStaking (unstaking your CHANG from the pool), so if you don't have enough, you can't unstake from the pool.
+ข้อผิดพลาดนี้เกิดขึ้นเนื่องจากคุณขายหรือโอนโทเค็น SYRUP น้ำเชื่อมสร้างเสร็จในอัตราส่วน 1:1 ต่อ CHANG เมื่อคุณเดิมพันในสระโรงเบียร์ช้าง-ช้าง จะต้องเผาน้ำเชื่อมในอัตราส่วน 1:1 ต่อ CHANG เมื่อโทรออก (ยกเลิกการปัก CHANG ของคุณออกจากสระ) ดังนั้นหากคุณไม่มีเพียงพอ คุณจะไม่สามารถถอดออกจากสระได้
 
 {% embed url="https://dashboard.tenderly.co/tx/binance/0x754e18ceea82acac256b49c2b7a81260f7f86dd5e56ee2e3cc1b6ac864c29a8e" %}
-<img src="https://lh4.googleusercontent.com/KchAcnM6cpX2BotEGppAxPAnY4Xbona6yI6ZWg9FlUUBfPi_YO9ulM1s6htXJVXMzEwl0Uxcvdk8o4yhI7ar5g0TRpLVFjkS4YLKL7FS8Z4uFqeC37sw-TIkrPr7BCZQVpuD-5jO" alt="" data-size="original">
+src="https://lh4.googleusercontent.com/KchAcnM6cpX2BotEGppAxPAnY4Xbona6yI6ZWg9FlUUBfPi_YO9ulM1s6htXJVXMzEwl0Uxcvdk8o4yhI7ar5g0TRpLVFjkS4YLKL7FS8Z4uFqeC37sw-TIkrPr7BCZQVpuD-5jO" alt="" data-size="original">
 {% endembed %}
 
-### Out of Gas error
+### แก๊สหมดข้อผิดพลาด
 
-> Warning! Error encountered during contract execution \[out of gas]
+> คำเตือน! พบข้อผิดพลาดระหว่างการดำเนินการตามสัญญา \[น้ำมันหมด]
 
-You have set a low gas limit when trying to make a transaction.
+คุณได้ตั้งค่าขีดจำกัดก๊าซต่ำเมื่อพยายามทำธุรกรรม
+
 
 {% tabs %}
 {% tab title="Solution" %}
-Try manually increasing the **gas limit** (not gas price!) in your wallet before signing the transaction.
+ลองเพิ่ม **ขีดจำกัดก๊าซ** (ไม่ใช่ราคาน้ำมัน!) ในกระเป๋าเงินของคุณด้วยตนเองก่อนลงนามในการทำธุรกรรม
 
-A limit of 200000 is usually enough.
+โดยปกติวงเงิน 200,000 ก็เพียงพอแล้ว
 
 ![](<../.gitbook/assets/image (2).png>)
 
-The above example is from Metamask; check your wallet's documentation if you aren't sure how to adjust the gas limit.
+ตัวอย่างข้างต้นมาจาก Metamask; ตรวจสอบเอกสารในกระเป๋าเงินของคุณ หากคุณไม่แน่ใจว่าจะปรับขีดจำกัดน้ำมันอย่างไร
+{% endtab %}
+
+{% tab title="เหตุผล" %}
+โดยทั่วไป กระเป๋าเงินของคุณ (Metamask, Trust Wallet เป็นต้น) ไม่สามารถทำสิ่งที่พยายามทำจนเสร็จได้
+
+กระเป๋าเงินของคุณประมาณการว่าขีดจำกัดของน้ำมันนั้นต่ำเกินไป ดังนั้นการเรียกใช้ฟังก์ชันจะหมดน้ำมันก่อนที่การเรียกใช้ฟังก์ชันจะเสร็จสิ้น
+{% endtab %}
+{% ท้ายแท็บ %}
+
+### KEP20: จำนวนเงินที่โอนเกินที่อนุญาต
+
+> ล้มเหลวโดยมีข้อผิดพลาด 'KEP20: ยอดโอนเกินค่าเผื่อ'
+{% tabs %}
+{% tab title="Solution" %}
+1. ใช้ Unrekt.net เพื่อเพิกถอนการอนุมัติสำหรับสัญญาอัจฉริยะที่คุณพยายามโต้ตอบด้วย
+2. อนุมัติสัญญาอีกครั้งโดยไม่กำหนดวงเงินค่าเผื่อการใช้จ่าย
+3. ลองโต้ตอบกับสัญญาอีกครั้ง
 {% endtab %}
 
 {% tab title="Reason" %}
-Basically, your wallet (Metamask, Trust Wallet, etc.) can't finish what it's trying to do.
-
-Your wallet estimates that the gas limit is too low, so the function call runs out of gas before the function call is finished.
+สิ่งนี้จะเกิดขึ้นเมื่อคุณกำหนดขีดจำกัดการใช้จ่ายของคุณเมื่อคุณอนุมัติสัญญาในครั้งแรก จากนั้นพยายามเปลี่ยนให้มากกว่าขีดจำกัด
 {% endtab %}
 {% endtabs %}
 
-### KEP20: transfer amount exceeds allowance
+### KEP20: ยอดโอนเกินยอด
 
-> Fail with error 'KEP20: transfer amount exceeds allowance'
+> ล้มเหลวโดยมีข้อผิดพลาด 'KEP20: จำนวนเงินที่โอนเกินยอดคงเหลือ'
 
-{% tabs %}
-{% tab title="Solution" %}
-1. Use Unrekt.net to revoke approval for the smart contract you're trying to interact with
-2. Approve the contract again, without setting a limit on spend allowance
-3. Try interacting with the contract again.
-{% endtab %}
+คุณอาจกำลังพยายามแยกส่วนจากโรงเบียร์ที่มีรางวัลต่ำอยู่ในนั้น วิธีแก้ปัญหาด้านล่าง
 
-{% tab title="Reason" %}
-This happens when you set a limit on your spend allowance when you first approved the contract, then try to swap more than the limit.
-{% endtab %}
-{% endtabs %}
-
-### KEP20: transfer amount exceeds balance
-
-> Fail with error 'KEP20: transfer amount exceeds balance'
-
-You're probably trying to unstake from a Brewery Pool with low rewards in it. Solution below.
-
-If not, you may be trying to send tokens that you don't have in your wallet (for example, trying to send a token that is already assigned to a pending transaction). In this case, just make sure you have the tokens you're trying to use.
+หากไม่เป็นเช่นนั้น คุณอาจกำลังพยายามส่งโทเค็นที่คุณไม่มีในกระเป๋าเงินของคุณ (เช่น พยายามส่งโทเค็นที่กำหนดให้กับธุรกรรมที่รอดำเนินการ) ในกรณีนี้ ตรวจสอบให้แน่ใจว่าคุณมีโทเค็นที่คุณต้องการใช้
 
 {% tabs %}
 {% tab title="Solution" %}
-Firstly,[ let the team know](../contact-us/telegram.md) which pool you're trying to unstake from, so they can top up the rewards. If you're in a hurry to unstake and you don't mind losing your pending yield, try an emergencyWithdraw:
+ประการแรก [ แจ้งให้ทีมทราบ](../contact-us/telegram.md) ว่าคุณพยายามจะปลดล็อกพูลใด เพื่อให้พวกเขาสามารถเติมเงินรางวัลได้ หากคุณกำลังรีบที่จะยกเลิกการเดิมพันและคุณไม่รังเกียจที่จะสูญเสียผลตอบแทนที่รอดำเนินการ ให้ลองใช้กรณีฉุกเฉินถอน:
 
-You can perform an “emergencyWithdraw” from the contract directly to unstake your staked tokens.
+คุณสามารถดำเนินการ “ถอนเงินฉุกเฉิน” จากสัญญาได้โดยตรงเพื่อถอนโทเค็นที่เดิมพันของคุณ
 
-1. Find the contract address of the Brewery Pool you're trying to unstake from. You can find it in your wallet's transaction log.
-2. Go to [https://bkcscan.com/](https://bkcscan.com/address/0x73feaa1eE314F8c655E354234017bE2193C9E24E#writeContract) and in the search bar, enter the contract address.
-3. Select **Write Contract.**
-4. Click **“Connect to Web3”** and connect your wallet.![](https://lh6.googleusercontent.com/-\_sNkO1gcOOJXkduDEUzbExKE2mNxBOR0f86Lpp3BBuPbIcmAHsfuvpF-hKqRn4oID5QzdGkk\_1dTHkPuCmE50vpNNZxEqoM5nPmE\_12k3-8Q8YYoRYqJ\_VGjxJ03YPRuVQ1O5ME)
-5. In section **“3. emergencyWithdraw”,** and click “Write”.
+1. ค้นหาที่อยู่สัญญาของ Brewery Pool ที่คุณพยายามจะถอนออก คุณสามารถค้นหาได้ในบันทึกการทำธุรกรรมของกระเป๋าเงินของคุณ
+2. ไปที่ [https://bkcscan.com/](https://bkcscan.com/address/0x73feaa1eE314F8c655E354234017bE2193C9E24E#writeContract) และในแถบค้นหา ให้ป้อนที่อยู่ของสัญญา
+3. เลือก **เขียนสัญญา**
+4. คลิก **“เชื่อมต่อกับ Web3”** และเชื่อมต่อกระเป๋าเงินของคุณ![](https://lh6.googleusercontent.com/-\_sNkO1gcOOJXkduDEUzbExKE2mNxBOR0f86Lpp3BBuPbIcmAHsfuvpF-hKqRn4oID5QzdGuMbExKE2mNxBOR0f86Lpp3BBuPbIcmAHsfuvpF-hKqRn4oID5QzdGuQ12mEmEnRuYpYo)
+5. ในส่วน **“3. ถอนฉุกเฉิน”,** และคลิก “เขียน”
 
-This will unstake your staked tokens and lose any uncollected yield.
+สิ่งนี้จะ unstake โทเค็นที่เดิมพันของคุณและสูญเสียผลตอบแทนที่ยังไม่ได้รวบรวม
 
-{% hint style="warning" %}
-**This will lose any yield that you haven’t harvested yet.**
+{% คำใบ้ style="คำเตือน" %}
+**สิ่งนี้จะสูญเสียผลผลิตที่คุณยังไม่ได้เก็บเกี่ยว**
 {% endhint %}
 {% endtab %}
 
 {% tab title="Reason" %}
-This error tends to appear when you're trying to unstake from an old Brewery Pool, but there aren't enough rewards in the pool left for you to harvest when withdrawing. This causes the transaction to fail.
+ข้อผิดพลาดนี้มักจะปรากฏขึ้นเมื่อคุณพยายามจะดึงออกจาก Brewery Pool เก่า แต่มีรางวัลไม่เพียงพอในพูลที่เหลือให้คุณเก็บเกี่ยวเมื่อถอนตัว ทำให้ธุรกรรมล้มเหลว
 {% endtab %}
 {% endtabs %}
 
-## **Issues with Prediction**
+## **ปัญหากับการทำนาย**
 
-Check [broken-reference](broken-reference/ "mention")
+ตรวจสอบ [broken-reference](broken-reference/ "กล่าวถึง")
 
-## **Other issues**
+## **ปัญหาอื่นๆ**
 
-### Provider Error
+### ข้อผิดพลาดของผู้ให้บริการ
 
-> Provider Error\
-> No provider was found
+> ข้อผิดพลาดของผู้ให้บริการ\
+> ไม่พบผู้ให้บริการ
 
-This happens when you try to connect via a browser extension like MetaMask or Bitkub chain Wallet, but you haven’t installed the extension.
+สิ่งนี้จะเกิดขึ้นเมื่อคุณพยายามเชื่อมต่อผ่านส่วนขยายของเบราว์เซอร์ เช่น MetaMask หรือ Bitkub chain Wallet แต่คุณยังไม่ได้ติดตั้งส่วนขยาย
 
 {% tabs %}
 {% tab title="Solution" %}
-Install the official browser extension to connect, or read our guide on [how to connect a wallet to ChangSwap](https://docs.changswap.com/get-started/connection-guide).
+ติดตั้งส่วนขยายเบราว์เซอร์อย่างเป็นทางการเพื่อเชื่อมต่อ หรืออ่านคำแนะนำของเราเกี่ยวกับ [วิธีเชื่อมต่อกระเป๋าเงินกับ ChangSwap](https://docs.changswap.com/get-started/connection-guide)
 {% endtab %}
 {% endtabs %}
 
-### Unsupported Chain ID
+### รหัสลูกโซ่ที่ไม่รองรับ
 
-Switch your chain to Bitkub Chain. Check your wallet's documentation for a guide if you need help.
+เปลี่ยนเชนของคุณเป็น Bitkub Chain ตรวจสอบเอกสารกระเป๋าเงินของคุณเพื่อดูคำแนะนำหากคุณต้องการความช่วยเหลือ
 
-### Already processing eth\_requestAccounts. Please wait.
+### กำลังประมวลผล eth\_requestAccounts แล้ว โปรดรอ.
 
-Make sure you are signed in to your wallet app and it's connected to Bitkub Chain.
+ตรวจสอบให้แน่ใจว่าคุณได้ลงชื่อเข้าใช้แอปกระเป๋าเงินและเชื่อมต่อกับ Bitkub Chain แล้ว
 
-### Issues buying SAFEMOON and similar tokens
+### ปัญหาในการซื้อ SAFEMOON และโทเค็นที่คล้ายกัน
 
-To trade SAFEMOON, you must click on the settings icon and **set your slippage tolerance to 12% or more.**\
-This is because **SafeMoon taxes a 10% fee on each transaction**:
+ในการเทรด SAFEMOON คุณต้องคลิกที่ไอคอนการตั้งค่าและ **ตั้งค่าเผื่อ Slippage ของคุณเป็น 12% หรือมากกว่า**\
+ทั้งนี้เป็นเพราะ **SafeMoon เรียกเก็บค่าธรรมเนียม 10% สำหรับแต่ละธุรกรรม**:
 
-* 5% fee = redistributed to all existing holders
-* 5% fee = used to add liquidity
+* ค่าธรรมเนียม 5% = แจกจ่ายให้กับผู้ถือที่มีอยู่ทั้งหมด
+* ค่าธรรมเนียม 5% = ใช้เพื่อเพิ่มสภาพคล่อง
 
-This is also why you might not receive as much of the token as you expect when you purchase.\
-Read more on [How to Buy Safe Moon](https://community.trustwallet.com/t/how-to-buy-safemoon/155742).
+นี่เป็นสาเหตุที่คุณอาจไม่ได้รับโทเค็นมากเท่าที่ควรเมื่อคุณซื้อ\
+อ่านเพิ่มเติมเกี่ยวกับ [วิธีซื้อ Safe Moon](https://community.trustwallet.com/t/how-to-buy-safemoon/155742)
 
-### Internal JSON-RPC errors
+### ข้อผิดพลาด JSON-RPC ภายใน
 
-> "MetaMask - RPC Error: Internal JSON-RPC error. estimateGas failed removeLiquidityETHWithPermitSupportingFeeOnTransferTokens estimateGas failed removeLiquidityETHWithPermit "
+> "MetaMask - ข้อผิดพลาด RPC: ข้อผิดพลาด JSON-RPC ภายใน การประมาณการแก๊สล้มเหลวในการลบLiquidityETHWithPermitSupportingFeeOnTransferTokens การประมาณการGas ล้มเหลว removeLiquidityETHWithPermit "
 
-Happens when trying to remove liquidity on some tokens via Metamask. Root cause is still unknown. Try using an alternative wallet.
+เกิดขึ้นเมื่อพยายามลบสภาพคล่องของโทเค็นบางตัวผ่าน Metamask ยังไม่ทราบสาเหตุที่แท้จริง ลองใช้กระเป๋าเงินอื่น
 
-> Internal JSON-RPC error. { "code": -32000, "message": "insufficient funds for transfer" } - Please try again.
+> ข้อผิดพลาด JSON-RPC ภายใน { "code": -32000, "message": "ไม่เพียงพอสำหรับการโอน" } - โปรดลองอีกครั้ง
 
-You don't have enough KUB to pay for the transaction fees. You need more KEP-20 network KUB in your wallet.
+คุณมี KUB ไม่เพียงพอที่จะชำระค่าธรรมเนียมการทำธุรกรรม คุณต้องการ KEP-20 เครือข่าย KUB เพิ่มเติมในกระเป๋าเงินของคุณ
 
-### Error: \[ethjs-query]
+### ข้อผิดพลาด: \[ethjs-query]
 
-> Error: \[ethjs-query] while formatting outputs from RPC '{"value":{"code":-32603,"data":{"code":-32000,"message":"transaction underpriced"\}}}"
+> ข้อผิดพลาด: "[ethjs-query] ขณะจัดรูปแบบเอาต์พุตจาก RPC '{"value":{"code":-32603,"data":{"code":-32000,"message":"transaction underpriced"\} }}"
 
-Increase the gas limit for the transaction in your wallet. Check your wallet's documentation to learn how to increase gas limit.
+เพิ่มขีด จำกัด ก๊าซสำหรับการทำธุรกรรมในกระเป๋าเงินของคุณ ตรวจสอบเอกสารในกระเป๋าเงินของคุณเพื่อเรียนรู้วิธีเพิ่มขีดจำกัดน้ำมัน
 
-> Swap failed: Error: \[ethjs-query] while formatting outputs from RPC '{"value":{"code":-32603,"data":{"code":-32603,"message":"handle request error"\}}}'
+> การสลับล้มเหลว: ข้อผิดพลาด: \[ethjs-query] ขณะจัดรูปแบบเอาต์พุตจาก RPC '{"value":{"code":-32603,"data":{"code":-32603,"message":"จัดการคำขอ ข้อผิดพลาด"\}}}'
 
-Cause unclear. Try these steps before trying again:
+สาเหตุไม่ชัดเจน ลองทำตามขั้นตอนเหล่านี้ก่อนลองอีกครั้ง:
 
-1. Increase gas limit
-2. Increase slippage
-3. Clear cache
+1. เพิ่มขีดจำกัดแก๊ส
+2. เพิ่มการเลื่อนหลุด
+3. ล้างแคช
 
-## **Issues with Profile**
+## **ปัญหาเกี่ยวกับโปรไฟล์**
 
-### Oops! We couldn't find any Chang Collectibles in your wallet.
+### อ๊ะ! เราไม่พบช้างของสะสมในกระเป๋าเงินของคุณ
 
-We're investigating the logic behind this issue. Meanwhile please try the workaround.
+เรากำลังตรวจสอบเหตุผลเบื้องหลังปัญหานี้ ในระหว่างนี้โปรดลองวิธีแก้ปัญหา
 
 {% tabs %}
 {% tab title="Workaround 1" %}
-1. Go to “Collectible” page, then come back to profile page.\
-   If you can’t find the link, go to [https://changswap.com/collectibles](https://changswap.com/collectibles) directly.
-2. Retry profile creation.
+1. ไปที่หน้า “สะสม” แล้วกลับมาที่หน้าโปรไฟล์\
+   หากไม่พบลิงก์ ให้ไปที่ [https://changswap.com/collectibles](https://changswap.com/collectibles) โดยตรง
+2. ลองสร้างโปรไฟล์อีกครั้ง
 {% endtab %}
 
 {% tab title="Workaround 2" %}
-Change the environment.
+เปลี่ยนสิ่งแวดล้อม
 
-* Clear the cache and retry.
-* Retry on different browser.
-* Retry on different wallet apps.
-* Retry on the different network (switch between Wi-Fi and cellular)
+* ล้างแคชและลองอีกครั้ง
+* ลองอีกครั้งในเบราว์เซอร์อื่น
+* ลองใหม่อีกครั้งในแอปกระเป๋าเงินต่างๆ
+* ลองอีกครั้งในเครือข่ายอื่น (สลับระหว่าง Wi-Fi และเซลลูลาร์)
 {% endtab %}
 {% endtabs %}
 
-### Checking username keeps spinning
+### การตรวจสอบชื่อผู้ใช้ยังคงหมุนอยู่
 
-There are two possible causes.
+มีสองสาเหตุที่เป็นไปได้
 
-1. You have multiple wallets installed on the browser.
-2. Network issue.
+1. คุณมีกระเป๋าเงินหลายใบติดตั้งอยู่บนเบราว์เซอร์
+2. ปัญหาเครือข่าย
 
 {% tabs %}
 {% tab title="Solution 1" %}
-Root cause: You have multiple wallets installed on the browser.\
+สาเหตุ: คุณมีกระเป๋าเงินหลายใบติดตั้งอยู่บนเบราว์เซอร์\
 \
-It may make a conflict between wallets. This is out of ChangSwap's control and we can do nothing.
+มันอาจทำให้เกิดความขัดแย้งระหว่างกระเป๋าเงิน สิ่งนี้อยู่เหนือการควบคุมของ ChangSwap และเราไม่สามารถทำอะไรได้
 
-1. Have only single wallet installed on browser, remove the others.
-2. Reconnect the wallet and retry setting username again.
+1. ติดตั้งกระเป๋าเงินเดียวบนเบราว์เซอร์ ลบอื่น ๆ
+2. เชื่อมต่อกระเป๋าเงินอีกครั้งแล้วลองตั้งค่าชื่อผู้ใช้อีกครั้ง
 {% endtab %}
 
 {% tab title="Solution 2" %}
-Root cause: Network is unstable.
+สาเหตุ: เครือข่ายไม่เสถียร
 
-You have to retry.
+คุณต้องลองอีกครั้ง
 
-1. Delete whatever has been entered in the text field completely.
-2. Re-type username, then please wait for seconds.
-3. If it doesn’t work, reload the page and retry again.
+1. ลบสิ่งที่ป้อนลงในช่องข้อความทั้งหมด
+2. พิมพ์ชื่อผู้ใช้อีกครั้ง จากนั้นโปรดรอสักครู่
+3. หากไม่ได้ผล ให้โหลดหน้าใหม่และลองอีกครั้ง
 {% endtab %}
 {% endtabs %}

@@ -1,115 +1,114 @@
-# Factory v2
+# โรงงาน v2
 
 {% hint style="warning" %}
-ChangSwap is based on Uniswap v2. Read the [Uniswap v2 documentation](https://uniswap.org/docs/v2/).  
-For more in-depth information on the core contract logic, read the [Uniswap v2 Core whitepaper](https://uniswap.org/whitepaper.pdf).
+ChangSwap ใช้ Uniswap v2 อ่าน[เอกสารประกอบ Uniswap v2](https://uniswap.org/docs/v2/)
+สำหรับข้อมูลเชิงลึกเพิ่มเติมเกี่ยวกับตรรกะของสัญญาหลัก โปรดอ่าน [เอกสารรายงาน Uniswap v2 Core](https://uniswap.org/whitepaper.pdf)
 {% endhint %}
 
-## Contract info
+## ข้อมูลสัญญา
 
-**Contract name:** ChangFactory  
-**Contract address:** 0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73
+**ชื่อสัญญา:** ChangFactory
+**ที่อยู่ของสัญญา:** 0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73
 
-View [ChangFactory.sol on GitHub](https://github.com/changswap/chang-swap-core/blob/master/contracts/ChangFactory.sol).
+ดู [ChangFactory.sol บน GitHub](https://github.com/changswap/chang-swap-core/blob/master/contracts/ChangFactory.sol)
 
-View the [ChangSwap: Factory v2 contract on BkcScan](https://bkcscan.com/address/0xca143ce32fe78f1f7019d7d551a6402fc5350c73).
+ดู [สัญญา ChangSwap: Factory v2 บน BkcScan](https://bkcscan.com/address/0xca143ce32fe78f1f7019d7d551a6402fc5350c73)
 
-## Read functions
+## อ่านฟังก์ชั่น
 
-### getPair
+### รับคู่
 
-`function getPair(address tokenA, address tokenB) external view returns (address pair);`
+`ฟังก์ชัน getPair (ที่อยู่ tokenA, ที่อยู่ tokenB) การส่งคืนมุมมองภายนอก (คู่ที่อยู่);`
 
-Address for `tokenA` and address for `tokenB` return address of pair contract \(where one exists\).
+ที่อยู่สำหรับ `tokenA` และที่อยู่สำหรับที่อยู่ส่งคืนของ `tokenB` ของสัญญาคู่ \(ที่มีอยู่\)
 
-`tokenA` and `tokenB` order is interchangeable.
+คำสั่ง `tokenA` และ `tokenB` ใช้แทนกันได้
 
-Returns `0x0000000000000000000000000000000000000000` as address where no pair exists.
+ส่งกลับ `0x0000000000000000000000000000000000000000' เป็นที่อยู่ที่ไม่มีคู่อยู่
 
-### allPairs
+### คู่ทั้งหมด
 
-`function allPairs(uint) external view returns (address pair);`
+`ฟังก์ชัน allPairs(uint) มุมมองภายนอกส่งคืน (คู่ที่อยู่);`
 
-Returns the address of the `n`th pair \(`0`-indexed\) created through the Factory contract.
+ส่งกลับที่อยู่ของ `n`th pair \(`0`-indexed\) ที่สร้างขึ้นผ่านสัญญา Factory
 
-Returns `0x0000000000000000000000000000000000000000` where pair has not yet been created.
+ส่งกลับ `0x0000000000000000000000000000000000000000' ซึ่งยังไม่ได้สร้างคู่
 
-Begins at `0` for first created pair.
+เริ่มต้นที่ `0' สำหรับคู่ที่สร้างขึ้นครั้งแรก
 
 ### allPairsLength
 
-`function allPairsLength() external view returns (uint);`
+`ฟังก์ชัน allPairsLength() มุมมองภายนอกส่งคืน (uint);`
 
-Displays the current number of pairs created through the Factory contract as an integer.
+แสดงจำนวนคู่ปัจจุบันที่สร้างผ่านสัญญาโรงงานเป็นจำนวนเต็ม
 
-### feeTo
+### ค่าธรรมเนียมถึง
 
-`function feeTo() external view returns (address);`
+`ฟังก์ชัน feeTo() มุมมองภายนอกส่งคืน (ที่อยู่);`
 
-The address to where non-LP-holder fees are sent.
+ที่อยู่สำหรับส่งค่าธรรมเนียมที่ไม่ใช่ผู้ถือ LP
 
 ### feeToSetter
 
-`function feeToSetter() external view returns (address);`
+`ฟังก์ชัน feeToSetter() มุมมองภายนอกส่งคืน (ที่อยู่);`
 
-The address with permission to set the feeTo address.
+ที่อยู่ที่ได้รับอนุญาตให้ตั้งค่าที่อยู่ feeTo
 
-## Write functions
+## เขียนฟังก์ชัน
 
 ### createPair
 
-function createPair\(address tokenA, address tokenB\) external returns \(address pair\);
+ฟังก์ชั่น createPair\(ที่อยู่ tokenA, ที่อยู่ tokenB\) ส่งคืนภายนอก \(ที่อยู่คู่\);
 
-Creates a pair for `tokenA` and `tokenB` where a pair doesn't already exist.
+สร้างคู่สำหรับ `tokenA` และ `tokenB` โดยที่คู่นั้นไม่มีอยู่แล้ว
 
-`tokenA` and `tokenB` order is interchangeable.
+คำสั่ง `tokenA` และ `tokenB` ใช้แทนกันได้
 
-Emits `PairCreated` \(see Events\).
+ปล่อย 'PairCreated' \(ดูเหตุการณ์\)
 
 ### setFeeTo
 
-Sets address for `feeTo`.
+ตั้งค่าที่อยู่สำหรับ "feeTo"
 
 ### setFeeToSetter
 
-Sets address for permission to adjust `feeTo`.
+ตั้งค่าที่อยู่สำหรับการอนุญาตให้ปรับ "feeTo"
 
-## Events
+## กิจกรรม
 
-### PairCreated
+### คู่สร้างแล้ว
 
-`event PairCreated(address indexed token0, address indexed token1, address pair, uint);`
+`เหตุการณ์ที่ PairCreated (ที่อยู่ที่ทำดัชนี token0, ที่อยู่ที่จัดทำดัชนี token1, คู่ที่อยู่, uint);`
 
-Emitted whenever a `createPair` creates a new pair.
+ปล่อยออกมาทุกครั้งที่ "createPair" สร้างคู่ใหม่
 
-`token0` will appear before `token1` in sort order.
+`token0` จะปรากฏก่อน `token1' ในลำดับการจัดเรียง
 
-The final `uint` log value will be `1` for the first pair created, `2` for the second, etc.
+ค่าบันทึก "uint" สุดท้ายจะเป็น "1" สำหรับคู่แรกที่สร้าง ค่า "2" สำหรับคู่ที่สอง ฯลฯ
 
-## Interface
+## อินเตอร์เฟซ
 
-```text
-import '@uniswap/v2-core/contracts/interfaces/IChangFactory.sol';
+``` ข้อความ
+นำเข้า '@uniswap/v2-core/contracts/interfaces/IhangFactory.sol';
 ```
 
-```text
-pragma solidity =0.5.16;
+``` ข้อความ
+ความแข็งแกร่งของ Pragma =0.5.16;
 
 
-interface IChangFactory {
-    event PairCreated(address indexed token0, address indexed token1, address pair, uint);
+อินเทอร์เฟซ IchangFactory {
+    เหตุการณ์ PairCreated (ที่อยู่ที่ทำดัชนี token0, ที่อยู่ที่จัดทำดัชนี token1, คู่ที่อยู่, uint);
 
-    function feeTo() external view returns (address);
-    function feeToSetter() external view returns (address);
+    ฟังก์ชัน feeTo() ผลตอบแทนจากมุมมองภายนอก (ที่อยู่);
+    ฟังก์ชัน feeToSetter() ส่งคืนมุมมองภายนอก (ที่อยู่);
 
-    function getPair(address tokenA, address tokenB) external view returns (address pair);
-    function allPairs(uint) external view returns (address pair);
-    function allPairsLength() external view returns (uint);
+    ฟังก์ชั่น getPair (ที่อยู่ tokenA, ที่อยู่ tokenB) ส่งคืนมุมมองภายนอก (คู่ที่อยู่);
+    ฟังก์ชั่น allPairs(uint) ส่งคืนมุมมองภายนอก (คู่ที่อยู่);
+    ฟังก์ชั่น allPairsLength() มุมมองภายนอกส่งคืน (uint);
 
-    function createPair(address tokenA, address tokenB) external returns (address pair);
+    ฟังก์ชั่น createPair (ที่อยู่ tokenA, ที่อยู่ tokenB) ส่งคืนภายนอก (คู่ที่อยู่);
 
-    function setFeeTo(address) external;
-    function setFeeToSetter(address) external;
+    ฟังก์ชั่น setFeeTo(ที่อยู่) ภายนอก;
+    ฟังก์ชั่น setFeeToSetter (ที่อยู่) ภายนอก;
 }
 ```
-

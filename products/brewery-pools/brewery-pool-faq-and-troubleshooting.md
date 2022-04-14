@@ -1,2 +1,1 @@
-# Brewery Pool FAQ & Troubleshooting
-
+# คำถามที่พบบ่อยเกี่ยวกับโรงเบียร์และการแก้ไขปัญหา

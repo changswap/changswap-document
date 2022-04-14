@@ -1,23 +1,23 @@
-# Controlling CHANG supply
+#ควบคุมอุปทานช้าง
 
-## Why CHANG has no hard cap
+## ทำไมชางถึงไม่มีฮาร์ดแคป
 
-There's currently no hard cap on the supply of CHANG token, making it an inflationary token.
+ขณะนี้ยังไม่มีฮาร์ดแคปสำหรับอุปทานของโทเค็น CHANG ทำให้เป็นโทเค็นที่มีเงินเฟ้อ
 
-Community members often point to this as a cause for concern, and while the chefs certainly understand the wish for a hard cap, there's a big reason we don't expect to set one in the near future:
+สมาชิกในชุมชนมักชี้ไปที่สิ่งนี้ว่าเป็นสาเหตุของความกังวล และในขณะที่พ่อครัวเข้าใจดีถึงความต้องการหมวกแข็ง แต่ก็มีเหตุผลใหญ่ที่เราไม่คาดว่าจะมีในอนาคตอันใกล้นี้:
 
-> CHANG's primary function is to incentivize providing liquidity to the exchange. _Without block rewards, there would be much less incentive to provide liquidity (LP fees etc. would remain)._
+> หน้าที่หลักของ CHANG คือการสร้างแรงจูงใจในการจัดหาสภาพคล่องให้กับการแลกเปลี่ยน _หากไม่มีรางวัลบล็อค จะมีแรงจูงใจน้อยกว่ามากในการจัดหาสภาพคล่อง (ค่าธรรมเนียม LP ฯลฯ จะยังคงอยู่)_
 
-**So what are the other ways CHANG's supply is limited, to counter inflation?**
+**แล้ววิธีอื่นๆ ที่ CHANG มีอุปทานจำกัดในการรับมือกับเงินเฟ้อมีอะไรบ้าง**
 
-## How CHANG supply is reduced without a hard cap
+## อุปทานของ CHANG ลดลงโดยไม่มีฮาร์ดแคปอย่างไร
 
-The chefs aim to **make deflation higher than emission** by building deflationary mechanisms into ChangSwap's products. The goal is for more CHANG to leave circulation than the amount of CHANG that's produced.
+เชฟตั้งเป้าที่จะ **ทำให้ภาวะเงินฝืดสูงกว่าการปล่อย** โดยการสร้างกลไกการเกิดภาวะเงินฝืดในผลิตภัณฑ์ของ ChangSwap เป้าหมายคือเพื่อให้ CHANG ออกจากการหมุนเวียนมากกว่าจำนวน CHANG ที่ผลิตได้
 
-### Reducing block emissions
+### การลดการปล่อยบล็อค
 
-By reducing the amount of CHANG made per block, we slow inflation. This has already been done once: Since the first reduction in block emissions, we've already effectively reduced the number of CHANG entering circulation from 40 CHANG per block to 14.5. But we don't want to do this too frequently, too early, for the same reason we don't want a hard cap: we still need to incentivize people to provide liquidity.
+การลดจำนวน CHANG ต่อบล็อกจะทำให้อัตราเงินเฟ้อช้าลง สิ่งนี้เคยเกิดขึ้นแล้วครั้งหนึ่ง: นับตั้งแต่การลดการปล่อยบล็อคครั้งแรก เราได้ลดจำนวน CHANG ที่หมุนเวียนเข้าสู่การไหลเวียนจาก 40 CHANG ต่อบล็อกเป็น 14.5 อย่างมีประสิทธิภาพแล้ว แต่เราไม่ต้องการทำสิ่งนี้บ่อยเกินไป เร็วเกินไป ด้วยเหตุผลเดียวกันกับที่เราไม่ต้องการฮาร์ดแคป: เรายังต้องจูงใจผู้คนให้มีสภาพคล่อง
 
-### Deflationary mechanisms
+### กลไกภาวะเงินฝืด
 
-Regular token burns ([view burn address](https://bkcscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82?a=0x000000000000000000000000000000000000dead)) are built into many of ChangSwap's products (like a 10% burn of CHANG spent on lottery tickets), with more on the way. Check the \*\*\*\* [**CHANG Tokenomics page**](https://docs.changswap.com/tokenomics/chang/chang-tokenomics) \*\*\*\* for details on present and upcoming deflationary mechanisms.
+การเบิร์นโทเค็นปกติ ([ดูที่อยู่การเบิร์น](https://bkcscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82?a=0x000000000000000000000000000000000000 ตาย)) ถูกรวมไว้ในผลิตภัณฑ์ของ ChangSwap จำนวนมาก (เช่น การเผา CHANG 10% ที่ใช้ไปกับตั๋วลอตเตอรี) พร้อมอีกมากมาย ระหว่างทาง ตรวจสอบ \*\*\*\* [**หน้า CHANG Tokenomics**](https://docs.changswap.com/tokenomics/chang/chang-tokenomics) \*\*\*\* สำหรับรายละเอียดในปัจจุบัน และกลไกการเกิดภาวะเงินฝืดที่จะเกิดขึ้น

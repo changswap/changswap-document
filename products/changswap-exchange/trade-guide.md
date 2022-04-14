@@ -1,43 +1,43 @@
-# How to Trade
+# วิธีการค้า
 
 ![](../../.gitbook/assets/howtotrade.png)
 
-Trading on ChangSwap is very easy compared to most exchanges. You aren't going to be overwhelmed by charts or jargon, and calculations are all handled for you.
+การซื้อขาย ChangSwap นั้นง่ายมากเมื่อเทียบกับการแลกเปลี่ยนส่วนใหญ่ คุณจะไม่ถูกครอบงำด้วยแผนภูมิหรือศัพท์แสง และการคำนวณจะได้รับการจัดการสำหรับคุณ
 
-### Getting set up to trade
+### เริ่มต้นเทรด
 
-Before you can trade, you will need a Bitkub Chain-compatible wallet. You can learn how to get one [here](https://docs.changswap.com/get-started/wallet-guide). You will also need to have some KEP20 tokens to trade with. You can learn how to get some [here](https://docs.changswap.com/get-started/kep20-guide).
+ก่อนที่คุณจะสามารถแลกเปลี่ยนได้ คุณจะต้องมีกระเป๋าเงินที่เข้ากันได้กับ Bitkub Chain คุณสามารถเรียนรู้วิธีซื้อ [ที่นี่](https://docs.changswap.com/get-started/wallet-guide) คุณจะต้องมีโทเค็น KEP20 เพื่อแลกเปลี่ยนด้วย คุณสามารถเรียนรู้วิธีซื้อ [ที่นี่](https://docs.changswap.com/get-started/kep20-guide)
 
-### Trading on the ChangSwap exchange
+### ซื้อขายแลกเปลี่ยน ChangSwap
 
-1\. Go to the exchange page [here](https://changswap.com).
+1\. ไปที่หน้าแลกเปลี่ยน [ที่นี่](https://changswap.com)
 
-2\. Unlock your Bitkub Chain-compatible wallet by clicking **Unlock Wallet** (you can also **Connect** in the top right-hand corner). If you haven't yet connected your wallet to ChangSwap, you can view the guide to [here](https://docs.changswap.com/get-started/connection-guide).
+2\. ปลดล็อกกระเป๋าเงินที่เข้ากันได้กับ Bitkub Chain ของคุณโดยคลิก **ปลดล็อคกระเป๋าเงิน** (คุณสามารถ **เชื่อมต่อ** ที่มุมบนขวาได้ด้วย) หากคุณยังไม่ได้เชื่อมต่อกระเป๋าเงินของคุณกับ ChangSwap คุณสามารถดูคำแนะนำได้ที่[ที่นี่](https://docs.changswap.com/get-started/connection-guide)
 
-![](<../../.gitbook/assets/image (12).png>)
+![](<../../.gitbook/assets/image (12.png>)
 
-3\. Choose the token you want to trade from the dropdown menu in the "From" section. The default setting is KUB.
+3\. เลือกโทเค็นที่คุณต้องการซื้อขายจากเมนูดรอปดาวน์ในส่วน "จาก" ค่าเริ่มต้นคือ KUB
 
 ![](<../../.gitbook/assets/截屏2022-04-14 09.19.42.png>)
 
-Whichever token you choose, you will need to make sure you have some to trade with. Your balance is shown above the token dropdown menu.
+ไม่ว่าคุณจะเลือกโทเค็นใด คุณจะต้องแน่ใจว่าคุณมีโทเค็นที่จะซื้อขายด้วย ยอดคงเหลือของคุณแสดงอยู่เหนือเมนูดรอปดาวน์โทเค็น
 
-4\. Choose the token you want to trade to in the "To" section as above. Next, type an amount for your "To" currency by clicking inside the input box.
+4\. เลือกโทเค็นที่คุณต้องการแลกเปลี่ยนในส่วน "ถึง" ด้านบน ถัดไป พิมพ์จำนวนเงินสำหรับสกุลเงิน "ถึง" ของคุณโดยคลิกภายในช่องป้อนข้อมูล
 
 ![](<../../.gitbook/assets/截屏2022-04-14 09.20.33.png>)
 
-Your "From" currency amount will be estimated automatically. You can also type your "From" amount and have the "To" amount estimate automatically if you like.
+จำนวนเงินในสกุลเงิน "จาก" ของคุณจะถูกประมาณโดยอัตโนมัติ คุณยังสามารถพิมพ์จำนวนเงิน "จาก" และให้ค่าประมาณ "ถึง" โดยอัตโนมัติได้หากต้องการ
 
-5\. Check the details, and click the **Swap** button.
+5\. ตรวจสอบรายละเอียดและคลิกปุ่ม **สลับ**
 
 ![](<../../.gitbook/assets/截屏2022-04-14 09.21.19.png>)
 
-6\. A window with more details will appear. Check the details are correct.
+6\. หน้าต่างที่มีรายละเอียดเพิ่มเติมจะปรากฏขึ้น ตรวจสอบรายละเอียดให้ถูกต้อง
 
 ![](<../../.gitbook/assets/截屏2022-04-14 09.21.42.png>)
 
-When you are ready, click the **Confirm Swap** button. Your wallet will ask you to confirm the action.
+เมื่อคุณพร้อมแล้ว ให้คลิกปุ่ม **ยืนยันการสลับ** กระเป๋าเงินของคุณจะขอให้คุณยืนยันการดำเนินการ
 
-7\. Done! You can click **View on BkcScan** to see your transaction details on the explorer.
+7\. เสร็จแล้ว! คุณสามารถคลิก **ดูบน BkcScan** เพื่อดูรายละเอียดธุรกรรมของคุณใน explorer
 
 ![](<../../.gitbook/assets/截屏2022-04-14 09.23.03.png>)

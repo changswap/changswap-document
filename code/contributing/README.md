@@ -1,97 +1,97 @@
 ---
-description: Thank you for expressing your interest in contributing to ChangSwap!
+คำอธิบาย: ขอขอบคุณที่แสดงความสนใจในการมีส่วนร่วมใน ChangSwap!
 ---
 
-# Contributing
+#ร่วมสมทบทุน
 
-ChangSwap is an open-source project. If you want to contribute to the project, this section is here to guide you through your first steps with the ChangSwap team 🥞
+ChangSwap เป็นโครงการโอเพ่นซอร์ส หากคุณต้องการมีส่วนร่วมในโครงการ ในส่วนนี้จะแนะนำคุณตลอดขั้นตอนแรกของคุณกับทีม ChangSwap 🥞
 
-Before starting any development, we highly encourage you to submit an issue on Github in order to discuss the problem, and the solution with the team.
+ก่อนเริ่มการพัฒนาใดๆ เราขอแนะนำให้คุณส่งปัญหาบน Github เพื่อหารือเกี่ยวกับปัญหาและวิธีแก้ปัญหากับทีม
 
-## Setup your dev environment
+## ตั้งค่าสภาพแวดล้อม dev ของคุณ
 
-1.  Fork the repository and an [add upstream remote](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork). E.g.
+1. แยกที่เก็บและ [เพิ่มรีโมทอัปสตรีม](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/configuring-a - รีโมทสำหรับส้อม) เช่น.
 
-    ```bash
-    $ git remote add upstream git@github.com:changswap/chang-frontend.git
+    ``` ทุบตี
+    $ git remote เพิ่มอัปสตรีม git@github.com:changswap/chang-frontend.git
     ```
-2.  Make sure you have the latest version of the default branch ( `develop` or `master` )
+2. ตรวจสอบให้แน่ใจว่าคุณมีสาขาเริ่มต้นเวอร์ชันล่าสุด ( `พัฒนา` หรือ `master` )
 
-    ```bash
-    $ git checkout develop
-    $ git pull upstream develop
+    ``` ทุบตี
+    $ git ชำระเงินพัฒนา
+    $ git ดึงต้นน้ำพัฒนา
     ```
-3.  Create your own branch and install dependencies
+3. สร้างสาขาของคุณเองและติดตั้งการพึ่งพา
 
-    ```bash
+    ``` ทุบตี
     $ git checkout -b branch-name
-    $ yarn
+    $ เส้นด้าย
     ```
-4. Happy coding 🎉
+4. สนุกกับการเขียนโค้ด 🎉
 
-## Coding rules
+## กฎการเข้ารหัส
 
-We try to maintain as much consistency as we can between each of our repository. Your pull request has more chances to be accepted if you follow some the following rules, and write high quality code. **Let's get started** 💪
+เราพยายามรักษาความสอดคล้องระหว่างที่เก็บของเราแต่ละแห่งให้มากที่สุด คำขอดึงของคุณมีโอกาสที่จะได้รับการยอมรับมากขึ้นหากคุณปฏิบัติตามกฎต่อไปนี้และเขียนโค้ดคุณภาพสูง **มาเริ่มกันเลย** 💪
 
-### Use the UIKit
+### ใช้ UIKit
 
-{% hint style="warning" %}
-Check the [UI Kit](https://github.com/changswap/chang-toolkit/tree/master/packages/chang-uikit) before you start doing anything. A lot of components are already created, and we don't want that you waste your time reinventing the wheel 😉
-{% endhint %}
+{% คำใบ้ style="คำเตือน" %}
+ตรวจสอบ [UI Kit](https://github.com/changswap/chang-toolkit/tree/master/packages/chang-uikit) ก่อนเริ่มดำเนินการใดๆ มีการสร้างส่วนประกอบจำนวนมากแล้ว และเราไม่ต้องการให้คุณเสียเวลาในการสร้างวงล้อใหม่ 😉
+{% สิ้นสุด %}
 
-If a variant of a component needs to be created, use the corresponding component in the UI Kit as a base. For example:
+หากจำเป็นต้องสร้างตัวแปรของส่วนประกอบ ให้ใช้ส่วนประกอบที่เกี่ยวข้องใน UI Kit เป็นฐาน ตัวอย่างเช่น:
 
-```javascript
-import styled from 'styled-components'
-import { Button } from '@changswap-libs/uikit'
+```จาวาสคริปต์
+นำเข้าสไตล์จาก 'styled-components'
+นำเข้า { ปุ่ม } จาก '@changswap-libs/uikit'
 
-const NewButtonVariant = styled(Button)`
-  // custom styles here
+const NewButtonVariant = styled(ปุ่ม)`
+  // รูปแบบที่กำหนดเองที่นี่
 `
 ```
 
-### Use the tools!
+### ใช้เครื่องมือ!
 
-Most of our repos use [Typescript](https://www.typescriptlang.org/docs), [ESLint](https://eslint.org/docs/user-guide/getting-started), and [Prettier](https://prettier.io). Make sure you're familiar with Typescript’s best practices, and enable an ESLint and Prettier plugin for your IDE.
+repos ของเราส่วนใหญ่ใช้ [Typescript](https://www.typescriptlang.org/docs), [ESLint](https://eslint.org/docs/user-guide/getting-started) และ [Prettier]( https://prettier.io) ตรวจสอบให้แน่ใจว่าคุณคุ้นเคยกับแนวทางปฏิบัติที่ดีที่สุดของ typescript และเปิดใช้งานปลั๊กอิน ESLint และ Prettier สำหรับ IDE ของคุณ
 
 {% hint style="warning" %}
-Make sure your code is formatted with Prettier, and is free from any ESLint error before you submit a pull request.
+ตรวจสอบให้แน่ใจว่าโค้ดของคุณอยู่ในรูปแบบ Prettier และปราศจากข้อผิดพลาด ESLint ใดๆ ก่อนที่คุณจะส่งคำขอดึง
 {% endhint %}
 
-### Some good practices
+### แนวปฏิบัติที่ดีบางอย่าง
 
-* Keep components as small and ["dumb"](https://en.wikipedia.org/wiki/Pure\_function) as possible.
-* Use [Composition over Inheritance](https://reactjs.org/docs/composition-vs-inheritance.html).
-* Keep in mind that your code will be read and maintained by several other developers. Make it as clear and easy to update as possible.
+* ทำให้ส่วนประกอบมีขนาดเล็กและ ["โง่"](https://en.wikipedia.org/wiki/Pure\_function) ให้มากที่สุด
+* ใช้ [องค์ประกอบเหนือการสืบทอด](https://reactjs.org/docs/composition-vs-inheritance.html)
+* โปรดทราบว่าโค้ดของคุณจะถูกอ่านและดูแลโดยนักพัฒนาคนอื่นๆ ทำให้ชัดเจนและง่ายต่อการอัปเดตมากที่สุด
 
-## Committing <a href="#committing" id="committing"></a>
+## กำลังดำเนินการ <a href="#committing" id="committing"></a>
 
-Our commit messages follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) using [commitlint](https://commitlint.js.org/#/).‌
+ข้อความยืนยันของเราเป็นไปตาม [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) โดยใช้ [commitlint](https://commitlint.js.org/#/)‌
 
-| Type         | Description                                                                                                 |
-| ------------ | ----------------------------------------------------------------------------------------------------------- |
-| **build**    | Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)         |
-| **ci**       | Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs) |
-| **docs**     | Documentation only changes                                                                                  |
-| **feat**     | A new feature                                                                                               |
-| **fix**      | A bug fix                                                                                                   |
-| **perf**     | A code change that improves performance                                                                     |
-| **refactor** | A code change that neither fixes a bug nor adds a feature                                                   |
-| **style**    | Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)      |
-| **test**     | Adding missing tests or correcting existing tests                                                           |
+| พิมพ์ | คำอธิบาย |
+| ------------ | -------------------------------------------------- -------------------------------------------------- -------- |
+| **สร้าง** | การเปลี่ยนแปลงที่ส่งผลต่อระบบบิลด์หรือการพึ่งพาภายนอก (ขอบเขตตัวอย่าง: อึก บร็อคโคลี่ npm) |
+| **ci** | การเปลี่ยนแปลงไฟล์การกำหนดค่า CI และสคริปต์ของเรา (ขอบเขตตัวอย่าง: Travis, Circle, BrowserStack, SauceLabs) |
+| **เอกสาร** | การเปลี่ยนแปลงเอกสารเท่านั้น |
+| **ความสำเร็จ** | คุณลักษณะใหม่ |
+| **แก้ไข** | แก้ไขข้อผิดพลาด |
+| **สมบูรณ์แบบ** | การเปลี่ยนแปลงโค้ดที่ช่วยเพิ่มประสิทธิภาพ |
+| **รีแฟคเตอร์** | การเปลี่ยนแปลงรหัสที่ไม่แก้ไขจุดบกพร่องหรือเพิ่มคุณสมบัติ |
+| **สไตล์** | การเปลี่ยนแปลงที่ไม่ส่งผลต่อความหมายของโค้ด (ช่องว่าง การจัดรูปแบบ เครื่องหมายอัฒภาคที่หายไป ฯลฯ) |
+| **ทดสอบ** | การเพิ่มการทดสอบที่ขาดหายไปหรือการแก้ไขการทดสอบที่มีอยู่ |
 
-_More at_ [_Angular's guidelines_](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#type)_​_
+_เพิ่มเติมที่_ [_แนวทางของ Angular_](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#type)_​_
 
-## Creating your pull request
+## การสร้างคำขอดึงของคุณ
 
-Your code is ready to be submitted for review, congratulations🥳
+รหัสของคุณพร้อมสำหรับการตรวจสอบแล้ว ยินดีด้วย🥳
 
-* All pull requests **must** have a description of what the PR is trying to accomplish.
-* Keep pull requests **as small as possible**. Larger pull requests should be broken up into smaller chunks with a dedicated base branch. Please tag the PR's that are merging into your base branch with the `epic` tag.
-* If possible self-review your PR and **add comments** where additional clarification is needed.
+* คำขอดึงทั้งหมด **ต้อง** มีคำอธิบายว่า PR พยายามทำอะไรให้สำเร็จ
+* เก็บคำขอดึง ** ให้เล็กที่สุด ** คำขอดึงที่ใหญ่กว่าควรแบ่งออกเป็นชิ้นเล็ก ๆ ด้วยสาขาฐานเฉพาะ โปรดติดแท็ก PR ที่รวมเข้ากับสาขาฐานของคุณด้วยแท็ก `epic`
+* หากเป็นไปได้ ให้ตรวจสอบ PR ของคุณด้วยตนเองและ **เพิ่มความคิดเห็น** ในกรณีที่ต้องการคำชี้แจงเพิ่มเติม
 
 {% hint style="info" %}
-Create a draft PR as soon as possible so we can view your ongoing progress.
+สร้างร่าง PR โดยเร็วที่สุดเพื่อให้เราสามารถดูความคืบหน้าของคุณอย่างต่อเนื่อง
 {% endhint %}
 
-**Thanks for helping us making ChangSwap even more awesome** ❤
+**ขอบคุณที่ช่วยทำให้ ChangSwap ยอดเยี่ยมยิ่งขึ้น** ❤

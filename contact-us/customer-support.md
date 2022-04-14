@@ -1,18 +1,18 @@
-# Customer Support
+# สนับสนุนลูกค้า
 
-![Well, the thing is...](../.gitbook/assets/customersupport.png)
+![ก็คือ...](../.gitbook/assets/customersupport.png)
 
-## There is NO customer support for ChangSwap.
+## ไม่มีการสนับสนุนลูกค้าสำหรับ ChangSwap
 
-If you're experiencing issues,
+หากคุณกำลังประสบปัญหา
 
-1. First check [the troubleshooting page](../help/troubleshooting.md) for your error code
-2. If you can't find a solution, try reaching out in your local [Telegram group](telegram.md).
+1. ก่อนอื่นให้ตรวจสอบ [หน้าการแก้ไขปัญหา] (../help/troubleshooting.md) สำหรับรหัสข้อผิดพลาดของคุณ
+2. หากคุณไม่พบวิธีแก้ปัญหา ให้ลองติดต่อใน [กลุ่มโทรเลข] ในพื้นที่ของคุณ (telegram.md)
 
 {% hint style="danger" %}
-Admins will NEVER send you a direct message. If anybody approaches you directly on e.g. Telegram pretending to represent customer support, please block them and report as spam.
+ผู้ดูแลระบบจะไม่ส่งข้อความถึงคุณโดยตรง หากมีใครเข้าใกล้คุณโดยตรงเช่น โทรเลขอ้างว่าเป็นตัวแทนของการสนับสนุนลูกค้า โปรดบล็อกพวกเขาและรายงานว่าเป็นสแปม
 {% endhint %}
 
 {% hint style="danger" %}
-**NEVER, under any situation, should you ever give someone your private key or recovery phrases. Immediately block and report anyone that asks for them.**
+**ไม่ว่าสถานการณ์ใดๆ คุณควรให้คีย์ส่วนตัวหรือวลีกู้คืนแก่ใครซักคน บล็อกและรายงานทุกคนที่ขอพวกเขาทันที**
 {% endhint %}
