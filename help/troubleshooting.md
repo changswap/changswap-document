@@ -325,7 +325,7 @@ Check [broken-reference](broken-reference/ "mention")
 > Provider Error\
 > No provider was found
 
-This happens when you try to connect via a browser extension like MetaMask or Binance Chain Wallet, but you haven’t installed the extension.
+This happens when you try to connect via a browser extension like MetaMask or Bitkub chain Wallet, but you haven’t installed the extension.
 
 {% tabs %}
 {% tab title="Solution" %}

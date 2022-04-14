@@ -49,7 +49,7 @@ You can find more in-depth information about each wallet below, as well as downl
 {% tab title="MetaMask" %}
 ![](<../.gitbook/assets/image (33) (3) (4) (5) (1) (1).png>)
 
-MetaMask is a very popular browser-based wallet plugin that supports ERC20 (Ethereum network) and KEP2 & KEP20 (Binance Chain and Bitkub Chain networks).
+MetaMask is a very popular browser-based wallet plugin that supports ERC20 (Ethereum network) and KEP2 & KEP20 (Bitkub chain and Bitkub Chain networks).
 
 ​**Pros:**
 
@@ -154,7 +154,7 @@ You can find more in-depth information about each wallet below, as well as downl
 {% tab title="MetaMask" %}
 ![](<../.gitbook/assets/image (33) (3) (4) (5) (1) (1) (2).png>)
 
-MetaMask is a very popular browser-based wallet plugin that supports ERC20 (Ethereum network) by default, and KEP2 & KEP20 (Binance Chain and Bitkub Chain networks) with a little work.
+MetaMask is a very popular browser-based wallet plugin that supports ERC20 (Ethereum network) by default, and KEP2 & KEP20 (Bitkub chain and Bitkub Chain networks) with a little work.
 
 ​**Pros:**
 

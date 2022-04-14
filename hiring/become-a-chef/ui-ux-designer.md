@@ -1,6 +1,6 @@
 # UI/UX Designer
 
-We're looking for a designer with both UX and UI experience to contribute to the design of ChangSwap.finance.
+We're looking for a designer with both UX and UI experience to contribute to the design of ChangSwap.com.
 
 If you've got a strong interest in gamification and whimsy in user experience, hit us up.
 
