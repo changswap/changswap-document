@@ -21,7 +21,7 @@ description: 常见错误信息。 使用侧边栏快速查找您的错误代码
 3. 调高滑点容限：
    1. 点击兑换页面上的设置图标。
    2. 逐步调高滑点容限，然后重试。\
-      ![](<../.gitbook/assets/image (9) (4) (2).png>)
+      ![](<../.gitbook/assets/截屏2022-04-14 08.55.59.png>)
 4. 若还是不行，您可以尝试减少兑换金额的小数点位数。
 {% endtab %}
 
@@ -57,7 +57,7 @@ description: 常见错误信息。 使用侧边栏快速查找您的错误代码
 1. 点击流动性页面上的设置图标。
 2.  逐步调高滑点容限，然后重试。
 
-    ![](<../.gitbook/assets/image (9) (4) (2).png>)
+    <img src="../.gitbook/assets/截屏2022-04-14 08.55.59.png" alt="" data-size="original">
 {% endtab %}
 
 {% tab title="原因" %}
@@ -67,8 +67,6 @@ description: 常见错误信息。 使用侧边栏快速查找您的错误代码
 
 ![](https://lh5.googleusercontent.com/T1KMtz2ILDVHljGw1iLbIv0W1KVl7qXL8zU2nLFHkUvDb5oMw9mpUzzBwWmIBz15XDsxZ5w7wsaqAwCs\_pxdobz\_kY\_7BhcZhYtpqWuQGFs23DZq98-SVInlfsS07WzxFPLIYXHt)
 
-
-
 ![](https://lh5.googleusercontent.com/7aspaCCvDjzxbJxngqwgeq737LB3OUNcAs592QqlEkyrAOTfKsrt\_FAwpEylaIJhff5ZcYlzB\_r0v1JZwfj3j8Ah6jlUbRoMrAqVfTb3cwDI7B1i5HJtZSQOsTPrv7l7SaclC3BV)
 {% endtab %}
 
@@ -77,18 +75,18 @@ description: 常见错误信息。 使用侧边栏快速查找您的错误代码
 
 ChangSwap的网站目前没有解决此问题的简单方法：您需要直接调用智能合约。 您可以直接通过Router合约添加或解除流动性，同时将amountAMin或amountBMin设置为很小的数目。
 
-### **批准并授权合约提取您的钱包里的LP代币**
+#### **批准并授权合约提取您的钱包里的LP代币**
 
-浏览您要授权的LP代币合约地址。 \
+浏览您要授权的LP代币合约地址。\
 以下示范例子是ETH/WKUB对：[https://bkcscan.com/address/0x70d8929d04b60af4fb9b58713ebcf18765ade422](https://bkcscan.com/address/0x70d8929d04b60af4fb9b58713ebcf18765ade422)
 
-1. 选择 “**Write Contract”** (写入合约)**，**然后点击 “**Connect to Web3”** (连接至Web3)以连接您的钱包。\
+1. 选择 “**Write Contract”** (写入合约)\*\*，\*\*然后点击 “**Connect to Web3”** (连接至Web3)以连接您的钱包。\
    ![](https://lh6.googleusercontent.com/-\_sNkO1gcOOJXkduDEUzbExKE2mNxBOR0f86Lpp3BBuPbIcmAHsfuvpF-hKqRn4oID5QzdGkk\_1dTHkPuCmE50vpNNZxEqoM5nPmE\_12k3-8Q8YYoRYqJ\_VGjxJ03YPRuVQ1O5ME)
-2. 在第一项**"1. approve"**，通过输入以下内容批准Router合约提取您的LP代币。输入完毕后点击 **Write** 按钮。
+2. 在第一项\*\*"1. approve"\*\*，通过输入以下内容批准Router合约提取您的LP代币。输入完毕后点击 **Write** 按钮。
    1. spender (address): 输入Router合约地址
    2. value (uint256): -1
 
-### 查询LP余额"balanceOf"
+#### 查询LP余额"balanceOf"
 
 1. 选择 **“Read Contract”** (读取合约)
 2. 在第五项 **"5. balanceOf"**，输入您的钱包地址然后点击 **Query** 按钮。
@@ -96,7 +94,7 @@ ChangSwap的网站目前没有解决此问题的简单方法：您需要直接�
 
 ![](<../.gitbook/assets/image (7).png>)
 
-### 添加或解除流动性
+#### 添加或解除流动性
 
 浏览以下Router合约网址: [https://bkcscan.com/address/0x05ff2b0db69458a0750badebc4f9e13add608c7f#writeContract](https://bkcscan.com/address/0x05ff2b0db69458a0750badebc4f9e13add608c7f#writeContract)
 
@@ -122,9 +120,9 @@ ChangSwap的网站目前没有解决此问题的简单方法：您需要直接�
 >
 > (交易由于此错误而无法成功: ChangRouter: 逾期。 这可能是因为您正在兑换的一个代币存在某些问题)
 
-再试一次，但是在交易产生后立即确认(即签名并往链上广播)该交易。&#x20;
+再试一次，但是在交易产生后立即确认(即签名并往链上广播)该交易。
 
-发生这种情况是因为您在交易产生后，没有足够快地点击“确认”按钮，而是等到期限过后才进行签名与链上广播。&#x20;
+发生这种情况是因为您在交易产生后，没有足够快地点击“确认”按钮，而是等到期限过后才进行签名与链上广播。
 
 ### Chang: K
 
@@ -133,8 +131,6 @@ ChangSwap的网站目前没有解决此问题的简单方法：您需要直接�
 尝试更改「到」一栏的数量，让「（估计）」标志出现在「从」一栏中，然后立刻开始交易，保持该标志一直在「从」一栏。
 
 这通常发生在含有自身交易手续费的代币上。
-
-![](../.gitbook/assets/chang-k-error.png)
 
 ### Chang: TRANSFER\_FAILED
 
@@ -240,7 +236,7 @@ ChangSwap的网站目前没有解决此问题的简单方法：您需要直接�
 如果还是失败，您可以直接调用合约的「紧急提取」(emergencyWithdraw) 以紧急解除质押您正在质押的代币。
 
 1. 浏览以下网址：\
-   [https://bkcscan.com/address/0x73feaa1eE314F8c655E354234017bE2193C9E24E#writeContract ](https://bkcscan.com/address/0x73feaa1eE314F8c655E354234017bE2193C9E24E#writeContract)
+   [https://bkcscan.com/address/0x73feaa1eE314F8c655E354234017bE2193C9E24E#writeContract](https://bkcscan.com/address/0x73feaa1eE314F8c655E354234017bE2193C9E24E#writeContract)
 2. 点击 **“Connect to Web3”** （连接至 Web3）以连接您的钱包。\
    ![](https://lh6.googleusercontent.com/-\_sNkO1gcOOJXkduDEUzbExKE2mNxBOR0f86Lpp3BBuPbIcmAHsfuvpF-hKqRn4oID5QzdGkk\_1dTHkPuCmE50vpNNZxEqoM5nPmE\_12k3-8Q8YYoRYqJ\_VGjxJ03YPRuVQ1O5ME)
 3. 在第 4 项：**“4. emergencyWithdraw”**，输入“0”，然后点击 **Write** 按钮。
@@ -271,7 +267,7 @@ ChangSwap的网站目前没有解决此问题的简单方法：您需要直接�
 
 {% tabs %}
 {% tab title="解决方法" %}
-在点击交易确认前，手动调高 **Gas 限制（**注意！不是 Gas 价格！）
+在点击交易确认前，手动调高 \*\*Gas 限制（\*\*注意！不是 Gas 价格！）
 
 一般而言，限制设为 200000 就足够了。
 
@@ -283,8 +279,7 @@ ChangSwap的网站目前没有解决此问题的简单方法：您需要直接�
 {% tab title="原因" %}
 基本上，您的钱包（Metamask, Trust Wallet等）无法使用预估的 Gas 限制，完成其尝试执行的操作。
 
-您的钱包所建议的 Gas 限制太低，因此在合约函数调用完成之前，矿工费已用尽。\
-
+您的钱包所建议的 Gas 限制太低，因此在合约函数调用完成之前，矿工费已用尽。\\
 {% endtab %}
 {% endtabs %}
 
@@ -318,8 +313,8 @@ ChangSwap的网站目前没有解决此问题的简单方法：您需要直接�
 
 1. 查找您要解除质押的酿酒池的合约地址。您可以在各酿酒池详情中找到他们的 BkcScan 页面。
 2. 点击进入，或浏览 [https://bkcscan.com/](https://bkcscan.com/address/0x73feaa1eE314F8c655E354234017bE2193C9E24E#writeContract) 然后在搜索栏中输入酿酒池的合约地址。
-3. 选择 **“Write Contract”（**写入合约）。
-4. 点击 **"Connect to Web3"（**连接 Web3）以便连接您的钱包。![](https://lh6.googleusercontent.com/-\_sNkO1gcOOJXkduDEUzbExKE2mNxBOR0f86Lpp3BBuPbIcmAHsfuvpF-hKqRn4oID5QzdGkk\_1dTHkPuCmE50vpNNZxEqoM5nPmE\_12k3-8Q8YYoRYqJ\_VGjxJ03YPRuVQ1O5ME)
+3. 选择 \*\*“Write Contract”（\*\*写入合约）。
+4. 点击 \*\*"Connect to Web3"（\*\*连接 Web3）以便连接您的钱包。![](https://lh6.googleusercontent.com/-\_sNkO1gcOOJXkduDEUzbExKE2mNxBOR0f86Lpp3BBuPbIcmAHsfuvpF-hKqRn4oID5QzdGkk\_1dTHkPuCmE50vpNNZxEqoM5nPmE\_12k3-8Q8YYoRYqJ\_VGjxJ03YPRuVQ1O5ME)
 5. 在第4项：**“4. emergencyWithdraw”**，点击 **Write** 按钮。
 
 虽然紧急提取允许您成功解除质押，但这也会导致您失去任何尚未收割的奖励代币。
@@ -358,17 +353,6 @@ ChangSwap的网站目前没有解决此问题的简单方法：您需要直接�
 
 请更换您的钱包网络（区块链）到 Binance Smart Chain （Bitkub链），如果您不知道如何切换，请查阅您的钱包指南或教程。
 
-### 购买 SAFEMOON 或类似分红代币时遇到错误
-
-要交易 SAFEMOON，您必须点击设置按钮，**并设置您的滑点容差至 12% 或更高。**\
-这是因为 **SafeMoon 每一个交易都会收取 10% 的税：**
-
-* 5% 手续费 = 分红给当前所有持有者
-* 5% 手续费 = 用于添加流动性
-
-这也是为什么您在交易时可能不会收到预计数量的代币的原因。\
-阅读更多关于 [如何交易 SafeMoon](https://community.trustwallet.com/t/how-to-buy-safemoon/155742) 。
-
 ### Internal JSON-RPC errors
 
 > "MetaMask - RPC Error: Internal JSON-RPC error. estimateGas failed removeLiquidityETHWithPermitSupportingFeeOnTransferTokens estimateGas failed removeLiquidityETHWithPermit "
@@ -381,11 +365,11 @@ ChangSwap的网站目前没有解决此问题的简单方法：您需要直接�
 
 ### Error: \[ethjs-query]
 
-> Error: \[ethjs-query] while formatting outputs from RPC '{"value":{"code":-32603,"data":{"code":-32000,"message":"transaction underpriced"}}}"
+> Error: \[ethjs-query] while formatting outputs from RPC '{"value":{"code":-32603,"data":{"code":-32000,"message":"transaction underpriced"\}}}"
 
 在确认交易前，增加 Gas 限制。请查看您钱包的指南，了解如何增加 Gas 限制（注意！不是 Gas 价格）
 
-> Swap failed: Error: \[ethjs-query] while formatting outputs from RPC '{"value":{"code":-32603,"data":{"code":-32603,"message":"handle request error"}}}'
+> Swap failed: Error: \[ethjs-query] while formatting outputs from RPC '{"value":{"code":-32603,"data":{"code":-32603,"message":"handle request error"\}}}'
 
 原因未知。请尝试以下步骤并重试：
 

@@ -1,6 +1,6 @@
 # 创建钱包
 
-![](https://gblobkcdn.gitbook.com/assets%2F-MHREX7DHcljbY5IkjgJ%2F-MbGTDNZ6xd3\_Q-qSEP5%2F-MbJqNikjouS9bDl1rUt%2Fdocs%20masthead%20\(9\).png?alt=media\&token=a86affdf-4276-4963-8f05-661aec80064a)
+![](<../.gitbook/assets/截屏2022-03-29 上午8.39.37.png>)
 
 开始使用 ChangSwap 前，您首先需要创建一个支持Bitkub链（BKC）的钱包。钱包在电脑和手机上都可以使用。请选择最适合您的钱包应用。
 
@@ -37,7 +37,7 @@ This comparison table gives an overview of the most popular mobile wallets used 
 
 | ​                                     | MetaMask | Token Pocket |
 | ------------------------------------- | -------- | ------------ |
-| Bitkub链支持                             | ⚠️       | ✅            |
+| Bitkub链支持                             | ✅        | ✅            |
 | 内置 DApp 浏览器                           | ➖        | ✅            |
 | 兼容硬件钱包                                | ✅        | ➖            |
 | 开源（可审计性）                              | ✅        | ✅            |
@@ -75,72 +75,4 @@ MetaMask 是一个基于浏览器的热门钱包插件，支持 ERC20（以太�
 
 ***
 {% endtab %}
-
-{% tab title="Token Pocket" %}
-![](<../.gitbook/assets/image (125) (3) (4) (3).png>)
-
-Token Pocket 是一个原生支持多个网络（加密货币链）的虚拟货币钱包。它同时也提供电脑端程序。
-
-​**优点：**
-
-* 开源代码可审计
-* 在几个加密货币网络之间轻松切换
-* 默认支持多个主流加密货币网络
-* 与浏览器插件钱包相比，界面不拥挤，使用体验较为友好
-* 同时提供电脑端程序
-
-**缺点：**
-
-* 只提供英文与中文
-* 部分英文翻译有问题
-* 与其他更成熟的钱包相比，在线资源较少
-
-\*\*\*\*[**下载 Token Pocket**](https://www.tokenpocket.pro) **（自动检测您的设备）**
-
-#### **Token Pocket 手机端设置指南**
-
-1.  访问 Token Pocket 网站并点击 **手机下载** 开始下载
-
-    ![](../.gitbook/assets/image.jpeg)
-2. 页面将自动检测您的设备，点击 **Google Play** 或 **App Store** 前往相应的商店下载。苹果用户建议使用 TestFlight 下载 TokenPocket Pro ，请遵循页面指示。
-3.  安装 Token Pocket 后打开，您将会看到一个询问您是否已有钱包的选项。若您想导入现有的钱包，请选择「我有钱包」。点击「我没有钱包」创建一个新的钱包：
-
-    ![](<../.gitbook/assets/mbp3-2021.08.16-103912am-cleanshot\_cleanshot (1) (1).png>)
-4.  在下一个页面，在列表内选择「**Bitkub链**」。
-
-    ![](<../.gitbook/assets/image (153).png>)
-5.  接下来，选择顶部的「**创建钱包**」继续。
-
-    ![](../.gitbook/assets/MBP3-2021.08.16-104543AM-CleanShot\_CleanShot.png)
-6. 您需要设置一个保护您账号的密码。为了您的安全，请确保密码强度为「安全」。同时您可以添加一个密码提示，但请确保任何人无法用提示轻易地猜出密码。设置完后，点击「**创建钱包**」继续。
-7. 接着，钱包会提醒您备份助记词。请注意！助记词就是您的「银行卡卡号 + 密码」，任何人掌握了助记词，就可以操作您在区块链上该钱包内的**一切资产**！请务必使用多种方法妥善保管，不要透露给任何人。ChangSwap 的社区管理员不会向您询问任何私钥或助记词。
-
-备份好助记词并验证后，创建钱包的操作就完成了。
-
-想要通过 TokenPocket 连接Bitkub链并使用 ChangSwap，您可参考「如何连接钱包」教程中的 TokenPocket 部分：\
-[https://docs.changswap.finance/get-started/connection-guide](https://docs.changswap.finance/get-started/connection-guide).
-
-#### 导出私钥并在另一台手机或电脑上使用
-
-Token Pocket 允许您使用电脑端或其他设备同时管理一个钱包，这部分教程讲引导您如何导出私钥，并在其他设备上同时使用。
-
-{% hint style="warning" %}
-在操作私钥时请务必小心，任何人只要获得您的私钥，即可操作您在区块链上该钱包内的所有资产！Token Pocket 是一个公开透明的开源项目，它将使用您的私钥来导入钱包，仅此而已。所以，请务必仔细验证任何您要导入私钥的程序是否为正规，且不含恶意代码。
-{% endhint %}
-
-1.  在底部点击「**我的**」，并选择「**钱包管理**」。
-
-    ![](../.gitbook/assets/MBP3-2021.08.16-105958AM-CleanShot\_CleanShot.png)
-2.  在下一页的左侧点击「**Bitkub链**」，并找到您想导出私钥的钱包，点击向右箭头。
-
-    ![](../.gitbook/assets/MBP3-2021.08.16-110225AM-CleanShot\_CleanShot.png)
-3. 当菜单出现时，选择「**导出私钥**」，输入密码即可获得并复制您的钱包私钥。
-
-{% hint style="danger" %}
-**任何情况下都绝对不要给任何人提供您的私钥或助记词。如果有人向您索取私钥或助记词，请立即将其举报并封禁。**
-
-管理员**绝对不会**主动跟您私聊。如果有人假扮成客服直接与您联系，请立即点击封禁并将其举报为垃圾信息。
-{% endhint %}
-{% endtab %}
 {% endtabs %}
-

@@ -1,6 +1,6 @@
 # 需要帮助？点我
 
-![](https://gblobkcdn.gitbook.com/assets%2F-MHREX7DHcljbY5IkjgJ%2F-Mb9Zry-ZB3tPvT1CIzP%2F-Mb9nWQCJARFEUg4XCvr%2Fdocs%20masthead%20%2810%29.png?alt=media&token=3f948fee-7dc6-4a3b-9d8b-4357ef4d83c3)
+![](<../.gitbook/assets/截屏2022-03-29 上午8.43.39.png>)
 
 如果您觉得无从下手，如果某个功能没有正确运作，或者您不确定某个操作是否成功，希望这个帮助板块可能能够帮到您。
 
@@ -22,5 +22,4 @@
 
 ## 寻求帮助
 
-ChangSwap 没有专门的「客服」。如果您发现自己遇到的问题在这里无法得到解决，请在 ChangSwap 的电报 \(Telegram\) 群组内寻求帮助。如果您是第一次使用电报 \(Telegram\)，为了您的资金财产安全，请先阅读关于防诈骗须知。
-
+ChangSwap 没有专门的「客服」。如果您发现自己遇到的问题在这里无法得到解决，请在 ChangSwap 的电报 (Telegram) 群组内寻求帮助。如果您是第一次使用电报 (Telegram)，为了您的资金财产安全，请先阅读关于防诈骗须知。

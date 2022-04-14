@@ -7,7 +7,6 @@
 * [需要帮助？点我](click-here-for-help/README.md)
   * [故障排除指南](click-here-for-help/troubleshooting-errors.md)
   * [常见问题解答](click-here-for-help/faq.md)
-  * [如何修复 MetaMask 上卡住的交易](click-here-for-help/ru-he-xiu-fu-metamask-shang-ka-zhu-de-jiao-yi.md)
 * [联系我们](contact-us/README.md)
   * [商业合作](contact-us/business-partnerships.md)
   * [客户服务](contact-us/customer-support.md)

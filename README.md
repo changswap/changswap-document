@@ -1,6 +1,6 @@
 # ChangSwap 介绍
 
-![](<.gitbook/assets/masthead-twitter-3- (1).png>)
+![](<.gitbook/assets/截屏2022-03-28 下午2.19.20.png>)
 
 {% hint style="success" %}
 **ChangSwap 致力为您最大化利用虚拟货币资产！**
