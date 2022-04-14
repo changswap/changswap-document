@@ -1,95 +1,95 @@
-# Connect Your Wallet to ChangSwap
+# เชื่อมต่อกระเป๋าเงินของคุณกับ ChangSwap
 
 ![](../.gitbook/assets/makecrypto.png)
 
-You've made a wallet and gotten your KEP20 tokens, now you just need to connect your wallet with ChangSwap and you're good to go!
+คุณได้สร้างกระเป๋าเงินและได้รับโทเค็น KEP20 ของคุณแล้ว ตอนนี้คุณเพียงแค่ต้องเชื่อมต่อกระเป๋าเงินของคุณกับ ChangSwap เท่านี้ก็เรียบร้อย!
 
-Check out the steps below for how to connect each of our recommended wallets to ChangSwap.
+ตรวจสอบขั้นตอนด้านล่างสำหรับวิธีเชื่อมต่อกระเป๋าเงินที่เราแนะนำกับ ChangSwap
 
-## Smartphone/Mobile
+## สมาร์ทโฟน/มือถือ
 
 {% tabs %}
 {% tab title="MetaMask" %}
 ![](<../.gitbook/assets/image (33) (3) (4) (5) (1) (1).png>)
 
-To connect MetaMask to ChangSwap follow the steps below.
+ในการเชื่อมต่อ MetaMask กับ ChangSwap ให้ทำตามขั้นตอนด้านล่าง
 
-**Android and iOS**
+**Android และ iOS**
 
-1. Open MetaMask and tap on the **burger icon** in the top-left.
+1. เปิด MetaMask แล้วแตะที่ **ไอคอนเบอร์เกอร์** ที่ด้านบนซ้าย
 
 ![](<../.gitbook/assets/image (72).png>)
 
-1. Tap **Settings** in the menu.
+1. แตะ **การตั้งค่า** ในเมนู
 
 ![](<../.gitbook/assets/image (73).png>)
 
-1. In the Settings menu, tap on **Network**.
+1. ในเมนูการตั้งค่า ให้แตะที่ **เครือข่าย**
 
 ![](<../.gitbook/assets/image (74).png>)
 
-1. Tap on the **Add Network** button at the bottom.
+1. แตะที่ปุ่ม **เพิ่มเครือข่าย** ที่ด้านล่าง
 
 ![](<../.gitbook/assets/image (75).png>)
 
-1. On the page that opens, type in the following details:
+1. ในเพจที่เปิดขึ้น ให้พิมพ์รายละเอียดต่อไปนี้:
 
-&#x20;   1\) Network Name:  Bitkub Chain\
-&#x20;   2\) New RPC URL:  [_https://rpc.bitkubchain.io_](http://rpc.bitkubchain.io)\
-&#x20;   3\) Chain ID:  96\
-&#x20;   4\) Currency Symbol (Optional): KUB\
-&#x20;   5\) Block Explorer URL (Optional): [_https://bkcscan.com_](http://bkcscan.com)
+&#x20; 1\) ชื่อเครือข่าย: Bitkub Chain\
+&#x20; 2\) URL RPC ใหม่: [_https://rpc.bitkubchain.io_](http://rpc.bitkubchain.io)\
+&#x20; 3\) รหัสเชน: 96\
+&#x20; 4\) สัญลักษณ์สกุลเงิน (ไม่บังคับ): KUB\
+&#x20; 5\) บล็อก Explorer URL (ไม่บังคับ): [_https://bkcscan.com_](http://bkcscan.com)
 
-1. Once you've confirmed entry of the new network, go back to the burger menu and tap **Browser**.
+1. เมื่อคุณยืนยันการเข้าสู่เครือข่ายใหม่แล้ว ให้กลับไปที่เมนูเบอร์เกอร์แล้วแตะ **เบราว์เซอร์**
 
 ![](<../.gitbook/assets/image (76).png>)
 
-1. Type "ChangSwap" into the search field and start the search. The top result will be the ChangSwap exchange. Tap to enter it.
-2. You wallet will ask you to connect. Tap **Connect** to connect to ChangSwap.
+1. พิมพ์ "ChangSwap" ในช่องค้นหาและเริ่มการค้นหา ผลลัพธ์สูงสุดจะเป็นการแลกเปลี่ยน ChangSwap แตะเพื่อป้อน
+2. กระเป๋าเงินของคุณจะขอให้คุณเชื่อมต่อ แตะ **เชื่อมต่อ** เพื่อเชื่อมต่อกับ ChangSwap
 
-**Resources**
+**ทรัพยากร**
 
-[**Download MetaMask**](https://metamask.io/download.html) (Automatically detects device)
+[**ดาวน์โหลด MetaMask**](https://metamask.io/download.html) (ตรวจจับอุปกรณ์โดยอัตโนมัติ)
 {% endtab %}
 {% endtabs %}
 
-## **Desktop/Web Browser wallets**
+## **กระเป๋าเงินเดสก์ท็อป/เว็บเบราว์เซอร์**
 
 {% tabs %}
 {% tab title="MetaMask" %}
 ![](<../.gitbook/assets/image (33) (3) (4) (5) (1) (1) (2).png>)
 
-**Chrome and Firefox**
+**Chrome และ Firefox**
 
-1. Open MetaMask and click on the **network selector** at the top. By default it will show "Ethereum Mainnet". Scroll down and click **Custom RPC**.![](<../.gitbook/assets/image (4).png>)
-2. A window will open. Type in the details below.
+1. เปิด MetaMask และคลิกที่ **ตัวเลือกเครือข่าย** ที่ด้านบน โดยค่าเริ่มต้น จะแสดง "Ethereum Mainnet" เลื่อนลงมาแล้วคลิก **RPC ที่กำหนดเอง**.![](<../.gitbook/assets/image (4).png>)
+2. หน้าต่างจะเปิดขึ้น พิมพ์รายละเอียดด้านล่าง
 
-&#x20;   1\) Network Name:  Bitkub Chain\
-&#x20;   2\) New RPC URL:  [_https://rpc.bitkubchain.io_](http://rpc.bitkubchain.io)\
-&#x20;   3\) Chain ID:    96\
-&#x20;   4\) Currency Symbol (Optional): KUB\
-&#x20;   5\) Block Explorer URL (Optional): [_https://bkcscan.com_](http://bkcscan.com)
+&#x20; 1\) ชื่อเครือข่าย: Bitkub Chain\
+&#x20; 2\) URL RPC ใหม่: [_https://rpc.bitkubchain.io_](http://rpc.bitkubchain.io)\
+&#x20; 3\) รหัสเชน: 96\
+&#x20; 4\) สัญลักษณ์สกุลเงิน (ไม่บังคับ): KUB\
+&#x20; 5\) บล็อก Explorer URL (ไม่บังคับ): [_https://bkcscan.com_](http://bkcscan.com)
 
 ![](https://support.bitkub.com/hc/article\_attachments/360095502811/186517031\_1358319707887652\_4000629377570630213\_n.png)
 
-1. Make sure you've typed everything in correctly and click **Save**. Bitkub Chain will now be one of your network options.
+1. ตรวจสอบให้แน่ใจว่าคุณได้พิมพ์ทุกอย่างถูกต้องแล้ว คลิก **บันทึก** Bitkub Chain จะเป็นหนึ่งในตัวเลือกเครือข่ายของคุณ
 
 ![](<../.gitbook/assets/image (86).png>)
 
-1. Visit the [ChangSwap website](https://changswap.com). In the top right corner you'll see the **Connect** button. Click it.
+1. ไปที่ [เว็บไซต์ ChangSwap](https://changswap.com) ที่มุมบนขวา คุณจะเห็นปุ่ม **เชื่อมต่อ** คลิกเลย
 
 ![](<../.gitbook/assets/截屏2022-04-14 08.52.58.png>)
 
-1. A window will appear asking you to choose a wallet to connect to. Click **MetaMask** (it's the top option on the list).
+1. หน้าต่างจะปรากฏขึ้นเพื่อขอให้คุณเลือกกระเป๋าเงินที่จะเชื่อมต่อ คลิก **MetaMask** (เป็นตัวเลือกอันดับต้นๆ ในรายการ)
 
 ![](<../.gitbook/assets/image (87).png>)
 
-**Resources**
+**ทรัพยากร**
 
-[**Download MetaMask**](https://metamask.io/download.html) (Automatically detects browser)
+[**ดาวน์โหลด MetaMask**](https://metamask.io/download.html) (ตรวจพบเบราว์เซอร์โดยอัตโนมัติ)
 {% endtab %}
 {% endtabs %}
 
 {% hint style="danger" %}
-**Remember - NEVER, under any situation, should you ever give someone your private key or recovery phrases.**
+**ข้อควรจำ - ไม่ว่าในกรณีใด ๆ คุณควรให้คีย์ส่วนตัวหรือวลีการกู้คืนของคุณแก่ใครซักคน**
 {% endhint %}
