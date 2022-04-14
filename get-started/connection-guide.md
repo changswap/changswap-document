@@ -34,11 +34,11 @@ To connect MetaMask to ChangSwap follow the steps below.
 
 1. On the page that opens, type in the following details:
 
-**Network Name:** Bitkub Chain\
-**RPC Url:** [https://bkc-dataseed.binance.org](https://bkc-dataseed.binance.org)\
-**Chain ID:** 56\
-**Symbol:** KUB\
-**Block Explorer URL:** [http://bkcscan.com](http://bkcscan.com)
+&#x20;   1\) Network Name:  Bitkub Chain\
+&#x20;   2\) New RPC URL:  [_https://rpc.bitkubchain.io_](http://rpc.bitkubchain.io)\
+&#x20;   3\) Chain ID:  96\
+&#x20;   4\) Currency Symbol (Optional): KUB\
+&#x20;   5\) Block Explorer URL (Optional): [_https://bkcscan.com_](http://bkcscan.com)
 
 1. Once you've confirmed entry of the new network, go back to the burger menu and tap **Browser**.
 
@@ -47,36 +47,9 @@ To connect MetaMask to ChangSwap follow the steps below.
 1. Type "ChangSwap" into the search field and start the search. The top result will be the ChangSwap exchange. Tap to enter it.
 2. You wallet will ask you to connect. Tap **Connect** to connect to ChangSwap.
 
-![](<../.gitbook/assets/image (77).png>)
-
 **Resources**
 
-[**Download MetaMask**](https://metamask.io/download.html) (Automatically detects device)\
-[**MetaMask Setup Guide**](https://academy.binance.com/en/articles/connecting-metamask-to-binance-smart-chain\))
-{% endtab %}
-
-{% tab title="Token Pocket" %}
-![](<../.gitbook/assets/image (125) (3) (4) (1) (1) (3).png>)
-
-Token Pocket is a cryptocurrency management app that natively supports many cryptocurrency networks. It also has a desktop application available.
-
-**Android and iOS**
-
-1. Tap the **Discover** button on the bottom of the main screen.
-
-![](<../.gitbook/assets/image (78).png>)
-
-1. You'll see a DApp browser page open. Under "Recommended", find and tap the **ChangSwap** button. If you can't see ChangSwap under Recommended, you can also find it under "BKC".
-
-![](<../.gitbook/assets/image (79).png>)
-
-1. A window will open saying that you will be opening a third party DApp. Tap **I got it** and you'll be taken to ChangSwap's website connected to your wallet.
-
-![](<../.gitbook/assets/image (80).png>)
-
-**Resources**\
-[**Download Token Pocket App**](https://www.tokenpocket.pro/en/download/app) (Automatically detects device)\
-**Token Pocket Mobile Setup Guide**
+[**Download MetaMask**](https://metamask.io/download.html) (Automatically detects device)
 {% endtab %}
 {% endtabs %}
 
@@ -88,19 +61,16 @@ Token Pocket is a cryptocurrency management app that natively supports many cryp
 
 **Chrome and Firefox**
 
-1. Open MetaMask and click on the **network selector** at the top. By default it will show "Ethereum Mainnet". Scroll down and click **Custom RPC**.
+1. Open MetaMask and click on the **network selector** at the top. By default it will show "Ethereum Mainnet". Scroll down and click **Custom RPC**.![](<../.gitbook/assets/image (4).png>)
+2. A window will open. Type in the details below.
 
-![](<../.gitbook/assets/image (84).png>)
+&#x20;   1\) Network Name:  Bitkub Chain\
+&#x20;   2\) New RPC URL:  [_https://rpc.bitkubchain.io_](http://rpc.bitkubchain.io)\
+&#x20;   3\) Chain ID:    96\
+&#x20;   4\) Currency Symbol (Optional): KUB\
+&#x20;   5\) Block Explorer URL (Optional): [_https://bkcscan.com_](http://bkcscan.com)
 
-1. A window will open. Type in the details below.
-
-**Network Name:** Bitkub Chain\
-**New RPC URL:** [https://bkc-dataseed.binance.org](https://bkc-dataseed.binance.org)\
-**Chain ID:** 56\
-**Currency Symbol (optional):** KUB\
-**Block Explorer URL (optional):** [http://bkcscan.com](http://bkcscan.com)
-
-![](<../.gitbook/assets/image (85).png>)
+![](https://support.bitkub.com/hc/article\_attachments/360095502811/186517031\_1358319707887652\_4000629377570630213\_n.png)
 
 1. Make sure you've typed everything in correctly and click **Save**. Bitkub Chain will now be one of your network options.
 
@@ -108,7 +78,7 @@ Token Pocket is a cryptocurrency management app that natively supports many cryp
 
 1. Visit the [ChangSwap website](https://changswap.com). In the top right corner you'll see the **Connect** button. Click it.
 
-![](<../.gitbook/assets/image (164) (3) (3) (1) (1) (1).png>)
+![](<../.gitbook/assets/截屏2022-04-14 08.52.58.png>)
 
 1. A window will appear asking you to choose a wallet to connect to. Click **MetaMask** (it's the top option on the list).
 
@@ -116,38 +86,7 @@ Token Pocket is a cryptocurrency management app that natively supports many cryp
 
 **Resources**
 
-[**Download MetaMask**](https://metamask.io/download.html) (Automatically detects browser)\
-[**MetaMask Setup Guide**](https://academy.binance.com/en/articles/connecting-metamask-to-binance-smart-chain)
-{% endtab %}
-
-{% tab title="Token Pocket" %}
-![](<../.gitbook/assets/image (125) (3) (4) (1) (1) (1).png>)
-
-**Desktop Application**
-
-1. When you open the application, DApps should be the default page (if not, click to the DApps page).
-2. Half way down the page you'll see a list of networks to choose from. Click **BKC**.
-
-![](<../.gitbook/assets/image (90).png>)
-
-1. On the list of BKC DApps, you'll find ChangSwap links. Click a **ChangSwap** link.
-
-![](<../.gitbook/assets/image (92).png>)
-
-{% hint style="warning" %}
-Make sure you don't choose the "ChangSwap data analysis" option. If you do, you will not be able to connect.
-{% endhint %}
-
-1. Your browser will open a ChangSwap tab and attempt to connect to Token Pocket.
-
-{% hint style="warning" %}
-You will not be able to use both MetaMask and TokenPocket connecting through the same web browser. Make sure you use a web browser without MetaMask plugin installed if you're using TokenPocket on your desktop computer.
-{% endhint %}
-
-**Resources**
-
-[**Download Token Pocket Desktop Wallet**](https://www.tokenpocket.pro/en/download/pc) (MacOS or Win64)\
-**Token Pocket Desktop Setup Guide**
+[**Download MetaMask**](https://metamask.io/download.html) (Automatically detects browser)
 {% endtab %}
 {% endtabs %}
 

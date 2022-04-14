@@ -83,9 +83,7 @@ Learn how to find smart contracts on our [Finding Contracts page](https://docs.c
 
 If you've already [transferred KUB into your Bitkub Chain-enabled wallet](https://docs.changswap.com/get-started/kep20-guide) but still have this error, you're most likely not [connected to Bitkub Chain](https://docs.changswap.com/get-started/connection-guide) within your wallet. Check your wallet's selected network and make sure you have Bitkub Chain (BKC) selected.
 
-## How do I vote?
 
-To learn more about voting, you can [read our section on Voting](https://docs.changswap.com/products/voting), including voting guides.
 
 ## What is the max supply of CHANG?
 
@@ -97,23 +95,13 @@ Read this to [learn more about ChangSwap's tokenomics](https://docs.changswap.co
 
 The treasury funds are used to cover the expenses involved in running ChangSwap. These expenses include salaries, audits, prizes, hosting, upkeep, bounties, etc.
 
-## Where can I check the Analytics?
-
-You can check the analytics of ChangSwap by click on the "Analytics" tab on the top menu or by clicking the link below.
-
-Analytics: [https://changswap.info/](https://changswap.info)
-
 ## Is ChangSwap protected from flashloan attacks?
 
 ChangSwap's vault has anti-flashloan protection. ChangSwap’s CHANG token isn’t vulnerable to flash loan attacks. Unlike vulnerable tokens, CHANG token minting is predefined, and can’t be adjusted in a single transaction. Ownership cannot be transferred outside of MasterChef contract.
 
 ChangSwap’s other smart contracts, like IFO and AutoPool, are protected as well; they prevent other contracts from interacting with them, reducing the scope of vector attacks.
 
-## Can I join the ChangSwap team?
 
-Check the [Become a Chef](https://docs.changswap.com/hiring/become-a-chef) area for information on open positions we're looking to fill.
-
-We advertise new positions we're looking to fill on our [official social media channels](https://docs.changswap.com/contact-us/telegram), so be sure to follow us to get the latest hiring information.
 
 ## What is BREWERY?
 
