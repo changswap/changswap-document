@@ -1,7 +1,5 @@
 # 控制 CHANG 的总量
 
-![](<../../.gitbook/assets/image (172) (1).png>)
-
 ## 为什么 CHANG 没有总量限制
 
 目前，CHANG 代币的总量没有硬性上限。

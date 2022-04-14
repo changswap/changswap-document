@@ -17,10 +17,6 @@
 
 * [🔄 交易](products/changswap-exchange.md)
 * [🚜 流动性挖矿](products/yield-farming.md)
-* [🍯 酿酒池](products/brewery-pools/README.md)
-  * [如何在酿酒池内质押？](products/brewery-pools/ru-he-zai-tang-jiang-chi-nei-zhi-ya.md)
-  * [自动 CHANG 酿酒池](products/brewery-pools/zi-dong-chang-tang-jiang-chi.md)
-  * [酿酒池常见问题解答与排错指南](products/brewery-pools/untitled.md)
 
 ## 经济模型 <a href="#tokenomics" id="tokenomics"></a>
 
