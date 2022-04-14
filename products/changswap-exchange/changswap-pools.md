@@ -12,7 +12,7 @@ The number of LP tokens you receive represents your portion of the CHANG-KUB Liq
 
 You can also redeem your funds at any time by removing your liquidity.
 
-![](../../.gitbook/assets/screenshot-2021-04-19-at-6.27.22-pm.png)
+![](<../../.gitbook/assets/截屏2022-04-14 09.24.06.png>)
 
 ## Liquidity Providers earn trading fees
 
@@ -29,7 +29,7 @@ For example:
 * The CHANG/KUB liquidity pool now has 10.017 CHANG and 10.017 KUB.
 * Each LP token is now worth 1.00017 CHANG + 1.00017 KUB.
 
-To make being a liquidity provider even more worth your while, you can also put your LP tokens to work whipping up some fresh yield on the [CHANG Farms](https://changswap.com/farms), while still earning your 0.17% trading fee reward.
+To make being a liquidity provider even more worth your while, you can also put your LP tokens to work whipping up some fresh yield on the [CHANG Farms](https://changswap.com/farms/), while still earning your 0.17% trading fee reward.
 
 ## Impermanent Loss
 

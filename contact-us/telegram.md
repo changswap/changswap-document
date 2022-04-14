@@ -12,14 +12,6 @@ Here you'll find a list of ChangSwap's official Social media channels and commun
 
 {% embed url="https://medium.com/changswap" %}
 
-## 👽 Reddit
-
-{% embed url="https://reddit.com/r/changswap" %}
-
-## 🤳 Instagram
-
-{% embed url="https://www.instagram.com/changswap_official/" %}
-
 ## 🤖Discord
 
 Newly launched on 24th Nov! The below is the only link for our discord server!
@@ -32,20 +24,10 @@ Newly launched on 24th Nov! The below is the only link for our discord server!
 
 * 📣 Announcement Channel ([http://t.me/ChangSwapAnn](http://t.me/ChangSwapAnn))
 * 🥞 English ([http://t.me/changswap](http://t.me/changswap))
-* 🇯🇵 Japanese ([https://t.me/ChangSwapJP](https://t.me/ChangSwapJP))
 * 🇨🇳 Chinese ([http://t.me/ChangSwap\_CN](http://t.me/ChangSwap\_CN))
-* 🇮🇩 Indonesian ([http://t.me/ChangSwapIndonesia](http://t.me/ChangSwapIndonesia))
-* 🇻🇳 Việt Nam ([https://t.me/ChangSwapVN](https://t.me/ChangSwapVN))
-* 🇪🇸 🇦🇷 🇻🇪 Español ([https://t.me/ChangSwapES](https://t.me/ChangSwapES))
-* 🇷🇺 Russian ([http://t.me/changswap\_ru](http://t.me/changswap\_ru))
-* 🇧🇷 🇵🇹 Portuguese/Brazilian ([https://t.me/ChangSwapPortuguese](https://t.me/ChangSwapPortuguese))
-* 🇫🇷 French ([https://t.me/changswapfr](https://t.me/changswapfr))
-* 🇮🇹 Italiano ([https://t.me/changswap\_ita](https://t.me/changswap\_ita))
-* 🇹🇷 Türkiye ([https://t.me/changswapturkiye](https://t.me/changswapturkiye))
-* 🇩🇪 🇦🇹 🇨🇭 Deutsch ([https://t.me/ChangSwap\_DE](https://t.me/ChangSwap\_DE))
-* 🇵🇭 Filipino ([https://t.me/Changswap\_Ph](https://t.me/Changswap\_Ph))
-* 🇬🇪 Georgia ([https://t.me/ChangSwapGeorgia](https://t.me/ChangSwapGeorgia))
-* 😤 Ban Appeal ([https://t.me/changbanappeal](https://t.me/changbanappeal))
+* :flag\_th:Thailand ([http://t.me/ChangSwapThailand](http://t.me/ChangSwapThailand))
+
+
 
 {% hint style="danger" %}
 Admins will NEVER send you a direct message. If anybody approaches you directly on e.g. Telegram pretending to represent customer support, please block them and report spam.

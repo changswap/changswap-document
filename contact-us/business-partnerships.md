@@ -10,14 +10,14 @@ Brewery Pools are a way of distributing your tokens to BKC users who stake CHANG
 
 These two products go hand-in-paw on ChangSwap: when a project provides their tokens for a Brewery Pool, we'll also create a Farm. If you're looking to distribute tokens and incentivize liquidity, get in touch.
 
-**​**[**Apply to run a Farm or Brewery Pool**](https://docs.google.com/forms/d/e/1FAIpQLSfQNsAfh98SAfcqJKR3is2hdvMRdnvfd2F3Hql96vXHgIi3Bw/viewform)**​**
+**​Apply to run a Farm or Brewery Pool​**
 
 * Please don't email us to apply - we only respond to applications via the application form.
 * Please don't chase us for a response on your application. We have a constant backlog of quality projects reaching out to us.
 
 ### How long will it take to get a response?
 
-We aim to respond to applications within a week, but due to a large number of requests, we’re unable to respond to every single applicant. If you don’t hear back from us within two weeks of applying, try reaching out to[ t.me/ChefTaro](https://t.me/ChefTaro) on Telegram, with **the name of your project, your token ticker, and the date you applied.**
+We aim to respond to applications within a week, but due to a large number of requests, we’re unable to respond to every single applicant. If you don’t hear back from us within two weeks of applying, try reaching out to[ ](https://t.me/ChefTaro)Telegram, with **the name of your project, your token ticker, and the date you applied.**
 
 ### What’s the difference between a Core Farm VS Farm Auction
 
@@ -47,11 +47,7 @@ Learn more about [how IFOs work.](https://medium.com/changswap/initial-farm-offe
 
 ### How long will it take to get a response?
 
-We aim to respond to applications within a week, but due to a large number of requests, we’re unable to respond to every single applicant. If you don’t hear back from us within two weeks of applying, try reaching out to[ t.me/ChefTaro](https://t.me/ChefTaro) on Telegram, with **the name of your project, your token ticker, and the date you applied.**
-
-## NFT Market <a href="#exchange" id="exchange"></a>
-
-[Apply to list](broken-reference/)
+We aim to respond to applications within a week, but due to a large number of requests, we’re unable to respond to every single applicant. If you don’t hear back from us within two weeks of applying, try reaching out to Telegram, with **the name of your project, your token ticker, and the date you applied.**
 
 ## Listing on the Exchange <a href="#exchange" id="exchange"></a>
 

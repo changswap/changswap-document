@@ -6,12 +6,8 @@ Yield Farms allow users to earn CHANG while supporting ChangSwap by staking LP T
 
 Check out our [How to Use Farms guide](https://docs.changswap.com/products/yield-farming/how-to-use-farms) to get started with farming.
 
-Learn [how to find Farm smart contracts](./)
-
 {% hint style="warning" %}
 Yield farming can give better rewards than Brewery Pools, but it comes with a risk of **Impermanent Loss**. It’s not as scary as it sounds, but it is worth learning about the concept before you get started.
-
-Check out this great [article about Impermanent Loss ](https://academy.binance.com/en/articles/impermanent-loss-explained)from Binance Academy to learn more.
 {% endhint %}
 
 ## Reward calculations
@@ -23,21 +19,13 @@ Yield Farm APR calculations include both:
 
 Why? Because when you stake your LP tokens in a farm to earn CHANG, you're still providing liquidity to the liquidity pool, so you earn LP rewards as well!
 
-![](<../../.gitbook/assets/Frame 1 (3).png>)
-
-So how do we calculate those figures?
-
 ### Calculating Farm Base Reward APR
 
 The **Farm Base APR** is calculated according to the farm multiplier and the total amount of liquidity in the farm -- this is the amount of CHANG distributed to the farm.
 
 ### Calculating LP Reward APR
 
-On top of that, farmers receive **LP rewards** for providing liquidity. Here's an example of calculating **LP rewards**:
-
-![](https://lh4.googleusercontent.com/rJswz2qvCNTcODcClHxqlLpanSLsfbGtVw75MMPicBN1iKTKCuEYlPuoFAqskoy24DB9JBmATWb8dk3WmY1\_BFDZoS94sWTBZhZrcnG711rC8ltDXPR3gdl8D50eWq\_cfiBriKcl)
-
-In the WKUB/BUSD pair above, we see these values:
+WKUB/BUSD pair as example, we see these values:
 
 **Liquidity:** $387.42M\
 **Volume 24H:** $96.97M\

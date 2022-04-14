@@ -2,9 +2,9 @@
 
 ![](../../.gitbook/assets/tokenswap.png)
 
-\*\*\*\*[**Token swaps**](https://exchange.changswap.com/#/swap) on ChangSwap are a simple way to trade one KEP-20 token for another via automated liquidity pools.
+\*\*\*\*[**Token swaps**](https://changswap.com) on ChangSwap are a simple way to trade one KEP-20 token for another via automated liquidity pools.
 
-![](<../../.gitbook/assets/Screenshot 2021-04-19 at 6.11.54 PM.png>)
+![](<../../.gitbook/assets/截屏2022-04-14 09.17.20.png>)
 
 When you make a token swap (trade) on the exchange you will pay a **0.25% trading fee**, which is broken down as follows:
 

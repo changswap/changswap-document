@@ -16,8 +16,6 @@ Pivoting is a way of life.
 
 That means that we don’t publicly commit to specific timelines, so we can organize our development priorities based on market changes and developer resources.
 
-![](.gitbook/assets/roadmap.png)
-
 {% hint style="info" %}
 Some items didn't make it into the "Coming Up" section due to security or confidential reason.
 {% endhint %}
@@ -27,20 +25,16 @@ Some items didn't make it into the "Coming Up" section due to security or confid
 * Site-wide UI/UX Upgrates
 * Regular NFT Drops
 * Regular IFOs, Pools + Farms, Farm Auctions
-* Listing More NFT Collections
 
-### Coming Up in Q1
+
+
+### Coming Up in Q2
 
 * IFO 3.1: Private Sales & New IFO Brewery Pool
 * MasterChef v2: Ready for Future Products and New Tokenomics
 * Perpetuals Trading
 * Limit Order
 * Fixed-term Staking
-* NFT Utility
-* NFT-based Gamification
-* Hackathon
-* Lottery v3: New game types and more
-* Affiliate System
 
 ### Backlogs
 
