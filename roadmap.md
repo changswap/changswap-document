@@ -1,82 +1,82 @@
 ---
-description: '"Don''t call it a roadmap"'
+คำอธิบาย: '"อย่าเรียกมันว่าแผนงาน"'
 ---
 
-# Roadmap
+#แผนงาน
 
 ![](<.gitbook/assets/roadmap (1).png>)
 
-_Updated Jan. 21, 2022_
+_ปรับปรุงเมื่อ 21 ม.ค. 2565_
 
-### Finally, it's a roadmap not a to-do list.
+### สุดท้ายนี้ แผนงานไม่ใช่รายการสิ่งที่ต้องทำ
 
-Crypto moves fast, and we move fast too.
+Crypto เคลื่อนไหวอย่างรวดเร็ว และเราก็เคลื่อนไหวอย่างรวดเร็วเช่นกัน
 
-Pivoting is a way of life.
+การหมุนวนเป็นวิถีชีวิต
 
-That means that we don’t publicly commit to specific timelines, so we can organize our development priorities based on market changes and developer resources.
+นั่นหมายความว่าเราไม่ได้เปิดเผยต่อสาธารณะต่อไทม์ไลน์ที่เฉพาะเจาะจง ดังนั้นเราจึงสามารถจัดลำดับความสำคัญในการพัฒนาของเราตามการเปลี่ยนแปลงของตลาดและทรัพยากรของนักพัฒนา
 
 {% hint style="info" %}
-Some items didn't make it into the "Coming Up" section due to security or confidential reason.
+สินค้าบางรายการไม่ได้เข้าสู่ส่วน "กำลังดำเนินการ" เนื่องจากเหตุผลด้านความปลอดภัยหรือความลับ
 {% endhint %}
 
-### Ongoing/Recurring
+### ต่อเนื่อง/เกิดซ้ำ
 
-* Site-wide UI/UX Upgrates
-* Regular NFT Drops
-* Regular IFOs, Pools + Farms, Farm Auctions
+* อัปเกรด UI/UX ทั่วทั้งไซต์
+* NFT Drops ปกติ
+* IFO ปกติ, พูล + ฟาร์ม, การประมูลในฟาร์ม
 
 
 
-### Coming Up in Q2
+### มาใน Q2
 
-* IFO 3.1: Private Sales & New IFO Brewery Pool
-* MasterChef v2: Ready for Future Products and New Tokenomics
-* Perpetuals Trading
-* Limit Order
-* Fixed-term Staking
+* IFO 3.1: การขายส่วนตัวและแหล่งผลิตเบียร์ IFO ใหม่
+* MasterChef v2: พร้อมสำหรับผลิตภัณฑ์ในอนาคตและ Tokenomics ใหม่
+* การซื้อขายแบบต่อเนื่อง
+* จำกัดการสั่งซื้อ
+* การปักหลักระยะคงที่
 
-### Backlogs
+### งานค้าง
 
-* Overview pages for Earn, Win
-  * Personal dashboard
-  * Portfolio
-* NFT Market Phase 3 - open NFT platform
+* หน้าภาพรวมสำหรับ Earn, Win
+  * แดชบอร์ดส่วนบุคคล
+  * ผลงาน
+* ตลาด NFT ระยะที่ 3 - เปิดแพลตฟอร์ม NFT
 
-### Done
+### เสร็จแล้ว
 
-#### Trade
+#### ซื้อขาย
 
-* Charts & other trading features on-site
-* Migration to Exchange V2 (exchange, liquidity, farms)
-* Major performance upgrades
-* Team Battle 1 & 2(Trading Comps as a Service)
+* แผนภูมิและคุณสมบัติการซื้อขายอื่น ๆ บนเว็บไซต์
+* การโยกย้ายไปยัง Exchange V2 (การแลกเปลี่ยน สภาพคล่อง ฟาร์ม)
+* การอัพเกรดประสิทธิภาพที่สำคัญ
+* Team Battle 1 & 2 (Comps การค้าเป็นบริการ)
 
-#### Earn
+#### ได้รับ
 
-* CHANG Staking
-* Core Pools, Farms
-* Community Pools: Host BKC community project Pools, support with 0.1-0.2x CHANG farms
-* Auto-compounding CHANG-CHANG Brewery Pool
-* Brewery Pool Boosts
-* APR/APY Calculator v2
-* Harvest all function
+* ช้างเดิมพัน
+* สระน้ำหลัก ฟาร์ม
+* Community Pools: โฮสต์โครงการชุมชน BKC Pools รองรับ 0.1-0.2x CHANG ฟาร์ม
+* สระผสมโรงเบียร์ CHANG-CHANG อัตโนมัติ
+* เพิ่มพูลโรงเบียร์
+* เครื่องคำนวณ APR/APY v2
+* เก็บเกี่ยวทุกฟังก์ชั่น
 
-#### Win
+#### ชนะ
 
-* Lottery v2
-* Prediction v0.2
+* ลอตเตอรี v2
+* การคาดการณ์ v0.2
 
-#### NFT Ecosystem
+#### ระบบนิเวศ NFT
 
-* NFT Market Phase 1 & 2(buy & sell whitelisted NFT collections)
-* Customizable User Profile
-* NFT drops
-* Chang Squad generative NFT collection
+* ตลาด NFT ระยะที่ 1 และ 2 (ซื้อและขายคอลเลกชัน NFT ที่อนุญาตพิเศษ)
+* โปรไฟล์ผู้ใช้ที่ปรับแต่งได้
+* NFT ลดลง
+* คอลเลกชัน NFT กำเนิดของทีมช้าง
 
-#### Site Upgrades / CHANG / Other Products
+#### อัปเกรดไซต์ / CHANG / ผลิตภัณฑ์อื่น ๆ
 
-* Mobile-first navigation & site overhaul
-* Analytics: Info site
-* Voting v2
-* IFO CHANG Pool & IFO 3.0
+* การนำทางและยกเครื่องเว็บไซต์สำหรับมือถือเป็นอันดับแรก
+* การวิเคราะห์: เว็บไซต์ข้อมูล
+* โหวต v2
+* ไอเอฟโอช้างพูล & ไอเอฟโอ 3.0
