@@ -4,8 +4,6 @@ description: Thank you for expressing your interest in contributing to ChangSwap
 
 # Contributing
 
-![](<../../.gitbook/assets/docs-masthead-18- (1).png>)
-
 ChangSwap is an open-source project. If you want to contribute to the project, this section is here to guide you through your first steps with the ChangSwap team 🥞
 
 Before starting any development, we highly encourage you to submit an issue on Github in order to discuss the problem, and the solution with the team.
@@ -93,7 +91,7 @@ Your code is ready to be submitted for review, congratulations🥳
 * If possible self-review your PR and **add comments** where additional clarification is needed.
 
 {% hint style="info" %}
-Create a [draft PR](https://github.blog/2019-02-14-introducing-draft-pull-requests/) as soon as possible so we can view your ongoing progress.
+Create a draft PR as soon as possible so we can view your ongoing progress.
 {% endhint %}
 
 **Thanks for helping us making ChangSwap even more awesome** ❤

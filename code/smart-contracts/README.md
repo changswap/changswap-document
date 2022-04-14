@@ -17,9 +17,6 @@ The following links will take you to the BkcScan page for ChangSwap's main smart
 Each Farm used by ChangSwap has its own smart contract. Follow the steps below to view a Farm's smart contract.
 
 1. Go to the [ChangSwap Farms page](https://changswap.com/farms) and click the row of the Farm you want to see the contract for.
-
-![](<../../.gitbook/assets/image (126).png>)
-
-1. When the details section expands out, click the **View Contract** link on the left to open the contract in BkcScan.
+2. When the details section expands out, click the **View Contract** link on the left to open the contract in BkcScan.
 
 ![](<../../.gitbook/assets/image (127).png>)

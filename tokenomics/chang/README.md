@@ -1,7 +1,5 @@
 # CHANG
 
-![](<../../.gitbook/assets/docs masthead (17) (1).png>)
-
 * **Ticker:** CHANG
 * **Contract Address:** [https://bkcscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82](https://bkcscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82)
 * **Chain:** Bitkub Chain (KEP20)
@@ -10,14 +8,12 @@
 
 CHANG is the delicious token that powers the ChangSwap ecosystem.
 
-Earn CHANG from Farms and Brewery Pools, win it in the lottery, or [buy it on the exchange](../../products/changswap-exchange/), then explore its use cases:
+Earn CHANG from Farms and Brewery Pools, or [buy it on the exchange](../../products/changswap-exchange/), then explore its use cases:
 
 * Stake it in [Brewery Pools](../../products/brewery-pool/) to earn free tokens
 * Use it in [Yield Farms](https://docs.changswap.com/products/yield-farming) to earn more CHANG
-* Buy Lottery tickets in the [ChangSwap Lottery](broken-reference)
-* Participate in [IFO Token Sales](broken-reference)
-* Create your [Chang Profile](broken-reference) and mint NFTs
-* [Vote on proposals](broken-reference) relating to the ChangSwap ecosystem
+
+
 
 But that's not all -- there's much more on the horizon for CHANG!
 

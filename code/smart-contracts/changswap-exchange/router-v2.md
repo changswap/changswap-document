@@ -16,11 +16,11 @@ View the [ChangSwap: Router v2 contract on BkcScan](https://bkcscan.com/address/
 
 ## Read functions
 
-### WETH
+### WKUB
 
 `function WETH() external pure returns (address);`
 
-Returns the canonical address for [Binance: WKUB token](https://bkcscan.com/address/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c) (WETH being a vestige from Ethereum network origins).
+Returns the canonical address: WKUB token (WETH being a vestige from Ethereum network origins).
 
 ### factory
 

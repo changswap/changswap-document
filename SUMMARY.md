@@ -22,7 +22,6 @@
   * [How to Add/Remove Liquidity](products/changswap-exchange/liquidity-guide.md)
 * [🚜 Yield Farming](products/yield-farming/README.md)
   * [How to Use Farms](products/yield-farming/how-to-use-farms.md)
-  * [How to Use Farms with BkcScan](products/yield-farming/how-to-use-farms-with-bkcscan.md)
 * [🍯 Brewery Pools](products/brewery-pools/README.md)
   * [How to Stake in Brewery Pools](products/brewery-pools/how-to-stake-in-brewery-pools.md)
   * [Auto CHANG Brewery Pool](products/brewery-pools/auto-chang-brewery-pool.md)
@@ -38,7 +37,6 @@
 
 * [Contributing](code/contributing/README.md)
   * [Codebase Overview](code/contributing/codebase-overview.md)
-* [Bug Bounty](code/bug-bounty.md)
 * [Smart Contracts](code/smart-contracts/README.md)
   * [ChangSwap Exchange](code/smart-contracts/changswap-exchange/README.md)
     * [Factory v2](code/smart-contracts/changswap-exchange/factory-v2.md)
