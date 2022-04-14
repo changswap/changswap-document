@@ -1,232 +1,232 @@
-# Create a Wallet
+# สร้างกระเป๋าสตางค์
 
 ![](<../.gitbook/assets/截屏2022-03-29 上午8.39.37.png>)
 
-To get started on ChangSwap, the first thing you'll need is to set up a wallet that supports Bitkub Chain (BKC). Wallets are available both on desktop computers and on smartphone devices. You'll need to choose the wallet that fits your needs best.
+ในการเริ่มต้นใช้งาน ChangSwap สิ่งแรกที่คุณต้องทำคือตั้งค่ากระเป๋าเงินที่รองรับ Bitkub Chain (BKC) กระเป๋าเงินสามารถใช้ได้ทั้งบนคอมพิวเตอร์เดสก์ท็อปและอุปกรณ์สมาร์ทโฟน คุณจะต้องเลือกกระเป๋าสตางค์ที่เหมาะกับความต้องการของคุณมากที่สุด
 
 {% hint style="danger" %}
-**When you're setting up a wallet, be sure to:**
+**เมื่อคุณตั้งค่ากระเป๋าเงิน อย่าลืม:**
 
-* ✅ **Download and install only the latest version from an official source.**
-* ✅ **Follow the setup guide carefully.**
-* ✅ **Safely back up your recovery phrases.**
-* ❌ **NEVER share your recovery phrases with anyone, under any circumstances.**
-* ❌ **NEVER input your recovery phrase to a website or app, other than your wallet app.**
+* ✅ **ดาวน์โหลดและติดตั้งเฉพาะเวอร์ชันล่าสุดจากแหล่งที่เป็นทางการ**
+* ✅ **ปฏิบัติตามคู่มือการติดตั้งอย่างระมัดระวัง**
+* ✅ ** สำรองวลีการกู้คืนของคุณอย่างปลอดภัย **
+* ❌ **อย่าเปิดเผยวลีกู้คืนของคุณกับใครไม่ว่าในกรณีใด ๆ **
+* ❌ **อย่าป้อนวลีกู้คืนของคุณในเว็บไซต์หรือแอปอื่นใดนอกจากแอปกระเป๋าเงินของคุณ**
 {% endhint %}
 
-## Smartphone/Mobile or Desktop wallet?
+## กระเป๋าเงินสมาร์ทโฟน / มือถือหรือเดสก์ท็อป?
 
-Mobile device wallets and desktop-based wallets have different strengths and weaknesses. Consider which fits your needs better to help decide which type of wallet to use.
+กระเป๋าเงินอุปกรณ์มือถือและกระเป๋าเงินบนเดสก์ท็อปมีจุดแข็งและจุดอ่อนต่างกัน พิจารณาว่าเหมาะกับความต้องการของคุณมากกว่าเพื่อช่วยตัดสินใจว่าจะใช้กระเป๋าเงินประเภทใด
 
-|                                   | Mobile | Desktop |
-| --------------------------------- | ------ | ------- |
-| Use anywhere                      | ✅      | ➖       |
-| Easy to use                       | ✅      | ➖       |
-| More secure                       | ➖      | ✅       |
-| Accessibility friendly            | ➖      | ✅       |
-| Damage/loss/theft resistant       | ➖      | ✅       |
-| Power/connection outage resistant | ✅      | ➖       |
+| | มือถือ | เดสก์ท็อป |
+| ---------------------------------- | ------ | -------- |
+| ใช้ได้ทุกที่ | ✅ | ➖ |
+| ใช้งานง่าย | ✅ | ➖ |
+| ปลอดภัยยิ่งขึ้น | ➖ | ✅ |
+| การเข้าถึงที่เป็นมิตร | ➖ | ✅ |
+| ทนทานต่อความเสียหาย/สูญหาย/การโจรกรรม | ➖ | ✅ |
+| ต้านทานไฟดับ/การเชื่อมต่อ | ✅ | ➖ |
 
-## **Smartphone/Mobile wallets**
+## **สมาร์ทโฟน/กระเป๋าสตางค์มือถือ**
 
-Smartphone/Mobile wallets allow you to access your crypto almost anywhere. Wallets are available on both Android and iOS devices.
+กระเป๋าเงินสมาร์ทโฟน/มือถือช่วยให้คุณเข้าถึง crypto ของคุณได้เกือบทุกที่ กระเป๋าเงินสามารถใช้ได้ทั้งบนอุปกรณ์ Android และ iOS
 
-### Which mobile wallet should I choose?
+### เลือกกระเป๋าสตางค์มือถือแบบไหนดี?
 
-This comparison table gives an overview of the most popular mobile wallets used with ChangSwap.
+ตารางเปรียบเทียบนี้แสดงภาพรวมของกระเป๋าเงินมือถือยอดนิยมที่ใช้กับ ChangSwap
 
-|                                                          | Token Pocket | MetaMask | Trust Wallet                  |
-| -------------------------------------------------------- | ------------ | -------- | ----------------------------- |
-| Bitkub Chain support                                     | ✅            | ✅        | ✅                             |
-| Built-in DApp browser                                    | ✅            | ➖        | <p>✅ Android</p><p>⚠️ iOS</p> |
-| Hardware wallet compatible                               | ➖            | ✅        | ➖                             |
-| Open source (auditability)                               | ✅            | ✅        | ✅                             |
-| <p>Interact with BkcScan</p><p>(for advanced users!)</p> | ➖            | ✅        | ➖                             |
+| | Token Pocket | MetaMask | Trust Wallet |
+| -------------------------------------------------- ------ | ------------ | -------- | ------------------------------------ |
+| รองรับ Bitkub Chain | ✅ | ✅ | ✅ |
+| เบราว์เซอร์ DApp ในตัว | ✅ | ➖ | <p>✅ Android</p><p>⚠️ iOS</p> |
+| รองรับฮาร์ดแวร์กระเป๋าสตางค์ | ➖ | ✅ | ➖ |
+| โอเพ่นซอร์ส (ความสามารถในการตรวจสอบได้) | ✅ | ✅ | ✅ |
+| <p>โต้ตอบกับ BkcScan</p><p>(สำหรับผู้ใช้ขั้นสูง!)</p> | ➖ | ✅ | ➖ |
 
-You can find more in-depth information about each wallet below, as well as download links and installation guides.
+คุณสามารถค้นหาข้อมูลเชิงลึกเพิ่มเติมเกี่ยวกับกระเป๋าเงินแต่ละใบได้ที่ด้านล่าง รวมถึงลิงค์ดาวน์โหลดและคู่มือการติดตั้ง
 
 {% tabs %}
 {% tab title="MetaMask" %}
 ![](<../.gitbook/assets/image (33) (3) (4) (5) (1) (1).png>)
 
-MetaMask is a very popular browser-based wallet plugin that supports ERC20 (Ethereum network) and KEP2 & KEP20 (Bitkub chain and Bitkub Chain networks).
+MetaMask เป็นปลั๊กอินกระเป๋าสตางค์บนเบราว์เซอร์ที่ได้รับความนิยมอย่างมากซึ่งรองรับ ERC20 (เครือข่าย Ethereum) และ KEP2 & KEP20 (เครือข่าย Bitkub และเครือข่าย Bitkub Chain)
 
-​**Pros:**
+**ข้อดี:**
 
-* Open source for auditability
-* WEB3 capable on BkcScan
-* A strong history of security and reliability
-* A large amount of how-to guides and resources online
-* Many tools and custom settings
-* Offers ETH purchases with Transak
-* Supports a very large number of languages
-* Is also available a browser plugin for desktop devices
+* โอเพ่นซอร์สสำหรับการตรวจสอบ
+* WEB3 บน BkcScan . ได้
+* ประวัติการรักษาความปลอดภัยและความน่าเชื่อถือที่แข็งแกร่ง
+* คู่มือและแหล่งข้อมูลมากมายทางออนไลน์
+* เครื่องมือมากมายและการตั้งค่าแบบกำหนดเอง
+* เสนอการซื้อ ETH กับ Transak
+* รองรับภาษาจำนวนมาก
+* นอกจากนี้ยังมีปลั๊กอินเบราว์เซอร์สำหรับอุปกรณ์เดสก์ท็อป
 
-**Cons:**
+**ข้อเสีย:**
 
-* Longer setup time than other options
-* Additional steps needed to use with Bitkub Chain and ChangSwap
-* Extra information and settings may confuse beginners
+* เวลาตั้งค่านานกว่าตัวเลือกอื่น ๆ
+* ขั้นตอนเพิ่มเติมที่จำเป็นสำหรับใช้กับ Bitkub Chain และ ChangSwap
+* ข้อมูลเพิ่มเติมและการตั้งค่าอาจทำให้ผู้เริ่มต้นสับสน
 
-[**Download MetaMask**](https://metamask.io/download.html) (Automatically detects device)
+[**ดาวน์โหลด MetaMask**](https://metamask.io/download.html) (ตรวจจับอุปกรณ์โดยอัตโนมัติ)
 {% endtab %}
 
 {% tab title="Token Pocket" %}
 ![](<../.gitbook/assets/image (125) (3) (4) (1) (1) (3).png>)
 
-Token Pocket is a cryptocurrency management app that natively supports many cryptocurrency networks. It also has a desktop application available.
+Token Pocket เป็นแอปจัดการสกุลเงินดิจิทัลที่รองรับเครือข่ายสกุลเงินดิจิทัลจำนวนมาก นอกจากนี้ยังมีแอปพลิเคชันเดสก์ท็อปที่พร้อมใช้งาน
 
-​**Pros:**
+**ข้อดี:**
 
-* Open source for auditability
-* Allows users to easily switch between many crypto networks
-* Supports many networks by default
-* A less cramped user experience than browser plugin wallets
-* Is also available as desktop software devices
+* โอเพ่นซอร์สสำหรับการตรวจสอบ
+* ให้ผู้ใช้สลับไปมาระหว่างเครือข่าย crypto ต่างๆ ได้อย่างง่ายดาย
+* รองรับหลายเครือข่ายโดยค่าเริ่มต้น
+* ประสบการณ์ผู้ใช้ที่คับแคบน้อยกว่ากระเป๋าเงินปลั๊กอินของเบราว์เซอร์
+* มีให้ในอุปกรณ์ซอฟต์แวร์เดสก์ท็อปด้วย
 
-**Cons:**
+**ข้อเสีย:**
 
-* Only supports Chinese and English languages
-* Has some issues with the English translation
-* Has fewer online resources than more established wallets
+* รองรับเฉพาะภาษาจีนและภาษาอังกฤษ
+* มีปัญหาบางอย่างกับการแปลภาษาอังกฤษ
+* มีทรัพยากรออนไลน์น้อยกว่ากระเป๋าเงินที่จัดตั้งขึ้น
 
-[**Download Token Pocket App**](https://www.tokenpocket.pro/en/download/app) (Automatically detects device)
+[**ดาวน์โหลดแอป Token Pocket**](https://www.tokenpocket.pro/en/download/app) (ตรวจจับอุปกรณ์โดยอัตโนมัติ)
 
-**Token Pocket Mobile Setup Guide**
+**คู่มือการตั้งค่า Token Pocket Mobile**
 
-1. Visit the Token Pocket website and tap **Mobile**.
-2. Your device will be automatically detected. Tap the **Google Play** or **App Store** button and install the Token Pocket app.
-3. Once Token Pocket is installed, open it. You’ll be met by a screen asking whether you have an existing wallet or would like to create a new one. Tap **No accounts, Create Now**.
+1. ไปที่เว็บไซต์ Token Pocket แล้วแตะ **มือถือ**
+2. อุปกรณ์ของคุณจะถูกตรวจจับโดยอัตโนมัติ แตะปุ่ม **Google Play** หรือ **App Store** และติดตั้งแอป Token Pocket
+3. เมื่อติดตั้ง Token Pocket แล้ว ให้เปิด คุณจะพบกับหน้าจอถามว่าคุณมีกระเป๋าเงินอยู่แล้วหรือต้องการสร้างใหม่ แตะ **ไม่มีบัญชี สร้างเลย**
 
-If you do have an existing wallet to import, use the top option instead.
+หากคุณมีกระเป๋าเงินที่จะนำเข้าอยู่แล้ว ให้ใช้ตัวเลือกด้านบนแทน
 
-1. On the next page, find **Bitkub Chain** in the list and tap it.
-2. Next, on the “Create way” page, tap **Create Wallet**.
-3. You’ll be asked to enter a password. For your security, make sure your password is judged as “Strong”. You can also add a hint, but make sure it’s something only you will understand. When you’re ready, tap **Create Wallet**.
+1. ในหน้าถัดไป ให้ค้นหา **Bitkub Chain** ในรายการแล้วแตะ
+2. ถัดไป ในหน้า “สร้างวิธีการ” ให้แตะ **สร้างกระเป๋าเงิน**
+3. คุณจะถูกขอให้ป้อนรหัสผ่าน เพื่อความปลอดภัยของคุณ ตรวจสอบให้แน่ใจว่ารหัสผ่านของคุณได้รับการตัดสินว่า "แข็งแกร่ง" คุณสามารถเพิ่มคำใบ้ได้ แต่ต้องแน่ใจว่าเป็นสิ่งที่คุณเท่านั้นที่จะเข้าใจ เมื่อคุณพร้อมแล้ว ให้แตะ **สร้างกระเป๋าเงิน**
 
-And that’s it, all done!
+เท่านี้ก็เรียบร้อย!
 
-To connect to Bitkub Chain and use ChangSwap, you can follow the TokenPocket section of our Connect Your Wallet to ChangSwap guide [https://docs.changswap.com/get-started/connection-guide](https://docs.changswap.com/get-started/connection-guide).
+หากต้องการเชื่อมต่อกับ Bitkub Chain และใช้ ChangSwap คุณสามารถทำตามส่วน TokenPocket ของคู่มือเชื่อมต่อ Wallet ของคุณกับ ChangSwap [https://docs.changswap.com/get-started/connection-guide](https://docs.changswap) .com/get-started/connection-guide)
 
-**Getting private key from mobile to import to desktop**
+**รับคีย์ส่วนตัวจากมือถือเพื่อนำเข้าไปยังเดสก์ท็อป**
 
-Token Pocket lets you use both a desktop and mobile wallet. This section will cover how to get your private key from your mobile wallet to import into your desktop wallet.
+Token Pocket ให้คุณใช้ทั้งกระเป๋าเงินเดสก์ท็อปและมือถือ ส่วนนี้จะครอบคลุมถึงวิธีรับคีย์ส่วนตัวจากกระเป๋าเงินมือถือเพื่อนำเข้าไปยังกระเป๋าเงินเดสก์ท็อปของคุณ
 
-{% hint style="warning" %}
-Please be extremely careful with how you handle your private keys. Giving your private keys to someone will give them full access to your coins! Token Pocket is an open source project and will use your private key to import your wallet. Even so, only use your private key with applications you trust and can verify are legitimate!
-{% endhint %}
+{% คำใบ้ style="คำเตือน" %}
+โปรดใช้ความระมัดระวังอย่างยิ่งในการจัดการคีย์ส่วนตัวของคุณ การให้คีย์ส่วนตัวของคุณกับใครบางคนจะทำให้พวกเขาเข้าถึงเหรียญของคุณได้อย่างเต็มที่! Token Pocket เป็นโครงการโอเพ่นซอร์สและจะใช้คีย์ส่วนตัวของคุณเพื่อนำเข้ากระเป๋าเงินของคุณ อย่างไรก็ตาม ใช้คีย์ส่วนตัวของคุณกับแอปพลิเคชันที่คุณไว้วางใจและสามารถตรวจสอบได้เท่านั้นว่าถูกต้องตามกฎหมาย!
+{% สิ้นสุด %}
 
-1. Tap the **Me** tab on the bottom ribbon and tap **Manage Wallets**.
-2. On the next page, tap the **Bitkub Chain** entry. Be careful not to tap the address part, or you’ll only copy that to clipboard instead.
-3. When the menu appears, find and tap the **Export Private Key** option. Type in your password to get your private key.
+1. แตะแท็บ **ฉัน** ที่แถบริบบิ้นด้านล่าง แล้วแตะ **จัดการกระเป๋าเงิน**
+2. ในหน้าถัดไป ให้แตะรายการ **Bitkub Chain** ระวังอย่าแตะส่วนของที่อยู่ มิฉะนั้น คุณจะคัดลอกไปยังคลิปบอร์ดเท่านั้นแทน
+3. เมื่อเมนูปรากฏขึ้น ให้ค้นหาและแตะตัวเลือก **ส่งออกรหัสส่วนตัว** พิมพ์รหัสผ่านเพื่อรับรหัสส่วนตัวของคุณ
 
-{% hint style="danger" %}
-\*\*NEVER, in any situation, should you ever give someone your private key or recovery phrase ("seed phrase"). This will give someone complete access to your crypto!
+{% คำใบ้ style="อันตราย" %}
+\*\*ไม่เคย ในทุกสถานการณ์ หากคุณให้คีย์ส่วนตัวหรือวลีการกู้คืนของคุณแก่ใครซักคน ("seed phrase") สิ่งนี้จะทำให้บางคนเข้าถึง crypto ของคุณได้อย่างสมบูรณ์!
 
-The genuine ChangSwap site and staff will never ask you to input your seed phrase.\*\*
-{% endhint %}
+ไซต์ ChangSwap ของแท้และพนักงานจะไม่ขอให้คุณป้อนวลีเริ่มต้นของคุณ\*\*
+{% สิ้นสุด %}
 
-Now you have your private key ready to import your wallet into the desktop version of Token Pocket.
+ตอนนี้คุณมีคีย์ส่วนตัวของคุณพร้อมที่จะนำเข้ากระเป๋าสตางค์ของคุณไปยัง Token Pocket เวอร์ชันเดสก์ท็อปแล้ว
 {% endtab %}
-{% endtabs %}
+{% ท้ายแท็บ %}
 
-## **Desktop/Web Browser wallets**
+## **กระเป๋าเงินเดสก์ท็อป/เว็บเบราว์เซอร์**
 
-Desktop wallets are available on your home computer or laptop computer. Wallets on your computer can run as standalone applications, or as web browser plugins for popular browsers like Chrome and Firefox.
+กระเป๋าเงินเดสก์ท็อปมีอยู่ในคอมพิวเตอร์ที่บ้านหรือคอมพิวเตอร์แล็ปท็อปของคุณ Wallets บนคอมพิวเตอร์ของคุณสามารถทำงานเป็นแอปพลิเคชันแบบสแตนด์อโลน หรือเป็นปลั๊กอินของเว็บเบราว์เซอร์สำหรับเบราว์เซอร์ยอดนิยม เช่น Chrome และ Firefox
 
-### Which desktop wallet should I choose?
+### ฉันควรเลือกกระเป๋าเงินเดสก์ท็อปตัวใด
 
-This comparison table gives an overview of the most popular desktop wallets used with ChangSwap.
+ตารางเปรียบเทียบนี้ให้ภาพรวมของกระเป๋าสตางค์เดสก์ท็อปยอดนิยมที่ใช้กับ ChangSwap
 
-|                                                          | MetaMask | Token Pocket |
-| -------------------------------------------------------- | -------- | ------------ |
-| Bitkub Chain support                                     | ✅        | ⚠️           |
-| Built-in DApp browser                                    | ➖        | ✅            |
-| Hardware wallet compatible                               | ✅        | ➖            |
-| Open source (auditability)                               | ✅        | ✅            |
-| <p>Interact with BkcScan</p><p>(for advanced users!)</p> | ✅        | ➖            |
+| | MetaMask | Token Pocket |
+| -------------------------------------------------- ------ | -------- | ------------ |
+| รองรับ Bitkub Chain | ✅ | ⚠️ |
+| เบราว์เซอร์ DApp ในตัว | ➖ | ✅ |
+| รองรับฮาร์ดแวร์กระเป๋าสตางค์ | ✅ | ➖ |
+| โอเพ่นซอร์ส (ความสามารถในการตรวจสอบได้) | ✅ | ✅ |
+| <p>โต้ตอบกับ BkcScan</p><p>(สำหรับผู้ใช้ขั้นสูง!)</p> | ✅ | ➖ |
 
-⚠️ Requires additional setup
+⚠️ต้องมีการตั้งค่าเพิ่มเติม
 
-You can find more in-depth information about each wallet below, as well as download links and installation guides.
+คุณสามารถค้นหาข้อมูลเชิงลึกเพิ่มเติมเกี่ยวกับกระเป๋าเงินแต่ละใบได้ที่ด้านล่าง รวมถึงลิงค์ดาวน์โหลดและคู่มือการติดตั้ง
 
 {% tabs %}
 {% tab title="MetaMask" %}
 ![](<../.gitbook/assets/image (33) (3) (4) (5) (1) (1) (2).png>)
 
-MetaMask is a very popular browser-based wallet plugin that supports ERC20 (Ethereum network) by default, and KEP2 & KEP20 (Bitkub chain and Bitkub Chain networks) with a little work.
+MetaMask เป็นปลั๊กอินกระเป๋าสตางค์บนเบราว์เซอร์ที่ได้รับความนิยมอย่างมากซึ่งรองรับ ERC20 (เครือข่าย Ethereum) โดยค่าเริ่มต้น และ KEP2 & KEP20 (เครือข่าย Bitkub และเครือข่าย Bitkub Chain) ที่มีการทำงานเพียงเล็กน้อย
 
-​**Pros:**
+**ข้อดี:**
 
-* Open source for auditability
-* WEB3 capable on BkcScan
-* A strong history of security and reliability
-* A large amount of how-to guides and resources online
-* Many tools and custom settings
-* Supports a very large number of languages
-* Is also available on mobile devices
+* โอเพ่นซอร์สสำหรับการตรวจสอบ
+* WEB3 บน BkcScan . ได้
+* ประวัติการรักษาความปลอดภัยและความน่าเชื่อถือที่แข็งแกร่ง
+* คู่มือและแหล่งข้อมูลมากมายทางออนไลน์
+* เครื่องมือมากมายและการตั้งค่าแบบกำหนดเอง
+* รองรับภาษาจำนวนมาก
+* มีให้ในอุปกรณ์มือถือด้วย
 
-**Cons:**
+**ข้อเสีย:**
 
-* Longer setup time than other options
-* Additional steps needed to use with Bitkub Chain and ChangSwap
-* Extra information and settings may confuse beginners
+* เวลาตั้งค่านานกว่าตัวเลือกอื่น ๆ
+* ขั้นตอนเพิ่มเติมที่จำเป็นสำหรับใช้กับ Bitkub Chain และ ChangSwap
+* ข้อมูลเพิ่มเติมและการตั้งค่าอาจทำให้ผู้เริ่มต้นสับสน
 
-[**Download MetaMask**](https://metamask.io/download.html) (Automatically detects browser)
+[**ดาวน์โหลด MetaMask**](https://metamask.io/download.html) (ตรวจพบเบราว์เซอร์โดยอัตโนมัติ)
 {% endtab %}
 
 {% tab title="Token Pocket" %}
 ![](<../.gitbook/assets/image (125) (3) (4) (1) (1) (1).png>)
 
-Token Pocket is a standalone application available for both Mac OS and Win64 devices. Token Pocket allows you to manage your cryptocurrency in software independent of your browser.
+Token Pocket เป็นแอปพลิเคชันแบบสแตนด์อโลนสำหรับทั้งอุปกรณ์ Mac OS และ Win64 Token Pocket ให้คุณจัดการสกุลเงินดิจิทัลในซอฟต์แวร์โดยไม่ขึ้นกับเบราว์เซอร์ของคุณ
 
-​**Pros:**
+**ข้อดี:**
 
-* Open source for auditability
-* Independent of your browser and any of its permissions
-* Allows users to easily switch between many crypto networks
-* Supports many networks by default
-* A less cramped user experience than browser plugin wallets
-* Is also available on mobile devices
+* โอเพ่นซอร์สสำหรับการตรวจสอบ
+* เป็นอิสระจากเบราว์เซอร์และการอนุญาตใด ๆ ของคุณ
+* ให้ผู้ใช้สลับไปมาระหว่างเครือข่าย crypto ต่างๆ ได้อย่างง่ายดาย
+* รองรับหลายเครือข่ายโดยค่าเริ่มต้น
+* ประสบการณ์ผู้ใช้ที่คับแคบน้อยกว่ากระเป๋าเงินปลั๊กอินของเบราว์เซอร์
+* มีให้ในอุปกรณ์มือถือด้วย
 
-**Cons:**
+**ข้อเสีย:**
 
-* Asks users to enter their private key as part of desktop setup process
-* Only supports Chinese and English languages
-* Has some issues with the English translation
-* Has fewer online resources than more established wallets
+* ขอให้ผู้ใช้ป้อนคีย์ส่วนตัวเป็นส่วนหนึ่งของกระบวนการตั้งค่าเดสก์ท็อป
+* รองรับเฉพาะภาษาจีนและภาษาอังกฤษ
+* มีปัญหาบางอย่างกับการแปลภาษาอังกฤษ
+* มีทรัพยากรออนไลน์น้อยกว่ากระเป๋าเงินที่จัดตั้งขึ้น
 
-[**Download Token Pocket Desktop Wallet**](https://www.tokenpocket.pro/en/download/pc) (MacOS or Win64)
+[**ดาวน์โหลด Token Pocket Desktop Wallet**](https://www.tokenpocket.pro/en/download/pc) (MacOS หรือ Win64)
 
-**Token Pocket Desktop Setup Guide**
+**คู่มือการตั้งค่า Token Pocket Desktop**
 
-The desktop version of Token Pocket will ask you to import a private key. Please make sure you’re familiar with and understand the importance of a private key before you proceed.
+Token Pocket เวอร์ชันเดสก์ท็อปจะขอให้คุณนำเข้าคีย์ส่วนตัว โปรดตรวจสอบให้แน่ใจว่าคุณคุ้นเคยและเข้าใจถึงความสำคัญของคีย์ส่วนตัวก่อนดำเนินการต่อ
 
-Token Pocket is an open source project, so the code is publicly visible and generally considered safe. Even so, your private keys are your responsibility, so only use them with applications you trust and can verify.
+Token Pocket เป็นโครงการโอเพ่นซอร์ส ดังนั้นรหัสจึงปรากฏต่อสาธารณะและโดยทั่วไปถือว่าปลอดภัย อย่างไรก็ตาม คีย์ส่วนตัวของคุณเป็นความรับผิดชอบของคุณ ดังนั้นให้ใช้เฉพาะกับแอปพลิเคชันที่คุณไว้วางใจและสามารถตรวจสอบได้เท่านั้น
 
-1. Visit the Token Pocket website on your PC and click the **Desktop** button.
-2. On the next page, click the button for your operating system and wait for your download to finish. This guide uses Windows, but the process is largely the same on Mac OS.
-3. Run the installation file. It will ask you to choose between making Token Pocket available to everyone using the computer, or just the current user. For your security, we recommend current user only.
-4. Enter a destination folder to install to and click **Install**.
-5. Once the installation is finished, click **Finish** and run Token Pocket.
-6. When Token Pocket opens, you may find yourself looking at a Chinese interface. You can change to English by clicking EN in the bottom-left corner.
-7. Token Pocket will be asking you to create a password. Make sure you use something that’s hard to guess; the longer the password is, the more secure. When you’re done, click **Confirm**.
-8. On the next page, Token Pocket will be asking you to import a private key. This may be intimidating, but Token Pocket will work as an interface for your existing wallet. You’ll need to get your private from whatever existing wallet you want to use.
+1. ไปที่เว็บไซต์ Token Pocket บนพีซีของคุณและคลิกปุ่ม **เดสก์ท็อป**
+2. ในหน้าถัดไป ให้คลิกปุ่มสำหรับระบบปฏิบัติการของคุณและรอให้การดาวน์โหลดของคุณเสร็จสิ้น คู่มือนี้ใช้ Windows แต่กระบวนการส่วนใหญ่จะเหมือนกันใน Mac OS
+3. เรียกใช้ไฟล์การติดตั้ง ระบบจะขอให้คุณเลือกระหว่างการทำให้ Token Pocket พร้อมใช้งานสำหรับทุกคนที่ใช้คอมพิวเตอร์หรือเฉพาะผู้ใช้ปัจจุบัน เพื่อความปลอดภัยของคุณ เราขอแนะนำผู้ใช้ปัจจุบันเท่านั้น
+4. ป้อนโฟลเดอร์ปลายทางที่จะติดตั้งและคลิก **ติดตั้ง**
+5. เมื่อการติดตั้งเสร็จสิ้น ให้คลิก **เสร็จสิ้น** และเรียกใช้ Token Pocket
+6. เมื่อ Token Pocket เปิดขึ้น คุณอาจพบว่าตัวเองกำลังดูอินเทอร์เฟซภาษาจีน คุณสามารถเปลี่ยนเป็นภาษาอังกฤษได้โดยคลิก EN ที่มุมล่างซ้าย
+7. Token Pocket จะขอให้คุณสร้างรหัสผ่าน ตรวจสอบให้แน่ใจว่าคุณใช้สิ่งที่คาดเดาได้ยาก รหัสผ่านยิ่งยาวยิ่งปลอดภัย เมื่อเสร็จแล้ว คลิก **ยืนยัน**
+8. ในหน้าถัดไป Token Pocket จะขอให้คุณนำเข้าคีย์ส่วนตัว นี่อาจเป็นการข่มขู่ แต่ Token Pocket จะทำงานเป็นส่วนต่อประสานสำหรับกระเป๋าเงินที่มีอยู่ของคุณ คุณจะต้องได้รับความเป็นส่วนตัวจากกระเป๋าเงินที่มีอยู่ที่คุณต้องการใช้
 
-Here is a [guide for getting your private key from MetaMask](https://metamask.zendesk.com/hc/en-us/articles/360015289632-How-to-Export-an-Account-Private-Key). To import your private key from the mobile version of Token Pocket, see the Mobile Token Pocket tab higher up this page. If you use another wallet and don’t know how to get your private key, you’ll need to find a guide.
+นี่คือ [คำแนะนำในการรับคีย์ส่วนตัวจาก MetaMask](https://metamask.zendesk.com/hc/en-us/articles/360015289632-How-to-Export-an-Account-Private-Key) หากต้องการนำเข้าคีย์ส่วนตัวจาก Token Pocket เวอร์ชันมือถือ ให้ดูแท็บ Mobile Token Pocket ที่สูงขึ้นในหน้านี้ หากคุณใช้กระเป๋าเงินอื่นและไม่ทราบวิธีรับรหัสส่วนตัว คุณจะต้องค้นหาคู่มือ
 
 {% hint style="warning" %}
-Please be extremely careful with how you handle your private keys. Giving your private keys to someone will give them full access to your coins! Token Pocket is an open source project and will use your private key to import your wallet. Even so, only use your private key with applications you trust and can verify are legitimate!
+โปรดใช้ความระมัดระวังอย่างยิ่งในการจัดการคีย์ส่วนตัวของคุณ การให้คีย์ส่วนตัวของคุณกับใครบางคนจะทำให้พวกเขาเข้าถึงเหรียญของคุณได้อย่างเต็มที่! Token Pocket เป็นโครงการโอเพ่นซอร์สและจะใช้คีย์ส่วนตัวของคุณเพื่อนำเข้ากระเป๋าเงินของคุณ อย่างไรก็ตาม ใช้คีย์ส่วนตัวของคุณกับแอปพลิเคชันที่คุณไว้วางใจและสามารถตรวจสอบได้เท่านั้นว่าถูกต้องตามกฎหมาย!
 {% endhint %}
 
-1. Once you’ve entered your private key, click the **Ethereum** network for now.
+1. เมื่อคุณป้อนคีย์ส่วนตัวของคุณแล้ว ให้คลิกที่เครือข่าย **Ethereum** ก่อน
 
-And that’s it, all done! You can follow our [Connect Your Wallet to ChangSwap guide](https://docs.changswap.com/get-started/connection-guide) to connect to Bitkub Chain and ChangSwap.
+เท่านี้ก็เรียบร้อย! คุณสามารถทำตาม[เชื่อมต่อกระเป๋าเงินของคุณกับคู่มือ ChangSwap](https://docs.changswap.com/get-started/connection-guide) เพื่อเชื่อมต่อกับ Bitkub Chain และ ChangSwap
 {% endtab %}
 {% endtabs %}
 
 {% hint style="danger" %}
-NEVER, in any situation, should you ever give someone your private key or recovery phrase ("seed phrase"). This will give someone complete access to your crypto!
+ไม่ควรให้คีย์ส่วนตัวหรือวลีกู้คืนของคุณแก่ใครเลย ("seed phrase") ในทุกสถานการณ์ สิ่งนี้จะทำให้บางคนเข้าถึง crypto ของคุณได้อย่างสมบูรณ์!
 
-The genuine ChangSwap site and staff will never ask you to input your seed phrase.
+ไซต์และเจ้าหน้าที่ของ ChangSwap ของแท้จะไม่ขอให้คุณป้อนวลีเริ่มต้นของคุณ
 {% endhint %}

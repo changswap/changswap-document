@@ -1,25 +1,25 @@
-# Get Started
+# เริ่ม
 
 ![](../.gitbook/assets/get-started.png)
 
-Using anything new can be a bit of a challenge. Don't worry though, we've created a range of guides to help you get comfortable with ChangSwap!
+การใช้สิ่งใหม่ๆ อาจเป็นเรื่องท้าทายเล็กน้อย ไม่ต้องกังวล เราได้สร้างคำแนะนำมากมายเพื่อช่วยให้คุณคุ้นเคยกับ ChangSwap!
 
-## Setting up ChangSwap
+## กำลังตั้งค่า ChangSwap
 
-Follow these guides to get everything set up to use ChangSwap, or feel free to jump to the guide you need if you've been doing okay but lost your way.
+ทำตามคำแนะนำเหล่านี้เพื่อตั้งค่าทุกอย่างเพื่อใช้ ChangSwap หรือข้ามไปยังคำแนะนำที่คุณต้องการได้ตามสบายหากคุณทำได้ดีแต่หลงทาง
 
-[Create a Wallet](https://docs.changswap.com/get-started/wallet-guide)\
-[Connect Your Wallet to ChangSwap](https://docs.changswap.com/get-started/connection-guide)
+[สร้างกระเป๋าเงิน](https://docs.changswap.com/get-started/wallet-guide)\
+[เชื่อมต่อกระเป๋าเงินของคุณกับ ChangSwap](https://docs.changswap.com/get-started/connection-guide)
 
-## Guides for using ChangSwap features
+## คำแนะนำในการใช้คุณสมบัติ ChangSwap
 
-Once you have a wallet set up and connected to ChangSwap, feel free to check our other how to guides below.
+เมื่อคุณตั้งค่ากระเป๋าเงินและเชื่อมต่อกับ ChangSwap แล้ว อย่าลังเลที่จะตรวจสอบคำแนะนำวิธีอื่นๆ ด้านล่าง
 
-[How to Trade](https://docs.changswap.com/products/changswap-exchange/trade-guide)\
-[How to Add/Remove Liquidity](https://docs.changswap.com/products/changswap-exchange/liquidity-guide)\
-[How to Use Farms](https://docs.changswap.com/products/yield-farming/how-to-use-farms)\
-[How to Stake in Brewery Pools](https://docs.changswap.com/products/brewery-pool/brewery-pool-guide)
+[วิธีแลกเปลี่ยน](https://docs.changswap.com/products/changswap-exchange/trade-guide)\
+[วิธีการเพิ่ม/ลบสภาพคล่อง](https://docs.changswap.com/products/changswap-exchange/liquidity-guide)\
+[วิธีใช้ฟาร์ม](https://docs.changswap.com/products/yield-farming/how-to-use-farms)\
+[วิธีเดิมพันในบ่อเบียร์](https://docs.changswap.com/products/brewery-pool/brewery-pool-guide)
 
-Check the menu for more documentation on the range of ChangSwap features and services, including more advanced guides.
+ตรวจสอบเมนูเพื่อดูเอกสารเพิ่มเติมเกี่ยวกับคุณลักษณะและบริการต่างๆ ของ ChangSwap รวมถึงคำแนะนำขั้นสูงเพิ่มเติม
 
-If you can't find what you need, feel free to visit the [ChangSwap Telegram](../contact-us/telegram.md) and ask for help there!
+หากคุณไม่พบสิ่งที่ต้องการ โปรดไปที่ [ChangSwap Telegram](../contact-us/telegram.md) และขอความช่วยเหลือที่นั่น!
